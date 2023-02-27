@@ -2718,6 +2718,7 @@ DOMAIN-SUFFIX,insidevoa.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,instanthq.com
 DOMAIN-SUFFIX,institut-tibetain.org
+DOMAIN-SUFFIX,interactivebrokers.com
 DOMAIN-SUFFIX,internet.org
 DOMAIN-SUFFIX,internetdefenseleague.org
 DOMAIN-SUFFIX,internetfreedom.org
@@ -3774,6 +3775,7 @@ DOMAIN-SUFFIX,onthehunt.com
 DOMAIN-SUFFIX,ontrac.com
 DOMAIN-SUFFIX,oopsforum.com
 DOMAIN-SUFFIX,open.com.hk
+DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openallweb.com
 DOMAIN-SUFFIX,opendemocracy.net
 DOMAIN-SUFFIX,opendn.xyz
@@ -4614,6 +4616,7 @@ DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spreadshirt.es
 DOMAIN-SUFFIX,spring4u.info
 DOMAIN-SUFFIX,springboardplatform.com
+DOMAIN-SUFFIX,springwood.me
 DOMAIN-SUFFIX,sprite.org
 DOMAIN-SUFFIX,sproutcore.com
 DOMAIN-SUFFIX,sproxy.info
@@ -4902,6 +4905,7 @@ DOMAIN-SUFFIX,thisav.com
 DOMAIN-SUFFIX,thlib.org
 DOMAIN-SUFFIX,thomasbernhard.org
 DOMAIN-SUFFIX,thongdreams.com
+DOMAIN-SUFFIX,threadreaderapp.com
 DOMAIN-SUFFIX,threatchaos.com
 DOMAIN-SUFFIX,throughnightsfire.com
 DOMAIN-SUFFIX,thumbzilla.com
@@ -5846,6 +5850,7 @@ DOMAIN-SUFFIX,yomiuri.co.jp
 DOMAIN-SUFFIX,yong.hu
 DOMAIN-SUFFIX,yorkbbs.ca
 DOMAIN-SUFFIX,you-get.org
+DOMAIN-SUFFIX,you.com
 DOMAIN-SUFFIX,youdontcare.com
 DOMAIN-SUFFIX,youjizz.com
 DOMAIN-SUFFIX,youmaker.com
@@ -5972,6 +5977,7 @@ DOMAIN-SUFFIX,zzcloud.me
 DOMAIN-SUFFIX,zzux.com
 DOMAIN-SUFFIX,gfwlist.end
 
+
 # Amazon
 DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN-SUFFIX,amazon.com
@@ -6047,13 +6053,6 @@ IP-CIDR,179.60.192.0/22,no-resolve
 IP-CIDR,185.60.216.0/22,no-resolve
 IP-CIDR,204.15.20.0/22,no-resolve
 
-# Github
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubapp.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubusercontent.com
-
 # Google
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,2mdn.net
@@ -6077,9 +6076,6 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
-
-# Delte GoogleCNProxyIP 谷歌中国服务 services.googleapis.cn
-
 
 # Instagram
 DOMAIN-SUFFIX,cdninstagram.com
@@ -6113,9 +6109,6 @@ IP-CIDR,119.235.235.0/24,no-resolve
 IP-CIDR,119.235.236.0/23,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,203.104.128.0/19,no-resolve
-
-# Delte OneDrive
-
 
 # Porn
 DOMAIN-KEYWORD,porn
@@ -6153,8 +6146,6 @@ DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,readdle.com
 DOMAIN-SUFFIX,smartmailcloud.com
 
-# Delte Steam
-
 # TapTap
 DOMAIN-SUFFIX,tap.io
 DOMAIN-SUFFIX,taptap.tw
@@ -6171,29 +6162,9 @@ DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twimg.org
 
-# delte Telegram
-
-
 # TeraBox
 DOMAIN-SUFFIX,terabox.com
 DOMAIN-SUFFIX,teraboxcdn.com
-
-# Whatsapp
-IP-CIDR,18.194.0.0/15,no-resolve
-IP-CIDR,34.224.0.0/12,no-resolve
-IP-CIDR,54.242.0.0/15,no-resolve
-IP-CIDR,50.22.198.204/30,no-resolve
-IP-CIDR,208.43.122.128/27,no-resolve
-IP-CIDR,108.168.174.0/16,no-resolve
-IP-CIDR,173.192.231.32/27,no-resolve
-IP-CIDR,158.85.5.192/27,no-resolve
-IP-CIDR,174.37.243.0/16,no-resolve
-IP-CIDR,158.85.46.128/27,no-resolve
-IP-CIDR,173.192.222.160/27,no-resolve
-IP-CIDR,184.173.128.0/17,no-resolve
-IP-CIDR,158.85.224.160/27,no-resolve
-IP-CIDR,75.126.150.0/16,no-resolve
-IP-CIDR,69.171.235.0/16,no-resolve
 
 # Wikipedia 维基相关域名
 DOMAIN-SUFFIX,mediawiki.org
@@ -6220,3 +6191,10 @@ DOMAIN-SUFFIX,ocnttv.com
 # VikACG
 DOMAIN-SUFFIX,vikacg.com
 DOMAIN-SUFFIX,picjs.xyz
+
+#🔴Delte Github
+#🔴Delte GoogleCN ProxyIP 谷歌中国服务 services.googleapis.cn
+#🔴Delte OneDrive
+#🔴Delte Steam
+#🔴Delte Telegram
+#🔴Delte Whatsapp
