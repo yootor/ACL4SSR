@@ -43,7 +43,7 @@ DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,github
+#DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,instagram
@@ -1962,10 +1962,10 @@ DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitbooks.io
 DOMAIN-SUFFIX,githack.com
 DOMAIN-SUFFIX,github.blog
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubusercontent.com
+#DOMAIN-SUFFIX,github.com
+#DOMAIN-SUFFIX,github.io
+#DOMAIN-SUFFIX,githubassets.com
+#DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,gizlen.net
 DOMAIN-SUFFIX,gjczz.com
 DOMAIN-SUFFIX,glass8.eu
@@ -6198,3 +6198,4 @@ DOMAIN-SUFFIX,picjs.xyz
 #🔴Delte Steam
 #🔴Delte Telegram
 #🔴Delte Whatsapp
+# Github 注释，理论这个会走之前的有限匹配
