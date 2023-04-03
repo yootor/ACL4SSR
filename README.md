@@ -6,8 +6,6 @@
 
 # clash Quantumul Surge Surfboard Trojan
 
-​	前后端都是开源的，自己随便搭建。自建的话，只自建后端已经足够
-
 前端：[sub-web]( https://github.com/CareyWang/sub-web)
 
 后端：[subconverter](https://github.com/tindy2013/subconverter/blob/master/README-cn.md) 
@@ -69,7 +67,7 @@
 
 # 注：
 * 参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
-
+* 参照ACL4SSR大神的规则改编，致谢!!  https://github.com/ACL4SSR/ACL4SSR
 	
 
 # License		
