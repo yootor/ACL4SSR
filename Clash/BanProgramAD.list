@@ -1,3 +1,4 @@
+
 # 包含常用应用的各种去广告规则。
 # 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
 
@@ -186,7 +187,6 @@ DOMAIN-SUFFIX,baichuan.baidu.com
 DOMAIN-SUFFIX,baidu9635.com
 DOMAIN-SUFFIX,baidustatic.com
 DOMAIN-SUFFIX,baidutv.baidu.com
-DOMAIN-SUFFIX,baikebcs.bdimg.com
 DOMAIN-SUFFIX,banlv.baidu.com
 DOMAIN-SUFFIX,bar.baidu.com
 DOMAIN-SUFFIX,bdplus.baidu.com
@@ -570,7 +570,6 @@ DOMAIN-SUFFIX,shenghuo.xiaomi.com
 DOMAIN-SUFFIX,stat.pandora.xiaomi.com
 DOMAIN-SUFFIX,union.mi.com
 DOMAIN-SUFFIX,wtradv.market.xiaomi.com
-DOMAIN-SUFFIX,xmpush.xiaomi.com
 
 # Moji
 DOMAIN-SUFFIX,ad.api.moji.com
@@ -797,7 +796,6 @@ DOMAIN-SUFFIX,yads.yahoo.co.jp
 DOMAIN-SUFFIX,ybp.yahoo.com
 
 # Zhihu
-DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com
 
 # Ads in Video apps 下面都是 ********************
 
