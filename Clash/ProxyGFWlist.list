@@ -6220,6 +6220,7 @@ DOMAIN-SUFFIX,ocnttv.com
 # VikACG
 DOMAIN-SUFFIX,vikacg.com
 DOMAIN-SUFFIX,picjs.xyz
+#DNS泄露测试
 DOMAIN-SUFFIX,dnsleaktest.com
 
 #🔴Delte Github
