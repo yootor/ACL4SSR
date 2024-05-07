@@ -1,5 +1,5 @@
 # 内容：国外媒体列表
-# 更新：2023-07-04 14:55:42
+# 更新：2024-05-07 19:59:42
 # 数量：365条
 
 # ABC
@@ -335,9 +335,11 @@ DOMAIN-SUFFIX,olevodtv.com
 
 # OpenAi
 DOMAIN-KEYWORD,openai
+DOMAIN,gemini.google.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
@@ -459,3 +461,20 @@ USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
 DOMAIN,music.youtube.com
+
+#将Telegram的规则移动到Media中
+# Telegram
+#PROCESS-NAME,Telegram.exe
+#PROCESS-NAME,org.telegram.messenger
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe
+IP-CIDR,91.108.0.0/16,no-resolve
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
