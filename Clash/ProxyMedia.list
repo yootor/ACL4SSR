@@ -46,14 +46,15 @@ DOMAIN-SUFFIX,seattlespheres.com
 URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
 
 # AppleNews
-USER-AGENT,AppleNews*
-USER-AGENT,com.apple.news*
-DOMAIN,gspe1-ssl.ls.apple.com
+#删除Apple的规则，走直连
+#USER-AGENT,AppleNews*
+#USER-AGENT,com.apple.news*
+#DOMAIN,gspe1-ssl.ls.apple.com
 
 # AppleTV
-DOMAIN,np-edge.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN-SUFFIX,tv.apple.com
+#DOMAIN,np-edge.itunes.apple.com
+#DOMAIN,play-edge.itunes.apple.com
+#DOMAIN-SUFFIX,tv.apple.com
 
 # BBCiPlayer
 USER-AGENT,BBCiPlayer*
