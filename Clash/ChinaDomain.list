@@ -580,10 +580,7 @@ DOMAIN-SUFFIX,staticfile.org
 DOMAIN-SUFFIX,upaiyun.com
 
 # China DNS
-DOMAIN-SUFFIX,doh.pub
-DOMAIN-SUFFIX,dns.alidns.com
-DOMAIN-SUFFIX,doh.360.cn
-IP-CIDR,1.12.12.12/32,no-resolve
+# DSN 放到Download下
 
 # AccelerateDirectSites
 DOMAIN-SUFFIX,10010.com

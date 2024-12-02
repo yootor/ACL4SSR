@@ -4,6 +4,8 @@ IP-CIDR,223.6.6.6/32,no-resolve
 IP-CIDR,120.53.53.53/32,no-resolve
 IP-CIDR,1.12.12.12/32,no-resolve
 IP-CIDR,119.29.29.29/32,no-resolve
+DOMAIN-SUFFIX,alidns.com
+DOMAIN-SUFFIX,doh.pub
 
 # Mac Download
 PROCESS-NAME,aria2c.exe
