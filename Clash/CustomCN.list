@@ -7,7 +7,7 @@ IP-CIDR,119.29.29.29/32,no-resolve
 DOMAIN-SUFFIX,alidns.com
 DOMAIN-SUFFIX,doh.pub
 #Sub Convert
-#DOMAIN-SUFFIX,maoxiongnet.com
+DOMAIN-SUFFIX,maoxiongnet.com
 
 # Mac Download
 PROCESS-NAME,aria2c.exe
