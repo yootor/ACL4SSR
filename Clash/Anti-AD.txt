@@ -28,7 +28,7 @@ KEYWORD,omgmtaw
 #Custom Rules
 api-access.pangolin-sdk-toutiao1.com
 tnc3-alisc1.zijieapi.com
-Domain:getui.net
+DOMAIN:getui.net
 go-ad-api.ergediandian.com
 
 #TITLE=anti-AD
