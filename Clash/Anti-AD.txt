@@ -30,7 +30,7 @@ api-access.pangolin-sdk-toutiao1.com
 tnc3-alisc1.zijieapi.com
 DOMAIN,getui.net
 go-ad-api.ergediandian.com
-DOMAIN,umengcloud.com
+ulogs.umengcloud.com
 log.ergediandian.com
 
 #TITLE=anti-AD
@@ -54690,4 +54690,4 @@ up.maolaoban.top
 maomaotang.com
 m.maopuzw.com
 maoskk.com
-zhuuv.maoyumao.net
+zhuuv.maoyu
