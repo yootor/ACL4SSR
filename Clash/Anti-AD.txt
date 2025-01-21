@@ -30,6 +30,8 @@ api-access.pangolin-sdk-toutiao1.com
 tnc3-alisc1.zijieapi.com
 DOMAIN,getui.net
 go-ad-api.ergediandian.com
+umengcloud.com
+log.ergediandian.com
 
 #TITLE=anti-AD
 #VER=20250117024023

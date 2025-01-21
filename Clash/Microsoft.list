@@ -80,6 +80,7 @@ DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,wunderlist.com
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
 
 # 内容：Github
 # 数量：6条
