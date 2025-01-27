@@ -1,6 +1,6 @@
 # 包含常用应用的各种去广告规则。
 # 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
-# 更新：2024-05-07 
+# 更新：2025-01-23
 
 
 #Custom Rules
@@ -11,7 +11,6 @@ DOMAIN-SUFFIX,go-ad-api.ergediandian.com
 DOMAIN-SUFFIX,log.ergediandian.com
 DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,api-adservices.apple.com
-
 
 # 163
 DOMAIN-SUFFIX,a.youdao.com

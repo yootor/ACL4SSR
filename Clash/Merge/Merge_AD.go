@@ -14,11 +14,11 @@ import (
 func main() {
 	// 输入文件列表
 	inputFiles := []string{
-		"C:/Users/Kobe/Documents/GitHub/ACL4SSR/Clash/Anti_AD.txt",
-		"C:/Users/Kobe/Documents/GitHub/ACL4SSR/Clash/BanAD.list",
-		"C:/Users/Kobe/Documents/GitHub/ACL4SSR/Clash/BanEasyList.list",
-		"C:/Users/Kobe/Documents/GitHub/ACL4SSR/Clash/BanEasyListChina.list",
-		"C:/Users/Kobe/Documents/GitHub/ACL4SSR/Clash/BanProgramAD.list",
+		"./BanAD.list",
+		"./BanEasyList.list",
+		"./BanEasyListChina.list",
+		"./BanEasyPrivacy.list",
+		"./BanProgramAD.list",
 	} // 替换为你的文件名
 
 	// 输出 MOSDNS 文件
@@ -140,7 +140,7 @@ func writeMosdnsFile(mosdnsFile string, ruleSet map[string]struct{}, keywordRule
 	sort.Strings(domains)
 
 	for _, domain := range domains {
-		domainRule := domain
+		domainRule := "DOMAIN," + domain
 		if _, exists := writtenRules[domainRule]; !exists {
 			writtenRules[domainRule] = struct{}{}
 			_, err := writer.WriteString(domainRule + "\n")
