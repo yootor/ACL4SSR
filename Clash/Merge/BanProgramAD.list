@@ -4,6 +4,7 @@
 
 
 #Custom Rules
+#儿歌点点
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com
 DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com
 DOMAIN-SUFFIX,getui.net
@@ -38,6 +39,48 @@ DOMAIN,optimus-ads.amap.com.w.alikunlun.com
 DOMAIN-SUFFIX,shouji.sougou.com
 DOMAIN-SUFFIX,u51.me
 
+# > 抖音
+DOMAIN-KEYWORD,bds.snssdk.com
+DOMAIN-KEYWORD,p3.pstatp.com
+
+# > 多多视频
+DOMAIN-SUFFIX,bayescom.com
+
+# > 微软&Outlook
+DOMIAN-SUFFIX,ads.msn.com
+DOMIAN-SUFFIX,ads1.msn.com
+DOMIAN-SUFFIX,ads2.msn.com
+DOMIAN-SUFFIX,bingads.microsoft.com
+DOMIAN-SUFFIX,rads.msn.com
+DOMIAN-SUFFIX,mobileads.msn.com
+# > Outlook
+DOMAIN,acdn.adnxs.com
+DKMAIN,mediation.adnxs.com
+DOMAIN,sin3-ib.adnxs.com
+
+#字节跳动
+DOMAIN,ad.zijieapi.com
+DOMAIN,applog.zijieapi.com
+DOMAIN-SUFFIX,-normal-lq.zijieapi.com
+
+# > 中国移动
+IP-CIDR,120.240.95.37/32
+
+# > 中国电信
+DOMAIN,ad.21cn.com
+DOMAIN,ad.k.21cn.com
+DIMAIN,admarket.21cn.com
+DOMAIN,adshows.21cn.com
+IP-CIDR,122.229.8.47/32
+IP-CIDR,122.229.29.89/32
+
+# > 小米&米家
+DOMAIN,data.mistat.xiaomi.com
+DOMAIN,tracking.intl.miui.com
+DOMAIN,sdkconfig.ad.xiaomi.com
+
+
+#引用ACL4SSR 规则
 # 163
 DOMAIN-SUFFIX,a.youdao.com
 DOMAIN-SUFFIX,DOMAIN-SUFFIXadgeo.corp.163.com
