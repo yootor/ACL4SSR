@@ -23,6 +23,20 @@ DOMAIN-SUFFIX,qttunion.com
 DOMAIN-SUFFIX,open.e.kuaishou.com
 DOMAIN-SUFFIX,log2.cmpassport.com
 
+#高德地图
+DOMAIN-SUFFIX,adiu.amap.com
+DOMAIN,aboard.apilocate.amap.com
+DOMAIN,apiinit.amap.com
+DOMAIN,icloud-amap.com
+DOMAIN,logs.amap.com
+DOMAIN-SUFFIX,dualstack-logs.amap.com
+DOMAIN-SUFFIX,logs.amap.com
+DOMAIN-SUFFIX,optimus-ads.amap.com
+DOMAIN-SUFFIX,page.amap.com
+DOMAIM,optimus-ads.amap.com
+DOMAIN,optimus-ads.amap.com.w.alikunlun.com
+DOMAIN-SUFFIX,shouji.sougou.com
+DOMAIN-SUFFIX,u51.me
 
 # 163
 DOMAIN-SUFFIX,a.youdao.com
