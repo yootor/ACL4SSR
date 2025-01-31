@@ -24,6 +24,13 @@ DOMAIN-SUFFIX,qttunion.com
 DOMAIN-SUFFIX,open.e.kuaishou.com
 DOMAIN-SUFFIX,log2.cmpassport.com
 
+# > 交管12123
+DOMAIN-SUFFIX,v3.fstats.xyz
+DOMAIN-SUFFIX,wss.haoyundmn.com
+DOMAIN-SUFFIX,new.xiongzhangad.com
+DOMAIN-SUFFIX,alexametrics.com
+DOMAIN-KEYWORD,in-page-push
+
 #高德地图
 DOMAIN-SUFFIX,adiu.amap.com
 DOMAIN,aboard.apilocate.amap.com
@@ -62,6 +69,318 @@ DOMAIN,sin3-ib.adnxs.com
 DOMAIN,ad.zijieapi.com
 DOMAIN,applog.zijieapi.com
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com
+
+# > 哔哩哔哩
+DOMAIN-KEYWORD,api.sobot.com
+DOMAIN-SUFFIX,cm.ad.bilibili.com
+DOMAIN-SUFFIX,cm.adcommon.bilibili.com
+DOMAIN-SUFFIX,cm.game.bilibili.com
+DOMAIN-SUFFIX,cm.track.biligame.bilibili.com
+
+# > 懂车帝
+DOMAIN-KEYWORD,p3-pack.byteimg.com
+DOMAIN-KEYWORD,p6-pack.byteimg.com
+
+
+# > 酷我音乐
+DOMAIN,mobilead.kuwo.cn
+DOMAIN,rich.kuwo.cn
+DOMAIN-KEYWORD,rich.kuwo.cn
+DOMAIN-KEYWORD,mobilead.kuwo.cn
+DOMAIN-SUFFIX,c.kuwo.cn
+DOMAIN-SUFFIX,deliver.kuwo.cn
+DOMAIN-SUFFIX,game.kuwo.cn
+DOMAIN-SUFFIX,kuwoyy.com
+DOMAIN-SUFFIX,kwmsg.kuwo.cn
+DOMAIN-SUFFIX,msclick2.kuwo.cn
+DOMAIN-SUFFIX,msphoneclick.kuwo.cn
+DOMAIN-SUFFIX,updatepage.kuwo.cn
+DOMAIN-SUFFIX,wa.kuwo.cn
+DOMAIN-SUFFIX,webstat.kuwo.cn
+DOMAIN-SUFFIX,mobilead.kuwo.cn
+DOMAIN-SUFFIX,rich.kuwo.cn
+
+
+# > 美团
+host, flowplus.meituan.net, reject
+host-suffix, analytics.meituan.net, reject
+host-suffix, meituan.xn, reject
+host-suffix, meituan.yoga, reject
+host-suffix, meituangov.cn, reject
+host-suffix, report.meituan.com, reject
+host-suffix, wmlog.meituan.com, reject
+host-suffix, ad.e.waimai.sankuai.com, reject
+host-suffix, mads.meituan.com, reject
+host-suffix, dreport.meituan.net, reject
+host-suffix, d.meituan.net, reject
+
+# > QQ音乐
+host, adstats.tencentmusic.com, REJECT
+host, ad.tencentmusic.com, REJECT
+host, adcdn.tencentmusic.com, REJECT
+host, adcdn6.tencentmusic.com, REJECT
+host, adexpo.tencentmusic.com, REJECT
+host, adclick.tencentmusic.com, REJECT
+host, otheve.beacon.qq.com, REJECT
+host, monitor.music.qq.com, REJECT
+host, stat.y.qq.com, REJECT
+host, tmead.y.qq.com, REJECT
+host, oth.str.mdt.qq.com, REJECT
+host, h.trace.qq.com, REJECT
+host, sdk.e.qq.com, REJECT
+host, p.l.qq.com, REJECT
+host, us.l.qq.com, REJECT
+host, tangram.e.qq.com, REJECT
+host, tmeadbak.y.qq.com, REJECT
+host-suffix, imtmp.net, REJECT
+host, tmeadcomm.y.qq.com, reject
+host, ad.tencentmusic.com, reject
+host, adstats.tencentmusic.com, reject
+host, tmead.y.qq.com, reject
+host-suffix, rqd.qq.com, reject
+host-suffix, wup.imtt.qq.com, reject
+host-suffix, gdt.qq.com, reject
+host-suffix, android.rqd.qq.com, reject
+host-suffix, e.qq.com, reject
+host-suffix, beacon.qq.com, reject
+host-suffix, v.gdt.qq.com, reject
+
+# > 搜狗
+;host, indivi-cdn.shouji.sogou.com, reject
+host-suffix, epro.sogou.com, reject
+host-suffix, golden1.sogou.com, reject
+host-suffix, inte.sogou.com, reject
+host-suffix, inte.sogoucdn.com, reject
+host-suffix, lu.sogoucdn.com, reject
+host-suffix, theta.sogoucdn.com, reject
+host-suffix, uranus.sogou.com, reject
+host-suffix, 123.sogou.com, reject
+host-suffix, a1click.cpc.sogou.com, reject
+host-suffix, adsence.sogou.com, reject
+host-suffix, adstream.123.sogoucdn.com, reject
+host-suffix, amfi.gou.sogou.com, reject
+host-suffix, art.theta.sogoucdn.com, reject
+host-suffix, athena.wan.sogou.com, reject
+host-suffix, bazinga.mse.sogou.com, reject
+host-suffix, bite.theta.sogoucdn.com, reject
+host-suffix, brand.sogou.com, reject
+host-suffix, bsiet.husky.sogou.com, reject
+# 屏蔽京东和搜狗收集信息 @jFrecht
+host-suffix, jdqd.jd.com, reject
+host-suffix, shouji.sougou.com, reject
+
+
+# > 什么值得买
+host, aaid.uyunad.com, REJECT
+host, acs4baichuan.m.taobao.com, REJECT
+host, adashxgc.ut.taobao.com, REJECT
+host, analytics-api.smzdm.com, REJECT
+host, baichuan-sdk.alicdn.com, REJECT
+host, dgstatic.jd.com, REJECT
+host, msg.umengcloud.com, REJECT
+host, sec.umeng.com, REJECT
+host, ulogs.umeng.com, REJECT
+host, ynuf.aliapp.org, REJECT
+
+# > 搜狗输入法
+;host-keyword, business-cdn.shouji.sogou.com, reject
+
+# > 微博
+host-suffix, fastimage.uve.weibo.com, reject
+host-suffix, adimg.vue.weibo.com, reject
+host-suffix, zymo.mps.weibo.com, reject
+host-suffix, weibomingzi.com, reject
+host-suffix, sdkapp.uve.weibo.com, reject
+host-suffix, promote.biz.weibo.cn, reject
+host-suffix, gw5.push.mcp.weibo.cn, reject
+host-suffix, gw6.push.mcp.weibo.cn, reject
+host-suffix, game.weibo.cn, reject
+host-suffix, adimg.uve.weibo.com, reject
+host-suffix, game.weibo.com, reject
+host-suffix, ads.viber.com, reject
+host-suffix, ads-d.viber.com, reject
+host-suffix, ads.aws.viber.com, reject
+host-suffix, alitui.weibo.com, reject
+host-suffix, dp.im.weibo.cn, reject
+host-suffix, biz.weibo.com.cn, reject
+host-suffix, biz.weibo.com, reject
+host-suffix, click.uve.weibo.com, reject
+host-suffix, wax.weibo.com, reject
+host-suffix, wbapp.uve.weibo.com, reject
+host-suffix, widget.weibo.com, reject
+host-suffix, dsp.edm.weibo.cn, reject
+host-suffix, alitui.weibo.com.cn, reject
+host-suffix, tui.weibo.com, reject
+host-suffix, wax.weibo.com.cn, reject
+host-suffix, ad.weibo.com, reject
+# 微博开屏广告预加载
+host, bootpreload.uve.weibo.com, reject
+
+# >>>>>>>>>>>>>>> ✅ Y ✅ <<<<<<<<<<<<<<
+# > 云闪付
+host, ads.95516.com, reject
+host, tysdk.95516.com, reject
+host, cm-10-138.getui.com, reject
+host, sdk.open.talk.getui.net, reject
+host, sdk-conf.getui.com, reject
+host, switch.cup.com.cn, reject
+
+# > 淘宝
+host-suffix, apoll.m.taobao.com, reject
+host-suffix, h-adashx.ut.taobao.com, reject
+host-suffix, w.m.taobao.com, reject
+host, tunion-api.m.taobao.com, reject
+;host-suffix, ai.m.taobao.com, reject
+host-suffix, re.m.taobao.com, reject
+host-suffix, agoodm.m.taobao.com, reject
+host-suffix, ai.taobao.com, reject
+host-suffix, api.waptest.taobao.com, reject
+host-suffix, dsp.simba.taobao.com, reject
+host-suffix, fav.simba.taobao.com, reject
+host-suffix, m.simba.taobao.com, reject
+host-suffix, mclick.simba.taobao.com, reject
+host-suffix, re.taobao.com, reject
+host-suffix, redirect.simba.taobao.com, reject
+host-suffix, simba.m.taobao.com, reject
+host-suffix, srd.simba.taobao.com, reject
+host-suffix, temai.taobao.com, reject
+host-suffix, textlink.simba.taobao.com, reject
+host-suffix, unitacs.m.taobao.com, reject
+host-suffix, acs4baichuan.m.taobao.com, reject
+host-suffix, adashbc.ut.taobao.com, reject
+host-suffix, adash-c.ut.taobao.com, reject
+host-suffix, adashxgc.ut.taobao.com, reject
+host-suffix, adashx4yt.m.taobao.com, reject
+host-suffix, tunion-api.m.taobao.com, reject
+host-suffix, tns.simba.taobao.com, reject
+host-suffix, click.mz.simba.taobao.com, reject
+host-suffix, click.simba.taobao.com, reject
+host-suffix, click.tz.simba.taobao.com, reject
+host-suffix, stat.simba.taobao.com, reject
+host-suffix, m-adash.m.taobao.com, reject
+host-suffix, adashbc.m.taobao.com, reject
+
+
+# > 腾讯视频
+# host, adsmind.gdtimg.com, reject
+# host, btrace.qq.com, reject
+# host, btrace.video.qq.com, reject
+# host, info4.video.qq.com, reject
+# host, info6.video.qq.com, reject
+# host, ios.video.mpush.qq.com, reject
+# host, mtrace.qq.com, reject
+# host, p.l.qq.com, reject
+# host, pgdt.gtimg.cn, reject
+# host, rpt.gdt.qq.com, reject
+# host-suffix, trace.qq.com, reject
+# host-suffix, tetrack.qq.com, reject
+# host-suffix, tpns.tencent.com, reject
+# host-suffix, api.poll.video.qq.com, reject
+# host-suffix, static-res.qq.com, reject
+# host-suffix, stat.tpns.tencent.com, reject
+# host, h.trace.qq.com, reject
+# host-keyword, omgmta.qq.com, reject
+# host-keyword, omgmta1.qq.com, reject
+
+# >  腾讯
+DOMAIN-SUFFIX,news.ssp.qq.com, reject
+DOMAIN-SUFFIX,news.l.qq.com, reject
+DOMAIN-SUFFIX,activeqq.3g.qq.com, reject
+DOMAIN-SUFFIX,ad.qq.com, reject
+DOMAIN-SUFFIX,adping.qq.com, reject
+DOMAIN-SUFFIX,adpm.app.qq.com, reject
+DOMAIN-SUFFIX,adrdir.qq.com, reject
+DOMAIN-SUFFIX,adsclick.qq.com, reject
+DOMAIN-SUFFIX,adsense.html5.qq.com, reject
+DOMAIN-SUFFIX,adsfile.qq.com, reject
+DOMAIN-SUFFIX,adsgroup.qq.com, reject
+DOMAIN-SUFFIX,adshmct.qq.com, reject
+DOMAIN-SUFFIX,adshmmsg.qq.com, reject
+DOMAIN-SUFFIX,adslvfile.qq.com, reject
+DOMAIN-SUFFIX,adslvseed.qq.com, reject
+DOMAIN-SUFFIX,adsolution.imtt.qq.com, reject
+DOMAIN-SUFFIX,adsqqclick.qq.com, reject
+DOMAIN-SUFFIX,adstextview.qq.com, reject
+DOMAIN-SUFFIX,adsview.qq.com, reject
+DOMAIN-SUFFIX,adsview2.qq.com, reject
+DOMAIN-SUFFIX,adv.app.qq.com, reject
+DOMAIN-SUFFIX,adver.qq.com, reject
+DOMAIN-SUFFIX,aeventlog.beacon.qq.com, reject
+DOMAIN-SUFFIX,analy.qq.com, reject
+DOMAIN-SUFFIX,astrategy.beacon.qq.com, reject
+DOMAIN-SUFFIX,c.gdt.qq.com, reject
+DOMAIN-SUFFIX,c.gj.qq.com, reject
+DOMAIN-SUFFIX,canvas.gdt.qq.com, reject
+DOMAIN-SUFFIX,d.gdt.qq.com, reject
+DOMAIN-SUFFIX,d3g.qq.com, reject
+DOMAIN-SUFFIX,download.sj.qq.com, reject
+DOMAIN-SUFFIX,dp3.qq.com, reject
+DOMAIN-SUFFIX,eventlog.beacon.qq.com, reject
+DOMAIN-SUFFIX,game.html5.qq.com, reject
+DOMAIN-SUFFIX,ggmmqq.com, reject
+DOMAIN-SUFFIX,j.wit.qq.com, reject
+DOMAIN-SUFFIX,jqmt.qq.com, reject
+DOMAIN-SUFFIX,jrlt.beacon.qq.com, reject
+DOMAIN-SUFFIX,jsqmt.qq.com, reject
+DOMAIN-SUFFIX,lives.l.qq.com, reject
+DOMAIN-SUFFIX,livep.l.qq.com, reject
+DOMAIN-SUFFIX,mi.gdt.qq.com, reject
+DOMAIN-SUFFIX,livep.l.ott.video.qq.com, reject
+DOMAIN-SUFFIX,lives.l.ott.video.qq.com, reject
+DOMAIN-SUFFIX,masdk.3g.qq.com, reject
+DOMAIN-SUFFIX,mfm.video.qq.com, reject
+DOMAIN-SUFFIX,mini2015.qq.com, reject
+DOMAIN-SUFFIX,monitor.uu.qq.com, reject
+DOMAIN-SUFFIX,mqqad.cs0309.html5.qq.com, reject
+DOMAIN-SUFFIX,mqqad.html5.qq.com, reject
+DOMAIN-SUFFIX, mqqadr.reader.qq.com, reject
+DOMAIN-SUFFIX, nc.gdt.qq.com, reject
+DOMAIN-SUFFIX, news.mpush.qq.com, reject
+DOMAIN-SUFFIX, news-l.play.ott.video.qq.com, reject
+DOMAIN-SUFFIX, novelsns.html5.qq.com, reject
+DOMAIN-SUFFIX, oth.update.mdt.qq.com, reject
+DOMAIN-SUFFIX, pcbrowser.dd.qq.com, reject
+DOMAIN-SUFFIX, pmir.3g.qq.com, reject
+DOMAIN-SUFFIX, pvstat.html5.qq.com, reject
+DOMAIN-SUFFIX, q.i.gdt.qq.com, reject
+DOMAIN-SUFFIX, qqshow2-item.qq.com, reject
+DOMAIN-SUFFIX, rm.gdt.qq.com, reject
+DOMAIN-SUFFIX, scdown.qq.com, reject
+DOMAIN-SUFFIX, setting.snswin.qq.com, reject
+DOMAIN-SUFFIX, sngmta.qq.com, reject
+DOMAIN-SUFFIX, strategy.beacon.qq.com, reject
+DOMAIN-SUFFIX, t.gdt.qq.com, reject
+DOMAIN-SUFFIX, t.sj.qq.com, reject
+DOMAIN-SUFFIX, ta.qq.com, reject
+DOMAIN-SUFFIX, tcss.qq.com, reject
+DOMAIN-SUFFIX, tpush.html5.qq.com, reject
+DOMAIN-SUFFIX, updatecenter.qq.com, reject
+DOMAIN-SUFFIX, video.ureport.push.qq.com, reject
+DOMAIN-SUFFIX, video.wap.mpush.qq.com, reject
+DOMAIN-SUFFIX, vlive.qqvideo.tc.qq.com, reject
+DOMAIN-SUFFIX, wap.mpush.qq.com, reject
+DOMAIN-SUFFIX, win.gdt.qq.com, reject
+DOMAIN-SUFFIX, ws.sj.qq.com, reject
+DOMAIN-SUFFIX, wxsnsdy.tc.qq.com, reject
+DOMAIN-SUFFIX, wxsnsdy.video.qq.com, reject
+DOMAIN-SUFFIX, adsmind.tc.qq.com, reject
+DOMAIN-SUFFIX, pingma.qq.com, reject
+DOMAIN-SUFFIX, pingtcss.qq.com, reject
+DOMAIN-SUFFIX, tajs.qq.com, reject
+DOMAIN-SUFFIX, fusion.qq.com, reject
+DOMAIN-SUFFIX, ios.bugly.qq.com, reject
+DOMAIN,safebrowsing.urlsec.qq.com, reject
+DOMAIN-SUFFIX,oth.str.mdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN,adsmind.apdcdn.tc.qq.com
+DOMAIN,adsmind.tc.qq.com
+DOMAIN,livep.l.t002.ottcn.com
+DOMAIN,pgdt.ugdtimg.com
+DOMAIN,splashqqlive.gtimg.com
+DOMAIN,vv.video.qq.com
+DOMAIN,wa.gtimg.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,wxsmsdy.video.qq.com
 
 # > 中国移动
 IP-CIDR,120.240.95.37/32
