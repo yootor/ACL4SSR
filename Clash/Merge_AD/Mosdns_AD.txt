@@ -1,5 +1,5 @@
 #规则合并ACL4SSR与Anti-AD规则 
-# 修改时间: 2025-02-01 17:05:10
+# 修改时间: 2025-02-01 17:11:52
 
 KEYWORD,admarvel
 KEYWORD,admaster
@@ -1512,6 +1512,7 @@ DOMAIN,DOMIAN-SUFFIX,ads2.msn.com
 DOMAIN,DOMIAN-SUFFIX,bingads.microsoft.com
 DOMAIN,DOMIAN-SUFFIX,mobileads.msn.com
 DOMAIN,DOMIAN-SUFFIX,rads.msn.com
+DOMAIN,S
 DOMAIN,a-ads.com
 DOMAIN,a-api.skz.dev
 DOMAIN,a-b-c-d.xyz

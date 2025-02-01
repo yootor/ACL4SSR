@@ -24,7 +24,7 @@ func main() {
 	// 输出 MOSDNS 文件
 	mosdnsFile := "Mosdns_AD.txt"
 	// 输出 Clash 规则文件
-	clashFile := "Clash_AD.list"
+	//clashFile := "Clash_AD.list"
 
 	// 创建一个集合用于存储规则并去重
 	ruleSet := make(map[string]struct{})
@@ -44,13 +44,14 @@ func main() {
 	} else {
 		fmt.Printf("MOSDNS rules written to %s\n", mosdnsFile)
 	}
-
-	// 生成 Clash 格式规则文件（域名规则和 IP 规则），写入异常报错
-	if err := writeClashFile(clashFile, ruleSet, ipRules, keywordRules); err != nil {
-		fmt.Printf("Error writing Clash file %s: %v\n", clashFile, err)
-	} else {
-		fmt.Printf("Clash rules written to %s\n", clashFile)
-	}
+	/*
+		// 生成 Clash 格式规则文件（域名规则和 IP 规则），写入异常报错
+		if err := writeClashFile(clashFile, ruleSet, ipRules, keywordRules); err != nil {
+			fmt.Printf("Error writing Clash file %s: %v\n", clashFile, err)
+		} else {
+			fmt.Printf("Clash rules written to %s\n", clashFile)
+		}
+	*/
 }
 
 // 处理单个文件，将规则加入集合、keyword 列表和 IP 列表
@@ -153,7 +154,7 @@ func writeMosdnsFile(mosdnsFile string, ruleSet map[string]struct{}, keywordRule
 	return writer.Flush()
 }
 
-// 写入 Clash 文件（包含域名规则和 IP 规则，不对 keyword 规则添加 DOMAIN-SUFFIX, 前缀）
+/*// 写入 Clash 文件（包含域名规则和 IP 规则，不对 keyword 规则添加 DOMAIN-SUFFIX, 前缀）
 
 func writeClashFile(clashFile string, ruleSet map[string]struct{}, ipRules []string, keywordRules []string) error {
 	output, err := os.Create(clashFile)
@@ -244,3 +245,5 @@ func writeClashFile(clashFile string, ruleSet map[string]struct{}, ipRules []str
 	// 刷新缓冲区
 	return writer.Flush()
 }
+
+*/
