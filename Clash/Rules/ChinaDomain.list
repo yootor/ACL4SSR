@@ -11,8 +11,8 @@ DOMAIN-SUFFIX,hrtsea.com
 DOMAIN-SUFFIX,kaikeba.com
 DOMAIN-SUFFIX,laomo.me
 DOMAIN-SUFFIX,mpyit.com
-#DOMAIN-SUFFIX,msftconnecttest.com
-#DOMAIN-SUFFIX,msftncsi.com
+# #DOMAIN-SUFFIX,msftconnecttest.com  # 与 ./Custom.list 重复
+# #DOMAIN-SUFFIX,msftncsi.com  # 与 ./Custom.list 重复
 DOMAIN-SUFFIX,qupu123.com
 DOMAIN-SUFFIX,pdfwifi.com
 DOMAIN-SUFFIX,zhenguanyu.biz
@@ -98,7 +98,7 @@ DOMAIN-SUFFIX,ucweb.com
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
 DOMAIN-SUFFIX,ykimg.com
-DOMAIN-SUFFIX,youku.com
+# DOMAIN-SUFFIX,youku.com  # 与 ./ChinaMedia.list 重复
 
 # Baidu
 DOMAIN-SUFFIX,baidu.com
@@ -114,23 +114,23 @@ DOMAIN-SUFFIX,jomodns.com
 DOMAIN-SUFFIX,yunjiasu-cdn.net
 
 # Bilibili
-DOMAIN-SUFFIX,acg.tv
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,b23.tv
-DOMAIN-SUFFIX,bigfun.cn
-DOMAIN-SUFFIX,bigfunapp.cn
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,bilibili.com
+# DOMAIN-SUFFIX,acg.tv  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,acgvideo.com  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,b23.tv  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,bigfun.cn  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,bigfunapp.cn  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,biliapi.com  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,biliapi.net  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,bilibili.com  # 与 ./ChinaMedia.list 重复
 DOMAIN-SUFFIX,bilibili.co
 DOMAIN-SUFFIX,biliintl.co
-DOMAIN-SUFFIX,biligame.com
-DOMAIN-SUFFIX,biligame.net
-DOMAIN-SUFFIX,bilivideo.com
-DOMAIN-SUFFIX,bilivideo.cn
-DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,im9.com
-DOMAIN-SUFFIX,smtcdns.net
+# DOMAIN-SUFFIX,biligame.com  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,biligame.net  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,bilivideo.com  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,bilivideo.cn  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,hdslb.com  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,im9.com  # 与 ./ChinaMedia.list 重复
+# DOMAIN-SUFFIX,smtcdns.net  # 与 ./ChinaMedia.list 重复
 
 # Blizzard
 DOMAIN-SUFFIX,battle.net
@@ -205,11 +205,11 @@ DOMAIN-SUFFIX,douyuscdn.com
 DOMAIN-SUFFIX,douyutv.com
 
 # Epic
-DOMAIN-SUFFIX,epicgames.com
-DOMAIN-SUFFIX,epicgames.dev
-DOMAIN-SUFFIX,helpshift.com
-DOMAIN-SUFFIX,paragon.com
-DOMAIN-SUFFIX,unrealengine.com
+# DOMAIN-SUFFIX,epicgames.com  # 与 ./games.list 重复
+# DOMAIN-SUFFIX,epicgames.dev  # 与 ./games.list 重复
+# DOMAIN-SUFFIX,helpshift.com  # 与 ./games.list 重复
+# DOMAIN-SUFFIX,paragon.com  # 与 ./games.list 重复
+# DOMAIN-SUFFIX,unrealengine.com  # 与 ./games.list 重复
 
 # HuaWei
 DOMAIN-SUFFIX,dbankcdn.com
@@ -348,29 +348,29 @@ DOMAIN-SUFFIX,sohurdc.com
 DOMAIN-SUFFIX,v-56.com
 
 # Sony
-DOMAIN-SUFFIX,playstation.com
-DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,playstationnetwork.com
-DOMAIN-SUFFIX,sony.com
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+# DOMAIN-SUFFIX,playstation.com  # 与 ./games.list 重复
+# DOMAIN-SUFFIX,playstation.net  # 与 ./games.list 重复
+# DOMAIN-SUFFIX,playstationnetwork.com  # 与 ./games.list 重复
+# DOMAIN-SUFFIX,sony.com  # 与 ./games.list 重复
+# DOMAIN-SUFFIX,sonyentertainmentnetwork.com  # 与 ./games.list 重复
 
 # SteamCN
-DOMAIN-SUFFIX,cm.steampowered.com
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamusercontent.com
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN,csgo.wmsj.cn
-DOMAIN,dota2.wmsj.cn
-DOMAIN,wmsjsteam.com
-DOMAIN,dl.steam.clngaa.com
-DOMAIN,dl.steam.ksyna.com
-DOMAIN,st.dl.bscstorage.net
-DOMAIN,st.dl.eccdnx.com
-DOMAIN,st.dl.pinyuncloud.com
-DOMAIN,xz.pphimalayanrt.com
-DOMAIN,steampipe.steamcontent.tnkjmec.com
-DOMAIN,steampowered.com.8686c.com
-DOMAIN,steamstatic.com.8686c.com
+# DOMAIN-SUFFIX,cm.steampowered.com  # 与 ./games.list 重复
+# DOMAIN-SUFFIX,steamcontent.com  # 与 ./games.list 重复
+# DOMAIN-SUFFIX,steamusercontent.com  # 与 ./games.list 重复
+# DOMAIN-SUFFIX,steamchina.com  # 与 ./games.list 重复
+# DOMAIN,csgo.wmsj.cn  # 与 ./games.list 重复
+# DOMAIN,dota2.wmsj.cn  # 与 ./games.list 重复
+# DOMAIN,wmsjsteam.com  # 与 ./games.list 重复
+# DOMAIN,dl.steam.clngaa.com  # 与 ./games.list 重复
+# DOMAIN,dl.steam.ksyna.com  # 与 ./games.list 重复
+# DOMAIN,st.dl.bscstorage.net  # 与 ./games.list 重复
+# DOMAIN,st.dl.eccdnx.com  # 与 ./games.list 重复
+# DOMAIN,st.dl.pinyuncloud.com  # 与 ./games.list 重复
+# DOMAIN,xz.pphimalayanrt.com  # 与 ./games.list 重复
+# DOMAIN,steampipe.steamcontent.tnkjmec.com  # 与 ./games.list 重复
+# DOMAIN,steampowered.com.8686c.com  # 与 ./games.list 重复
+# DOMAIN,steamstatic.com.8686c.com  # 与 ./games.list 重复
 
 # Tencent
 DOMAIN-SUFFIX,foxmail.com

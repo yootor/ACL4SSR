@@ -43,8 +43,8 @@ DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
+# DOMAIN-KEYWORD,gmail  # 与 ./Google.list 重复
+# DOMAIN-KEYWORD,google  # 与 ./Google.list 重复
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,sci-hub
@@ -52,7 +52,7 @@ DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,youtube
+# DOMAIN-KEYWORD,youtube  # 与 ./Google.list 重复
 
 # GFW list
 DOMAIN-SUFFIX,gfwlist.start
@@ -92,7 +92,7 @@ DOMAIN-SUFFIX,1991way.com
 DOMAIN-SUFFIX,1998cdp.org
 DOMAIN-SUFFIX,1bao.org
 DOMAIN-SUFFIX,1dumb.com
-DOMAIN-SUFFIX,1e100.net
+# DOMAIN-SUFFIX,1e100.net  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,1eew.com
 DOMAIN-SUFFIX,1mobile.com
 DOMAIN-SUFFIX,1mobile.tw
@@ -223,9 +223,9 @@ DOMAIN-SUFFIX,adcex.com
 DOMAIN-SUFFIX,addictedtocoffee.de
 DOMAIN-SUFFIX,addyoutube.com
 DOMAIN-SUFFIX,adelaidebbs.com
-DOMAIN-SUFFIX,admob.com
+# DOMAIN-SUFFIX,admob.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,adpl.org.hk
-DOMAIN-SUFFIX,ads-twitter.com
+# DOMAIN-SUFFIX,ads-twitter.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,adsense.com
 DOMAIN-SUFFIX,adult-sex-games.com
 DOMAIN-SUFFIX,adultfriendfinder.com
@@ -486,7 +486,7 @@ DOMAIN-SUFFIX,bad.news
 DOMAIN-SUFFIX,badiucao.com
 DOMAIN-SUFFIX,badjojo.com
 DOMAIN-SUFFIX,badoo.com
-DOMAIN-SUFFIX,bahamut.com.tw
+# DOMAIN-SUFFIX,bahamut.com.tw  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,baidu.jp
 DOMAIN-SUFFIX,baijie.org
 DOMAIN-SUFFIX,bailandaily.com
@@ -514,12 +514,12 @@ DOMAIN-SUFFIX,bastillepost.com
 DOMAIN-SUFFIX,bayvoice.net
 DOMAIN-SUFFIX,baywords.com
 DOMAIN-SUFFIX,bb-chat.tv
-DOMAIN-SUFFIX,bbc.co.uk
-DOMAIN-SUFFIX,bbc.com
+# DOMAIN-SUFFIX,bbc.co.uk  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,bbc.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,bbc.in
 DOMAIN-SUFFIX,bbcchinese.com
 DOMAIN-SUFFIX,bbchat.tv
-DOMAIN-SUFFIX,bbci.co.uk
+# DOMAIN-SUFFIX,bbci.co.uk  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,bbg.gov
 DOMAIN-SUFFIX,bbkz.com
 DOMAIN-SUFFIX,bbnradio.org
@@ -590,7 +590,7 @@ DOMAIN-SUFFIX,bild.de
 DOMAIN-SUFFIX,biliworld.com
 DOMAIN-SUFFIX,billypan.com
 DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,bing.com
+# DOMAIN-SUFFIX,bing.com  # 与 ./Microsoft.list 重复
 DOMAIN-SUFFIX,binux.me
 DOMAIN-SUFFIX,binwang.me
 DOMAIN-SUFFIX,bird.so
@@ -877,7 +877,7 @@ DOMAIN-SUFFIX,changsa.net
 DOMAIN-SUFFIX,channelnewsasia.com
 DOMAIN-SUFFIX,chaoex.com
 DOMAIN-SUFFIX,chapm25.com
-DOMAIN-SUFFIX,chatgpt.com
+# DOMAIN-SUFFIX,chatgpt.com  # 与 ./Microsoft.list 重复
 DOMAIN-SUFFIX,chatnook.com
 DOMAIN-SUFFIX,chaturbate.com
 DOMAIN-SUFFIX,checkgfw.com
@@ -1242,8 +1242,8 @@ DOMAIN-SUFFIX,deaftone.com
 DOMAIN-SUFFIX,debug.com
 DOMAIN-SUFFIX,deck.ly
 DOMAIN-SUFFIX,decodet.co
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deezer.com
+# DOMAIN-SUFFIX,deepmind.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,deezer.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,definebabe.com
 DOMAIN-SUFFIX,deja.com
 DOMAIN-SUFFIX,delcamp.net
@@ -1300,14 +1300,14 @@ DOMAIN-SUFFIX,dlsite.com
 DOMAIN-SUFFIX,dlsite.jp
 DOMAIN-SUFFIX,dlyoutube.com
 DOMAIN-SUFFIX,dm530.net
-DOMAIN-SUFFIX,dmc.nico
+# DOMAIN-SUFFIX,dmc.nico  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,dmcdn.net
 DOMAIN-SUFFIX,dmhy.org
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dns-dns.com
 DOMAIN-SUFFIX,dns-stuff.com
-DOMAIN-SUFFIX,dns.google
+# DOMAIN-SUFFIX,dns.google  # 与 ./Custom.list 重复
 DOMAIN-SUFFIX,dns04.com
 DOMAIN-SUFFIX,dns05.com
 DOMAIN-SUFFIX,dns1.us
@@ -1448,7 +1448,7 @@ DOMAIN-SUFFIX,ecministry.net
 DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,ecstart.com
 DOMAIN-SUFFIX,edgecastcdn.net
-DOMAIN-SUFFIX,edgesuite.net
+# DOMAIN-SUFFIX,edgesuite.net  # 与 ./Microsoft.list 重复
 DOMAIN-SUFFIX,edicypages.com
 DOMAIN-SUFFIX,edmontonchina.cn
 DOMAIN-SUFFIX,edmontonservice.com
@@ -1742,7 +1742,7 @@ DOMAIN-SUFFIX,flipkart.com
 DOMAIN-SUFFIX,flitto.com
 DOMAIN-SUFFIX,flnet.org
 DOMAIN-SUFFIX,flog.tw
-DOMAIN-SUFFIX,flurry.com
+# DOMAIN-SUFFIX,flurry.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,flyvpn.com
 DOMAIN-SUFFIX,flyzy2005.com
 DOMAIN-SUFFIX,fmnnow.com
@@ -1886,7 +1886,7 @@ DOMAIN-SUFFIX,fzh999.net
 DOMAIN-SUFFIX,fzlm.com
 DOMAIN-SUFFIX,g-area.org
 DOMAIN-SUFFIX,g-queen.com
-DOMAIN-SUFFIX,g.co
+# DOMAIN-SUFFIX,g.co  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,g0v.social
 DOMAIN-SUFFIX,g6hentai.com
 DOMAIN-SUFFIX,gab.com
@@ -1900,7 +1900,7 @@ DOMAIN-SUFFIX,galstars.net
 DOMAIN-SUFFIX,game735.com
 DOMAIN-SUFFIX,gamebase.com.tw
 DOMAIN-SUFFIX,gamejolt.com
-DOMAIN-SUFFIX,gamer.com.tw
+# DOMAIN-SUFFIX,gamer.com.tw  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,gamerp.jp
 DOMAIN-SUFFIX,gamez.com.tw
 DOMAIN-SUFFIX,gamousa.com
@@ -1977,7 +1977,7 @@ DOMAIN-SUFFIX,gfsale.com
 DOMAIN-SUFFIX,gfw.org.ua
 DOMAIN-SUFFIX,gfw.press
 DOMAIN-SUFFIX,gfw.report
-DOMAIN-SUFFIX,ggpht.com
+# DOMAIN-SUFFIX,ggpht.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,ggssl.com
 DOMAIN-SUFFIX,ghidra-sre.org
 DOMAIN-SUFFIX,ghostpath.com
@@ -2048,7 +2048,7 @@ DOMAIN-SUFFIX,gongm.in
 DOMAIN-SUFFIX,gongmeng.info
 DOMAIN-SUFFIX,gongminliliang.com
 DOMAIN-SUFFIX,gongwt.com
-DOMAIN-SUFFIX,goo.gl
+# DOMAIN-SUFFIX,goo.gl  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,goo.gle
 DOMAIN-SUFFIX,goo.ne.jp
 DOMAIN-SUFFIX,gooday.xyz
@@ -2263,8 +2263,8 @@ DOMAIN-SUFFIX,google.vg
 DOMAIN-SUFFIX,google.vn
 DOMAIN-SUFFIX,google.vu
 DOMAIN-SUFFIX,google.ws
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,googleapis.com
+# DOMAIN-SUFFIX,googleapis.cn  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,googleapis.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,googleapps.com
 DOMAIN-SUFFIX,googlearth.com
 DOMAIN-SUFFIX,googleartproject.com
@@ -2272,7 +2272,7 @@ DOMAIN-SUFFIX,googleblog.com
 DOMAIN-SUFFIX,googlebot.com
 DOMAIN-SUFFIX,googlechinawebmaster.com
 DOMAIN-SUFFIX,googlecode.com
-#DOMAIN-SUFFIX,googlecommerce.com ./BanProgramAD.list 重复
+# #DOMAIN-SUFFIX,googlecommerce.com ./BanProgramAD.list 重复  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,googledomains.com
 DOMAIN-SUFFIX,googledrive.com
 DOMAIN-SUFFIX,googleearth.com
@@ -2290,7 +2290,7 @@ DOMAIN-SUFFIX,googleplus.com
 DOMAIN-SUFFIX,googlesile.com
 DOMAIN-SUFFIX,googlesource.com
 DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,googlevideo.com
+# DOMAIN-SUFFIX,googlevideo.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,googleweblight.com
 DOMAIN-SUFFIX,googlezip.net
 DOMAIN-SUFFIX,gopetition.com
@@ -2335,7 +2335,7 @@ DOMAIN-SUFFIX,grotty-monday.com
 DOMAIN-SUFFIX,grow.google
 DOMAIN-SUFFIX,gs-discuss.com
 DOMAIN-SUFFIX,gsearch.media
-DOMAIN-SUFFIX,gstatic.com
+# DOMAIN-SUFFIX,gstatic.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,gtricks.com
 DOMAIN-SUFFIX,gts-vpn.com
 DOMAIN-SUFFIX,gtv.org
@@ -2358,9 +2358,9 @@ DOMAIN-SUFFIX,guruonline.hk
 DOMAIN-SUFFIX,gutteruncensored.com
 DOMAIN-SUFFIX,gvlib.com
 DOMAIN-SUFFIX,gvm.com.tw
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt3.com
+# DOMAIN-SUFFIX,gvt0.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,gvt1.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,gvt3.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,gwins.org
 DOMAIN-SUFFIX,gwtproject.org
 DOMAIN-SUFFIX,gyalwarinpoche.com
@@ -2398,7 +2398,7 @@ DOMAIN-SUFFIX,hautelook.com
 DOMAIN-SUFFIX,hautelookcdn.com
 DOMAIN-SUFFIX,have8.com
 DOMAIN-SUFFIX,hbg.com
-DOMAIN-SUFFIX,hbo.com
+# DOMAIN-SUFFIX,hbo.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,hclips.com
 DOMAIN-SUFFIX,hdlt.me
 DOMAIN-SUFFIX,hdtvb.net
@@ -2612,8 +2612,8 @@ DOMAIN-SUFFIX,huhamhire.com
 DOMAIN-SUFFIX,huhangfei.com
 DOMAIN-SUFFIX,huiyi.in
 DOMAIN-SUFFIX,hulkshare.com
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,huluim.com
+# DOMAIN-SUFFIX,hulu.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,huluim.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,icedrive.net
 DOMAIN-SUFFIX,humanrightspressawards.org
 DOMAIN-SUFFIX,hung-ya.com
@@ -2730,7 +2730,7 @@ DOMAIN-SUFFIX,in-disguise.com
 DOMAIN-SUFFIX,in.com
 DOMAIN-SUFFIX,in99.org
 DOMAIN-SUFFIX,incapdns.net
-# DOMAIN-SUFFIX,incloak.com  # 与 ./BanEasyList.list 重复
+# # DOMAIN-SUFFIX,incloak.com  # 与 ./BanEasyList.list 重复  # 与 ./BanEasyList.list 重复
 DOMAIN-SUFFIX,incredibox.fr
 DOMAIN-SUFFIX,independent.co.uk
 DOMAIN-SUFFIX,indiablooms.com
@@ -2745,7 +2745,7 @@ DOMAIN-SUFFIX,inkbunny.net
 DOMAIN-SUFFIX,inkui.com
 DOMAIN-SUFFIX,inmediahk.net
 DOMAIN-SUFFIX,innermongolia.org
-DOMAIN-SUFFIX,inoreader.com
+# DOMAIN-SUFFIX,inoreader.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,inote.tw
 DOMAIN-SUFFIX,insecam.org
 DOMAIN-SUFFIX,inside.com.tw
@@ -2921,7 +2921,7 @@ DOMAIN-SUFFIX,jpopforum.net
 DOMAIN-SUFFIX,jqueryui.com
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,jshell.net
-DOMAIN-SUFFIX,jtvnw.net
+# DOMAIN-SUFFIX,jtvnw.net  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,jubushoushen.com
 DOMAIN-SUFFIX,juhuaren.com
 DOMAIN-SUFFIX,jukujo-club.com
@@ -3004,7 +3004,7 @@ DOMAIN-SUFFIX,kir.jp
 DOMAIN-SUFFIX,kissbbao.cn
 DOMAIN-SUFFIX,kiwi.kz
 DOMAIN-SUFFIX,kk-whys.co.jp
-DOMAIN-SUFFIX,kkbox.com
+# DOMAIN-SUFFIX,kkbox.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,kknews.cc
 DOMAIN-SUFFIX,klip.me
 DOMAIN-SUFFIX,kmuh.org.tw
@@ -3126,7 +3126,7 @@ DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,linglingfa.com
 DOMAIN-SUFFIX,lingvodics.com
 DOMAIN-SUFFIX,link-o-rama.com
-DOMAIN-SUFFIX,linkedin.com
+# DOMAIN-SUFFIX,linkedin.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,linkideo.com
 DOMAIN-SUFFIX,linksalpha.com
 DOMAIN-SUFFIX,linkuswell.com
@@ -3148,7 +3148,7 @@ DOMAIN-SUFFIX,liuhanyu.com
 DOMAIN-SUFFIX,liujianshu.com
 DOMAIN-SUFFIX,liuxiaobo.net
 DOMAIN-SUFFIX,liuxiaotong.com
-DOMAIN-SUFFIX,live.com
+# DOMAIN-SUFFIX,live.com  # 与 ./Microsoft.list 重复
 DOMAIN-SUFFIX,livecoin.net
 DOMAIN-SUFFIX,livedoor.jp
 DOMAIN-SUFFIX,liveleak.com
@@ -3315,7 +3315,7 @@ DOMAIN-SUFFIX,merit-times.com.tw
 DOMAIN-SUFFIX,meshrep.com
 DOMAIN-SUFFIX,mesotw.com
 DOMAIN-SUFFIX,messenger.com
- DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,metacafe.com
 DOMAIN-SUFFIX,metafilter.com
 DOMAIN-SUFFIX,metart.com
@@ -3454,7 +3454,7 @@ DOMAIN-SUFFIX,mrtweet.com
 DOMAIN-SUFFIX,msa-it.org
 DOMAIN-SUFFIX,msguancha.com
 DOMAIN-SUFFIX,msha.gov
-DOMAIN-SUFFIX,msn.com
+# DOMAIN-SUFFIX,msn.com  # 与 ./Microsoft.list 重复
 DOMAIN-SUFFIX,msn.com.tw
 DOMAIN-SUFFIX,mswe1.org
 DOMAIN-SUFFIX,mthruf.com
@@ -3587,8 +3587,8 @@ DOMAIN-SUFFIX,netbirds.com
 DOMAIN-SUFFIX,netcolony.com
 DOMAIN-SUFFIX,netfirms.com
 DOMAIN-SUFFIX,netflav.com
-DOMAIN-SUFFIX,netflix.com
-DOMAIN-SUFFIX,netflix.net
+# DOMAIN-SUFFIX,netflix.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,netflix.net  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,netme.cc
 DOMAIN-SUFFIX,netsarang.com
 DOMAIN-SUFFIX,netsneak.com
@@ -3635,11 +3635,11 @@ DOMAIN-SUFFIX,nexton-net.jp
 DOMAIN-SUFFIX,nexttv.com.tw
 DOMAIN-SUFFIX,nf.id.au
 DOMAIN-SUFFIX,nfjtyd.com
-DOMAIN-SUFFIX,nflxext.com
-DOMAIN-SUFFIX,nflximg.com
-DOMAIN-SUFFIX,nflximg.net
-DOMAIN-SUFFIX,nflxso.net
-DOMAIN-SUFFIX,nflxvideo.net
+# DOMAIN-SUFFIX,nflxext.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,nflximg.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,nflximg.net  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,nflxso.net  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,nflxvideo.net  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,ng.mil
 DOMAIN-SUFFIX,nga.mil
 DOMAIN-SUFFIX,ngensis.com
@@ -3649,7 +3649,7 @@ DOMAIN-SUFFIX,nhi.gov.tw
 DOMAIN-SUFFIX,nhk-ondemand.jp
 DOMAIN-SUFFIX,nic.google
 DOMAIN-SUFFIX,nic.gov
-DOMAIN-SUFFIX,nicovideo.jp
+# DOMAIN-SUFFIX,nicovideo.jp  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,nighost.org
 DOMAIN-SUFFIX,nightlife141.com
 DOMAIN-SUFFIX,nike.com
@@ -3794,7 +3794,7 @@ DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,olabloga.pl
 DOMAIN-SUFFIX,old-cat.net
 DOMAIN-SUFFIX,olehdtv.com
-DOMAIN-SUFFIX,olevod.com
+# DOMAIN-SUFFIX,olevod.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,olumpo.com
 DOMAIN-SUFFIX,olympicwatch.org
 DOMAIN-SUFFIX,omct.org
@@ -3903,7 +3903,7 @@ DOMAIN-SUFFIX,pandapow.co
 DOMAIN-SUFFIX,pandapow.net
 DOMAIN-SUFFIX,pandavpn-jp.com
 DOMAIN-SUFFIX,pandavpnpro.com
-DOMAIN-SUFFIX,pandora.com
+# DOMAIN-SUFFIX,pandora.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,pandora.tv
 DOMAIN-SUFFIX,panluan.net
 DOMAIN-SUFFIX,panoramio.com
@@ -3928,7 +3928,7 @@ DOMAIN-SUFFIX,pathtosharepoint.com
 DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,pawoo.net
 DOMAIN-SUFFIX,paxful.com
-DOMAIN-SUFFIX,pbs.org
+# DOMAIN-SUFFIX,pbs.org  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,pbwiki.com
 DOMAIN-SUFFIX,pbworks.com
 DOMAIN-SUFFIX,pbxes.com
@@ -3971,7 +3971,7 @@ DOMAIN-SUFFIX,phapluan.org
 DOMAIN-SUFFIX,phayul.com
 DOMAIN-SUFFIX,philborges.com
 DOMAIN-SUFFIX,phmsociety.org
-DOMAIN-SUFFIX,phncdn.com
+# DOMAIN-SUFFIX,phncdn.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,phonegap.com
 DOMAIN-SUFFIX,photodharma.net
 DOMAIN-SUFFIX,photofocus.com
@@ -4058,7 +4058,7 @@ DOMAIN-SUFFIX,pornbase.org
 DOMAIN-SUFFIX,pornerbros.com
 DOMAIN-SUFFIX,pornhd.com
 DOMAIN-SUFFIX,pornhost.com
-DOMAIN-SUFFIX,pornhub.com
+# DOMAIN-SUFFIX,pornhub.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,pornhubdeutsch.net
 DOMAIN-SUFFIX,pornmm.net
 DOMAIN-SUFFIX,pornoxo.com
@@ -4254,7 +4254,7 @@ DOMAIN-SUFFIX,realsexpass.com
 DOMAIN-SUFFIX,reason.com
 DOMAIN-SUFFIX,rebatesrule.net
 DOMAIN-SUFFIX,hcaptcha.com
-DOMAIN-SUFFIX,recaptcha.net
+# DOMAIN-SUFFIX,recaptcha.net  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,recordhistory.org
 DOMAIN-SUFFIX,recovery.org.tw
 DOMAIN-SUFFIX,recoveryversion.com.tw
@@ -4265,7 +4265,7 @@ DOMAIN-SUFFIX,redbubble.com
 DOMAIN-SUFFIX,redchinacn.net
 DOMAIN-SUFFIX,redchinacn.org
 DOMAIN-SUFFIX,redd.it
-DOMAIN-SUFFIX,reddit.com
+# DOMAIN-SUFFIX,reddit.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,redditlist.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
@@ -4563,10 +4563,10 @@ DOMAIN-SUFFIX,sketchappsources.com
 DOMAIN-SUFFIX,skimtube.com
 DOMAIN-SUFFIX,skk.moe
 DOMAIN-SUFFIX,skybet.com
-DOMAIN-SUFFIX,skyking.com.tw
+# DOMAIN-SUFFIX,skyking.com.tw  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,skykiwi.com
 DOMAIN-SUFFIX,skynet.be
-DOMAIN-SUFFIX,skype.com
+# DOMAIN-SUFFIX,skype.com  # 与 ./Microsoft.list 重复
 DOMAIN-SUFFIX,skyvegas.com
 DOMAIN-SUFFIX,skyxvpn.com
 DOMAIN-SUFFIX,slacker.com
@@ -4593,7 +4593,7 @@ DOMAIN-SUFFIX,smith.edu
 DOMAIN-SUFFIX,smyxy.org
 DOMAIN-SUFFIX,snapchat.com
 DOMAIN-SUFFIX,snaptu.com
-DOMAIN-SUFFIX,sndcdn.com
+# DOMAIN-SUFFIX,sndcdn.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,sneakme.net
 DOMAIN-SUFFIX,snowlionpub.com
 DOMAIN-SUFFIX,so-net.net.tw
@@ -4644,7 +4644,7 @@ DOMAIN-SUFFIX,soubory.com
 DOMAIN-SUFFIX,soul-plus.net
 DOMAIN-SUFFIX,soulcaliburhentai.net
 DOMAIN-SUFFIX,soumo.info
-DOMAIN-SUFFIX,soundcloud.com
+# DOMAIN-SUFFIX,soundcloud.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,soundofhope.kr
 DOMAIN-SUFFIX,soundofhope.org
 DOMAIN-SUFFIX,soup.io
@@ -4670,7 +4670,7 @@ DOMAIN-SUFFIX,spicevpn.com
 DOMAIN-SUFFIX,spideroak.com
 DOMAIN-SUFFIX,spike.com
 DOMAIN-SUFFIX,spotflux.com
-DOMAIN-SUFFIX,spotify.com
+# DOMAIN-SUFFIX,spotify.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,spreadshirt.es
 DOMAIN-SUFFIX,spring4u.info
 DOMAIN-SUFFIX,springboardplatform.com
@@ -4799,7 +4799,7 @@ DOMAIN-SUFFIX,szbbs.net
 DOMAIN-SUFFIX,szetowah.org.hk
 DOMAIN-SUFFIX,t-g.com
 DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,t.me
+# DOMAIN-SUFFIX,t.me  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,t35.com
 DOMAIN-SUFFIX,t66y.com
 DOMAIN-SUFFIX,t91y.com
@@ -4879,7 +4879,7 @@ DOMAIN-SUFFIX,tcpspeed.co
 DOMAIN-SUFFIX,tcpspeed.com
 DOMAIN-SUFFIX,tcsofbc.org
 DOMAIN-SUFFIX,tcsovi.org
-DOMAIN-SUFFIX,tdesktop.com
+# DOMAIN-SUFFIX,tdesktop.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,tdm.com.mo
 DOMAIN-SUFFIX,teachparentstech.org
 DOMAIN-SUFFIX,teamamericany.com
@@ -4889,20 +4889,20 @@ DOMAIN-SUFFIX,techviz.net
 DOMAIN-SUFFIX,teck.in
 DOMAIN-SUFFIX,teco-hk.org
 DOMAIN-SUFFIX,teco-mo.org
-DOMAIN-SUFFIX,teddysun.com
+# DOMAIN-SUFFIX,teddysun.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,teeniefuck.net
 DOMAIN-SUFFIX,teensinasia.com
 DOMAIN-SUFFIX,tehrantimes.com
 DOMAIN-SUFFIX,telecomspace.com
-DOMAIN-SUFFIX,telegra.ph
+# DOMAIN-SUFFIX,telegra.ph  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,telegram-cdn.org
 DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
+# DOMAIN-SUFFIX,telegram.me  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,telegram.org  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,telegram.space
 DOMAIN-SUFFIX,telegramdownload.com
 DOMAIN-SUFFIX,telegraph.co.uk
-DOMAIN-SUFFIX,telesco.pe
+# DOMAIN-SUFFIX,telesco.pe  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,tellme.pw
 DOMAIN-SUFFIX,tenacy.com
 DOMAIN-SUFFIX,tenor.com
@@ -5069,8 +5069,8 @@ DOMAIN-SUFFIX,tibettruth.com
 DOMAIN-SUFFIX,tibetwrites.org
 DOMAIN-SUFFIX,ticket.com.tw
 DOMAIN-SUFFIX,tigervpn.com
-DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokv.com
+# DOMAIN-SUFFIX,tiktok.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,tiktokv.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,timdir.com
 DOMAIN-SUFFIX,time.com
@@ -5169,7 +5169,7 @@ DOMAIN-SUFFIX,tsunagarumon.com
 DOMAIN-SUFFIX,tt1069.com
 DOMAIN-SUFFIX,tttan.com
 DOMAIN-SUFFIX,ttv.com.tw
-DOMAIN-SUFFIX,ttvnw.net
+# DOMAIN-SUFFIX,ttvnw.net  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,tu8964.com
 DOMAIN-SUFFIX,tubaholic.com
 DOMAIN-SUFFIX,tube.com
@@ -5208,7 +5208,7 @@ DOMAIN-SUFFIX,tuzaijidi.com
 DOMAIN-SUFFIX,tv.com
 DOMAIN-SUFFIX,tv.google
 DOMAIN-SUFFIX,tvants.com
-DOMAIN-SUFFIX,tvb.com
+# DOMAIN-SUFFIX,tvb.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,tvboxnow.com
 DOMAIN-SUFFIX,tvbs.com.tw
 DOMAIN-SUFFIX,tvider.com
@@ -5275,8 +5275,8 @@ DOMAIN-SUFFIX,twistory.net
 DOMAIN-SUFFIX,twit2d.com
 DOMAIN-SUFFIX,twitbrowser.net
 DOMAIN-SUFFIX,twitcause.com
-DOMAIN-SUFFIX,twitch.tv
-DOMAIN-SUFFIX,twitchcdn.net
+# DOMAIN-SUFFIX,twitch.tv  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,twitchcdn.net  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,twitgether.com
 DOMAIN-SUFFIX,twitgoo.com
 DOMAIN-SUFFIX,twitiq.com
@@ -5459,7 +5459,7 @@ DOMAIN-SUFFIX,vft.com.tw
 DOMAIN-SUFFIX,viber.com
 DOMAIN-SUFFIX,vica.info
 DOMAIN-SUFFIX,victimsofcommunism.org
-DOMAIN-SUFFIX,vid.me
+# DOMAIN-SUFFIX,vid.me  # 与 ./BanEasyList.list 重复
 DOMAIN-SUFFIX,vidble.com
 DOMAIN-SUFFIX,videobam.com
 DOMAIN-SUFFIX,videodetective.com
@@ -5482,8 +5482,8 @@ DOMAIN-SUFFIX,virtualrealporn.com
 DOMAIN-SUFFIX,visibletweets.com
 DOMAIN-SUFFIX,visiontimes.com
 DOMAIN-SUFFIX,vital247.org
-DOMAIN-SUFFIX,viu.com
-DOMAIN-SUFFIX,viu.tv
+# DOMAIN-SUFFIX,viu.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,viu.tv  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,vivahentai4u.net
 DOMAIN-SUFFIX,vivaldi.com
 DOMAIN-SUFFIX,vivatube.com
@@ -5713,7 +5713,7 @@ DOMAIN-SUFFIX,wisdompubs.org
 DOMAIN-SUFFIX,wisevid.com
 DOMAIN-SUFFIX,wistia.com
 DOMAIN-SUFFIX,withgoogle.com
-DOMAIN-SUFFIX,withyoutube.com
+# DOMAIN-SUFFIX,withyoutube.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,witnessleeteaching.com
 DOMAIN-SUFFIX,witopia.net
 DOMAIN-SUFFIX,wizcrafts.net
@@ -5834,7 +5834,7 @@ DOMAIN-SUFFIX,xn--4gq171p.com
 DOMAIN-SUFFIX,xn--9pr62r24a.com
 DOMAIN-SUFFIX,xn--czq75pvv1aj5c.org
 DOMAIN-SUFFIX,xn--i2ru8q2qg.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+# DOMAIN-SUFFIX,xn--ngstr-lra8j.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,xn--oiq.cc
 DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
 DOMAIN-SUFFIX,xnxx.com
@@ -5943,19 +5943,19 @@ DOMAIN-SUFFIX,youshun12.com
 DOMAIN-SUFFIX,youthforfreechina.org
 DOMAIN-SUFFIX,youthnetradio.org
 DOMAIN-SUFFIX,youthwant.com.tw
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtube.com
+# DOMAIN-SUFFIX,youtu.be  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,youtube-nocookie.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,youtube.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,youtubecn.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
+# DOMAIN-SUFFIX,youtubeeducation.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,youtubegaming.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,youtubekids.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,youversion.com
 DOMAIN-SUFFIX,youwin.com
 DOMAIN-SUFFIX,youxu.info
-DOMAIN-SUFFIX,yt.be
+# DOMAIN-SUFFIX,yt.be  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,ytht.net
-DOMAIN-SUFFIX,ytimg.com
+# DOMAIN-SUFFIX,ytimg.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,ytn.co.kr
 DOMAIN-SUFFIX,yuanming.net
 DOMAIN-SUFFIX,yuanzhengtang.org
@@ -6055,9 +6055,9 @@ DOMAIN-SUFFIX,gfwlist.end
 
 
 # Amazon
-DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN-SUFFIX,amazon.com
-DOMAIN-SUFFIX,amazonaws.com
+# DOMAIN-SUFFIX,amazon.co.jp  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,amazon.com  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,amazonaws.com  # 与 ./ProxyGFWlist.list 重复
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,18.184.0.0/15,no-resolve
@@ -6075,9 +6075,9 @@ IP-CIDR,54.226.0.0/15,no-resolve
 IP-CIDR,54.230.156.0/22,no-resolve
 
 # BBC
-DOMAIN-KEYWORD,uk-live
-DOMAIN-SUFFIX,bbc.co
-DOMAIN-SUFFIX,bbc.com
+# DOMAIN-KEYWORD,uk-live  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,bbc.co  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,bbc.com  # 与 ./ProxyMedia.list 重复
 
 # Developer 开发者常用国外网站、镜像和论坛
 DOMAIN-SUFFIX,apache.org
@@ -6085,36 +6085,36 @@ DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,elastic.co
 DOMAIN-SUFFIX,elastic.com
-DOMAIN-SUFFIX,gcr.io
+# DOMAIN-SUFFIX,gcr.io  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,jitpack.io
 DOMAIN-SUFFIX,maven.org
-DOMAIN-SUFFIX,medium.com
+# DOMAIN-SUFFIX,medium.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,mvnrepository.com
 DOMAIN-SUFFIX,quay.io
-DOMAIN-SUFFIX,reddit.com
+# DOMAIN-SUFFIX,reddit.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,redhat.com
 DOMAIN-SUFFIX,sonatype.org
 DOMAIN-SUFFIX,sourcegraph.com
 DOMAIN-SUFFIX,spring.io
 DOMAIN-SUFFIX,spring.net
-DOMAIN-SUFFIX,stackoverflow.com
+# DOMAIN-SUFFIX,stackoverflow.com  # 与 ./ProxyGFWlist.list 重复
 
 # Discord
 DOMAIN-SUFFIX,discord.co
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discord.gg
+# DOMAIN-SUFFIX,discord.com  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,discord.gg  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,discord.media
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discordapp.net
+# DOMAIN-SUFFIX,discordapp.com  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,discordapp.net  # 与 ./ProxyGFWlist.list 重复
 
 # Facebook
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fb.me
+# DOMAIN-SUFFIX,facebook.com  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,fb.com  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,fb.me  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,fbcdn.com
-DOMAIN-SUFFIX,fbcdn.net
+# DOMAIN-SUFFIX,fbcdn.net  # 与 ./ProxyGFWlist.list 重复
 IP-CIDR,31.13.24.0/21,no-resolve
 IP-CIDR,31.13.64.0/18,no-resolve
 IP-CIDR,45.64.40.0/22,no-resolve
@@ -6131,36 +6131,36 @@ IP-CIDR,185.60.216.0/22,no-resolve
 IP-CIDR,204.15.20.0/22,no-resolve
 
 # Google
-DOMAIN-SUFFIX,1e100.net
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,app-measurement.net
-DOMAIN-SUFFIX,g.co
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.cn
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
-IP-CIDR,74.125.0.0/16,no-resolve
-IP-CIDR,173.194.0.0/16,no-resolve
+# DOMAIN-SUFFIX,1e100.net  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,2mdn.net  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,app-measurement.net  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,g.co  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,ggpht.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,goo.gl  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,googleapis.cn  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,googleapis.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,gstatic.cn  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,gstatic.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,gvt0.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,gvt1.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,gvt2.com  # 与 ./BanEasyList.list 重复
+# DOMAIN-SUFFIX,gvt3.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,xn--ngstr-lra8j.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,youtu.be  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,youtube-nocookie.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,youtube.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,yt.be  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,ytimg.com  # 与 ./Google.list 重复
+# IP-CIDR,74.125.0.0/16,no-resolve  # 与 ./Google.list 重复
+# IP-CIDR,173.194.0.0/16,no-resolve  # 与 ./Google.list 重复
 
 # Instagram
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,instagram.com
+# DOMAIN-SUFFIX,cdninstagram.com  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,instagram.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,instagr.am
 
 # Kakao Talk
-DOMAIN-SUFFIX,kakao.com
+# DOMAIN-SUFFIX,kakao.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,kakao.co.kr
 DOMAIN-SUFFIX,kakaocdn.net
 IP-CIDR,1.201.0.0/24,no-resolve
@@ -6172,10 +6172,10 @@ IP-CIDR,113.61.104.0/22,no-resolve
 
 # Line
 DOMAIN-SUFFIX,lin.ee
-DOMAIN-SUFFIX,line-apps.com
+# DOMAIN-SUFFIX,line-apps.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,line-cdn.net
-DOMAIN-SUFFIX,line-scdn.net
-DOMAIN-SUFFIX,line.me
+# DOMAIN-SUFFIX,line-scdn.net  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,line.me  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,line.naver.jp
 DOMAIN-SUFFIX,nhncorp.jp
 IP-CIDR,103.2.28.0/24,no-resolve
@@ -6192,71 +6192,71 @@ DOMAIN,cloud.oracle.com
 DOMAIN-SUFFIX,oraclecloud.com
 
 # Porn
-DOMAIN-KEYWORD,porn
+# DOMAIN-KEYWORD,porn  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,8teenxxx.com
 DOMAIN-SUFFIX,ahcdn.com
 DOMAIN-SUFFIX,bcvcdn.com
-DOMAIN-SUFFIX,bongacams.com
-DOMAIN-SUFFIX,chaturbate.com
+# DOMAIN-SUFFIX,bongacams.com  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,chaturbate.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,dditscdn.com
 DOMAIN-SUFFIX,livejasmin.com
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,pornhubpremium.com
+# DOMAIN-SUFFIX,phncdn.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,phprcdn.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,pornhub.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,pornhubpremium.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,rdtcdn.com
-DOMAIN-SUFFIX,redtube.com
+# DOMAIN-SUFFIX,redtube.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,sb-cd.com
-DOMAIN-SUFFIX,spankbang.com
-DOMAIN-SUFFIX,t66y.com
-DOMAIN-SUFFIX,xhamster.com
+# DOMAIN-SUFFIX,spankbang.com  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,t66y.com  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,xhamster.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,xnxx-cdn.com
-DOMAIN-SUFFIX,xnxx.com
-DOMAIN-SUFFIX,xvideos-cdn.com
-DOMAIN-SUFFIX,xvideos.com
+# DOMAIN-SUFFIX,xnxx.com  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,xvideos-cdn.com  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,xvideos.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,ypncdn.com
 
 # Pixiv
-DOMAIN-SUFFIX,pixiv.net
-DOMAIN-SUFFIX,pximg.net
+# DOMAIN-SUFFIX,pixiv.net  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,pximg.net  # 与 ./ProxyGFWlist.list 重复
 
 # Spark
 DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,firebaseio.com
+# DOMAIN-SUFFIX,firebaseio.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,readdle.com
-DOMAIN-SUFFIX,smartmailcloud.com
+# DOMAIN-SUFFIX,smartmailcloud.com  # 与 ./ProxyGFWlist.list 重复
 
 # TapTap
 DOMAIN-SUFFIX,tap.io
 DOMAIN-SUFFIX,taptap.tw
 
 # Twitch
-DOMAIN-SUFFIX,twitch.tv
-DOMAIN-SUFFIX,ttvnw.net
-DOMAIN-SUFFIX,jtvnw.net
-DOMAIN-KEYWORD,ttvnw
+# DOMAIN-SUFFIX,twitch.tv  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,ttvnw.net  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,jtvnw.net  # 与 ./ProxyMedia.list 重复
+# DOMAIN-KEYWORD,ttvnw  # 与 ./ProxyMedia.list 重复
 
 # Twitter
-DOMAIN-SUFFIX,t.co
+# DOMAIN-SUFFIX,t.co  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,twimg.co
-DOMAIN-SUFFIX,twimg.com
+# DOMAIN-SUFFIX,twimg.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,twimg.org
 
 # TeraBox
-DOMAIN-SUFFIX,terabox.com
+# DOMAIN-SUFFIX,terabox.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,teraboxcdn.com
 
 # Wikipedia 维基相关域名
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikileaks.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikinews.org
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikiquote.org
-DOMAIN-SUFFIX,wikisource.org
+# DOMAIN-SUFFIX,wikileaks.org  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,wikimedia.org  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,wikinews.org  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,wikipedia.org  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,wikiquote.org  # 与 ./ProxyGFWlist.list 重复
+# DOMAIN-SUFFIX,wikisource.org  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
@@ -6267,7 +6267,7 @@ DOMAIN-SUFFIX,icntv.xyz
 DOMAIN-SUFFIX,flzbcdn.xyz
 
 #华文电视
-DOMAIN-SUFFIX,ocnttv.com
+# DOMAIN-SUFFIX,ocnttv.com  # 与 ./ProxyMedia.list 重复
 
 # VikACG
 DOMAIN-SUFFIX,vikacg.com
