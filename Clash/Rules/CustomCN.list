@@ -10,8 +10,8 @@ IP-CIDR,119.29.29.29/32,no-resolve
 DOMAIN-SUFFIX,alidns.com
 DOMAIN-SUFFIX,doh.pub
 #My DOMAIN
-# DOMAIN-SUFFIX,goppx.com  # 与 ./Custom.list 重复
-DOMAIN-SUFFIX,maoxiong.net
+DOMAIN-SUFFIX,goppx.com
+DOMAIN-SUFFIX,maoxiongnet.com
 
 # Mac Download
 PROCESS-NAME,aria2c.exe

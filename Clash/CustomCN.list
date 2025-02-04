@@ -8,7 +8,7 @@ DOMAIN-SUFFIX,alidns.com
 DOMAIN-SUFFIX,doh.pub
 #My DOMAIN
 DOMAIN-SUFFIX,goppx.com
-DOMAIN-SUFFIX,maoxiong.net
+DOMAIN-SUFFIX,maoxiongnet.com
 
 # Mac Download
 PROCESS-NAME,aria2c.exe
