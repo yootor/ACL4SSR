@@ -1,5 +1,5 @@
 # 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR
-# 文件生成时间: 2025-02-04 14:46:18
+# 文件生成时间: 2025-02-04 20:11:37
 
 # Microsoft Services
 # optimized from https://gist.github.com/TTTPOB/ce93fb3b04ba2f21880b09427442d831
@@ -135,7 +135,7 @@ DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,events.statsigapi.net
-# #DOMAIN-SUFFIX,featuregates.org # 与 ./BanEasyPrivacy.list 重复  # 与 ./BanEasyPrivacy.list 重复
+#DOMAIN-SUFFIX,featuregates.org # 与 ./BanEasyPrivacy.list 重复
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com

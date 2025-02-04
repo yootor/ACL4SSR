@@ -1,5 +1,5 @@
 # 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR
-# 文件生成时间: 2025-02-04 14:46:18
+# 文件生成时间: 2025-02-04 20:11:37
 
 # 直连列表
 
@@ -13,8 +13,8 @@ DOMAIN-SUFFIX,hrtsea.com
 DOMAIN-SUFFIX,kaikeba.com
 DOMAIN-SUFFIX,laomo.me
 DOMAIN-SUFFIX,mpyit.com
-# #DOMAIN-SUFFIX,msftconnecttest.com  # 与 ./Custom.list 重复
-# #DOMAIN-SUFFIX,msftncsi.com  # 与 ./Custom.list 重复
+#DOMAIN-SUFFIX,msftconnecttest.com
+#DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,qupu123.com
 DOMAIN-SUFFIX,pdfwifi.com
 DOMAIN-SUFFIX,zhenguanyu.biz

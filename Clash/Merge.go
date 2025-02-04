@@ -24,9 +24,11 @@ func deduplicateFiles(inputFiles []string, deduplicatedFiles []string) error {
 
 		outputFileName := deduplicatedFiles[index]
 		outFile, err := os.Create(outputFileName)
+
 		if err != nil {
 			return fmt.Errorf("无法创建去重文件 %s: %v", outputFileName, err)
 		}
+
 		defer outFile.Close()
 
 		scanner := bufio.NewScanner(file)
@@ -41,6 +43,12 @@ func deduplicateFiles(inputFiles []string, deduplicatedFiles []string) error {
 			line := strings.TrimSpace(scanner.Text())
 			if line == "" {
 				writer.WriteString("\n")
+				continue
+			}
+
+			// 如果是注释行，则直接写入输出文件
+			if strings.HasPrefix(line, "#") {
+				writer.WriteString(line + "\n")
 				continue
 			}
 
@@ -161,8 +169,10 @@ func main() {
 			"./games.list",
 			"./ChinaMedia.list",
 			"./ChinaDomain.list",
+			"./BlockiOSUpdate.list",
 			//"./naisi_AD.list",
 		*/
+
 	}
 	// 生成去重后的文件，主要是针对广告规则，其余规则屏蔽
 	deduplicatedFiles := []string{
@@ -181,6 +191,7 @@ func main() {
 			"./Rules/games.list",
 			"./Rules/ChinaMedia.list",
 			"./Rules/ChinaDomain.list",
+			"./BlockiOSUpdate.list",
 		*/
 	}
 

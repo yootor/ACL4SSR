@@ -1,9 +1,10 @@
 # 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR
-# 文件生成时间: 2025-02-04 14:46:18
+# 文件生成时间: 2025-02-04 20:11:37
 
 DOMAIN-SUFFIX,yootor.com
 DOMAIN-SUFFIX,nwtop.com
 DOMAIN-SUFFIX,jpipi.com
+#DOMAIN-SUFFIX,goppx.com
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,dns.google

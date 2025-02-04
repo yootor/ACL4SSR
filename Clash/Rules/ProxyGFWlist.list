@@ -1,5 +1,5 @@
 # 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR
-# 文件生成时间: 2025-02-04 14:46:18
+# 文件生成时间: 2025-02-04 20:11:37
 
 # 代理列表
 
@@ -2275,7 +2275,7 @@ DOMAIN-SUFFIX,googleblog.com
 DOMAIN-SUFFIX,googlebot.com
 DOMAIN-SUFFIX,googlechinawebmaster.com
 DOMAIN-SUFFIX,googlecode.com
-# #DOMAIN-SUFFIX,googlecommerce.com ./BanProgramAD.list 重复  # 与 ./BanProgramAD.list 重复
+#DOMAIN-SUFFIX,googlecommerce.com ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,googledomains.com
 DOMAIN-SUFFIX,googledrive.com
 DOMAIN-SUFFIX,googleearth.com
@@ -2733,7 +2733,7 @@ DOMAIN-SUFFIX,in-disguise.com
 DOMAIN-SUFFIX,in.com
 DOMAIN-SUFFIX,in99.org
 DOMAIN-SUFFIX,incapdns.net
-# # DOMAIN-SUFFIX,incloak.com  # 与 ./BanEasyList.list 重复  # 与 ./BanEasyList.list 重复
+# DOMAIN-SUFFIX,incloak.com  # 与 ./BanEasyList.list 重复
 DOMAIN-SUFFIX,incredibox.fr
 DOMAIN-SUFFIX,independent.co.uk
 DOMAIN-SUFFIX,indiablooms.com
