@@ -1,7 +1,7 @@
+# MOSDNS 合并的所有去广告规则, 来自https://github.com/ACL4SSR/ACL4SSR
 # MOSDNS 规则文件
-# 生成时间: 2025-02-03 18:28:40
+# 生成时间: 2025-02-04 14:46:18
 
-# MOSDNS 合并的所有去广告规则
 # 关键字规则
 KEYWORD,admarvel
 KEYWORD,admaster
@@ -15,13 +15,18 @@ KEYWORD,adwords
 KEYWORD,api.sobot.com
 KEYWORD,applovin
 KEYWORD,appsflyer
+KEYWORD,asiad.byteactivity
 KEYWORD,bds.snssdk.com
+KEYWORD,bdsp.x.jd.com
 KEYWORD,business-cdn.shouji.sogou.com
 KEYWORD,domob
 KEYWORD,duomeng
 KEYWORD,dwtrack
 KEYWORD,guanggao
 KEYWORD,in-page-push
+KEYWORD,kepler.jd.com
+KEYWORD,keplerapi.jd.com
+KEYWORD,mapi.m.jd.com
 KEYWORD,omgmta
 KEYWORD,omgmta.qq.com
 KEYWORD,omgmta1.qq.com
@@ -31,7 +36,9 @@ KEYWORD,openx
 KEYWORD,p3-pack.byteimg.com
 KEYWORD,p3.pstatp.com
 KEYWORD,p6-pack.byteimg.com
+KEYWORD,pangolin-sdk-toutiao
 KEYWORD,partnerad
+KEYWORD,pglstatp-toutiao
 KEYWORD,pingfore
 KEYWORD,socdm
 KEYWORD,supersonicads
@@ -192,6 +199,7 @@ DOMAIN,100.pncdn.cn
 DOMAIN,10008919.pomelo.fashion
 DOMAIN,1002.men
 DOMAIN,10079290.fluz.app
+DOMAIN,10086.cn.baidu.cdn.yiwk.com
 DOMAIN,100peng.com
 DOMAIN,1017.cn
 DOMAIN,101m3.com
@@ -726,6 +734,7 @@ DOMAIN,35volitantplimsoles5.com
 DOMAIN,3600.com
 DOMAIN,3601880.xyz
 DOMAIN,360640.com
+DOMAIN,360baidus.com
 DOMAIN,360direct.qualfon.com
 DOMAIN,360popads.com
 DOMAIN,360protected.com
@@ -1461,7 +1470,6 @@ DOMAIN,a.audi.fr
 DOMAIN,a.audifrance.fr
 DOMAIN,a.aylix.xyz
 DOMAIN,a.baidinet.com
-DOMAIN,a.baidu.cn
 DOMAIN,a.baidu.com
 DOMAIN,a.bake818.cn
 DOMAIN,a.baomihua.com
@@ -1471,6 +1479,7 @@ DOMAIN,a.bxwblog.cn
 DOMAIN,a.careangel.com
 DOMAIN,a.cemir.site
 DOMAIN,a.centrum.cz
+DOMAIN,a.ckm.iqiyi.com
 DOMAIN,a.dangdang.com
 DOMAIN,a.debub.site
 DOMAIN,a.deutschehospitality.com
@@ -6071,6 +6080,7 @@ DOMAIN,ad-score.com
 DOMAIN,ad-serve.b-cdn.net
 DOMAIN,ad-server.co.za
 DOMAIN,ad-serverparc.nl
+DOMAIN,ad-sign.byteimg.com
 DOMAIN,ad-srv.net
 DOMAIN,ad-stir.com
 DOMAIN,ad-survey.com
@@ -6109,7 +6119,6 @@ DOMAIN,ad.cmvideo.cn
 DOMAIN,ad.csdn.net
 DOMAIN,ad.daum.net
 DOMAIN,ad.docer.wps.cn
-DOMAIN,ad.duapps.com
 DOMAIN,ad.duomi.com
 DOMAIN,ad.e-dpe.jp
 DOMAIN,ad.e.waimai.sankuai.com
@@ -6552,7 +6561,6 @@ DOMAIN,adm.10jqka.com.cn
 DOMAIN,adm.52swine.com
 DOMAIN,adm.6park.com
 DOMAIN,adm.adminstrumentengineering.com.au
-DOMAIN,adm.baidu.cn
 DOMAIN,adm.baidu.com
 DOMAIN,adm.beimg.com
 DOMAIN,adm.cloud.cnfol.com
@@ -6872,7 +6880,6 @@ DOMAIN,adsbtrk.com
 DOMAIN,adsc.wasu.tv
 DOMAIN,adscale.de
 DOMAIN,adscampaign.net
-DOMAIN,adscdn.baidu.cn
 DOMAIN,adscdn.baidu.com
 DOMAIN,adscdn.net
 DOMAIN,adschill.com
@@ -7184,6 +7191,7 @@ DOMAIN,advocacyforgiveness.com
 DOMAIN,advocate420.fun
 DOMAIN,advotionhot.com
 DOMAIN,advotoffer.com
+DOMAIN,advp.apple.com
 DOMAIN,advp1.com
 DOMAIN,advp2.com
 DOMAIN,advp3.com
@@ -7203,7 +7211,6 @@ DOMAIN,adwx6vcj.com
 DOMAIN,adx-exchange.toast.com
 DOMAIN,adx.mala.cn
 DOMAIN,adx.opera.com
-DOMAIN,adx.xiaodutv.com
 DOMAIN,adx1.com
 DOMAIN,adxadserv.com
 DOMAIN,adxbid.info
@@ -7244,7 +7251,6 @@ DOMAIN,adzpower.com
 DOMAIN,adzs.com
 DOMAIN,ae-edqfrmstp.one
 DOMAIN,ae-go.experian.com
-DOMAIN,ae.bdstatic.com
 DOMAIN,ae.cobweb.com
 DOMAIN,aeaw.cn
 DOMAIN,aebvay.mesinspirationsculinaires.com
@@ -7296,8 +7302,6 @@ DOMAIN,afcnuchxgo.com
 DOMAIN,afcontent.net
 DOMAIN,afcv.champ-shop.com
 DOMAIN,afcyhf.com
-DOMAIN,afd.baidu.cn
-DOMAIN,afd.baidu.com
 DOMAIN,afd.l.google.com
 DOMAIN,afdads.com
 DOMAIN,afdbwq.blivakker.no
@@ -8044,8 +8048,6 @@ DOMAIN,alreadywailed.com
 DOMAIN,alrhry.cjthemarket.com
 DOMAIN,alrightlemonredress.com
 DOMAIN,als-svc.nytimes.com
-DOMAIN,als.baidu.cn
-DOMAIN,als.baidu.com
 DOMAIN,alsdebaticalfelixsto.org
 DOMAIN,alsgaj.chosun.com
 DOMAIN,alsindustrate.info
@@ -8895,7 +8897,6 @@ DOMAIN,andomedia.com
 DOMAIN,andomediagroup.com
 DOMAIN,andriesshied.com
 DOMAIN,android-cleaners.com
-DOMAIN,android.rqd.qq.com
 DOMAIN,android.txtsmarter.com
 DOMAIN,androundher.info
 DOMAIN,andtheircleanw.com
@@ -8975,7 +8976,6 @@ DOMAIN,anonymoustrunk.com
 DOMAIN,anopportunitytost.info
 DOMAIN,anothermemory.pro
 DOMAIN,anpptedtah.com
-DOMAIN,anquan.baidu.cn
 DOMAIN,anquan.baidu.com
 DOMAIN,anquan.org
 DOMAIN,ans.avast.com
@@ -9153,7 +9153,6 @@ DOMAIN,apglinks.net
 DOMAIN,apharponloun.com
 DOMAIN,aphxav.green-acres.it
 DOMAIN,api-access.pangolin-sdk-toutiao1.com
-DOMAIN,api-adservices.apple.com
 DOMAIN,api-analytics-prd.pelcro.com
 DOMAIN,api-deal.kechenggezi.com
 DOMAIN,api-flow.meizu.com
@@ -9167,13 +9166,14 @@ DOMAIN,api.apiok.net.iberostar.com
 DOMAIN,api.autopilothq.com
 DOMAIN,api.bitp.it
 DOMAIN,api.bunzlaucastle.com
+DOMAIN,api.cupid.iqiyi.com
+DOMAIN,api.cupid.qiyi.com
 DOMAIN,api.digitalpiloten.org
 DOMAIN,api.elliehuxtable.com
 DOMAIN,api.fuck.education
 DOMAIN,api.fw.tv
 DOMAIN,api.itaoxiaoshuo.com
 DOMAIN,api.june.so
-DOMAIN,api.mobula.sdk.duapps.com
 DOMAIN,api.mp.uc.cn
 DOMAIN,api.mumuglobal.com
 DOMAIN,api.newad.ifeng.com
@@ -9561,6 +9561,7 @@ DOMAIN,app.hotdoc.com.au
 DOMAIN,app.humanaresponses.com
 DOMAIN,app.huskers.com
 DOMAIN,app.iamblackbusiness.com
+DOMAIN,app.ibaiducdn.com
 DOMAIN,app.idexevent.com
 DOMAIN,app.info.actuate.com
 DOMAIN,app.info.americanpublicmediagroup.org
@@ -10017,7 +10018,6 @@ DOMAIN,apparelbrandsabotage.com
 DOMAIN,apparound.actonservice.com
 DOMAIN,appboy.com
 DOMAIN,appbravebeaten.com
-DOMAIN,appc.baidu.cn
 DOMAIN,appc.baidu.com
 DOMAIN,appcloud.appyreward.com
 DOMAIN,appcloudactive.com
@@ -10411,8 +10411,6 @@ DOMAIN,aryici.xyz
 DOMAIN,as.aplus.pptv.com
 DOMAIN,as.autobild.de
 DOMAIN,as.axelspringer.com
-DOMAIN,as.baidu.cn
-DOMAIN,as.baidu.com
 DOMAIN,as.balluff.com
 DOMAIN,as.bild.de
 DOMAIN,as.businessinsider.de
@@ -11624,13 +11622,24 @@ DOMAIN,bahrpo.dint.co.kr
 DOMAIN,bahswl.com
 DOMAIN,bahyei.himaraya.co.jp
 DOMAIN,baichuan.baidu.com
+DOMAIN,baidu-union-js.xiachufang.com
+DOMAIN,baidu-union-pos.xiachufang.com
+DOMAIN,baidu.cybcyw.com
+DOMAIN,baidu.dsp.tansuotv.com
+DOMAIN,baidu.greenxf.cn
+DOMAIN,baidu.jz5u.net
 DOMAIN,baidu1.cardbaobao.com
 DOMAIN,baidu1.codejie.net
-DOMAIN,baidu9635.com
+DOMAIN,baiduace.com
 DOMAIN,baiduapp.app
 DOMAIN,baidujs.cnys.com
+DOMAIN,baidulao.com
 DOMAIN,baidustatic.com
+DOMAIN,baidut.github.io
 DOMAIN,baidutv.baidu.com
+DOMAIN,baiduyubaidu.com
+DOMAIN,baiduzhidahao.cc
+DOMAIN,baifen.music.baidu.com
 DOMAIN,baifendian.com
 DOMAIN,baigamp.icu
 DOMAIN,baigh8eosmgie01.site
@@ -11919,6 +11928,7 @@ DOMAIN,bcanl.bca-autoveiling.nl
 DOMAIN,bcc-ltd.actonservice.com
 DOMAIN,bcd8072b72.com
 DOMAIN,bcdllh.esprit.co.uk
+DOMAIN,bce.baidu.com
 DOMAIN,bceptemujahb.com
 DOMAIN,bcfgwi.skidxb.com
 DOMAIN,bcfhva.tradingpost.com.au
@@ -14100,7 +14110,6 @@ DOMAIN,c.aquaservice.com
 DOMAIN,c.arstechnica.com
 DOMAIN,c.autohome.com.cn
 DOMAIN,c.autozen.tv
-DOMAIN,c.baidu.cn
 DOMAIN,c.baidu.com
 DOMAIN,c.bannerflow.net
 DOMAIN,c.bazo.io
@@ -14627,7 +14636,6 @@ DOMAIN,cawedburial.com
 DOMAIN,cayelychobenl.com
 DOMAIN,cazaakeake.com
 DOMAIN,cb-mms.carbuyer.co.uk
-DOMAIN,cb.baidu.cn
 DOMAIN,cb.baidu.com
 DOMAIN,cb3251add6.com
 DOMAIN,cb61190372.com
@@ -14645,10 +14653,7 @@ DOMAIN,cbdm.weathercn.com
 DOMAIN,cbdqzbi.icu
 DOMAIN,cbfpiqq.com
 DOMAIN,cbgrqi.xyz
-DOMAIN,cbjs.baidu.cn
 DOMAIN,cbjs.baidu.com
-DOMAIN,cbjslog.baidu.cn
-DOMAIN,cbjslog.baidu.com
 DOMAIN,cbl6.destinia.gt
 DOMAIN,cbnzop.c-c-j.com
 DOMAIN,cbpgpg.bombshellsportswear.com
@@ -14734,6 +14739,7 @@ DOMAIN,cdn.ad-platform.jmty.jp
 DOMAIN,cdn.ad.page
 DOMAIN,cdn.ads.tapzin.com
 DOMAIN,cdn.arcstudiopro.com
+DOMAIN,cdn.cmop.mgtv.com
 DOMAIN,cdn.haocaa.com
 DOMAIN,cdn.house
 DOMAIN,cdn.jiuzhilan.com
@@ -15398,7 +15404,6 @@ DOMAIN,cjewz.com
 DOMAIN,cjfqtu.vitafy.ch
 DOMAIN,cjgrlbxciqsbr.com
 DOMAIN,cjgymo.xyz
-DOMAIN,cjhq.baidu.cn
 DOMAIN,cjhq.baidu.com
 DOMAIN,cjimtyf.top
 DOMAIN,cjlekm.correiodopovo.com.br
@@ -15548,7 +15553,6 @@ DOMAIN,click.alternate.de
 DOMAIN,click.amazingfacts.org
 DOMAIN,click.appinthestore.com
 DOMAIN,click.avalere.com
-DOMAIN,click.bes.baidu.com
 DOMAIN,click.bible.com
 DOMAIN,click.bitesquad.com
 DOMAIN,click.blueapron.com
@@ -15577,7 +15581,6 @@ DOMAIN,click.gamersky.com
 DOMAIN,click.ganji.com
 DOMAIN,click.glamsquad.com
 DOMAIN,click.hd.sohu.com
-DOMAIN,click.hm.baidu.com
 DOMAIN,click.hunantv.com
 DOMAIN,click.instacartemail.com
 DOMAIN,click.lmbcustomersupport.com
@@ -15590,7 +15593,6 @@ DOMAIN,click.mz.simba.taobao.com
 DOMAIN,click.nudevista.com
 DOMAIN,click.oneplus.cn
 DOMAIN,click.pockee.com
-DOMAIN,click.qianqian.com
 DOMAIN,click.quickenloansnow.com
 DOMAIN,click.redditmail.com
 DOMAIN,click.rollouki.com
@@ -15872,6 +15874,7 @@ DOMAIN,cm.adcommon.bilibili.com
 DOMAIN,cm.baidu.com
 DOMAIN,cm.game.bilibili.com
 DOMAIN,cm.informaengage.com
+DOMAIN,cm.jd.com
 DOMAIN,cm.nordvpn.com
 DOMAIN,cm.passport.iqiyi.com
 DOMAIN,cm.prodo.com
@@ -15895,6 +15898,7 @@ DOMAIN,cmiega.top
 DOMAIN,cmm.xmfish.com
 DOMAIN,cmme.actonservice.com
 DOMAIN,cmon.congress.gov
+DOMAIN,cmop.mgtv.com
 DOMAIN,cmp.courrierinternational.com
 DOMAIN,cmp.dreamlab.pl
 DOMAIN,cmp.finn.no
@@ -17049,6 +17053,7 @@ DOMAIN,count.bank99.at
 DOMAIN,count.candou.com
 DOMAIN,count.carrierzone.com
 DOMAIN,count.darkreader.app
+DOMAIN,count.game.pps.tv
 DOMAIN,count.gothaer-digital.de
 DOMAIN,count.me.uk
 DOMAIN,count.munhwa.com
@@ -17213,13 +17218,10 @@ DOMAIN,cpqgyga.com
 DOMAIN,cprdmnlo.xyz
 DOMAIN,cpro.baidu.cn
 DOMAIN,cpro.baidu.com
-DOMAIN,cpro.baidustatic.com
 DOMAIN,cpro.bdrmb.cn
-DOMAIN,cpro.tieba.baidu.com
 DOMAIN,cpro.xixiliya.cn
 DOMAIN,cpro.zhidao.baidu.com
 DOMAIN,cpro.zol.com.cn
-DOMAIN,cpro2.baidu.cn
 DOMAIN,cpro2.baidu.com
 DOMAIN,cps.360buy.com
 DOMAIN,cpt.itv.com
@@ -17445,7 +17447,6 @@ DOMAIN,crptgate.com
 DOMAIN,crrepo.com
 DOMAIN,crrm.onjoyri.de
 DOMAIN,crs.actonservice.com
-DOMAIN,crs.baidu.cn
 DOMAIN,crs.baidu.com
 DOMAIN,crsope.com
 DOMAIN,crsspxl.com
@@ -20757,7 +20758,6 @@ DOMAIN,drizzlepose.com
 DOMAIN,drizzlerules.com
 DOMAIN,drjs123.com
 DOMAIN,drkness.net
-DOMAIN,drmcmm.baidu.cn
 DOMAIN,drmcmm.baidu.com
 DOMAIN,dromoicassida.com
 DOMAIN,dronediscussed.com
@@ -20890,12 +20890,14 @@ DOMAIN,dtyathercockrem.com
 DOMAIN,dtybyfo.com
 DOMAIN,dtylhedgelnham.com
 DOMAIN,dtzrrz.green-japan.com
+DOMAIN,du.jd.com
 DOMAIN,du1.bbdj.com
 DOMAIN,dualmarket.info
 DOMAIN,dualp.xyz
 DOMAIN,dualstack-logs.amap.com
 DOMAIN,duamilsyr.com
 DOMAIN,duanat.com
+DOMAIN,duapps.com
 DOMAIN,dubdetectioniceberg.com
 DOMAIN,dubdiggcofmo.com
 DOMAIN,dubshub.com
@@ -20926,6 +20928,7 @@ DOMAIN,dugrurdoy.com
 DOMAIN,duiba.com.cn
 DOMAIN,duili-mtp.com
 DOMAIN,duimspruer.life
+DOMAIN,duiwai.baidu.com
 DOMAIN,dujgiq.trendhim.pl
 DOMAIN,dukesubsequent.com
 DOMAIN,dukingdraon.com
@@ -21117,7 +21120,6 @@ DOMAIN,e-cougar.fr
 DOMAIN,e-img.hover.to
 DOMAIN,e-learning.brainshark.com
 DOMAIN,e.aa985.cn
-DOMAIN,e.baidu.cn
 DOMAIN,e.baidu.com
 DOMAIN,e.beckmancoulter.com
 DOMAIN,e.cdngeek.com
@@ -21514,14 +21516,10 @@ DOMAIN,ecityonatallcol.info
 DOMAIN,eckleinlienic.click
 DOMAIN,eckonturricalsbu.org
 DOMAIN,eclick.360doc.com
-DOMAIN,eclick.baidu.cn
 DOMAIN,eclick.baidu.com
 DOMAIN,eclipse-adblocker.pro
 DOMAIN,eclkmpbn.com
 DOMAIN,eclkmpsa.com
-DOMAIN,ecma.bdimg.com
-DOMAIN,ecmb.bdimg.com
-DOMAIN,ecmc.bdimg.com
 DOMAIN,ecn-analytics-nssl.emc.com
 DOMAIN,ecn-analytics.emc.com
 DOMAIN,ecn-ldr.de
@@ -21889,7 +21887,6 @@ DOMAIN,eiteribesshaints.com
 DOMAIN,eitfromtheothe.org
 DOMAIN,eitkrg.loriblu.com
 DOMAIN,eiuoom.xyz
-DOMAIN,eiv.baidu.cn
 DOMAIN,eiv.baidu.com
 DOMAIN,ejbbcf.finishline.com
 DOMAIN,ejcet5y9ag.com
@@ -22845,6 +22842,7 @@ DOMAIN,entrailsintentionsbrace.com
 DOMAIN,entreatkeyrequired.com
 DOMAIN,entreatyfungusgaily.com
 DOMAIN,entrerscab.com
+DOMAIN,entry.baidu.com
 DOMAIN,entryhit.wp.pl
 DOMAIN,entterto.com
 DOMAIN,enueduringhere.info
@@ -23795,7 +23793,6 @@ DOMAIN,f1.mperf.com
 DOMAIN,f1.np6.com
 DOMAIN,f1.pig66.com
 DOMAIN,f1.zaojv.com
-DOMAIN,f10.baidu.com
 DOMAIN,f11.hackhome.com
 DOMAIN,f145794b22.com
 DOMAIN,f14b0e6b0b.com
@@ -24061,8 +24058,6 @@ DOMAIN,fbu8.montecarloseasonalsale.com
 DOMAIN,fbu8.ticket-online.montecarlolive.com
 DOMAIN,fbvskv3.com
 DOMAIN,fbycnk.chiaki.vn
-DOMAIN,fc-.cdn.bcebos.com
-DOMAIN,fc-feed.cdn.bcebos.com
 DOMAIN,fc.vodafone.de
 DOMAIN,fc29334d79.com
 DOMAIN,fc3ppv.xyz
@@ -24138,6 +24133,7 @@ DOMAIN,fedsched.actonservice.com
 DOMAIN,fedsit.com
 DOMAIN,feed-ads.com
 DOMAIN,feed-xml.com
+DOMAIN,feed.baidu.com
 DOMAIN,feedads.feedblitz.com
 DOMAIN,feedback.aon.com
 DOMAIN,feedback.avigilon.com
@@ -28302,7 +28298,6 @@ DOMAIN,hbx.df-srv.de
 DOMAIN,hbxzlf.xyz
 DOMAIN,hby7.destinia.it
 DOMAIN,hbzikbe.com
-DOMAIN,hc.baidu.cn
 DOMAIN,hc.baidu.com
 DOMAIN,hcafarwest.hrm.healthgrades.com
 DOMAIN,hcagulfcoast.hrm.healthgrades.com
@@ -28357,6 +28352,7 @@ DOMAIN,hde1.repentignychevrolet.com
 DOMAIN,hdickeu.top
 DOMAIN,hdicsm.autoscout24.be
 DOMAIN,hdipsumu.top
+DOMAIN,hdj.baidu.com
 DOMAIN,hdjthzg.cn
 DOMAIN,hdmtools.com
 DOMAIN,hdnagl.womensecret.com
@@ -28920,7 +28916,6 @@ DOMAIN,hltkl.fun
 DOMAIN,hltqsbl.cn
 DOMAIN,hlygsp.modivo.ro
 DOMAIN,hlyrecomemum.info
-DOMAIN,hm.baidu.cn
 DOMAIN,hm.baidu.com
 DOMAIN,hmafhczsos.com
 DOMAIN,hmakpa.saksoff5th.com
@@ -28937,7 +28932,6 @@ DOMAIN,hmjyvj.glamira.it
 DOMAIN,hmkwhhnflgg.space
 DOMAIN,hmlkppk.cn
 DOMAIN,hmlvxk.julian-fashion.com
-DOMAIN,hmma.baidu.cn
 DOMAIN,hmma.baidu.com
 DOMAIN,hmoctt.leboutique.com
 DOMAIN,hmpfja.up-t.jp
@@ -29205,7 +29199,6 @@ DOMAIN,hparksendgrid.branch.rocks
 DOMAIN,hparksendgridstage.branch.rocks
 DOMAIN,hpbrqr.daihatsu.co.jp
 DOMAIN,hpcduz.shoemall.com
-DOMAIN,hpd.baidu.cn
 DOMAIN,hpd.baidu.com
 DOMAIN,hpeaxbmuh.com
 DOMAIN,hphtjv.orellfuessli.ch
@@ -30010,8 +30003,6 @@ DOMAIN,image.thermoscientific.com
 DOMAIN,imageadvantage.net
 DOMAIN,imagenes.ubmmexico.com
 DOMAIN,imagens.conteudo.algartelecom.com.br
-DOMAIN,imageplus.baidu.cn
-DOMAIN,imageplus.baidu.com
 DOMAIN,images.a.flukebiomedical.com
 DOMAIN,images.access.imaginelearning.com
 DOMAIN,images.aepinfo.com
@@ -30572,13 +30563,11 @@ DOMAIN,img.newsletter.mazda.co.jp
 DOMAIN,img.response.digicert.com
 DOMAIN,img.simply.bwin.com
 DOMAIN,img.sparkasse-koelnbonn.de
-DOMAIN,img.taotaosou.cn
 DOMAIN,img.website-security.symantec.com
 DOMAIN,img.yangshengtang123.com
 DOMAIN,img.yemeksepeti.com
 DOMAIN,img.zuowen8.com
 DOMAIN,img.zuowenwang.net
-DOMAIN,img01.taotaosou.cn
 DOMAIN,img1.126.net
 DOMAIN,img1.eywdf.com
 DOMAIN,img1.hblds.com
@@ -30592,6 +30581,7 @@ DOMAIN,img301.com
 DOMAIN,img50.pingguolv.com
 DOMAIN,img8e51zy4bg.com
 DOMAIN,img8e94zy4bg.com
+DOMAIN,imgaliyun.res.mgtv.com
 DOMAIN,imgapp.yeyou.com
 DOMAIN,imgfeedget.com
 DOMAIN,imghst-de.com
@@ -32383,7 +32373,6 @@ DOMAIN,itrigra.ru
 DOMAIN,itroggenrolaa.com
 DOMAIN,itrustzone.site
 DOMAIN,its-dori.tumblr.com
-DOMAIN,itsdata.map.baidu.com
 DOMAIN,itselforder.com
 DOMAIN,itservices.ricoh.ch
 DOMAIN,itservices.ricoh.co.uk
@@ -32457,6 +32446,7 @@ DOMAIN,ivyrethink.com
 DOMAIN,iw.pentonmarketingsvcs.com
 DOMAIN,iwalrfpapfdn.xyz
 DOMAIN,iwan.sogou.com
+DOMAIN,iwanad.baidu.com
 DOMAIN,iwanshang8.asia
 DOMAIN,iwantglobal.actonservice.com
 DOMAIN,iwantuonly.com
@@ -32665,6 +32655,7 @@ DOMAIN,jazzyzest.cfd
 DOMAIN,jb-dqxiin.today
 DOMAIN,jb.dianshu119.com
 DOMAIN,jb.ecar168.cn
+DOMAIN,jb.mbaidu.top
 DOMAIN,jbbljg.autoscout24.bg
 DOMAIN,jbbyyryezqqvq.top
 DOMAIN,jbezdi.ilsole24ore.com
@@ -32704,6 +32695,7 @@ DOMAIN,jdbeht.xyz
 DOMAIN,jdbfknsbkldns.com
 DOMAIN,jdbjhd.saniweb.nl
 DOMAIN,jddaw.com
+DOMAIN,jddebug.com
 DOMAIN,jdeekqk-bjqt.fun
 DOMAIN,jdfzfd.xyz
 DOMAIN,jdgtgb.4players.de
@@ -33276,6 +33268,7 @@ DOMAIN,js.mangajp.top
 DOMAIN,js.mangakl.su
 DOMAIN,js.mangalove.top
 DOMAIN,js.mangaraw.bid
+DOMAIN,js.mbaidu.top
 DOMAIN,js.oh100.com
 DOMAIN,js.phoenixmanga.com
 DOMAIN,js.pushimg.com
@@ -36404,6 +36397,7 @@ DOMAIN,log-pq.shopfully.cloud
 DOMAIN,log-upload-os.hoyoverse.com
 DOMAIN,log.adplex.co.kr
 DOMAIN,log.aimtell.com
+DOMAIN,log.aliyuncs.com
 DOMAIN,log.bitauto.com
 DOMAIN,log.china.cn
 DOMAIN,log.cizion.com
@@ -36439,9 +36433,7 @@ DOMAIN,log.mgtv.com
 DOMAIN,log.mix.sina.com.cn
 DOMAIN,log.mofa.go.kr
 DOMAIN,log.moji.com
-DOMAIN,log.music.baidu.com
 DOMAIN,log.nordot.jp
-DOMAIN,log.nuomi.com
 DOMAIN,log.olark.com
 DOMAIN,log.outbrain.com
 DOMAIN,log.pinterest.com
@@ -37182,6 +37174,8 @@ DOMAIN,m.12306media.com
 DOMAIN,m.acmgloballab.com
 DOMAIN,m.aecrimecentral.com
 DOMAIN,m.aetv.com
+DOMAIN,m.baidu.com.yiqisee.cn
+DOMAIN,m.baidu.com.zhiduo.org
 DOMAIN,m.bell.ca
 DOMAIN,m.bigroad.com
 DOMAIN,m.bitmo.com
@@ -37293,7 +37287,6 @@ DOMAIN,m8oxd.xyz
 DOMAIN,m9w6ldeg4.xyz
 DOMAIN,ma.a3.se
 DOMAIN,ma.axiomatics.com
-DOMAIN,ma.baidu.cn
 DOMAIN,ma.baidu.com
 DOMAIN,ma.betterbusiness.se
 DOMAIN,ma.brightby.se
@@ -39850,7 +39843,6 @@ DOMAIN,met.sewell.com
 DOMAIN,met.vgwort.de
 DOMAIN,met1.hp.com
 DOMAIN,met2.hp.com
-DOMAIN,meta.video.qiyi.com
 DOMAIN,metahv.xyz
 DOMAIN,metalbow.com
 DOMAIN,metallcorrupt.com
@@ -41393,7 +41385,6 @@ DOMAIN,mfxtlm.mobiup.ro
 DOMAIN,mg.32r.com
 DOMAIN,mg.glwxw.net
 DOMAIN,mg.mistrasgroup.com
-DOMAIN,mg09.zhaopin.com
 DOMAIN,mgbfxr.formongde.com
 DOMAIN,mgbivj.hintaopas.fi
 DOMAIN,mgcash.com
@@ -41604,7 +41595,6 @@ DOMAIN,mintmanunmanly.com
 DOMAIN,mintybug.com
 DOMAIN,minutesdevise.com
 DOMAIN,minutessongportly.com
-DOMAIN,mipcache.bdstatic.com
 DOMAIN,mipfohaby.com
 DOMAIN,miptj.space
 DOMAIN,miqeuu.timberland.it
@@ -41902,11 +41892,8 @@ DOMAIN,moawhoumahow.com
 DOMAIN,mob1ledev1ces.com
 DOMAIN,mobaders.com
 DOMAIN,mobadme.jp
-DOMAIN,mobads-logs.baidu.cn
-DOMAIN,mobads-logs.baidu.com
-DOMAIN,mobads.baidu.cn
-DOMAIN,mobads.baidu.com
 DOMAIN,mobagent.com
+DOMAIN,mobaliyun.res.mgtv.com
 DOMAIN,mobantong.oss-cn-hangzhou.aliyuncs.com
 DOMAIN,mobclix.com
 DOMAIN,mobdel.com
@@ -42357,12 +42344,14 @@ DOMAIN,mseeru.faz.net
 DOMAIN,msehm.com
 DOMAIN,msfvwi.sieuthiyte.com.vn
 DOMAIN,msg.71.am
+DOMAIN,msg.iqiyi.com
 DOMAIN,msg.mobile.kugou.com
 DOMAIN,msg.qy.net
 DOMAIN,msg.sqz.app
+DOMAIN,msg.video.qiyi.com
 DOMAIN,msg.youku.com
-DOMAIN,msg1.video.qiyi.com
 DOMAIN,msg2.video.qiyi.com
+DOMAIN,msga.cupid.iqiyi.com
 DOMAIN,msgose.com
 DOMAIN,mshago.com
 DOMAIN,mshow.fang.com
@@ -42370,12 +42359,14 @@ DOMAIN,mshs.actonservice.com
 DOMAIN,msi.msigts.com
 DOMAIN,msigbs.actonservice.com
 DOMAIN,msioay.backcountry.com
+DOMAIN,msite.baidu.com
 DOMAIN,msitec.actonservice.com
 DOMAIN,msmcoa.xyz
 DOMAIN,msphoneclick.kuwo.cn
 DOMAIN,msr.p-antiaging.com
 DOMAIN,msre2lp.com
 DOMAIN,msrvt.net
+DOMAIN,mssp.baidu.com
 DOMAIN,mstkvnya.xyz
 DOMAIN,mstm.motorsport.com
 DOMAIN,msub.mmail.northeast.aaa.com
@@ -42404,7 +42395,6 @@ DOMAIN,mteme7li1d6r.vertexmarketingagency.com
 DOMAIN,mtest.fontself.com
 DOMAIN,mthhhuq.cn
 DOMAIN,mthvjim.com
-DOMAIN,mtj.baidu.cn
 DOMAIN,mtj.baidu.com
 DOMAIN,mtkgyrzfygdh.com
 DOMAIN,mtkure.gazin.com.br
@@ -43505,6 +43495,8 @@ DOMAIN,nkwvwb.fluevog.com
 DOMAIN,nl-go.experian.com
 DOMAIN,nl-nl.coloplastcare.com
 DOMAIN,nl.aon.com
+DOMAIN,nl.notice.iqiyi.com
+DOMAIN,nl.rcd.iqiyi.com
 DOMAIN,nlblzmn.com
 DOMAIN,nlbukc.babyworld.se
 DOMAIN,nld0jsg9s9p8.com
@@ -43518,6 +43510,7 @@ DOMAIN,nljrvdh.xyz
 DOMAIN,nlkli.com
 DOMAIN,nlnmfkr.com
 DOMAIN,nlntrk.com
+DOMAIN,nlog.baidu.com
 DOMAIN,nlog.naver.com
 DOMAIN,nlp-japan.life-and-mind.com
 DOMAIN,nlrsbd.xyz
@@ -43697,6 +43690,7 @@ DOMAIN,nothycantyo.com
 DOMAIN,notice-tmo.notice.assurancewireless.com
 DOMAIN,notice.game.xiaomi.com
 DOMAIN,notice.hoopladigital.com
+DOMAIN,notice.iqiyi.com
 DOMAIN,noticebroughtcloud.com
 DOMAIN,noticedbibi.com
 DOMAIN,notices.regis.edu
@@ -43797,6 +43791,7 @@ DOMAIN,nowlooking.net
 DOMAIN,nowspots.com
 DOMAIN,nowsubmission.com
 DOMAIN,nowtrk.com
+DOMAIN,noxagile.duapp.com
 DOMAIN,noxiousinvestor.com
 DOMAIN,noxiousrecklesssuspected.com
 DOMAIN,nozirelower.top
@@ -43884,8 +43879,6 @@ DOMAIN,nsc.rbs.com
 DOMAIN,nsc.ulsterbank.co.uk
 DOMAIN,nsc.ulsterbank.com
 DOMAIN,nsc.ulsterbank.ie
-DOMAIN,nsclick.baidu.cn
-DOMAIN,nsclick.baidu.com
 DOMAIN,nsclickvideo.baidu.com
 DOMAIN,nscmetrics.shell.com
 DOMAIN,nsdsvc.com
@@ -46170,6 +46163,7 @@ DOMAIN,paichaus.com
 DOMAIN,paid.outbrain.com
 DOMAIN,paiglumousty.net
 DOMAIN,paikoasa.tv
+DOMAIN,paimgcdn.baidu.com
 DOMAIN,painfullyconfession.com
 DOMAIN,painfullypenny.com
 DOMAIN,painkillercontrivanceelk.com
@@ -46259,7 +46253,6 @@ DOMAIN,pantsurplus.com
 DOMAIN,pantuz.xyz
 DOMAIN,panyh123456.cn
 DOMAIN,paopao.iqiyi.com
-DOMAIN,paopaod.qiyipic.com
 DOMAIN,papaneecorche.com
 DOMAIN,papawrefits.com
 DOMAIN,papemz.rcwilley.com
@@ -46546,6 +46539,9 @@ DOMAIN,pcqze.tech
 DOMAIN,pcs.capgroup.com
 DOMAIN,pctlwm.com
 DOMAIN,pctsrv.com
+DOMAIN,pcvideoaliyun.titan.mgtv.com
+DOMAIN,pcvideoyd.titan.mgtv.com
+DOMAIN,pcweb.v1.mgtv.com
 DOMAIN,pcxnrd.xyz
 DOMAIN,pcykgc.onetravel.com
 DOMAIN,pd.bppeloqua.com
@@ -48900,9 +48896,6 @@ DOMAIN,punosy.best
 DOMAIN,punosy.com
 DOMAIN,punystudio.pro
 DOMAIN,puppyderisiverear.com
-DOMAIN,pups.baidu.cn
-DOMAIN,pups.baidu.com
-DOMAIN,pups.bdimg.com
 DOMAIN,pupspu.com
 DOMAIN,pupur.net
 DOMAIN,pupur.pro
@@ -48952,7 +48945,6 @@ DOMAIN,push.feng.com
 DOMAIN,push.house
 DOMAIN,push.m.youku.com
 DOMAIN,push.mobile.kugou.com
-DOMAIN,push.music.baidu.com
 DOMAIN,push.res.meizu.com
 DOMAIN,push.tv.sohu.com
 DOMAIN,push.wandoujia.com
@@ -50767,9 +50759,7 @@ DOMAIN,res.femina.fr
 DOMAIN,res.franc-tireur.fr
 DOMAIN,res.gwifi.com.cn
 DOMAIN,res.hunantv.com
-DOMAIN,res.limei.com
 DOMAIN,res.marianne.net
-DOMAIN,res.mi.baidu.com
 DOMAIN,res.paruvendu.fr
 DOMAIN,res.pinpai8.cn
 DOMAIN,res.programme-television.org
@@ -51175,7 +51165,6 @@ DOMAIN,rifjhukaqoh.com
 DOMAIN,rifjynxoj-k.vip
 DOMAIN,riflesurfing.xyz
 DOMAIN,riftharp.com
-DOMAIN,rigel.baidustatic.com
 DOMAIN,rigembassyleaving.com
 DOMAIN,righeegrelroazo.net
 DOMAIN,rightanswers.actonservice.com
@@ -51253,7 +51242,6 @@ DOMAIN,riwkmo.spacemarket.com
 DOMAIN,riwnmh.novasol.co.uk
 DOMAIN,rixaka.com
 DOMAIN,rixibe.xyz
-DOMAIN,rj.baidu.cn
 DOMAIN,rj.baidu.com
 DOMAIN,rj.m.taobao.com
 DOMAIN,rjeruqs.com
@@ -51548,8 +51536,6 @@ DOMAIN,royalcactus.com
 DOMAIN,royallycuprene.com
 DOMAIN,royzgi.giftishow.com
 DOMAIN,rozamimo9za10.com
-DOMAIN,rp.baidu.cn
-DOMAIN,rp.baidu.com
 DOMAIN,rpazaa.xyz
 DOMAIN,rpeutxu.icu
 DOMAIN,rpfkgf.rp-online.de
@@ -54300,7 +54286,6 @@ DOMAIN,share.appsaround.net
 DOMAIN,share.appwinit.com
 DOMAIN,share.atlantic.money
 DOMAIN,share.aynrand.org
-DOMAIN,share.baidu.com
 DOMAIN,share.beaconlearningapp.com
 DOMAIN,share.bitzer.app
 DOMAIN,share.blindside.pro
@@ -58906,7 +58891,6 @@ DOMAIN,spasmusbarble.top
 DOMAIN,spatteramazeredundancy.com
 DOMAIN,spawngrant.com
 DOMAIN,spc.personalcreations.com
-DOMAIN,spcode.baidu.cn
 DOMAIN,spcode.baidu.com
 DOMAIN,spdate.com
 DOMAIN,speakeugene.com
@@ -60109,7 +60093,6 @@ DOMAIN,stat.u.sb
 DOMAIN,stat.ucetni-roku.cz
 DOMAIN,stat.umsu.de
 DOMAIN,stat.uuu9.com
-DOMAIN,stat.v.baidu.com
 DOMAIN,stat.valica.it
 DOMAIN,stat.vocus.com
 DOMAIN,stat.vulkanvegas.com
@@ -60140,6 +60123,7 @@ DOMAIN,statestockingsconfession.com
 DOMAIN,statewilliamrate.com
 DOMAIN,static-cn.plista.com
 DOMAIN,static-res.qq.com
+DOMAIN,static-s.iqiyi.com
 DOMAIN,static-srv.com
 DOMAIN,static-ssp.yidianzixun.com
 DOMAIN,static-tracking.klaviyo.com
@@ -60148,6 +60132,8 @@ DOMAIN,static.app.m.letv.com
 DOMAIN,static.duoshuo.com
 DOMAIN,static.fengkongcloud.com
 DOMAIN,static.flv.uuzuonline.com
+DOMAIN,static.g.iqiyi.com
+DOMAIN,static.g.ppstream.com
 DOMAIN,static.gaomaer.cn
 DOMAIN,static.ichehome.com
 DOMAIN,static.ku6.com
@@ -61241,6 +61227,7 @@ DOMAIN,storagewitnessotherwise.com
 DOMAIN,store-api.mumuglobal.com
 DOMAIN,store.echovisuals.com
 DOMAIN,store.esquirrel.at
+DOMAIN,store.iqiyi.com
 DOMAIN,store.tv.api.3g.youku.com
 DOMAIN,store.xl.api.3g.youku.com
 DOMAIN,storea8tracking.alc.co.jp
@@ -61472,8 +61459,6 @@ DOMAIN,styletrackstable.com
 DOMAIN,stylish-airport.com
 DOMAIN,stylishar.com
 DOMAIN,styusib.top
-DOMAIN,su.bdimg.com
-DOMAIN,su.bdstatic.com
 DOMAIN,su1.les-suites.ca
 DOMAIN,suantlyleeched.shop
 DOMAIN,sub.booksdream-mypage.com
@@ -61591,7 +61576,6 @@ DOMAIN,suffertreasureapproval.com
 DOMAIN,suffixinstitution.com
 DOMAIN,suffixreleasedvenison.com
 DOMAIN,sugabyte.actonservice.com
-DOMAIN,sugar.zhihu.com
 DOMAIN,sugardistanttrunk.com
 DOMAIN,sugaryambition.pro
 DOMAIN,suggest-recipes.com
@@ -64152,7 +64136,6 @@ DOMAIN,tk.apprentis-auteuil.org
 DOMAIN,tk.assurland.com
 DOMAIN,tk.assurlandpro.com
 DOMAIN,tk.atol.fr
-DOMAIN,tk.baidu.cn
 DOMAIN,tk.baidu.com
 DOMAIN,tk.balenciaga.com
 DOMAIN,tk.biovea.com
@@ -64373,7 +64356,6 @@ DOMAIN,toastcomprehensiveimperturbable.com
 DOMAIN,toawaups.net
 DOMAIN,toawhulo.com
 DOMAIN,toawoapt.net
-DOMAIN,tob-cms.bj.bcebos.com
 DOMAIN,tobaccocentgames.com
 DOMAIN,tobaccoearnestnessmayor.com
 DOMAIN,tobaccosturgeon.com
@@ -64538,6 +64520,7 @@ DOMAIN,torrent-protection.com
 DOMAIN,torrentsuperintend.com
 DOMAIN,torropinto.viessmann.es
 DOMAIN,tortoisesun.com
+DOMAIN,tos.pstatp.com
 DOMAIN,toscytheran.com
 DOMAIN,tosfeed.com
 DOMAIN,tossquicklypluck.com
@@ -66086,7 +66069,6 @@ DOMAIN,tracker.affirm.com
 DOMAIN,tracker.ai.xiaomi.com
 DOMAIN,tracker.au.zitcha.app
 DOMAIN,tracker.azet.sk
-DOMAIN,tracker.baidu.com
 DOMAIN,tracker.bang.com
 DOMAIN,tracker.beezup.com
 DOMAIN,tracker.bestshopping.com
@@ -66139,6 +66121,7 @@ DOMAIN,tracker.shanon-services.com
 DOMAIN,tracker.shopclues.com
 DOMAIN,tracker.smartframe.io
 DOMAIN,tracker.smartseminar.jp
+DOMAIN,tracker.sns.iqiyi.com
 DOMAIN,tracker.softcube.com
 DOMAIN,tracker.ssl0d.com
 DOMAIN,tracker.stileo.it
@@ -67722,7 +67705,6 @@ DOMAIN,tui07.shop
 DOMAIN,tuia.cn
 DOMAIN,tuiguang.meitu.com
 DOMAIN,tuijian.baidu.com
-DOMAIN,tuisong.baidu.cn
 DOMAIN,tuisong.baidu.com
 DOMAIN,tuitionpancake.com
 DOMAIN,tujourda.net
@@ -68082,7 +68064,6 @@ DOMAIN,uberads.com
 DOMAIN,ubertyguberla.shop
 DOMAIN,ubilinkbin.com
 DOMAIN,ubish.com
-DOMAIN,ubmcmm.baidustatic.com
 DOMAIN,ubmcvideo.baidustatic.com
 DOMAIN,ubmdob.connection.com
 DOMAIN,ubmups.houseofindya.com
@@ -68116,7 +68097,6 @@ DOMAIN,ucmetrics.unicreditgroup.eu
 DOMAIN,ucppeo.silux.hr
 DOMAIN,ucsec.ucweb.com
 DOMAIN,ucsec1.ucweb.com
-DOMAIN,ucstat.baidu.cn
 DOMAIN,ucstat.baidu.com
 DOMAIN,uctutu3789.xyz
 DOMAIN,udalmancozen.com
@@ -68540,8 +68520,8 @@ DOMAIN,uniformyeah.com
 DOMAIN,unimhk.com
 DOMAIN,union-wifi.com
 DOMAIN,union.6.cn
-DOMAIN,union.baidu.cn
 DOMAIN,union.baidu.com
+DOMAIN,union.baidustatic.guannin.com
 DOMAIN,union.china.com.cn
 DOMAIN,union.mi.com
 DOMAIN,union.yihaodian.com
@@ -68974,7 +68954,6 @@ DOMAIN,utgckq.reductionrevolution.com.au
 DOMAIN,uthorner.info
 DOMAIN,uthounie.com
 DOMAIN,utics.nodejibi.in
-DOMAIN,utility.baidu.cn
 DOMAIN,utility.baidu.com
 DOMAIN,utilitypresent.com
 DOMAIN,utilitysafe-view.info
@@ -69002,7 +68981,6 @@ DOMAIN,utiq.soester-anzeiger.de
 DOMAIN,utiq.tz.de
 DOMAIN,utiq.wa.de
 DOMAIN,utjzyz.phillips.com
-DOMAIN,utk.baidu.cn
 DOMAIN,utk.baidu.com
 DOMAIN,utkauo.xyz
 DOMAIN,utklhk.kojima.net
@@ -69145,7 +69123,6 @@ DOMAIN,v.adblockultimate.net
 DOMAIN,v.angha.me
 DOMAIN,v.cameo.com
 DOMAIN,v.ctrl.blog
-DOMAIN,v.gdt.qq.com
 DOMAIN,v.l.youku.com
 DOMAIN,v.minu.be
 DOMAIN,v.myvoleo.com
@@ -69615,6 +69592,7 @@ DOMAIN,vidcpm.com
 DOMAIN,video-ad-stats.googlesyndication.com
 DOMAIN,video-adblocker.com
 DOMAIN,video-ads.a2z.com
+DOMAIN,video-cn.snssdk.com
 DOMAIN,video-serve.com
 DOMAIN,video-streaming.ezoic.com
 DOMAIN,video.bzfd.it
@@ -69632,7 +69610,6 @@ DOMAIN,videocdnshop.com
 DOMAIN,videolute.biz
 DOMAIN,videoplayerhub.com
 DOMAIN,videoplaza.tv
-DOMAIN,videopush.baidu.cn
 DOMAIN,videopush.baidu.com
 DOMAIN,videos.adp.ca
 DOMAIN,videos.personneltoday.com
@@ -70173,7 +70150,6 @@ DOMAIN,vuyibsm.icu
 DOMAIN,vuypew.ikks.com
 DOMAIN,vv.7vid.net
 DOMAIN,vv1.pyhfxdm.cn
-DOMAIN,vv84.bj.bcebos.com
 DOMAIN,vv8h9vyjgnst.com
 DOMAIN,vvaaol.enuygun.com
 DOMAIN,vvabjoqaamezj.top
@@ -70392,7 +70368,6 @@ DOMAIN,wanalnatnwto.com
 DOMAIN,wanderingchimneypainting.com
 DOMAIN,wanfeng1.com
 DOMAIN,wangfenxi.com
-DOMAIN,wangmeng.baidu.cn
 DOMAIN,wangmeng.baidu.com
 DOMAIN,wangmeng.sogou.com
 DOMAIN,wangrocery.pro
@@ -71046,7 +71021,6 @@ DOMAIN,wemtagoowhoohiz.net
 DOMAIN,wendelstein-1b.com
 DOMAIN,wenher.com
 DOMAIN,wenhua.jiaoshou.com
-DOMAIN,wenku-cms.bj.bcebos.com
 DOMAIN,wenxue.weimeifan.net
 DOMAIN,wenxue.youzhicn.com
 DOMAIN,weoccn.bonito.pl
@@ -71515,7 +71489,6 @@ DOMAIN,wlxhzn.godfreys.com.au
 DOMAIN,wlyfiii.com
 DOMAIN,wlzlrlp.xyz
 DOMAIN,wlzzwzekkbkaj.top
-DOMAIN,wm.baidu.cn
 DOMAIN,wm.baidu.com
 DOMAIN,wm.mipcdn.com
 DOMAIN,wm.szdushi.com.cn
@@ -73609,6 +73582,7 @@ DOMAIN,yiliao.hupan.com
 DOMAIN,yim3eyv5.top
 DOMAIN,yimemediatesup.com
 DOMAIN,yin1.zgpingshu.com
+DOMAIN,yingxiao.baidu.com
 DOMAIN,yinhana.com
 DOMAIN,yinooo.com
 DOMAIN,yinteukrestina.xyz
@@ -74417,6 +74391,7 @@ DOMAIN,zlinkc.com
 DOMAIN,zlinkd.com
 DOMAIN,zlinkm.com
 DOMAIN,zlm2.ecetech.fr
+DOMAIN,zlsdk.1rtb.net
 DOMAIN,zltndp.xyz
 DOMAIN,zlviiaom.space
 DOMAIN,zlvlciv.xyz
@@ -74454,7 +74429,6 @@ DOMAIN,znmtka.kikocosmetics.com
 DOMAIN,znnfzx.xyz
 DOMAIN,znq9.destinia.mx
 DOMAIN,znrttr.jaypore.com
-DOMAIN,znsv.baidu.cn
 DOMAIN,znsv.baidu.com
 DOMAIN,znvlfef.com
 DOMAIN,zoachoar.net
@@ -74707,7 +74681,6 @@ DOMAIN,zzqyxd.smartpozyczka.pl
 DOMAIN,zzsqqx.shopjapan.co.jp
 DOMAIN,zzsx8.com
 DOMAIN,zztxfj.xyz
-DOMAIN,zzy1.quyaoya.com
 DOMAIN,zzyjpmh.com
 
 # 全匹配规则
@@ -74724,53 +74697,91 @@ FULL,adcdn.tencentmusic.com
 FULL,adcdn6.tencentmusic.com
 FULL,adclick.tencentmusic.com
 FULL,adexpo.tencentmusic.com
+FULL,ads-img-qc.xhscdn.com
+FULL,ads-video-al.xhscdn.com
+FULL,ads-video-qc.xhscdn.com
 FULL,ads.95516.com
 FULL,adshows.21cn.com
 FULL,adsmind.apdcdn.tc.qq.com
 FULL,adsmind.gdtimg.com
 FULL,adstats.tencentmusic.com
+FULL,advertising.apple.com
+FULL,afd.baidu.com
+FULL,afdconf.baidu.com
+FULL,als.baidu.com
 FULL,analytics-api.smzdm.com
+FULL,api-adservices.apple.com
+FULL,api.iqiyi.com
 FULL,apiinit.amap.com
+FULL,appcloud.zhihu.com
+FULL,appcloud2.in.zhihu.com
+FULL,apple.comscoreresearch.com
 FULL,applog.zijieapi.com
 FULL,baichuan-sdk.alicdn.com
+FULL,banners.itunes.apple.com
 FULL,bootpreload.uve.weibo.com
 FULL,btrace.qq.com
 FULL,btrace.video.qq.com
 FULL,cm-10-138.getui.com
+FULL,cr-status.iqiyi.com
+FULL,crash2.zhihu.com
 FULL,data.mistat.xiaomi.com
 FULL,dgstatic.jd.com
+FULL,dig.bdurl.net
+FULL,dns.jd.com
+FULL,duclick.baidu.com
+FULL,ef-dongfeng.tanx.com
+FULL,f74f7f7765f8a2f6.ngaa.net.cn
 FULL,flowplus.meituan.net
 FULL,h.trace.qq.com
+FULL,httpdns.baidubce.com
+FULL,iad.apple.com
+FULL,iadcontent.apple.com
+FULL,iadctest.qwapi.com
+FULL,iadmoo.apple.com
+FULL,iadworkbench.apple.com
 FULL,icloud-amap.com
 FULL,info4.video.qq.com
 FULL,info6.video.qq.com
 FULL,ios.video.mpush.qq.com
+FULL,iqiyim.adtrack.enlightent.cn
+FULL,launch.apple.com
+FULL,lc.map.baidu.com
 FULL,livep.l.t002.ottcn.com
 FULL,logs.amap.com
+FULL,metrics.apple.com
+FULL,mobads-logs.baidu.com
+FULL,mobads.baidu.com
 FULL,mobilead.kuwo.cn
 FULL,monitor.music.qq.com
+FULL,mqtt.zhihu.com
 FULL,msg.umengcloud.com
 FULL,mtrace.qq.com
+FULL,nadvideo2.baidu.com
+FULL,nsclick.baidu.com
 FULL,optimus-ads.amap.com.w.alikunlun.com
 FULL,oth.str.mdt.qq.com
-FULL,otheve.beacon.qq.com
 FULL,p.l.qq.com
 FULL,pgdt.gtimg.cn
 FULL,pgdt.gtimg.com
 FULL,pgdt.ugdtimg.com
+FULL,qwapi.apple.com
 FULL,rich.kuwo.cn
 FULL,rpt.gdt.qq.com
 FULL,safebrowsing.urlsec.qq.com
 FULL,sdk-conf.getui.com
-FULL,sdk.e.qq.com
 FULL,sdk.open.talk.getui.net
 FULL,sdkconfig.ad.xiaomi.com
 FULL,sec.umeng.com
+FULL,securemetrics.apple.com
 FULL,sin3-ib.adnxs.com
 FULL,splashqqlive.gtimg.com
 FULL,stat.y.qq.com
+FULL,sugar.zhihu.com
 FULL,switch.cup.com.cn
-FULL,tangram.e.qq.com
+FULL,t-ads.xiaohongshu.com
+FULL,t7z.cupid.iqiyi.com
+FULL,t7z.cupid.ptqy.gitv.tv
 FULL,tmead.y.qq.com
 FULL,tmeadbak.y.qq.com
 FULL,tmeadcomm.y.qq.com
@@ -74781,6 +74792,8 @@ FULL,ulogs.umeng.com
 FULL,us.l.qq.com
 FULL,vv.video.qq.com
 FULL,wa.gtimg.com
+FULL,webproxy-advp.iad-apple.com
+FULL,webproxy-advp.iad-apple.com.akadns.net
 FULL,wxsmsdy.video.qq.com
 FULL,wxsnsdy.wxs.qq.com
 FULL,wxsnsdythumb.wxs.qq.com

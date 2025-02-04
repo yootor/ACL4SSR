@@ -1,7 +1,9 @@
+# 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR
+# 文件生成时间: 2025-02-04 14:46:18
+
 # 广告列表 adblock rules
 # 内容：EasyPrivacy列表，隐私保护，屏蔽隐私追踪
 # 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
-# 更新：2025-01-21 13:51:12
 # 数量：39091条
 
 DOMAIN-SUFFIX,0.myikas.com
@@ -10701,7 +10703,7 @@ DOMAIN-SUFFIX,dttrk.com
 DOMAIN-SUFFIX,dtzrrz.green-japan.com
 DOMAIN-SUFFIX,dujgiq.trendhim.pl
 DOMAIN-SUFFIX,dumpster.cam4.com
-# DOMAIN-SUFFIX,dup.baidustatic.com  # 与 ./BanProgramAD.list 重复
+# DOMAIN-SUFFIX,dup.baidustatic.com  # 与 ./BanEasyListChina.list 重复
 DOMAIN-SUFFIX,duprelogistics.actonservice.com
 DOMAIN-SUFFIX,duqqrl.jefchaussures.com
 DOMAIN-SUFFIX,durchsichtig.xyz
@@ -21982,7 +21984,7 @@ DOMAIN-SUFFIX,msafoy.eyebuydirect.com
 DOMAIN-SUFFIX,msbainfo.fbe.hku.hk
 DOMAIN-SUFFIX,mseeru.faz.net
 DOMAIN-SUFFIX,msfvwi.sieuthiyte.com.vn
-# DOMAIN-SUFFIX,msg.71.am  # 与 ./BanProgramAD.list 重复
+DOMAIN-SUFFIX,msg.71.am
 DOMAIN-SUFFIX,msg.qy.net
 DOMAIN-SUFFIX,msg.sqz.app
 DOMAIN-SUFFIX,mshs.actonservice.com
@@ -32239,7 +32241,7 @@ DOMAIN-SUFFIX,sud.holidays.hrs.de
 DOMAIN-SUFFIX,sufesj.shop4runners.com
 DOMAIN-SUFFIX,sufetv.chefuniforms.com
 DOMAIN-SUFFIX,sugabyte.actonservice.com
-DOMAIN-SUFFIX,sugar.zhihu.com
+# DOMAIN-SUFFIX,sugar.zhihu.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,sugs.m.sm.cn
 DOMAIN-SUFFIX,summary.bookoffonline.co.jp
 DOMAIN-SUFFIX,summary.instaread.co
@@ -39082,7 +39084,7 @@ DOMAIN-SUFFIX,zxxvns.f64.ro
 DOMAIN-SUFFIX,zybveu.swappie.com
 DOMAIN-SUFFIX,zycnof.distrelec.de
 DOMAIN-SUFFIX,zyq2.destinia.sk
-# DOMAIN-SUFFIX,zz.bdstatic.com  # 与 ./BanProgramAD.list 重复
+DOMAIN-SUFFIX,zz.bdstatic.com
 DOMAIN-SUFFIX,zzaoea.costacrociere.it
 DOMAIN-SUFFIX,zzqyxd.smartpozyczka.pl
 DOMAIN-SUFFIX,zzsqqx.shopjapan.co.jp

@@ -1,8 +1,9 @@
+# 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR
+# 文件生成时间: 2025-02-04 14:46:18
+
 # 广告列表 adblock rules
 # 内容：EasyList列表，只包含ABP中的 EasyList 内容
 # 来源：https://easylist-downloads.adblockplus.org/easylist.txt
-# 更新：2025-01-21 13:51:11
-# 数量：28555条
 
 DOMAIN-SUFFIX,00d84987c0.com
 DOMAIN-SUFFIX,00f8c4bb25.com

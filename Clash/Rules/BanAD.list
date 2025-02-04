@@ -1,5 +1,7 @@
-# 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
+# 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR
+# 文件生成时间: 2025-02-04 14:46:18
 
+# 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
 # 广告关键词
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -25,6 +27,16 @@ DOMAIN-KEYWORD,socdm
 DOMAIN-KEYWORD,supersonicads
 DOMAIN-KEYWORD,wlmonitor
 DOMAIN-KEYWORD,zjtoolbar
+DOMAIN-SUFFIX,ad-sign.byteimg.com
+DOMAIN-SUFFIX,tos.pstatp.com
+DOMAIN-KEYWORD,asiad.byteactivity
+DOMAIN-KEYWORD,pangolin-sdk-toutiao
+DOMAIN-KEYWORD,pglstatp-toutiao
+# DOMAIN-SUFFIX,pangolin.snssdk.com  # 与 ./BanProgramAD.list 重复
+DOMAIN-SUFFIX,video-cn.snssdk.com
+# DOMAIN-SUFFIX,getui.net  # 与 ./BanProgramAD.list 重复
+DOMAIN-SUFFIX,log.aliyuncs.com
+DOMAIN-SUFFIX,zlsdk.1rtb.net
 
 # 广告联盟-国内****************
 DOMAIN-SUFFIX,09mk.cn

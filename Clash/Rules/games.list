@@ -1,5 +1,7 @@
+# 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR
+# 文件生成时间: 2025-02-04 14:46:18
+
 #游戏直接合并
-#更新时间 2024-05-07
 # 内容：Epic
 # 数量：5条
 DOMAIN-SUFFIX,epicgames.com

@@ -32,6 +32,11 @@ func deduplicateFiles(inputFiles []string, deduplicatedFiles []string) error {
 		scanner := bufio.NewScanner(file)
 		writer := bufio.NewWriter(outFile)
 
+		//输出文件增加时间戳等信息
+		writer.WriteString("# 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR\n")
+		currentTime := time.Now().Format("2006-01-02 15:04:05")
+		writer.WriteString(fmt.Sprintf("# 文件生成时间: %s\n\n", currentTime)) // 将时间戳写入文件头部
+
 		for scanner.Scan() {
 			line := strings.TrimSpace(scanner.Text())
 			if line == "" {

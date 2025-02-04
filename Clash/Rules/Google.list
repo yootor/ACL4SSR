@@ -1,4 +1,8 @@
+# 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR
+# 文件生成时间: 2025-02-04 14:46:18
+
 # 内容：Google
+#增加Google ChinaIP、Google FCM 、GoogleEarth 、GoogleCN
 # 数量：24条
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google

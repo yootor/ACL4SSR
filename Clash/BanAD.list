@@ -1,5 +1,4 @@
 # 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
-
 # 广告关键词
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -25,6 +24,16 @@ DOMAIN-KEYWORD,socdm
 DOMAIN-KEYWORD,supersonicads
 DOMAIN-KEYWORD,wlmonitor
 DOMAIN-KEYWORD,zjtoolbar
+DOMAIN-SUFFIX,ad-sign.byteimg.com
+DOMAIN-SUFFIX,tos.pstatp.com
+DOMAIN-KEYWORD,asiad.byteactivity
+DOMAIN-KEYWORD,pangolin-sdk-toutiao
+DOMAIN-KEYWORD,pglstatp-toutiao
+DOMAIN-SUFFIX,pangolin.snssdk.com
+DOMAIN-SUFFIX,video-cn.snssdk.com
+DOMAIN-SUFFIX,getui.net
+DOMAIN-SUFFIX,log.aliyuncs.com
+DOMAIN-SUFFIX,zlsdk.1rtb.net
 
 # 广告联盟-国内****************
 DOMAIN-SUFFIX,09mk.cn
