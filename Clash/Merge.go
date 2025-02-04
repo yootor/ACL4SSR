@@ -144,41 +144,44 @@ func generateMosdnsRules(inputFiles []string, outputFile string) error {
 }
 
 func main() {
-	// 输入规则文件
+	// 输入规则文件,主要是针对广告规则，其余规则屏蔽
 	inputFiles := []string{
 		"./BanProgramAD.list",
 		"./BanAD.list",
 		"./BanEasyList.list",
 		"./BanEasyListChina.list",
 		"./BanEasyPrivacy.list",
-		"./Custom.list",
-		"./Microsoft.list",
-		"./Google.list",
-		"./ProxyMedia.list",
-		"./ProxyGFWlist.list",
-		"./CustomCN.list",
-		"./games.list",
-		"./ChinaMedia.list",
-		"./ChinaDomain.list",
-
-		//"./naisi_AD.list",
+		/*
+			"./Custom.list",
+			"./Microsoft.list",
+			"./Google.list",
+			"./ProxyMedia.list",
+			"./ProxyGFWlist.list",
+			"./CustomCN.list",
+			"./games.list",
+			"./ChinaMedia.list",
+			"./ChinaDomain.list",
+			//"./naisi_AD.list",
+		*/
 	}
-	// 生成去重后的文件
+	// 生成去重后的文件，主要是针对广告规则，其余规则屏蔽
 	deduplicatedFiles := []string{
 		"./Rules/BanProgramAD.list",
 		"./Rules/BanAD.list",
 		"./Rules/BanEasyList.list",
 		"./Rules/BanEasyListChina.list",
 		"./Rules/BanEasyPrivacy.list",
-		"./Rules/Custom.list",
-		"./Rules/Microsoft.list",
-		"./Rules/Google.list",
-		"./Rules/ProxyMedia.list",
-		"./Rules/ProxyGFWlist.list",
-		"./Rules/CustomCN.list",
-		"./Rules/games.list",
-		"./Rules/ChinaMedia.list",
-		"./Rules/ChinaDomain.list",
+		/*
+			"./Rules/Custom.list",
+			"./Rules/Microsoft.list",
+			"./Rules/Google.list",
+			"./Rules/ProxyMedia.list",
+			"./Rules/ProxyGFWlist.list",
+			"./Rules/CustomCN.list",
+			"./Rules/games.list",
+			"./Rules/ChinaMedia.list",
+			"./Rules/ChinaDomain.list",
+		*/
 	}
 
 	// 执行规则去重
