@@ -101,11 +101,11 @@ func generateMosdnsRules(inputFiles []string, outputFile string) error {
 				ruleType, value := matches[1], matches[2]
 				switch strings.ToUpper(ruleType) {
 				case "DOMAIN":
-					fullRules = append(fullRules, fmt.Sprintf("FULL,%s", value))
+					fullRules = append(fullRules, fmt.Sprintf("full:%s", value))
 				case "DOMAIN-SUFFIX":
-					domainRules = append(domainRules, fmt.Sprintf("DOMAIN,%s", value))
+					domainRules = append(domainRules, fmt.Sprintf("domain:%s", value))
 				case "KEYWORD":
-					keywordRules = append(keywordRules, fmt.Sprintf("KEYWORD,%s", value))
+					keywordRules = append(keywordRules, fmt.Sprintf("keyword:%s", value))
 				}
 			}
 		}
