@@ -1,6 +1,6 @@
 # MOSDNS 合并的所有去广告规则, 来自https://github.com/ACL4SSR/ACL4SSR
 # MOSDNS 规则文件
-# 生成时间: 2025-02-06 11:55:19
+# 生成时间: 2025-02-08 19:41:36
 
 # 关键字规则
 keyword:admarvel
