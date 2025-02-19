@@ -74,11 +74,6 @@ DOMAIN-SUFFIX,cm.adcommon.bilibili.com
 DOMAIN-SUFFIX,cm.game.bilibili.com
 DOMAIN-SUFFIX,cm.track.biligame.bilibili.com
 
-# > 懂车帝
-#DOMAIN-KEYWORD,p3-pack.byteimg.com
-#DOMAIN-KEYWORD,p6-pack.byteimg.com
-
-
 # > 酷我音乐
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,rich.kuwo.cn

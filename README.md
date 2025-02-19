@@ -68,7 +68,7 @@
 # 注：
 * 参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 * 参照ACL4SSR大神的规则改编，致谢!!  https://github.com/ACL4SSR/ACL4SSR
-	
+* 参照奶思大神的规则改编，致谢!!  https://github.com/fmz200/wool_scripts	
 
 # License		
 [![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)

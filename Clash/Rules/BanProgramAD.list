@@ -7,16 +7,16 @@
 #Custom Rules
 #儿歌点点
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com
+DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com
+DOMAIN-SUFFIX,tnc3-aliec2.zijieapi.com
 DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,go-ad-api.ergediandian.com
 DOMAIN-SUFFIX,log.ergediandian.com
 DOMAIN-SUFFIX,umengcloud.com
-DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,ad.wanchuweilai.com
 DOMAIN-SUFFIX,ssp.1rtb.com
 DOMAIN-SUFFIX,sdk.1rtb.net
-DOMAIN-SUFFIX,tnc3-aliec2.zijieapi.com
 DOMAIN-SUFFIX,bgg.baidu.com
 DOMAIN-SUFFIX,aiclk.com
 DOMAIN-SUFFIX,1sapp.com
@@ -78,8 +78,8 @@ DOMAIN-SUFFIX,cm.game.bilibili.com
 DOMAIN-SUFFIX,cm.track.biligame.bilibili.com
 
 # > 懂车帝
-#DOMAIN-KEYWORD,p3-pack.byteimg.com
-#DOMAIN-KEYWORD,p6-pack.byteimg.com
+DOMAIN-KEYWORD,p3-pack.byteimg.com
+DOMAIN-KEYWORD,p6-pack.byteimg.com
 
 
 # > 酷我音乐
