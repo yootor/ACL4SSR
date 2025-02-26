@@ -1,5 +1,5 @@
-# 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR
-# 文件生成时间: 2025-02-04 20:11:37
+# 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
+# 生成时间: 2025-02-26 18:05:24
 
 #My DOMAIN
 DOMAIN-SUFFIX,goppx.com
@@ -13,30 +13,18 @@ IP-CIDR,119.29.29.29/32,no-resolve
 DOMAIN-SUFFIX,alidns.com
 DOMAIN-SUFFIX,doh.pub
 
+#Windows network
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
+
 #Sub
 DOMAIN-SUFFIX,maoxiongnet.com
 
-# Mac Download
-PROCESS-NAME,aria2c.exe
-PROCESS-NAME,fdm.exe
-PROCESS-NAME,Folx.exe
-PROCESS-NAME,NetTransport.exe
-PROCESS-NAME,Thunder.exe
-PROCESS-NAME,Transmission.exe
-PROCESS-NAME,uTorrent.exe
-PROCESS-NAME,WebTorrent.exe
-PROCESS-NAME,WebTorrent Helper.exe
-PROCESS-NAME,qbittorrent.exe
-
+#增加自定义部分,BT下载
 # bt
 DOMAIN-SUFFIX,smtp
 DOMAIN-KEYWORD,aria2
-URL-REGEX,(Subject|HELO|SMTP)
-URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
-URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
-URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
 
-#增加自定义部分
 # XunLei
 DOMAIN-SUFFIX,00cdn.com
 DOMAIN-SUFFIX,88cdn.com
@@ -46,12 +34,3 @@ DOMAIN-SUFFIX,p2cdn.com
 DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,thundercdn.com
 DOMAIN-SUFFIX,xunlei.com
-URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
-PROCESS-NAME,DownloadService.exe
-
-# 360
-URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
-# Tencent Weiyun
-PROCESS-NAME,Weiyun.exe
-#Baidu disk
-PROCESS-NAME,baidunetdisk.exe

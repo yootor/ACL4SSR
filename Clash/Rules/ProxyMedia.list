@@ -1,5 +1,5 @@
-# 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR
-# 文件生成时间: 2025-02-04 20:11:37
+# 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
+# 生成时间: 2025-02-26 18:05:24
 
 # 内容：国外媒体列表
 # 数量：365条
@@ -94,7 +94,6 @@ DOMAIN-SUFFIX,dazndn.com
 DOMAIN-SUFFIX,dcblivedazn.akamaized.net
 DOMAIN-SUFFIX,indazn.com
 DOMAIN-SUFFIX,indaznlab.com
-# DOMAIN-SUFFIX,sentry.io  # 与 ./Microsoft.list 重复
 
 # Deezer
 USER-AGENT,Deezer*
@@ -242,8 +241,7 @@ DOMAIN-SUFFIX,litv.tv
 # LineTV
 USER-AGENT,LINE%20TV*
 USER-AGENT,LINE*
-DOMAIN,d3c7rimkq79yfu.cloudfront.net
-# DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net  # 与 ./ProxyMedia.list 重复
+DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
 DOMAIN-SUFFIX,linetv.tw
 DOMAIN-SUFFIX,profile.line-scdn.net
 

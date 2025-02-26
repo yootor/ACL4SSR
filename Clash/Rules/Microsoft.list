@@ -1,5 +1,5 @@
-# 去重复后的规则, 来自https://github.com/ACL4SSR/ACL4SSR
-# 文件生成时间: 2025-02-04 20:11:37
+# 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
+# 生成时间: 2025-02-26 18:05:24
 
 # Microsoft Services
 # optimized from https://gist.github.com/TTTPOB/ce93fb3b04ba2f21880b09427442d831
@@ -101,7 +101,6 @@ PROCESS-NAME,OneDrive
 PROCESS-NAME,OneDriveUpdater
 USER-AGENT,OneDrive*
 USER-AGENT,OneDriveiOSApp*
-# DOMAIN-KEYWORD,1drv  # 与 ./Microsoft.list 重复
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,skydrive
 DOMAIN-SUFFIX,livefilestore.com
@@ -109,8 +108,6 @@ DOMAIN-SUFFIX,oneclient.sfx.ms
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,photos.live.com
-#DOMAIN-SUFFIX,sharepoint.com,包含在Microsoft文件中
-#DOMAIN-SUFFIX,sharepointonline.com,包含在Microsoft文件中
 DOMAIN-SUFFIX,skydrive.wns.windows.com
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
 DOMAIN-SUFFIX,storage.live.com
