@@ -129,7 +129,6 @@ DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,events.statsigapi.net
-#DOMAIN-SUFFIX,featuregates.org # 与 ./BanEasyPrivacy.list 重复
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
