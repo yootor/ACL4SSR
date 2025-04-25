@@ -1,7 +1,8 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-02-26 18:05:23
+# 生成时间: 2025-04-25 10:27:49
 
 # 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
+
 # 广告关键词
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -27,16 +28,6 @@ DOMAIN-KEYWORD,socdm
 DOMAIN-KEYWORD,supersonicads
 DOMAIN-KEYWORD,wlmonitor
 DOMAIN-KEYWORD,zjtoolbar
-DOMAIN-SUFFIX,ad-sign.byteimg.com
-DOMAIN-SUFFIX,tos.pstatp.com
-DOMAIN-KEYWORD,asiad.byteactivity
-DOMAIN-KEYWORD,pangolin-sdk-toutiao
-DOMAIN-KEYWORD,pglstatp-toutiao
-# DOMAIN-SUFFIX,pangolin.snssdk.com  # 与 ./BanProgramAD.list 重复
-DOMAIN-SUFFIX,video-cn.snssdk.com
-# DOMAIN-SUFFIX,getui.net  # 与 ./BanProgramAD.list 重复
-DOMAIN-SUFFIX,log.aliyuncs.com
-DOMAIN-SUFFIX,zlsdk.1rtb.net
 
 # 广告联盟-国内****************
 DOMAIN-SUFFIX,09mk.cn
@@ -287,7 +278,6 @@ DOMAIN-SUFFIX,mobaders.com
 DOMAIN-SUFFIX,mobclix.com
 DOMAIN-SUFFIX,mobgi.com
 DOMAIN-SUFFIX,mobisage.cn
-DOMAIN-SUFFIX,mobvista.com
 DOMAIN-SUFFIX,moogos.com
 DOMAIN-SUFFIX,mopub.com
 DOMAIN-SUFFIX,moquanad.com
@@ -297,7 +287,6 @@ DOMAIN-SUFFIX,myhug.cn
 DOMAIN-SUFFIX,mzy2014.com
 DOMAIN-SUFFIX,networkbench.com
 DOMAIN-SUFFIX,ninebox.cn
-DOMAIN-SUFFIX,ntalker.com
 DOMAIN-SUFFIX,nylalobghyhirgh.com
 DOMAIN-SUFFIX,o2omobi.com
 DOMAIN-SUFFIX,oadz.com

@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-02-26 18:05:24
+# 生成时间: 2025-04-25 10:27:50
 
 # 代理列表
 
@@ -97,6 +97,16 @@ DOMAIN-SUFFIX,1bao.org
 DOMAIN-SUFFIX,1dumb.com
 # DOMAIN-SUFFIX,1e100.net  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,1eew.com
+DOMAIN-SUFFIX,1lib.cloud
+DOMAIN-SUFFIX,1lib.cz
+DOMAIN-SUFFIX,1lib.domains
+DOMAIN-SUFFIX,1lib.education
+DOMAIN-SUFFIX,1lib.eu
+DOMAIN-SUFFIX,1lib.limited
+DOMAIN-SUFFIX,1lib.pl
+DOMAIN-SUFFIX,1lib.sk
+DOMAIN-SUFFIX,1lib.to
+DOMAIN-SUFFIX,1lib.tw
 DOMAIN-SUFFIX,1mobile.com
 DOMAIN-SUFFIX,1mobile.tw
 DOMAIN-SUFFIX,1pondo.tv
@@ -115,6 +125,8 @@ DOMAIN-SUFFIX,233abc.com
 DOMAIN-SUFFIX,24hrs.ca
 DOMAIN-SUFFIX,24smile.org
 DOMAIN-SUFFIX,25u.com
+DOMAIN-SUFFIX,2du5.com
+DOMAIN-SUFFIX,2lib.org
 DOMAIN-SUFFIX,2lipstube.com
 DOMAIN-SUFFIX,2shared.com
 DOMAIN-SUFFIX,2waky.com
@@ -127,6 +139,7 @@ DOMAIN-SUFFIX,3a5a.com
 DOMAIN-SUFFIX,3arabtv.com
 DOMAIN-SUFFIX,3boys2girls.com
 DOMAIN-SUFFIX,3d-game.com
+DOMAIN-SUFFIX,3lib.net
 DOMAIN-SUFFIX,3proxy.ru
 DOMAIN-SUFFIX,3ren.ca
 DOMAIN-SUFFIX,3tui.net
@@ -413,6 +426,7 @@ DOMAIN-SUFFIX,arena.taipei
 DOMAIN-SUFFIX,arethusa.su
 DOMAIN-SUFFIX,arlingtoncemetery.mil
 DOMAIN-SUFFIX,army.mil
+DOMAIN-SUFFIX,art1lib.com
 DOMAIN-SUFFIX,art4tibet1998.org
 DOMAIN-SUFFIX,arte.tv
 DOMAIN-SUFFIX,artofpeacefoundation.org
@@ -477,7 +491,11 @@ DOMAIN-SUFFIX,azerimix.com
 DOMAIN-SUFFIX,azirevpn.com
 DOMAIN-SUFFIX,azubu.tv
 DOMAIN-SUFFIX,azurewebsites.net
+DOMAIN-SUFFIX,b-ok.africa
+DOMAIN-SUFFIX,b-ok.asia
 DOMAIN-SUFFIX,b-ok.cc
+DOMAIN-SUFFIX,b-ok.global
+DOMAIN-SUFFIX,b-ok.org
 DOMAIN-SUFFIX,b0ne.com
 DOMAIN-SUFFIX,baby-kingdom.com
 DOMAIN-SUFFIX,babylonbee.com
@@ -671,9 +689,18 @@ DOMAIN-SUFFIX,bonfoundation.org
 DOMAIN-SUFFIX,bongacams.com
 DOMAIN-SUFFIX,boobstagram.com
 DOMAIN-SUFFIX,book.com.tw
+DOMAIN-SUFFIX,book4you.org
 DOMAIN-SUFFIX,bookdepository.com
 DOMAIN-SUFFIX,bookepub.com
+DOMAIN-SUFFIX,bookfi.net
 DOMAIN-SUFFIX,books.com.tw
+DOMAIN-SUFFIX,booksc.eu
+DOMAIN-SUFFIX,booksc.me
+DOMAIN-SUFFIX,booksc.org
+DOMAIN-SUFFIX,booksc.xyz
+DOMAIN-SUFFIX,bookshome.info
+DOMAIN-SUFFIX,bookshome.net
+DOMAIN-SUFFIX,bookshome.world
 DOMAIN-SUFFIX,booktopia.com.au
 DOMAIN-SUFFIX,boomssr.com
 DOMAIN-SUFFIX,borgenmagazine.com
@@ -1023,6 +1050,7 @@ DOMAIN-SUFFIX,clinica-tibet.ru
 DOMAIN-SUFFIX,clipfish.de
 DOMAIN-SUFFIX,cloakpoint.com
 DOMAIN-SUFFIX,cloudcone.com
+
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cloudfunctions.net
@@ -1662,6 +1690,7 @@ DOMAIN-SUFFIX,fastpic.ru
 DOMAIN-SUFFIX,fastssh.com
 DOMAIN-SUFFIX,faststone.org
 DOMAIN-SUFFIX,fatbtc.com
+DOMAIN-SUFFIX,favcomic.com
 DOMAIN-SUFFIX,favotter.net
 DOMAIN-SUFFIX,favstar.fm
 DOMAIN-SUFFIX,fawanghuihui.org
@@ -2371,6 +2400,7 @@ DOMAIN-SUFFIX,gyatsostudio.com
 DOMAIN-SUFFIX,gzm.tv
 DOMAIN-SUFFIX,gzone-anime.info
 DOMAIN-SUFFIX,h-china.org
+DOMAIN-SUFFIX,h-ciyuan.com
 DOMAIN-SUFFIX,h-moe.com
 DOMAIN-SUFFIX,h1n1china.org
 DOMAIN-SUFFIX,h528.com
@@ -2477,6 +2507,7 @@ DOMAIN-SUFFIX,hizbuttahrir.org
 DOMAIN-SUFFIX,hjclub.info
 DOMAIN-SUFFIX,hk-pub.com
 DOMAIN-SUFFIX,hk01.com
+DOMAIN-SUFFIX,hk1lib.org
 DOMAIN-SUFFIX,hk32168.com
 DOMAIN-SUFFIX,hkacg.com
 DOMAIN-SUFFIX,hkacg.net
@@ -2644,6 +2675,7 @@ DOMAIN-SUFFIX,hxwq.org
 DOMAIN-SUFFIX,hybrid-analysis.com
 DOMAIN-SUFFIX,hyperrate.com
 DOMAIN-SUFFIX,hyread.com.tw
+DOMAIN-SUFFIX,hysteria.network
 DOMAIN-SUFFIX,i-cable.com
 DOMAIN-SUFFIX,i-part.com.tw
 DOMAIN-SUFFIX,i-scmp.com
@@ -2813,6 +2845,7 @@ DOMAIN-SUFFIX,isunaffairs.com
 DOMAIN-SUFFIX,isuntv.com
 DOMAIN-SUFFIX,isupportuyghurs.org
 DOMAIN-SUFFIX,itaboo.info
+DOMAIN-SUFFIX,italian-books.sk
 DOMAIN-SUFFIX,itaiwan.gov.tw
 DOMAIN-SUFFIX,italiatibet.org
 DOMAIN-SUFFIX,itasoftware.com
@@ -3115,6 +3148,9 @@ DOMAIN-SUFFIX,libertysculpturepark.com
 DOMAIN-SUFFIX,libertytimes.com.tw
 DOMAIN-SUFFIX,libraryinformationtechnology.com
 DOMAIN-SUFFIX,libredd.it
+DOMAIN-SUFFIX,libsolutions.app
+DOMAIN-SUFFIX,libsolutions.domains
+DOMAIN-SUFFIX,libsolutions.net
 DOMAIN-SUFFIX,lifemiles.com
 DOMAIN-SUFFIX,lighten.org.tw
 DOMAIN-SUFFIX,lighti.me
@@ -3214,6 +3250,8 @@ DOMAIN-SUFFIX,lzjscript.com
 DOMAIN-SUFFIX,lzmtnews.org
 DOMAIN-SUFFIX,m-sport.co.uk
 DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,m8008.com
+DOMAIN-SUFFIX,ma1lib.org
 DOMAIN-SUFFIX,macgamestore.com
 DOMAIN-SUFFIX,macrovpn.com
 DOMAIN-SUFFIX,macts.com.tw
@@ -3244,6 +3282,8 @@ DOMAIN-SUFFIX,manicur4ik.ru
 DOMAIN-SUFFIX,mansion.com
 DOMAIN-SUFFIX,mansionpoker.com
 DOMAIN-SUFFIX,manta.com
+DOMAIN-SUFFIX,manwa.me
+# DOMAIN-SUFFIX,manta.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,manyvoices.news
 DOMAIN-SUFFIX,maplew.com
 DOMAIN-SUFFIX,marc.info
@@ -4375,6 +4415,7 @@ DOMAIN-SUFFIX,safechat.com
 DOMAIN-SUFFIX,safeguarddefenders.com
 DOMAIN-SUFFIX,safervpn.com
 DOMAIN-SUFFIX,safety.google
+DOMAIN-SUFFIX,sagernet.org
 DOMAIN-SUFFIX,saintyculture.com
 DOMAIN-SUFFIX,saiq.me
 DOMAIN-SUFFIX,sakuralive.com
@@ -4464,6 +4505,7 @@ DOMAIN-SUFFIX,sfileydy.com
 DOMAIN-SUFFIX,sfshibao.com
 DOMAIN-SUFFIX,sftindia.org
 DOMAIN-SUFFIX,sftuk.org
+DOMAIN-SUFFIX,sg1lib.org
 DOMAIN-SUFFIX,shadeyouvpn.com
 DOMAIN-SUFFIX,shadow.ma
 DOMAIN-SUFFIX,shadowsky.xyz
@@ -4535,6 +4577,11 @@ DOMAIN-SUFFIX,sina.com.tw
 DOMAIN-SUFFIX,sinchew.com.my
 DOMAIN-SUFFIX,singaporepools.com.sg
 DOMAIN-SUFFIX,singfortibet.com
+DOMAIN-SUFFIX,singlelogin.app
+DOMAIN-SUFFIX,singlelogin.me
+DOMAIN-SUFFIX,singlelogin.re
+DOMAIN-SUFFIX,singlelogin.se
+DOMAIN-SUFFIX,singlelogin.site
 DOMAIN-SUFFIX,singpao.com.hk
 DOMAIN-SUFFIX,singtao.ca
 DOMAIN-SUFFIX,singtao.com
@@ -4689,6 +4736,7 @@ DOMAIN-SUFFIX,ssglobal.co
 DOMAIN-SUFFIX,ssglobal.me
 DOMAIN-SUFFIX,ssh91.com
 DOMAIN-SUFFIX,ssl443.org
+DOMAIN-SUFFIX,ssm.fun
 DOMAIN-SUFFIX,sspanel.net
 DOMAIN-SUFFIX,sspro.ml
 DOMAIN-SUFFIX,ssr.tools
@@ -4971,6 +5019,7 @@ DOMAIN-SUFFIX,thisav.com
 DOMAIN-SUFFIX,thlib.org
 DOMAIN-SUFFIX,thomasbernhard.org
 DOMAIN-SUFFIX,thongdreams.com
+DOMAIN-SUFFIX,thotsbay.tv
 DOMAIN-SUFFIX,threadreaderapp.com
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,threatchaos.com
@@ -5973,7 +6022,13 @@ DOMAIN-SUFFIX,yyii.org
 DOMAIN-SUFFIX,yyjlymb.xyz
 DOMAIN-SUFFIX,yysub.net
 DOMAIN-SUFFIX,yzzk.com
+DOMAIN-SUFFIX,z-lib.gd
+DOMAIN-SUFFIX,z-lib.gs
+DOMAIN-SUFFIX,z-lib.io
 DOMAIN-SUFFIX,z-lib.org
+DOMAIN-SUFFIX,z-lib.ps
+DOMAIN-SUFFIX,z-library.se
+DOMAIN-SUFFIX,z-library.sk
 DOMAIN-SUFFIX,zacebook.com
 DOMAIN-SUFFIX,zalmos.com
 DOMAIN-SUFFIX,zamimg.com
@@ -6026,6 +6081,9 @@ DOMAIN-SUFFIX,ziporn.com
 DOMAIN-SUFFIX,zippyshare.com
 DOMAIN-SUFFIX,zkaip.com
 DOMAIN-SUFFIX,zkiz.com
+DOMAIN-SUFFIX,zlib.life
+DOMAIN-SUFFIX,zlibcdn.com
+DOMAIN-SUFFIX,zlibcdn2.com
 DOMAIN-SUFFIX,zmw.cn
 DOMAIN-SUFFIX,zodgame.us
 DOMAIN-SUFFIX,zoho.com
@@ -6061,21 +6119,6 @@ DOMAIN-SUFFIX,gfwlist.end
 # DOMAIN-SUFFIX,amazon.co.jp  # 与 ./ProxyGFWlist.list 重复
 # DOMAIN-SUFFIX,amazon.com  # 与 ./ProxyGFWlist.list 重复
 # DOMAIN-SUFFIX,amazonaws.com  # 与 ./ProxyGFWlist.list 重复
-IP-CIDR,13.32.0.0/15,no-resolve
-IP-CIDR,13.35.0.0/17,no-resolve
-IP-CIDR,18.184.0.0/15,no-resolve
-IP-CIDR,18.194.0.0/15,no-resolve
-IP-CIDR,18.208.0.0/13,no-resolve
-IP-CIDR,18.232.0.0/14,no-resolve
-IP-CIDR,52.58.0.0/15,no-resolve
-IP-CIDR,52.74.0.0/16,no-resolve
-IP-CIDR,52.77.0.0/16,no-resolve
-IP-CIDR,52.84.0.0/15,no-resolve
-IP-CIDR,52.200.0.0/13,no-resolve
-IP-CIDR,54.93.0.0/16,no-resolve
-IP-CIDR,54.156.0.0/14,no-resolve
-IP-CIDR,54.226.0.0/15,no-resolve
-IP-CIDR,54.230.156.0/22,no-resolve
 
 # BBC
 # DOMAIN-KEYWORD,uk-live  # 与 ./ProxyMedia.list 重复
@@ -6118,20 +6161,6 @@ DOMAIN-SUFFIX,discord.media
 # DOMAIN-SUFFIX,fb.me  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,fbcdn.com
 # DOMAIN-SUFFIX,fbcdn.net  # 与 ./ProxyGFWlist.list 重复
-IP-CIDR,31.13.24.0/21,no-resolve
-IP-CIDR,31.13.64.0/18,no-resolve
-IP-CIDR,45.64.40.0/22,no-resolve
-IP-CIDR,66.220.144.0/20,no-resolve
-IP-CIDR,69.63.176.0/20,no-resolve
-IP-CIDR,69.171.224.0/19,no-resolve
-IP-CIDR,74.119.76.0/22,no-resolve
-IP-CIDR,103.4.96.0/22,no-resolve
-IP-CIDR,129.134.0.0/17,no-resolve
-IP-CIDR,157.240.0.0/17,no-resolve
-IP-CIDR,173.252.64.0/18,no-resolve
-IP-CIDR,179.60.192.0/22,no-resolve
-IP-CIDR,185.60.216.0/22,no-resolve
-IP-CIDR,204.15.20.0/22,no-resolve
 
 # Google
 # DOMAIN-SUFFIX,1e100.net  # 与 ./Google.list 重复
@@ -6154,8 +6183,6 @@ IP-CIDR,204.15.20.0/22,no-resolve
 # DOMAIN-SUFFIX,youtube.com  # 与 ./Google.list 重复
 # DOMAIN-SUFFIX,yt.be  # 与 ./Google.list 重复
 # DOMAIN-SUFFIX,ytimg.com  # 与 ./Google.list 重复
-# IP-CIDR,74.125.0.0/16,no-resolve  # 与 ./Google.list 重复
-# IP-CIDR,173.194.0.0/16,no-resolve  # 与 ./Google.list 重复
 
 # Instagram
 # DOMAIN-SUFFIX,cdninstagram.com  # 与 ./ProxyGFWlist.list 重复
@@ -6166,12 +6193,6 @@ DOMAIN-SUFFIX,instagr.am
 # DOMAIN-SUFFIX,kakao.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,kakao.co.kr
 DOMAIN-SUFFIX,kakaocdn.net
-IP-CIDR,1.201.0.0/24,no-resolve
-IP-CIDR,27.0.236.0/22,no-resolve
-IP-CIDR,103.27.148.0/22,no-resolve
-IP-CIDR,103.246.56.0/22,no-resolve
-IP-CIDR,110.76.140.0/22,no-resolve
-IP-CIDR,113.61.104.0/22,no-resolve
 
 # Line
 DOMAIN-SUFFIX,lin.ee
@@ -6181,14 +6202,6 @@ DOMAIN-SUFFIX,line-cdn.net
 # DOMAIN-SUFFIX,line.me  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,line.naver.jp
 DOMAIN-SUFFIX,nhncorp.jp
-IP-CIDR,103.2.28.0/24,no-resolve
-IP-CIDR,103.2.30.0/23,no-resolve
-IP-CIDR,119.235.224.0/24,no-resolve
-IP-CIDR,119.235.232.0/24,no-resolve
-IP-CIDR,119.235.235.0/24,no-resolve
-IP-CIDR,119.235.236.0/23,no-resolve
-IP-CIDR,147.92.128.0/17,no-resolve
-IP-CIDR,203.104.128.0/19,no-resolve
 
 # Oracle Cloud
 DOMAIN,cloud.oracle.com

@@ -168,9 +168,6 @@ DOMAIN,sec.umeng.com
 DOMAIN,ulogs.umeng.com
 DOMAIN,ynuf.aliapp.org
 
-# > 搜狗输入法
-;DOMAIN-keyword,business-cdn.shouji.sogou.com
-
 # > 微博
 DOMAIN-SUFFIX,fastimage.uve.weibo.com
 DOMAIN-SUFFIX,adimg.vue.weibo.com

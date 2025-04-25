@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-02-26 18:05:23
+# 生成时间: 2025-04-25 10:27:49
 
 # 包含常用应用的各种去广告规则。
 # 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
@@ -170,9 +170,6 @@ DOMAIN,msg.umengcloud.com
 DOMAIN,sec.umeng.com
 DOMAIN,ulogs.umeng.com
 DOMAIN,ynuf.aliapp.org
-
-# > 搜狗输入法
-;DOMAIN-keyword,business-cdn.shouji.sogou.com
 
 # > 微博
 DOMAIN-SUFFIX,fastimage.uve.weibo.com
