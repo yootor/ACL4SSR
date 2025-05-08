@@ -1,6 +1,13 @@
-# 代理列表
+#MyList
+DOMAIN-SUFFIX,yootor.com
+DOMAIN-SUFFIX,nwtop.com
+DOMAIN-SUFFIX,jpipi.com
+#DOMAIN-SUFFIX,goppx.com
 
-# MyList && Other
+#CloudFlare
+DOMAIN-SUFFIX,cloudflare.com
+
+# Other
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,bit.no.com
@@ -10,7 +17,6 @@ DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,garena.com
 DOMAIN-SUFFIX,hoyolab.com
 DOMAIN-SUFFIX,inoreader.com
-DOMAIN-SUFFIX,ip138.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,myteamspeak.com
 DOMAIN-SUFFIX,notion.so
