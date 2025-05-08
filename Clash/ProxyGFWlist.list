@@ -2324,8 +2324,7 @@ DOMAIN-SUFFIX,googleplay.com
 DOMAIN-SUFFIX,googleplus.com
 DOMAIN-SUFFIX,googlesile.com
 DOMAIN-SUFFIX,googlesource.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,googlevideo.com
+#DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googleweblight.com
 DOMAIN-SUFFIX,googlezip.net
 DOMAIN-SUFFIX,gopetition.com
@@ -2370,7 +2369,6 @@ DOMAIN-SUFFIX,grotty-monday.com
 DOMAIN-SUFFIX,grow.google
 DOMAIN-SUFFIX,gs-discuss.com
 DOMAIN-SUFFIX,gsearch.media
-DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gtricks.com
 DOMAIN-SUFFIX,gts-vpn.com
 DOMAIN-SUFFIX,gtv.org
@@ -2393,9 +2391,6 @@ DOMAIN-SUFFIX,guruonline.hk
 DOMAIN-SUFFIX,gutteruncensored.com
 DOMAIN-SUFFIX,gvlib.com
 DOMAIN-SUFFIX,gvm.com.tw
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,gwins.org
 DOMAIN-SUFFIX,gwtproject.org
 DOMAIN-SUFFIX,gyalwarinpoche.com
@@ -2434,7 +2429,6 @@ DOMAIN-SUFFIX,hautelook.com
 DOMAIN-SUFFIX,hautelookcdn.com
 DOMAIN-SUFFIX,have8.com
 DOMAIN-SUFFIX,hbg.com
-DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hclips.com
 DOMAIN-SUFFIX,hdlt.me
 DOMAIN-SUFFIX,hdtvb.net
@@ -2649,8 +2643,6 @@ DOMAIN-SUFFIX,huhamhire.com
 DOMAIN-SUFFIX,huhangfei.com
 DOMAIN-SUFFIX,huiyi.in
 DOMAIN-SUFFIX,hulkshare.com
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,icedrive.net
 DOMAIN-SUFFIX,humanrightspressawards.org
 DOMAIN-SUFFIX,hung-ya.com
@@ -2768,7 +2760,6 @@ DOMAIN-SUFFIX,in-disguise.com
 DOMAIN-SUFFIX,in.com
 DOMAIN-SUFFIX,in99.org
 DOMAIN-SUFFIX,incapdns.net
-# DOMAIN-SUFFIX,incloak.com  # 与 ./BanEasyList.list 重复
 DOMAIN-SUFFIX,incredibox.fr
 DOMAIN-SUFFIX,independent.co.uk
 DOMAIN-SUFFIX,indiablooms.com
@@ -2783,7 +2774,6 @@ DOMAIN-SUFFIX,inkbunny.net
 DOMAIN-SUFFIX,inkui.com
 DOMAIN-SUFFIX,inmediahk.net
 DOMAIN-SUFFIX,innermongolia.org
-DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,inote.tw
 DOMAIN-SUFFIX,insecam.org
 DOMAIN-SUFFIX,inside.com.tw
@@ -4852,7 +4842,6 @@ DOMAIN-SUFFIX,syx86.com
 DOMAIN-SUFFIX,szbbs.net
 DOMAIN-SUFFIX,szetowah.org.hk
 DOMAIN-SUFFIX,t-g.com
-DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,t35.com
 DOMAIN-SUFFIX,t66y.com
@@ -4962,7 +4951,6 @@ DOMAIN-SUFFIX,tenacy.com
 DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,tensorflow.org
 DOMAIN-SUFFIX,tenzinpalmo.com
-DOMAIN-SUFFIX,terabox.com
 DOMAIN-SUFFIX,tew.org
 DOMAIN-SUFFIX,textnow.me
 DOMAIN-SUFFIX,tfhub.dev
@@ -5317,7 +5305,6 @@ DOMAIN-SUFFIX,twilightsex.com
 DOMAIN-SUFFIX,twilio.com
 DOMAIN-SUFFIX,twilog.org
 DOMAIN-SUFFIX,twimbow.com
-DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twindexx.com
 DOMAIN-SUFFIX,twip.me
 DOMAIN-SUFFIX,twipple.jp
@@ -5738,15 +5725,9 @@ DOMAIN-SUFFIX,wikileaks.com
 DOMAIN-SUFFIX,wikileaks.de
 DOMAIN-SUFFIX,wikileaks.eu
 DOMAIN-SUFFIX,wikileaks.lu
-DOMAIN-SUFFIX,wikileaks.org
 DOMAIN-SUFFIX,wikileaks.pl
 DOMAIN-SUFFIX,wikilivres.info
 DOMAIN-SUFFIX,wikimapia.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikinews.org
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikiquote.org
-DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiwand.com
 DOMAIN-SUFFIX,wikiwiki.jp
 DOMAIN-SUFFIX,wildammo.com
@@ -6250,11 +6231,6 @@ DOMAIN-SUFFIX,smartmailcloud.com
 DOMAIN-SUFFIX,tap.io
 DOMAIN-SUFFIX,taptap.tw
 
-# Twitch
-DOMAIN-SUFFIX,twitch.tv
-DOMAIN-SUFFIX,ttvnw.net
-DOMAIN-SUFFIX,jtvnw.net
-DOMAIN-KEYWORD,ttvnw
 
 # Twitter
 DOMAIN-SUFFIX,t.co
@@ -6284,9 +6260,6 @@ DOMAIN-SUFFIX,wiktionary.org
 DOMAIN-SUFFIX,neulion.com
 DOMAIN-SUFFIX,icntv.xyz
 DOMAIN-SUFFIX,flzbcdn.xyz
-
-#华文电视
-DOMAIN-SUFFIX,ocnttv.com
 
 # VikACG
 DOMAIN-SUFFIX,vikacg.com

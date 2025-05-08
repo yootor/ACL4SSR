@@ -1,4 +1,7 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
+# 生成时间: 2025-05-08 14:25:18
+
+# 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
 # 生成时间: 2025-05-07 10:27:50
 
 # 内容：国外媒体列表
@@ -10,7 +13,6 @@ USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
 DOMAIN,music.youtube.com
-DOMAIN-SUFFIX,googleusercontent.com
 
 # YouTube
 USER-AGENT,*youtube*
@@ -30,6 +32,10 @@ DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+
+# DOMAIN-SUFFIX,xn--ngstr-lra8j.com  # 与 ./Google.list 重复
+
+
 
 # Telegram
 DOMAIN-SUFFIX,t.me
@@ -455,6 +461,4 @@ DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.now.com
 DOMAIN-SUFFIX,viu.tv
-
-
 

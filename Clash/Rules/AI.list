@@ -1,3 +1,6 @@
+# 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
+# 生成时间: 2025-05-08 14:25:18
+
 #Openai ChatGpt
 DOMAIN,static.cloudflareinsights.com
 DOMAIN-SUFFIX,ai.com
@@ -57,7 +60,7 @@ DOMAIN,api.groq.com
 DOMAIN,api.together.xyz
 DOMAIN,console.groq.com
 DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,featuregates.org
+# DOMAIN-SUFFIX,featuregates.org  # 与 ./BanEasyPrivacy.list 重复
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,meta.ai
