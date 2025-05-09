@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-05-08 14:25:18
+# 生成时间: 2025-05-09 15:14:46
 
 #MyList
 DOMAIN-SUFFIX,yootor.com
@@ -52,8 +52,6 @@ DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
-# DOMAIN-KEYWORD,gmail  # 与 ./Google.list 重复
-# DOMAIN-KEYWORD,google  # 与 ./Google.list 重复
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,sci-hub
@@ -61,7 +59,6 @@ DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,whatsapp
-# DOMAIN-KEYWORD,youtube  # 与 ./ProxyMedia.list 重复
 
 # GFW list
 DOMAIN-SUFFIX,gfwlist.start
@@ -5873,7 +5870,7 @@ DOMAIN-SUFFIX,xn--4gq171p.com
 DOMAIN-SUFFIX,xn--9pr62r24a.com
 DOMAIN-SUFFIX,xn--czq75pvv1aj5c.org
 DOMAIN-SUFFIX,xn--i2ru8q2qg.com
-# DOMAIN-SUFFIX,xn--ngstr-lra8j.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,xn--ngstr-lra8j.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,xn--oiq.cc
 DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
 DOMAIN-SUFFIX,xnxx.com
@@ -6101,17 +6098,6 @@ DOMAIN-SUFFIX,zzcloud.me
 DOMAIN-SUFFIX,zzux.com
 DOMAIN-SUFFIX,gfwlist.end
 
-
-# Amazon
-# DOMAIN-SUFFIX,amazon.co.jp  # 与 ./ProxyGFWlist.list 重复
-# DOMAIN-SUFFIX,amazon.com  # 与 ./ProxyGFWlist.list 重复
-# DOMAIN-SUFFIX,amazonaws.com  # 与 ./ProxyGFWlist.list 重复
-
-# BBC
-# DOMAIN-KEYWORD,uk-live  # 与 ./ProxyMedia.list 重复
-# DOMAIN-SUFFIX,bbc.co  # 与 ./ProxyMedia.list 重复
-# DOMAIN-SUFFIX,bbc.com  # 与 ./ProxyMedia.list 重复
-
 # Developer 开发者常用国外网站、镜像和论坛
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,docker.com
@@ -6149,27 +6135,6 @@ DOMAIN-SUFFIX,discord.media
 DOMAIN-SUFFIX,fbcdn.com
 # DOMAIN-SUFFIX,fbcdn.net  # 与 ./ProxyGFWlist.list 重复
 
-# Google
-# DOMAIN-SUFFIX,1e100.net  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,2mdn.net  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,app-measurement.net  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,g.co  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,ggpht.com  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,goo.gl  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,googleapis.cn  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,googleapis.com  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,gstatic.cn  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,gstatic.com  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,gvt0.com  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,gvt1.com  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,gvt2.com  # 与 ./BanEasyList.list 重复
-# DOMAIN-SUFFIX,gvt3.com  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,xn--ngstr-lra8j.com  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,youtu.be  # 与 ./ProxyMedia.list 重复
-# DOMAIN-SUFFIX,youtube-nocookie.com  # 与 ./ProxyMedia.list 重复
-# DOMAIN-SUFFIX,youtube.com  # 与 ./ProxyMedia.list 重复
-# DOMAIN-SUFFIX,yt.be  # 与 ./ProxyMedia.list 重复
-# DOMAIN-SUFFIX,ytimg.com  # 与 ./ProxyMedia.list 重复
 
 # Instagram
 # DOMAIN-SUFFIX,cdninstagram.com  # 与 ./ProxyGFWlist.list 重复

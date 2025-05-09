@@ -57,7 +57,7 @@ DOMAIN,api.groq.com
 DOMAIN,api.together.xyz
 DOMAIN,console.groq.com
 DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,featuregates.org
+#DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,meta.ai

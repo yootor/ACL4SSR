@@ -49,8 +49,6 @@ DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,sci-hub
@@ -58,7 +56,6 @@ DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,youtube
 
 # GFW list
 DOMAIN-SUFFIX,gfwlist.start
@@ -6098,17 +6095,6 @@ DOMAIN-SUFFIX,zzcloud.me
 DOMAIN-SUFFIX,zzux.com
 DOMAIN-SUFFIX,gfwlist.end
 
-
-# Amazon
-DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN-SUFFIX,amazon.com
-DOMAIN-SUFFIX,amazonaws.com
-
-# BBC
-DOMAIN-KEYWORD,uk-live
-DOMAIN-SUFFIX,bbc.co
-DOMAIN-SUFFIX,bbc.com
-
 # Developer 开发者常用国外网站、镜像和论坛
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,docker.com
@@ -6146,27 +6132,6 @@ DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.com
 DOMAIN-SUFFIX,fbcdn.net
 
-# Google
-DOMAIN-SUFFIX,1e100.net
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,app-measurement.net
-DOMAIN-SUFFIX,g.co
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.cn
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
 
 # Instagram
 DOMAIN-SUFFIX,cdninstagram.com
