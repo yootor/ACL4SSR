@@ -810,7 +810,6 @@ DOMAIN-SUFFIX,api.mob.app.letv.com
 
 # TencentVideo 腾讯视频
 DOMAIN-SUFFIX,v.smtcdns.com
-DOMAIN-SUFFIX,vv.video.qq.com
 
 #游戏直接合并
 # 内容：Epic
@@ -859,9 +858,9 @@ DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,playartifact.com
 DOMAIN-SUFFIX,steam-chat.com
-DOMAIN-SUFFIX,steamcommunity.com
+# DOMAIN-SUFFIX,steamcommunity.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,steamgames.com
-DOMAIN-SUFFIX,steampowered.com
+# DOMAIN-SUFFIX,steampowered.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,steamstatic.com

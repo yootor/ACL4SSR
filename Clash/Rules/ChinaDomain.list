@@ -813,7 +813,6 @@ DOMAIN-SUFFIX,api.mob.app.letv.com
 
 # TencentVideo 腾讯视频
 DOMAIN-SUFFIX,v.smtcdns.com
-# DOMAIN-SUFFIX,vv.video.qq.com  # 与 ./BanProgramAD.list 重复
 
 #游戏直接合并
 # 内容：Epic

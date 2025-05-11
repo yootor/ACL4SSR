@@ -35,12 +35,10 @@ DOMAIN,apiinit.amap.com
 DOMAIN,icloud-amap.com
 DOMAIN,logs.amap.com
 DOMAIN-SUFFIX,dualstack-logs.amap.com
-DOMAIN-SUFFIX,logs.amap.com
 DOMAIN-SUFFIX,optimus-ads.amap.com
 DOMAIN-SUFFIX,page.amap.com
 DOMAIM,optimus-ads.amap.com
 DOMAIN,optimus-ads.amap.com.w.alikunlun.com
-DOMAIN-SUFFIX,shouji.sougou.com
 DOMAIN-SUFFIX,u51.me
 
 # > 抖音
@@ -77,8 +75,6 @@ DOMAIN-SUFFIX,cm.track.biligame.bilibili.com
 # > 酷我音乐
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,rich.kuwo.cn
-DOMAIN-KEYWORD,rich.kuwo.cn
-DOMAIN-KEYWORD,mobilead.kuwo.cn
 DOMAIN-SUFFIX,c.kuwo.cn
 DOMAIN-SUFFIX,deliver.kuwo.cn
 DOMAIN-SUFFIX,game.kuwo.cn
@@ -89,8 +85,10 @@ DOMAIN-SUFFIX,msphoneclick.kuwo.cn
 DOMAIN-SUFFIX,updatepage.kuwo.cn
 DOMAIN-SUFFIX,wa.kuwo.cn
 DOMAIN-SUFFIX,webstat.kuwo.cn
-DOMAIN-SUFFIX,mobilead.kuwo.cn
-DOMAIN-SUFFIX,rich.kuwo.cn
+DOMAIN-SUFFIX,apk.shouji.koowo.com
+DOMAIN-SUFFIX,g.koowo.com
+DOMAIN-SUFFIX,g.kuwo.cn
+DOMAIN-SUFFIX,log.kuwo.cn
 
 
 # > 美团
@@ -123,8 +121,6 @@ DOMAIN,us.l.qq.com
 DOMAIN,tmeadbak.y.qq.com
 DOMAIN-SUFFIX,imtmp.net
 DOMAIN,tmeadcomm.y.qq.com
-DOMAIN,ad.tencentmusic.com
-DOMAIN,adstats.tencentmusic.com
 DOMAIN-SUFFIX,rqd.qq.com
 DOMAIN-SUFFIX,wup.imtt.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
@@ -154,12 +150,24 @@ DOMAIN-SUFFIX,bsiet.husky.sogou.com
 # 屏蔽京东和搜狗收集信息 @jFrecht
 DOMAIN-SUFFIX,jdqd.jd.com
 DOMAIN-SUFFIX,shouji.sougou.com
+DOMAIN-SUFFIX,123.sogoucdn.com
+DOMAIN-SUFFIX,cpc.sogou.com
+DOMAIN-SUFFIX,fair.sogou.com
+DOMAIN-SUFFIX,files2.sogou.com
+DOMAIN-SUFFIX,galaxy.sogoucdn.com
+DOMAIN-SUFFIX,goto.sogou.com
+DOMAIN-SUFFIX,iwan.sogou.com
+DOMAIN-SUFFIX,lu.sogou.com
+DOMAIN-SUFFIX,pb.sogou.com
+DOMAIN-SUFFIX,pd.sogou.com
+DOMAIN-SUFFIX,pv.sogou.com
+DOMAIN-SUFFIX,theta.sogou.com
+DOMAIN-SUFFIX,wan.sogou.com
+DOMAIN-SUFFIX,wangmeng.sogou.com
 
 
 # > 什么值得买
 DOMAIN,aaid.uyunad.com
-DOMAIN,acs4baichuan.m.taobao.com
-DOMAIN,adashxgc.ut.taobao.com
 DOMAIN,analytics-api.smzdm.com
 DOMAIN,baichuan-sdk.alicdn.com
 DOMAIN,dgstatic.jd.com
@@ -250,7 +258,6 @@ DOMAIN,info4.video.qq.com
 DOMAIN,info6.video.qq.com
 DOMAIN,ios.video.mpush.qq.com
 DOMAIN,mtrace.qq.com
-DOMAIN,p.l.qq.com
 DOMAIN,pgdt.gtimg.cn
 DOMAIN,rpt.gdt.qq.com
 DOMAIN-SUFFIX,trace.qq.com
@@ -259,12 +266,10 @@ DOMAIN-SUFFIX,tpns.tencent.com
 DOMAIN-SUFFIX,api.poll.video.qq.com
 DOMAIN-SUFFIX,static-res.qq.com
 DOMAIN-SUFFIX,stat.tpns.tencent.com
-DOMAIN,h.trace.qq.com
 DOMAIN-keyword,omgmta.qq.com
 DOMAIN-keyword,omgmta1.qq.com
 DOMAIN-SUFFIX,c.l.qq.com
 DOMAIN-SUFFIX,dp3.qq.com
-DOMAIN-SUFFIX,btrace.video.qq.com
 DOMAIN-SUFFIX,livep.l.qq.com
 DOMAIN-SUFFIX,lives.l.qq.com
 DOMAIN-SUFFIX,livew.l.qq.com
@@ -275,7 +280,7 @@ DOMAIN-SUFFIX,t.l.qq.com
 DOMAIN-SUFFIX,u.l.qq.com
 
 
-# >  腾讯
+# >  腾讯&# QQ
 DOMAIN-SUFFIX,news.ssp.qq.com
 DOMAIN-SUFFIX,news.l.qq.com
 DOMAIN-SUFFIX,activeqq.3g.qq.com
@@ -307,7 +312,6 @@ DOMAIN-SUFFIX,canvas.gdt.qq.com
 DOMAIN-SUFFIX,d.gdt.qq.com
 DOMAIN-SUFFIX,d3g.qq.com
 DOMAIN-SUFFIX,download.sj.qq.com
-DOMAIN-SUFFIX,dp3.qq.com
 DOMAIN-SUFFIX,eventlog.beacon.qq.com
 DOMAIN-SUFFIX,game.html5.qq.com
 DOMAIN-SUFFIX,ggmmqq.com
@@ -315,8 +319,6 @@ DOMAIN-SUFFIX,j.wit.qq.com
 DOMAIN-SUFFIX,jqmt.qq.com
 DOMAIN-SUFFIX,jrlt.beacon.qq.com
 DOMAIN-SUFFIX,jsqmt.qq.com
-DOMAIN-SUFFIX,lives.l.qq.com
-DOMAIN-SUFFIX,livep.l.qq.com
 DOMAIN-SUFFIX,mi.gdt.qq.com
 DOMAIN-SUFFIX,livep.l.ott.video.qq.com
 DOMAIN-SUFFIX,lives.l.ott.video.qq.com
@@ -363,10 +365,8 @@ DOMAIN-SUFFIX,tajs.qq.com
 DOMAIN-SUFFIX,fusion.qq.com
 DOMAIN-SUFFIX,ios.bugly.qq.com
 DOMAIN,safebrowsing.urlsec.qq.com
-DOMAIN-SUFFIX,oth.str.mdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
 DOMAIN,adsmind.apdcdn.tc.qq.com
-DOMAIN,adsmind.tc.qq.com
 DOMAIN,livep.l.t002.ottcn.com
 DOMAIN,pgdt.ugdtimg.com
 DOMAIN,splashqqlive.gtimg.com
@@ -374,6 +374,16 @@ DOMAIN,vv.video.qq.com
 DOMAIN,wa.gtimg.com
 DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,wxsmsdy.video.qq.com
+DOMAIN-KEYWORD,omgmtaw
+DOMAIN,pgdt.gtimg.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN-SUFFIX,act.qq.com
+DOMAIN-SUFFIX,ad.qun.qq.com
+DOMAIN-SUFFIX,bugly.qq.com
+DOMAIN-SUFFIX,buluo.qq.com
+DOMAIN-SUFFIX,monitor.qq.com
+DOMAIN-SUFFIX,report.qq.com
+DOMAIN-SUFFIX,uu.qq.com
 
 # > 中国移动
 IP-CIDR,120.240.95.37/32,no-resolve
@@ -385,11 +395,6 @@ DIMAIN,admarket.21cn.com
 DOMAIN,adshows.21cn.com
 IP-CIDR,122.229.8.47/32,no-resolve
 IP-CIDR,122.229.29.89/32,no-resolve
-
-# > 小米&米家
-DOMAIN,data.mistat.xiaomi.com
-DOMAIN,tracking.intl.miui.com
-DOMAIN,sdkconfig.ad.xiaomi.com
 
 # > 小红书
 DOMAIN,ads-img-qc.xhscdn.com
@@ -486,32 +491,23 @@ DOMAIN-SUFFIX,tracklog.58.com
 # Alibaba
 DOMAIN-SUFFIX,acjs.aliyun.com
 DOMAIN-SUFFIX,adash-c.m.taobao.com
-DOMAIN-SUFFIX,adash-c.ut.taobao.com
-DOMAIN-SUFFIX,adashx4yt.m.taobao.com
-DOMAIN-SUFFIX,adashxgc.ut.taobao.com
 DOMAIN-SUFFIX,afp.alicdn.com
 DOMAIN-SUFFIX,ai.m.taobao.com
 DOMAIN-SUFFIX,alipaylog.com
 DOMAIN-SUFFIX,atanx.alicdn.com
 DOMAIN-SUFFIX,atanx2.alicdn.com
-DOMAIN-SUFFIX,fav.simba.taobao.com
 DOMAIN-SUFFIX,g.click.taobao.com
 DOMAIN-SUFFIX,g.tbcdn.cn
 DOMAIN-SUFFIX,gma.alicdn.com
 DOMAIN-SUFFIX,gtmsdd.alicdn.com
 DOMAIN-SUFFIX,hydra.alibaba.com
-DOMAIN-SUFFIX,m.simba.taobao.com
 DOMAIN-SUFFIX,pindao.huoban.taobao.com
-DOMAIN-SUFFIX,re.m.taobao.com
-DOMAIN-SUFFIX,redirect.simba.taobao.com
 DOMAIN-SUFFIX,rj.m.taobao.com
 DOMAIN-SUFFIX,sdkinit.taobao.com
 DOMAIN-SUFFIX,show.re.taobao.com
 DOMAIN-SUFFIX,simaba.m.taobao.com
 DOMAIN-SUFFIX,simaba.taobao.com
-DOMAIN-SUFFIX,srd.simba.taobao.com
 DOMAIN-SUFFIX,strip.taobaocdn.com
-DOMAIN-SUFFIX,tns.simba.taobao.com
 DOMAIN-SUFFIX,tyh.taobao.com
 DOMAIN-SUFFIX,userimg.qunar.com
 DOMAIN-SUFFIX,yiliao.hupan.com
@@ -714,17 +710,10 @@ DOMAIN-SUFFIX,wm.baidu.com
 DOMAIN-SUFFIX,yingxiao.baidu.com
 DOMAIN-SUFFIX,znsv.baidu.com
 DOMAIN-SUFFIX,baidustatic.com
-DOMAIN-SUFFIX,als.baidu.com
-DOMAIN-SUFFIX,duclick.baidu.com
 DOMAIN-SUFFIX,hm.baidu.com
 DOMAIN-SUFFIX,hmma.baidu.com
-DOMAIN-SUFFIX,mobads.baidu.com
-DOMAIN-SUFFIX,mobads-logs.baidu.com
-DOMAIN-SUFFIX,nsclick.baidu.com
-DOMAIN,hm.baidu.com
-DOMAIN,hmma.baidu.com
+
 # 百度地图
-DOMAIN,afd.baidu.com
 DOMAIN,afdconf.baidu.com
 DOMAIN,httpdns.baidubce.com
 DOMAIN,lc.map.baidu.com
@@ -877,24 +866,6 @@ DOMAIN-SUFFIX,sdn.kugou.com
 DOMAIN-SUFFIX,tj.kugou.com
 DOMAIN-SUFFIX,update.mobile.kugou.com
 
-# Kuwo
-DOMAIN-SUFFIX,apk.shouji.koowo.com
-DOMAIN-SUFFIX,deliver.kuwo.cn
-DOMAIN-SUFFIX,g.koowo.com
-DOMAIN-SUFFIX,g.kuwo.cn
-DOMAIN-SUFFIX,kwmsg.kuwo.cn
-DOMAIN-SUFFIX,log.kuwo.cn
-DOMAIN-SUFFIX,mobilead.kuwo.cn
-DOMAIN-SUFFIX,msclick2.kuwo.cn
-DOMAIN-SUFFIX,msphoneclick.kuwo.cn
-DOMAIN-SUFFIX,updatepage.kuwo.cn
-DOMAIN-SUFFIX,wa.kuwo.cn
-DOMAIN-SUFFIX,webstat.kuwo.cn
-DOMAIN-SUFFIX,c.kuwo.cn
-DOMAIN-SUFFIX,game.kuwo.cn
-DOMAIN-SUFFIX,kuwoyy.com
-DOMAIN-SUFFIX,rich.kuwo.cn
-
 # Meizu flyme 魅族
 DOMAIN-SUFFIX,aider-res.meizu.com
 DOMAIN-SUFFIX,api-flow.meizu.com
@@ -935,6 +906,11 @@ DOMAIN-SUFFIX,tuiguang.meitu.com
 DOMAIN-SUFFIX,xiuxiu.android.dl.meitu.com
 DOMAIN-SUFFIX,xiuxiu.mobile.meitudata.com
 
+# > 小米&米家
+DOMAIN,data.mistat.xiaomi.com
+DOMAIN,tracking.intl.miui.com
+DOMAIN,sdkconfig.ad.xiaomi.com
+
 # Miui 小米
 DOMAIN-SUFFIX,a.market.xiaomi.com
 DOMAIN-SUFFIX,ad.xiaomi.com
@@ -943,7 +919,6 @@ DOMAIN-SUFFIX,adv.sec.intl.miui.com
 DOMAIN-SUFFIX,adv.sec.miui.com
 DOMAIN-SUFFIX,bss.pandora.xiaomi.com
 DOMAIN-SUFFIX,d.g.mi.com
-DOMAIN-SUFFIX,data.mistat.xiaomi.com
 DOMAIN-SUFFIX,de.pandora.xiaomi.com
 DOMAIN-SUFFIX,dvb.pandora.xiaomi.com
 DOMAIN-SUFFIX,jellyfish.pandora.xiaomi.com
@@ -976,34 +951,6 @@ DOMAIN-SUFFIX,logger.qingting.fm
 DOMAIN-SUFFIX,s.qd.qingting.fm
 DOMAIN-SUFFIX,s.qd.qingtingfm.com
 
-# QQ
-DOMAIN-KEYWORD,omgmtaw
-DOMAIN,adsmind.apdcdn.tc.qq.com
-DOMAIN,adsmind.gdtimg.com
-DOMAIN,adsmind.tc.qq.com
-DOMAIN,pgdt.gtimg.cn
-DOMAIN,pgdt.gtimg.com
-DOMAIN,pgdt.ugdtimg.com
-DOMAIN,splashqqlive.gtimg.com
-DOMAIN,wa.gtimg.com
-DOMAIN,wxsnsdy.wxs.qq.com
-DOMAIN,wxsnsdythumb.wxs.qq.com
-DOMAIN-SUFFIX,act.qq.com
-DOMAIN-SUFFIX,ad.qun.qq.com
-DOMAIN-SUFFIX,adsfile.qq.com
-DOMAIN-SUFFIX,bugly.qq.com
-DOMAIN-SUFFIX,buluo.qq.com
-DOMAIN-SUFFIX,e.qq.com
-DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,l.qq.com
-DOMAIN-SUFFIX,monitor.qq.com
-DOMAIN-SUFFIX,pingma.qq.com
-DOMAIN-SUFFIX,pingtcss.qq.com
-DOMAIN-SUFFIX,report.qq.com
-DOMAIN-SUFFIX,tajs.qq.com
-DOMAIN-SUFFIX,tcss.qq.com
-DOMAIN-SUFFIX,uu.qq.com
-
 # RenRen
 DOMAIN-SUFFIX,ebp.renren.com
 DOMAIN-SUFFIX,jebe.renren.com
@@ -1015,14 +962,11 @@ DOMAIN-SUFFIX,adbox.sina.com.cn
 DOMAIN-SUFFIX,add.sina.com.cn
 DOMAIN-SUFFIX,adimg.mobile.sina.cn
 DOMAIN-SUFFIX,adm.sina.com.cn
-DOMAIN-SUFFIX,alitui.weibo.com.cn
-DOMAIN-SUFFIX,biz.weibo.com.cn
 DOMAIN-SUFFIX,cre.dp.sina.cn
 DOMAIN-SUFFIX,dcads.sina.com.cn
 DOMAIN-SUFFIX,dd.sina.com.cn
 DOMAIN-SUFFIX,dmp.sina.com.cn
 DOMAIN-SUFFIX,game.weibo.com.cn
-DOMAIN-SUFFIX,gw5.push.mcp.weibo.cn
 DOMAIN-SUFFIX,leju.sina.com.cn
 DOMAIN-SUFFIX,log.mix.sina.com.cn
 DOMAIN-SUFFIX,mobileads.dx.cn
@@ -1032,42 +976,13 @@ DOMAIN-SUFFIX,sax.mobile.sina.cn
 DOMAIN-SUFFIX,sax.sina.com.cn
 DOMAIN-SUFFIX,saxd.sina.com.cn
 DOMAIN-SUFFIX,sdkapp.mobile.sina.cn
-DOMAIN-SUFFIX,sdkapp.uve.weibo.com
 DOMAIN-SUFFIX,sdkclick.mobile.sina.cn
 DOMAIN-SUFFIX,slog.sina.com.cn
 DOMAIN-SUFFIX,trends.mobile.sina.cn
-DOMAIN-SUFFIX,tui.weibo.com
 DOMAIN-SUFFIX,u1.img.mobile.sina.cn
-DOMAIN-SUFFIX,wax.weibo.com.cn
 DOMAIN-SUFFIX,wbapp.mobile.sina.cn
-DOMAIN-SUFFIX,wbapp.uve.weibo.com
 DOMAIN-SUFFIX,wbclick.mobile.sina.cn
 DOMAIN-SUFFIX,wbpctips.mobile.sina.cn
-DOMAIN-SUFFIX,zymo.mps.weibo.com
-
-# Sougou
-DOMAIN-SUFFIX,123.sogou.com
-DOMAIN-SUFFIX,123.sogoucdn.com
-DOMAIN-SUFFIX,adsence.sogou.com
-DOMAIN-SUFFIX,amfi.gou.sogou.com
-DOMAIN-SUFFIX,brand.sogou.com
-DOMAIN-SUFFIX,cpc.sogou.com
-DOMAIN-SUFFIX,epro.sogou.com
-DOMAIN-SUFFIX,fair.sogou.com
-DOMAIN-SUFFIX,files2.sogou.com
-DOMAIN-SUFFIX,galaxy.sogoucdn.com
-DOMAIN-SUFFIX,golden1.sogou.com
-DOMAIN-SUFFIX,goto.sogou.com
-DOMAIN-SUFFIX,inte.sogou.com
-DOMAIN-SUFFIX,iwan.sogou.com
-DOMAIN-SUFFIX,lu.sogou.com
-DOMAIN-SUFFIX,lu.sogoucdn.com
-DOMAIN-SUFFIX,pb.sogou.com
-DOMAIN-SUFFIX,pd.sogou.com
-DOMAIN-SUFFIX,pv.sogou.com
-DOMAIN-SUFFIX,theta.sogou.com
-DOMAIN-SUFFIX,wan.sogou.com
-DOMAIN-SUFFIX,wangmeng.sogou.com
 
 # Teleplus
 DOMAIN-SUFFIX,applovin.com
@@ -1230,7 +1145,6 @@ DOMAIN,dig.bdurl.net
 DOMAIN,t7z.cupid.iqiyi.com
 DOMAIN,t7z.cupid.ptqy.gitv.tv
 DOMAIN-SUFFIX,cupid.iqiyi.com
-DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
 DOMAIN-SUFFIX,static-s.iqiyi.com
 DOMAIN-SUFFIX,a.ckm.iqiyi.com
 DOMAIN-SUFFIX,ad.m.iqiyi.com
@@ -1241,7 +1155,6 @@ DOMAIN-SUFFIX,c.uaa.iqiyi.com
 DOMAIN-SUFFIX,cloudpush.iqiyi.com
 DOMAIN-SUFFIX,cm.passport.iqiyi.com
 DOMAIN-SUFFIX,count.game.pps.tv
-DOMAIN-SUFFIX,cupid.iqiyi.com
 DOMAIN-SUFFIX,emoticon.sns.iqiyi.com
 DOMAIN-SUFFIX,gamecenter.iqiyi.com
 DOMAIN-SUFFIX,mbdlog.iqiyi.com
@@ -1311,25 +1224,17 @@ DOMAIN-SUFFIX,bd.hd.sohu.com
 DOMAIN-SUFFIX,click.hd.sohu.com
 DOMAIN-SUFFIX,click2.hd.sohu.com
 DOMAIN-SUFFIX,ctr.hd.sohu.com
-DOMAIN-SUFFIX,epro.sogou.com
 DOMAIN-SUFFIX,epro.sohu.com
 DOMAIN-SUFFIX,go.sohu.com
-DOMAIN-SUFFIX,golden1.sogou.com
 DOMAIN-SUFFIX,golden1.sohu.com
 DOMAIN-SUFFIX,hui.sohu.com
-DOMAIN-SUFFIX,inte.sogou.com
-DOMAIN-SUFFIX,inte.sogoucdn.com
 DOMAIN-SUFFIX,inte.sohu.com
 DOMAIN-SUFFIX,lm.tv.sohu.com
-DOMAIN-SUFFIX,lu.sogoucdn.com
 DOMAIN-SUFFIX,pb.hd.sohu.com
 DOMAIN-SUFFIX,push.tv.sohu.com
 DOMAIN-SUFFIX,pv.hd.sohu.com
-DOMAIN-SUFFIX,pv.sogou.com
 DOMAIN-SUFFIX,pv.sohu.com
-DOMAIN-SUFFIX,theta.sogoucdn.com
 DOMAIN-SUFFIX,um.hd.sohu.com
-DOMAIN-SUFFIX,uranus.sogou.com
 DOMAIN-SUFFIX,uranus.sohu.com
 DOMAIN-SUFFIX,wan.sohu.com
 DOMAIN-SUFFIX,wl.hd.sohu.com

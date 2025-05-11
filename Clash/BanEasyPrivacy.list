@@ -77,7 +77,7 @@ DOMAIN-SUFFIX,25ix8gm8ien.sandbox.panprices.com
 DOMAIN-SUFFIX,2829i2p88jx.www.csaladinet.hu
 DOMAIN-SUFFIX,2922qj5tf2n.swyftx.com.au
 DOMAIN-SUFFIX,2aa6f9qgrh9.acc.evservice.nl
-DOMAIN-SUFFIX,2cnt.net
+# DOMAIN-SUFFIX,2cnt.net  # 与 ./BanAD.list 重复
 DOMAIN-SUFFIX,2e718yf5jypb.test.digitalsurge.io
 DOMAIN-SUFFIX,2efj.economies.cheque-dejeuner.com
 DOMAIN-SUFFIX,2efj.up.coop
@@ -4618,7 +4618,7 @@ DOMAIN-SUFFIX,ads.tikpage.com
 DOMAIN-SUFFIX,adscore.com
 DOMAIN-SUFFIX,adsnid.wagyushop.com
 DOMAIN-SUFFIX,adspsp.com
-DOMAIN-SUFFIX,adstats.tencentmusic.com
+# DOMAIN-SUFFIX,adstats.tencentmusic.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,adstk.io
 DOMAIN-SUFFIX,adtarget.barcainnovationhub.com
 DOMAIN-SUFFIX,adtarget.fcbarcelona.cat
@@ -4831,7 +4831,7 @@ DOMAIN-SUFFIX,akv2-br-cdn.kwai.net.iberostar.com
 DOMAIN-SUFFIX,akzdrh.catofashions.com
 DOMAIN-SUFFIX,al-smetrics.vizio.com
 DOMAIN-SUFFIX,al.airtel.in
-DOMAIN-SUFFIX,al.autohome.com.cn
+# DOMAIN-SUFFIX,al.autohome.com.cn  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,al.mtrx.dev
 DOMAIN-SUFFIX,al.mtrx.travel
 DOMAIN-SUFFIX,al.mtrxs.dev
@@ -5256,7 +5256,7 @@ DOMAIN-SUFFIX,analytics.matchbin.com
 DOMAIN-SUFFIX,analytics.maxroll.gg
 DOMAIN-SUFFIX,analytics.mc500.info
 DOMAIN-SUFFIX,analytics.media-proweb.de
-DOMAIN-SUFFIX,analytics.meituan.net
+# DOMAIN-SUFFIX,analytics.meituan.net  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,analytics.mercadolibre.com
 DOMAIN-SUFFIX,analytics.metro-cc.ru
 DOMAIN-SUFFIX,analytics.metro.be
@@ -5519,7 +5519,7 @@ DOMAIN-SUFFIX,analytics.winter.ink
 DOMAIN-SUFFIX,analytics.witglobal.net
 DOMAIN-SUFFIX,analytics.xiloc.net
 DOMAIN-SUFFIX,analytics.xoomenergy.com
-DOMAIN-SUFFIX,analytics.yahoo.com
+# DOMAIN-SUFFIX,analytics.yahoo.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,analytics.yext-static.com
 DOMAIN-SUFFIX,analytics.yicai.com
 DOMAIN-SUFFIX,analytics.ynap.biz
@@ -6461,7 +6461,7 @@ DOMAIN-SUFFIX,appcloud.appyreward.com
 DOMAIN-SUFFIX,appfloor.appcpi.net.iberostar.com
 DOMAIN-SUFFIX,appgax.optica-optima.com
 DOMAIN-SUFFIX,appinfosoryz.carte-gr.total.fr
-DOMAIN-SUFFIX,apple.www.letv.com
+# DOMAIN-SUFFIX,apple.www.letv.com  # 与 ./BanEasyListChina.list 重复
 DOMAIN-SUFFIX,applets.ebxcdn.com
 DOMAIN-SUFFIX,applicatifs.ricoh.fr
 DOMAIN-SUFFIX,application.mindshine.app
@@ -6741,7 +6741,7 @@ DOMAIN-SUFFIX,at.postbank.de
 DOMAIN-SUFFIX,at.sharpmarketing.eu
 DOMAIN-SUFFIX,at.swisscom.ch
 DOMAIN-SUFFIX,at.vodafone.de
-DOMAIN-SUFFIX,atanx.alicdn.com
+# DOMAIN-SUFFIX,atanx.alicdn.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,atarget.adelaide.edu.au
 DOMAIN-SUFFIX,atarget.csu.edu.au
 DOMAIN-SUFFIX,atarget.firstrepublic.com
@@ -7118,7 +7118,7 @@ DOMAIN-SUFFIX,barium.cheezdev.com
 DOMAIN-SUFFIX,barracuda.carte-gr.total.fr
 DOMAIN-SUFFIX,basket.mondo.link
 DOMAIN-SUFFIX,basuey.toyscenter.it
-DOMAIN-SUFFIX,bat.bing.com
+# DOMAIN-SUFFIX,bat.bing.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,bat.bing.net
 DOMAIN-SUFFIX,bat.maydream.com
 DOMAIN-SUFFIX,baton.cuetv.online
@@ -7184,7 +7184,7 @@ DOMAIN-SUFFIX,beacon.dropbox.com
 DOMAIN-SUFFIX,beacon.errorception.com
 DOMAIN-SUFFIX,beacon.flow.io
 DOMAIN-SUFFIX,beacon.klm.com
-DOMAIN-SUFFIX,beacon.qq.com
+# DOMAIN-SUFFIX,beacon.qq.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,beacon.radiko.jp
 DOMAIN-SUFFIX,beacon.riskified.com
 DOMAIN-SUFFIX,beacon.s.llnwi.net
@@ -8076,7 +8076,7 @@ DOMAIN-SUFFIX,charms.pugster.com
 DOMAIN-SUFFIX,chartec.actonservice.com
 DOMAIN-SUFFIX,chat.forddirectdealers.com
 DOMAIN-SUFFIX,check.frbservices.org
-DOMAIN-SUFFIX,check3.tiaa.org
+# DOMAIN-SUFFIX,check3.tiaa.org  # 与 ./BanEasyList.list 重复
 DOMAIN-SUFFIX,checkpointcharlie.heizung.de
 DOMAIN-SUFFIX,cheese.guac.live
 DOMAIN-SUFFIX,chef.getmenoo.com
@@ -8483,7 +8483,7 @@ DOMAIN-SUFFIX,collector.clareity.net
 DOMAIN-SUFFIX,collector.fiverr.com
 DOMAIN-SUFFIX,collector.getyourguide.com
 DOMAIN-SUFFIX,collector.github.com
-DOMAIN-SUFFIX,collector.githubapp.com
+# DOMAIN-SUFFIX,collector.githubapp.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,collector.hippodromeonline.com
 DOMAIN-SUFFIX,collector.mazeberry.com
 DOMAIN-SUFFIX,collector.megaxh.com
@@ -9087,7 +9087,7 @@ DOMAIN-SUFFIX,csbmey.viherpeukalot.fi
 DOMAIN-SUFFIX,cscsexam.quantresear.ch
 DOMAIN-SUFFIX,cse3.chausport.com
 DOMAIN-SUFFIX,csghyg.reginaclinic.jp
-DOMAIN-SUFFIX,csi.gstatic.com
+# DOMAIN-SUFFIX,csi.gstatic.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,csm.magnetintell.com
 DOMAIN-SUFFIX,csmetrics.wilton.com
 DOMAIN-SUFFIX,csp-collector.appspot.com
@@ -10693,7 +10693,7 @@ DOMAIN-SUFFIX,dttrk.com
 DOMAIN-SUFFIX,dtzrrz.green-japan.com
 DOMAIN-SUFFIX,dujgiq.trendhim.pl
 DOMAIN-SUFFIX,dumpster.cam4.com
-DOMAIN-SUFFIX,dup.baidustatic.com
+# DOMAIN-SUFFIX,dup.baidustatic.com  # 与 ./BanEasyListChina.list 重复
 DOMAIN-SUFFIX,duprelogistics.actonservice.com
 DOMAIN-SUFFIX,duqqrl.jefchaussures.com
 DOMAIN-SUFFIX,durchsichtig.xyz
@@ -12121,7 +12121,7 @@ DOMAIN-SUFFIX,events2.www.edenfantasys.com
 DOMAIN-SUFFIX,eventsink.api.redbee.live
 DOMAIN-SUFFIX,eventsproxy.gargantuan.futureplc.com
 DOMAIN-SUFFIX,eventstream.dodopizza.com
-DOMAIN-SUFFIX,everesttech.net
+# DOMAIN-SUFFIX,everesttech.net  # 与 ./BanAD.list 重复
 DOMAIN-SUFFIX,evergage1.actonservice.com
 DOMAIN-SUFFIX,eversource.actonservice.com
 DOMAIN-SUFFIX,evhvza.sodimac.com.br
@@ -12837,7 +12837,7 @@ DOMAIN-SUFFIX,gdmelqact.gartner.com
 DOMAIN-SUFFIX,gdphhl.elite-auto.fr
 DOMAIN-SUFFIX,gdqlno.weisshaus.de
 DOMAIN-SUFFIX,gdsngr.chainreactioncycles.com
-DOMAIN-SUFFIX,gdt.qq.com
+# DOMAIN-SUFFIX,gdt.qq.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,gea-exchange-03.net.jumia.ug
 DOMAIN-SUFFIX,gear.echovisuals.com
 DOMAIN-SUFFIX,gecfnc.foresight.jp
@@ -12857,7 +12857,7 @@ DOMAIN-SUFFIX,geo.nbcsports.com
 DOMAIN-SUFFIX,geo.ngtv.io
 DOMAIN-SUFFIX,geo.thehindu.com
 DOMAIN-SUFFIX,geo.xcel.io
-DOMAIN-SUFFIX,geo.yahoo.com
+# DOMAIN-SUFFIX,geo.yahoo.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,geobar.ziffdavisinternational.com
 DOMAIN-SUFFIX,geoedge.be
 DOMAIN-SUFFIX,geoip.apps.avada.io
@@ -13142,7 +13142,7 @@ DOMAIN-SUFFIX,go-dev.callersmart.com
 DOMAIN-SUFFIX,go-dev.qantaswellbeing.com
 DOMAIN-SUFFIX,go-elqau.oracle.com
 DOMAIN-SUFFIX,go-marketing.comed.com
-DOMAIN-SUFFIX,go-mpulse.net
+# DOMAIN-SUFFIX,go-mpulse.net  # 与 ./BanAD.list 重复
 DOMAIN-SUFFIX,go-response.thermofisher.com
 DOMAIN-SUFFIX,go-stage.oracle.com
 DOMAIN-SUFFIX,go-staging.qantaswellbeing.com
@@ -15981,7 +15981,7 @@ DOMAIN-SUFFIX,iro.iperceptions.com
 DOMAIN-SUFFIX,irqewz.vilebrequin.com
 DOMAIN-SUFFIX,irqoqr.industrywest.com
 DOMAIN-SUFFIX,irs.iperceptions.com
-DOMAIN-SUFFIX,irs01.com
+# DOMAIN-SUFFIX,irs01.com  # 与 ./BanAD.list 重复
 DOMAIN-SUFFIX,irurng.wondershare.jp
 DOMAIN-SUFFIX,is-log.furunavi.jp
 DOMAIN-SUFFIX,is.lg.com
@@ -17849,7 +17849,7 @@ DOMAIN-SUFFIX,log.m.sm.cn
 DOMAIN-SUFFIX,log.mediacategory.com
 DOMAIN-SUFFIX,log.medietall.no
 DOMAIN-SUFFIX,log.mgtv.com
-DOMAIN-SUFFIX,log.mix.sina.com.cn
+# DOMAIN-SUFFIX,log.mix.sina.com.cn  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,log.mofa.go.kr
 DOMAIN-SUFFIX,log.nordot.jp
 DOMAIN-SUFFIX,log.olark.com
@@ -21913,7 +21913,7 @@ DOMAIN-SUFFIX,monicaatron.com
 DOMAIN-SUFFIX,monitor-api.blackcrow.ai
 DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com
 DOMAIN-SUFFIX,monitor.channel4.com
-DOMAIN-SUFFIX,monitor.music.qq.com
+# DOMAIN-SUFFIX,monitor.music.qq.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,monitoring.iraiser.eu
 DOMAIN-SUFFIX,monorail-edge.shopifysvc.com
 DOMAIN-SUFFIX,monster.branch.rocks
@@ -22017,7 +22017,6 @@ DOMAIN-SUFFIX,mtest.fontself.com
 DOMAIN-SUFFIX,mtkure.gazin.com.br
 DOMAIN-SUFFIX,mtoxtg.tezenis.com
 DOMAIN-SUFFIX,mtr.fluor.com
-DOMAIN-SUFFIX,mtrace.qq.com
 DOMAIN-SUFFIX,mtracking.mhequipment.com
 DOMAIN-SUFFIX,mtrs.cooecfluor.com
 DOMAIN-SUFFIX,mtrs.fluor.com
@@ -23572,7 +23571,6 @@ DOMAIN-SUFFIX,pixel.smartmedia.tj
 DOMAIN-SUFFIX,pixel.sprinklr.com
 DOMAIN-SUFFIX,pixel.tuko.co.ke
 DOMAIN-SUFFIX,pixel.videohub.tv
-DOMAIN-SUFFIX,pixel.wp.com
 DOMAIN-SUFFIX,pixel.wp.pl
 DOMAIN-SUFFIX,pixel.yabidos.com
 DOMAIN-SUFFIX,pixel.yola.com
@@ -24086,11 +24084,9 @@ DOMAIN-SUFFIX,pushspring.actonservice.com
 DOMAIN-SUFFIX,pushvisit.xyz
 DOMAIN-SUFFIX,putphc.zuhre.com.tr
 DOMAIN-SUFFIX,puzzle.spiriteq.com
-DOMAIN-SUFFIX,pv.hd.sohu.com
 DOMAIN-SUFFIX,pv.kuaizhan.com
 DOMAIN-SUFFIX,pv.ltn.com.tw
 DOMAIN-SUFFIX,pv.partenaires-verisure.fr
-DOMAIN-SUFFIX,pv.xcar.com.cn
 DOMAIN-SUFFIX,pvfbav.sportler.com
 DOMAIN-SUFFIX,pvn.rewe.de
 DOMAIN-SUFFIX,pvoheg.bubbleroom.se
@@ -24405,7 +24401,6 @@ DOMAIN-SUFFIX,rcbsrm.fivefoxes.co.jp
 DOMAIN-SUFFIX,rccnyh.airportrentalcars.com
 DOMAIN-SUFFIX,rce.iperceptions.com
 DOMAIN-SUFFIX,rcevcm.lyst.co.uk
-DOMAIN-SUFFIX,rcgi.video.qq.com
 DOMAIN-SUFFIX,rcgwej.lights.co.uk
 DOMAIN-SUFFIX,rcm.shinobi.jp
 DOMAIN-SUFFIX,rcqiho.emp.de
@@ -24592,7 +24587,6 @@ DOMAIN-SUFFIX,repdata.ydr.com
 DOMAIN-SUFFIX,repdata.yorkdispatch.com
 DOMAIN-SUFFIX,reply.osv.com
 DOMAIN-SUFFIX,report.appmetrica.yandex.net.iberostar.com
-DOMAIN-SUFFIX,report.meituan.com
 DOMAIN-SUFFIX,reportic.app
 DOMAIN-SUFFIX,reporting-api.gannettinnovation.com
 DOMAIN-SUFFIX,reporting.autographapp.me
@@ -24794,7 +24788,6 @@ DOMAIN-SUFFIX,rkstmr.cyrillus.ch
 DOMAIN-SUFFIX,rkxmow.novasol-vacaciones.es
 DOMAIN-SUFFIX,rl.finalprice.com
 DOMAIN-SUFFIX,rlog.popin.cc
-DOMAIN-SUFFIX,rlogs.youdao.com
 DOMAIN-SUFFIX,rlovoa.duckcamp.com
 DOMAIN-SUFFIX,rmdvca.belvilla.de
 DOMAIN-SUFFIX,rmgdapfnccsharpprd.azurewebsites.net
@@ -26665,7 +26658,6 @@ DOMAIN-SUFFIX,show.decorex.com
 DOMAIN-SUFFIX,show.kbb.co.uk
 DOMAIN-SUFFIX,showcase.inhaabit.com
 DOMAIN-SUFFIX,shqmetrics.sony.com
-DOMAIN-SUFFIX,shrek.6.cn
 DOMAIN-SUFFIX,shtptt.cupshe.com
 DOMAIN-SUFFIX,siazlw.cetroloja.com.br
 DOMAIN-SUFFIX,sicas.ikea.com
@@ -29881,7 +29873,6 @@ DOMAIN-SUFFIX,snalytics.travelinsurance.ca
 DOMAIN-SUFFIX,snapshotapp.progressive.com
 DOMAIN-SUFFIX,snbwyi.heine.at
 DOMAIN-SUFFIX,snd.freshstartnews.com
-DOMAIN-SUFFIX,sngmta.qq.com
 DOMAIN-SUFFIX,sniffer.nitro-production.otto.boreus.de
 DOMAIN-SUFFIX,sniffer.nitro-test-extern.otto.boreus.de
 DOMAIN-SUFFIX,sno1.snowrental.com
@@ -30974,7 +30965,6 @@ DOMAIN-SUFFIX,st.wir-entdecken-bayern.de
 DOMAIN-SUFFIX,st1.lg.avendrealouer.fr
 DOMAIN-SUFFIX,stack-sonar.com
 DOMAIN-SUFFIX,stadac.mobilapp.io
-DOMAIN-SUFFIX,stadig.ifeng.com
 DOMAIN-SUFFIX,stageapplink.reki.tv
 DOMAIN-SUFFIX,stagelink.lola.com
 DOMAIN-SUFFIX,stagelink.supershare.com
@@ -31188,7 +31178,6 @@ DOMAIN-SUFFIX,stat.wolterskluwer.es
 DOMAIN-SUFFIX,stat.wolterskluwer.pl
 DOMAIN-SUFFIX,stat.wolterskluwer.pt
 DOMAIN-SUFFIX,stat.ws.126.net
-DOMAIN-SUFFIX,stat.y.qq.com
 DOMAIN-SUFFIX,stat.zol.com.cn
 DOMAIN-SUFFIX,statdb.pressflex.com
 DOMAIN-SUFFIX,statdynamic.com
@@ -31810,7 +31799,6 @@ DOMAIN-SUFFIX,stats.reto.tv
 DOMAIN-SUFFIX,stats.revitfamily.app
 DOMAIN-SUFFIX,stats.rideinpeace.ie
 DOMAIN-SUFFIX,stats.rightourhistoryhawaii.com
-DOMAIN-SUFFIX,stats.rip
 DOMAIN-SUFFIX,stats.robotika.ax
 DOMAIN-SUFFIX,stats.rocketbeans.tv
 DOMAIN-SUFFIX,stats.rocketvalidator.com
@@ -32240,7 +32228,6 @@ DOMAIN-SUFFIX,sud.holidays.hrs.de
 DOMAIN-SUFFIX,sufesj.shop4runners.com
 DOMAIN-SUFFIX,sufetv.chefuniforms.com
 DOMAIN-SUFFIX,sugabyte.actonservice.com
-DOMAIN-SUFFIX,sugar.zhihu.com
 DOMAIN-SUFFIX,sugs.m.sm.cn
 DOMAIN-SUFFIX,summary.bookoffonline.co.jp
 DOMAIN-SUFFIX,summary.instaread.co
@@ -33499,7 +33486,6 @@ DOMAIN-SUFFIX,text.mitarbeiterangebote.de
 DOMAIN-SUFFIX,text.rahmenvereinbarungen.de
 DOMAIN-SUFFIX,teyourmarketing.trungaleegan.com
 DOMAIN-SUFFIX,teyvmb.moniquelhuillier.com
-DOMAIN-SUFFIX,tf.360.cn
 DOMAIN-SUFFIX,tfdtpa.dot-st.com
 DOMAIN-SUFFIX,tfoyfx.dukefotografia.com
 DOMAIN-SUFFIX,tfpeev.chanluu.com
@@ -33800,7 +33786,7 @@ DOMAIN-SUFFIX,tnegqr.bohme.com
 DOMAIN-SUFFIX,tnhcsf.holzkern.com
 DOMAIN-SUFFIX,tnincvf1d1jl.de.themoneytizer.com
 DOMAIN-SUFFIX,tniujy.natura.com.br
-DOMAIN-SUFFIX,tns.simba.taobao.com
+# DOMAIN-SUFFIX,tns.simba.taobao.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,tnt.yemeksepeti.com
 DOMAIN-SUFFIX,tnxxtx.crepeerase.com
 DOMAIN-SUFFIX,tnz3.carrefour-banque.fr
@@ -35044,7 +35030,7 @@ DOMAIN-SUFFIX,tr6.mperf.com
 DOMAIN-SUFFIX,trac.roomster.com
 DOMAIN-SUFFIX,traccoon.intellectsoft.net
 DOMAIN-SUFFIX,trace.insead.edu
-DOMAIN-SUFFIX,trace.qq.com
+# DOMAIN-SUFFIX,trace.qq.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,trace.swaven.com
 DOMAIN-SUFFIX,tracer.autoscout24.ch
 DOMAIN-SUFFIX,track-dark-bz.b-cdn.net
@@ -35133,7 +35119,7 @@ DOMAIN-SUFFIX,track.healthcare-distribution.com
 DOMAIN-SUFFIX,track.heritagebuildings.com
 DOMAIN-SUFFIX,track.hg.healthgrades.com
 DOMAIN-SUFFIX,track.hubspot.com
-DOMAIN-SUFFIX,track.hujiang.com
+# DOMAIN-SUFFIX,track.hujiang.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,track.hydro.online
 DOMAIN-SUFFIX,track.inews.co.uk
 DOMAIN-SUFFIX,track.info.cancertherapyadvisor.com
@@ -35237,7 +35223,7 @@ DOMAIN-SUFFIX,track.tiara.kakao.com
 DOMAIN-SUFFIX,track.tom.com
 DOMAIN-SUFFIX,track.tomwx.net
 DOMAIN-SUFFIX,track.ttsave.app
-DOMAIN-SUFFIX,track.uc.cn
+# DOMAIN-SUFFIX,track.uc.cn  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,track.ultimate-guitar.com
 DOMAIN-SUFFIX,track.unidata.ai
 DOMAIN-SUFFIX,track.untd.com
@@ -37333,7 +37319,7 @@ DOMAIN-SUFFIX,video.bzfd.it
 DOMAIN-SUFFIX,video.funnelbox.com
 DOMAIN-SUFFIX,video.verintsystemsinc.com
 DOMAIN-SUFFIX,video.vitcord.com
-DOMAIN-SUFFIX,videocdnmetrika.com
+# DOMAIN-SUFFIX,videocdnmetrika.com  # 与 ./BanEasyList.list 重复
 DOMAIN-SUFFIX,videoplayerhub.com
 DOMAIN-SUFFIX,videos.adp.ca
 DOMAIN-SUFFIX,videos.personneltoday.com

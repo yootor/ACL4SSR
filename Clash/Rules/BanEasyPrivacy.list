@@ -22020,7 +22020,6 @@ DOMAIN-SUFFIX,mtest.fontself.com
 DOMAIN-SUFFIX,mtkure.gazin.com.br
 DOMAIN-SUFFIX,mtoxtg.tezenis.com
 DOMAIN-SUFFIX,mtr.fluor.com
-# DOMAIN-SUFFIX,mtrace.qq.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,mtracking.mhequipment.com
 DOMAIN-SUFFIX,mtrs.cooecfluor.com
 DOMAIN-SUFFIX,mtrs.fluor.com
@@ -23575,7 +23574,6 @@ DOMAIN-SUFFIX,pixel.smartmedia.tj
 DOMAIN-SUFFIX,pixel.sprinklr.com
 DOMAIN-SUFFIX,pixel.tuko.co.ke
 DOMAIN-SUFFIX,pixel.videohub.tv
-# DOMAIN-SUFFIX,pixel.wp.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,pixel.wp.pl
 DOMAIN-SUFFIX,pixel.yabidos.com
 DOMAIN-SUFFIX,pixel.yola.com
@@ -24089,11 +24087,9 @@ DOMAIN-SUFFIX,pushspring.actonservice.com
 DOMAIN-SUFFIX,pushvisit.xyz
 DOMAIN-SUFFIX,putphc.zuhre.com.tr
 DOMAIN-SUFFIX,puzzle.spiriteq.com
-# DOMAIN-SUFFIX,pv.hd.sohu.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,pv.kuaizhan.com
 DOMAIN-SUFFIX,pv.ltn.com.tw
 DOMAIN-SUFFIX,pv.partenaires-verisure.fr
-# DOMAIN-SUFFIX,pv.xcar.com.cn  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,pvfbav.sportler.com
 DOMAIN-SUFFIX,pvn.rewe.de
 DOMAIN-SUFFIX,pvoheg.bubbleroom.se
@@ -24408,7 +24404,6 @@ DOMAIN-SUFFIX,rcbsrm.fivefoxes.co.jp
 DOMAIN-SUFFIX,rccnyh.airportrentalcars.com
 DOMAIN-SUFFIX,rce.iperceptions.com
 DOMAIN-SUFFIX,rcevcm.lyst.co.uk
-# DOMAIN-SUFFIX,rcgi.video.qq.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,rcgwej.lights.co.uk
 DOMAIN-SUFFIX,rcm.shinobi.jp
 DOMAIN-SUFFIX,rcqiho.emp.de
@@ -24595,7 +24590,6 @@ DOMAIN-SUFFIX,repdata.ydr.com
 DOMAIN-SUFFIX,repdata.yorkdispatch.com
 DOMAIN-SUFFIX,reply.osv.com
 DOMAIN-SUFFIX,report.appmetrica.yandex.net.iberostar.com
-# DOMAIN-SUFFIX,report.meituan.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,reportic.app
 DOMAIN-SUFFIX,reporting-api.gannettinnovation.com
 DOMAIN-SUFFIX,reporting.autographapp.me
@@ -24797,7 +24791,6 @@ DOMAIN-SUFFIX,rkstmr.cyrillus.ch
 DOMAIN-SUFFIX,rkxmow.novasol-vacaciones.es
 DOMAIN-SUFFIX,rl.finalprice.com
 DOMAIN-SUFFIX,rlog.popin.cc
-# DOMAIN-SUFFIX,rlogs.youdao.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,rlovoa.duckcamp.com
 DOMAIN-SUFFIX,rmdvca.belvilla.de
 DOMAIN-SUFFIX,rmgdapfnccsharpprd.azurewebsites.net
@@ -26668,7 +26661,6 @@ DOMAIN-SUFFIX,show.decorex.com
 DOMAIN-SUFFIX,show.kbb.co.uk
 DOMAIN-SUFFIX,showcase.inhaabit.com
 DOMAIN-SUFFIX,shqmetrics.sony.com
-# DOMAIN-SUFFIX,shrek.6.cn  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,shtptt.cupshe.com
 DOMAIN-SUFFIX,siazlw.cetroloja.com.br
 DOMAIN-SUFFIX,sicas.ikea.com
@@ -29884,7 +29876,6 @@ DOMAIN-SUFFIX,snalytics.travelinsurance.ca
 DOMAIN-SUFFIX,snapshotapp.progressive.com
 DOMAIN-SUFFIX,snbwyi.heine.at
 DOMAIN-SUFFIX,snd.freshstartnews.com
-# DOMAIN-SUFFIX,sngmta.qq.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,sniffer.nitro-production.otto.boreus.de
 DOMAIN-SUFFIX,sniffer.nitro-test-extern.otto.boreus.de
 DOMAIN-SUFFIX,sno1.snowrental.com
@@ -30977,7 +30968,6 @@ DOMAIN-SUFFIX,st.wir-entdecken-bayern.de
 DOMAIN-SUFFIX,st1.lg.avendrealouer.fr
 DOMAIN-SUFFIX,stack-sonar.com
 DOMAIN-SUFFIX,stadac.mobilapp.io
-# DOMAIN-SUFFIX,stadig.ifeng.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,stageapplink.reki.tv
 DOMAIN-SUFFIX,stagelink.lola.com
 DOMAIN-SUFFIX,stagelink.supershare.com
@@ -31191,7 +31181,6 @@ DOMAIN-SUFFIX,stat.wolterskluwer.es
 DOMAIN-SUFFIX,stat.wolterskluwer.pl
 DOMAIN-SUFFIX,stat.wolterskluwer.pt
 DOMAIN-SUFFIX,stat.ws.126.net
-# DOMAIN-SUFFIX,stat.y.qq.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,stat.zol.com.cn
 DOMAIN-SUFFIX,statdb.pressflex.com
 DOMAIN-SUFFIX,statdynamic.com
@@ -31813,7 +31802,6 @@ DOMAIN-SUFFIX,stats.reto.tv
 DOMAIN-SUFFIX,stats.revitfamily.app
 DOMAIN-SUFFIX,stats.rideinpeace.ie
 DOMAIN-SUFFIX,stats.rightourhistoryhawaii.com
-# DOMAIN-SUFFIX,stats.rip  # 与 ./BanEasyList.list 重复
 DOMAIN-SUFFIX,stats.robotika.ax
 DOMAIN-SUFFIX,stats.rocketbeans.tv
 DOMAIN-SUFFIX,stats.rocketvalidator.com
@@ -32243,7 +32231,6 @@ DOMAIN-SUFFIX,sud.holidays.hrs.de
 DOMAIN-SUFFIX,sufesj.shop4runners.com
 DOMAIN-SUFFIX,sufetv.chefuniforms.com
 DOMAIN-SUFFIX,sugabyte.actonservice.com
-# DOMAIN-SUFFIX,sugar.zhihu.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,sugs.m.sm.cn
 DOMAIN-SUFFIX,summary.bookoffonline.co.jp
 DOMAIN-SUFFIX,summary.instaread.co
@@ -33502,7 +33489,6 @@ DOMAIN-SUFFIX,text.mitarbeiterangebote.de
 DOMAIN-SUFFIX,text.rahmenvereinbarungen.de
 DOMAIN-SUFFIX,teyourmarketing.trungaleegan.com
 DOMAIN-SUFFIX,teyvmb.moniquelhuillier.com
-# DOMAIN-SUFFIX,tf.360.cn  # 与 ./BanEasyListChina.list 重复
 DOMAIN-SUFFIX,tfdtpa.dot-st.com
 DOMAIN-SUFFIX,tfoyfx.dukefotografia.com
 DOMAIN-SUFFIX,tfpeev.chanluu.com
