@@ -22,6 +22,7 @@ IP-CIDR,224.0.0.0/4,no-resolve
 # IP-CIDR6,fd00::/8,no-resolve
 
 #My DOMAIN
+DOMAIN-SUFFIX,jpipi.com
 DOMAIN-SUFFIX,goppx.com
 
 #DNS 服务器AliDNS&DNSPOD
@@ -39,6 +40,7 @@ DOMAIN-SUFFIX,msftncsi.com
 
 #Sub
 DOMAIN-SUFFIX,maoxiongnet.com
+DOMAIN-SUFFIX,spphhnhg.top
 
 #增加自定义部分,BT下载
 # bt
