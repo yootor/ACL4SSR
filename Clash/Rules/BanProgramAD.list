@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-05-09 15:14:46
+# 生成时间: 2025-07-25 16:01:47
 
 # 包含常用应用的各种去广告规则。
 # 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
@@ -169,7 +169,6 @@ DOMAIN-SUFFIX,wan.sogou.com
 DOMAIN-SUFFIX,wangmeng.sogou.com
 
 
-
 # > 什么值得买
 DOMAIN,aaid.uyunad.com
 DOMAIN,analytics-api.smzdm.com
@@ -244,6 +243,7 @@ DOMAIN-SUFFIX,adashbc.ut.taobao.com
 DOMAIN-SUFFIX,adash-c.ut.taobao.com
 DOMAIN-SUFFIX,adashxgc.ut.taobao.com
 DOMAIN-SUFFIX,adashx4yt.m.taobao.com
+# DOMAIN-SUFFIX,tunion-api.m.taobao.com  # 与 ./BanProgramAD.list 重复
 DOMAIN-SUFFIX,tns.simba.taobao.com
 DOMAIN-SUFFIX,click.mz.simba.taobao.com
 DOMAIN-SUFFIX,click.simba.taobao.com
@@ -281,6 +281,7 @@ DOMAIN-SUFFIX,mdevstat.qqlive.qq.com
 DOMAIN-SUFFIX,rcgi.video.qq.com
 DOMAIN-SUFFIX,t.l.qq.com
 DOMAIN-SUFFIX,u.l.qq.com
+
 
 # >  腾讯&# QQ
 DOMAIN-SUFFIX,news.ssp.qq.com
@@ -386,7 +387,6 @@ DOMAIN-SUFFIX,buluo.qq.com
 DOMAIN-SUFFIX,monitor.qq.com
 DOMAIN-SUFFIX,report.qq.com
 DOMAIN-SUFFIX,uu.qq.com
-
 
 # > 中国移动
 IP-CIDR,120.240.95.37/32,no-resolve
@@ -987,7 +987,6 @@ DOMAIN-SUFFIX,wbapp.mobile.sina.cn
 DOMAIN-SUFFIX,wbclick.mobile.sina.cn
 DOMAIN-SUFFIX,wbpctips.mobile.sina.cn
 
-
 # Teleplus
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,guangzhuiyuan.com
@@ -1108,6 +1107,7 @@ DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
 DOMAIN,crash2.zhihu.com
 IP-CIDR,118.89.204.198/32,no-resolve
+# IP-CIDR,118.89.204.198/32,no-resolve  # 与 ./BanProgramAD.list 重复
 # Ads in Video apps 下面都是 ********************
 
 # 6间房
