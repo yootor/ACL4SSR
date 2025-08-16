@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-07-25 16:01:47
+# 生成时间: 2025-08-16 18:58:51
 
 # 包含常用应用的各种去广告规则。
 # 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
@@ -934,7 +934,6 @@ DOMAIN-SUFFIX,security.browser.miui.com
 DOMAIN-SUFFIX,shenghuo.xiaomi.com
 DOMAIN-SUFFIX,stat.pandora.xiaomi.com
 DOMAIN-SUFFIX,union.mi.com
-DOMAIN-SUFFIX,wtradv.market.xiaomi.com
 
 # Moji
 DOMAIN-SUFFIX,ad.api.moji.com

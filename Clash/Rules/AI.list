@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-07-25 16:01:47
+# 生成时间: 2025-08-16 18:58:52
 
 #Openai ChatGpt
 DOMAIN,static.cloudflareinsights.com
@@ -30,6 +30,8 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
 DOMAIN,sydney.bing.com
 DOMAIN-SUFFIX,ai.azure.com
 IP-CIDR,24.199.123.28/32,no-resolve
