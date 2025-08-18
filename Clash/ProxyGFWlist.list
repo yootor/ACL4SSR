@@ -5,7 +5,7 @@ DOMAIN-SUFFIX,nwtop.com
 #DOMAIN-SUFFIX,goppx.com
 
 #CloudFlare
-DOMAIN-SUFFIX,cloudflare.com
+#DOMAIN-SUFFIX,cloudflare.com
 
 # Other ACL4SSR start
 DOMAIN-SUFFIX,1password.com

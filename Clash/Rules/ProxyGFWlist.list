@@ -7,9 +7,6 @@ DOMAIN-SUFFIX,nwtop.com
 #DOMAIN-SUFFIX,jpipi.com
 #DOMAIN-SUFFIX,goppx.com
 
-#CloudFlare
-DOMAIN-SUFFIX,cloudflare.com
-
 # Other ACL4SSR start
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adguard.org
