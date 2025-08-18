@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,cloudflare.dev
 DOMAIN-SUFFIX,cloudflarestream.com
+DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,r2.dev
 
