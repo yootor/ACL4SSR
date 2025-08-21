@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,cloudflarestream.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,r2.dev
+DOMAIN-SUFFIX,cloudflare-ipfs.com
 
 #Openai ChatGpt
 DOMAIN-SUFFIX,ai.com
