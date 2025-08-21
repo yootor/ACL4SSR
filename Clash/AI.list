@@ -8,7 +8,6 @@ DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,r2.dev
 
 #Openai ChatGpt
-DOMAIN,static.cloudflareinsights.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
@@ -42,6 +41,14 @@ DOMAIN,sydney.bing.com
 DOMAIN-SUFFIX,ai.azure.com
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
+#2025-08-21 add
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,api.revenuecat.com
 
 #Gemini
 DOMAIN,policies.google.com
@@ -68,7 +75,7 @@ DOMAIN,api.groq.com
 DOMAIN,api.together.xyz
 DOMAIN,console.groq.com
 DOMAIN-SUFFIX,anthropic.com
-#DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,meta.ai
