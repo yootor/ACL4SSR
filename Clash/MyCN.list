@@ -21,6 +21,9 @@ IP-CIDR,224.0.0.0/4,no-resolve
 #My DOMAIN
 DOMAIN-SUFFIX,jpipi.com
 DOMAIN-SUFFIX,goppx.com
+#Sub
+DOMAIN-SUFFIX,maoxiongnet.com
+DOMAIN-SUFFIX,spphhnhg.top
 
 #Tecent IP SG
 IP-CIDR,43.156.0.0/18,no-resolve
@@ -37,10 +40,6 @@ DOMAIN-SUFFIX,doh.pub
 #Windows network
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
-
-#Sub
-DOMAIN-SUFFIX,maoxiongnet.com
-DOMAIN-SUFFIX,spphhnhg.top
 
 #增加自定义部分,BT下载
 # bt
