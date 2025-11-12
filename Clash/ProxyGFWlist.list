@@ -3,6 +3,8 @@ DOMAIN-SUFFIX,yootor.com
 DOMAIN-SUFFIX,nwtop.com
 #DOMAIN-SUFFIX,jpipi.com
 #DOMAIN-SUFFIX,goppx.com
+#Hardware
+DOMAIN-KEYWORD,murata
 
 # Other ACL4SSR start
 DOMAIN-SUFFIX,1password.com
