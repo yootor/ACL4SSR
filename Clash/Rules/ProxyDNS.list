@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-08-21 17:09:06
+# 生成时间: 2025-11-28 14:52:43
 
 #DNS 配置DOH时代理
 #2025-05-07
@@ -9,3 +9,4 @@ IP-CIDR,1.1.1.1/32,no-resolve
 IP-CIDR,1.0.0.1/32,no-resolve
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,dns.cloudflare.com
+DOMAIN-SUFFIX,cloudflare-gateway.com
