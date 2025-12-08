@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,observeit.net
@@ -54,7 +55,6 @@ DOMAIN,api.revenuecat.com
 #Gemini
 DOMAIN,policies.google.com
 DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,makersuite.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,deepmind.com
@@ -63,11 +63,17 @@ DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN,generativelanguage.googleapis.com
+DOMAIN,notebooklm.google.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN,play.google.com
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,googleapis.com
+
 
 #AI平台-国外
 DOMAIN-KEYWORD,anthropic
@@ -82,3 +88,4 @@ DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,x.ai

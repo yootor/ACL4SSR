@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-11-28 14:52:43
+# 生成时间: 2025-12-08 14:26:28
 
 # 直连列表
 
@@ -67,6 +67,7 @@ DOMAIN-SUFFIX,1688.com
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alibabacloud.com
+DOMAIN-SUFFIX,alibabachengdun.com
 DOMAIN-SUFFIX,alibabausercontent.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alicloudccp.com
@@ -474,7 +475,7 @@ DOMAIN-SUFFIX,landof.tv
 DOMAIN-SUFFIX,leaguehd.com
 DOMAIN-SUFFIX,lemonhd.org
 DOMAIN-SUFFIX,lztr.me
-# DOMAIN-SUFFIX,m-team.cc  # 与 ./ProxyGFWlist.list 重复
+DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,madsrevolution.net
 DOMAIN-SUFFIX,moecat.best
 DOMAIN-SUFFIX,morethan.tv
@@ -563,6 +564,7 @@ DOMAIN-SUFFIX,air-matters.com
 DOMAIN-SUFFIX,air-matters.io
 DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,algocasts.io
+DOMAIN-SUFFIX,asklink.com
 DOMAIN-SUFFIX,babytree.com
 DOMAIN-SUFFIX,babytreeimg.com
 DOMAIN-SUFFIX,baicizhan.com
