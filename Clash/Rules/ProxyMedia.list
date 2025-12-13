@@ -34,6 +34,9 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 #DOMAIN,app-analytics-services.com
 DOMAIN,www.gstatic.com
 DOMAIN,play.googleapis.com
+DOMAIN,clients3.google.com
+DOMAIN,yt3.googleusercontent.com
+DOMAIN,firebaseinstallations.googleapis.com
 
 # Telegram
 DOMAIN-SUFFIX,t.me
