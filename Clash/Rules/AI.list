@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-12-13 20:56:35
+# 生成时间: 2025-12-13 21:10:41
 
 #Cloudflare domain
 DOMAIN-SUFFIX,cloudflare.com
@@ -79,7 +79,6 @@ DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN,lh5.googleusercontent.com
 DOMAIN,www.googleapis.com
 DOMAIN,jnn-pa.googleapis.com
-DOMAIN,yt3.ggpht.com
 
 #AI平台-国外
 DOMAIN-KEYWORD,anthropic

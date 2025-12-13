@@ -1,5 +1,6 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-12-13 20:56:35
+# 生成时间: 2025-12-13 21:10:41
+
 # 内容：国外媒体列表
 # 数量：365条
 
@@ -16,7 +17,7 @@ USER-AGENT,YouTube*
 USER-AGENT,com.google.ios.youtube*
 DOMAIN-KEYWORD,youtube
 DOMAIN,youtubei.googleapis.com
-# DOMAIN,yt3.ggpht.com  # 与 ./AI.list 重复
+DOMAIN,yt3.ggpht.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,withyoutube.com
 DOMAIN-SUFFIX,youtubeeducation.com
@@ -31,7 +32,7 @@ DOMAIN-SUFFIX,ytimg.com
 DOMAIN,lh3.googleusercontent.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN,app-analytics-services.com
-
+DOMAIN,www.gstatic.com
 
 
 # Telegram
