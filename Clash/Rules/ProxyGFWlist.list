@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-12-08 14:26:28
+# 生成时间: 2025-12-13 20:56:35
 
 #MyList
 DOMAIN-SUFFIX,yootor.com
@@ -2546,7 +2546,7 @@ DOMAIN-SUFFIX,google.vn
 DOMAIN-SUFFIX,google.vu
 DOMAIN-SUFFIX,google.ws
 DOMAIN-SUFFIX,googleanalytics.com
-# DOMAIN-SUFFIX,googleapis.com  # 与 ./AI.list 重复
+# DOMAIN-SUFFIX,googleapis.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,googleapps.com
 DOMAIN-SUFFIX,googlearth.com
 DOMAIN-SUFFIX,googleartproject.com
@@ -2573,7 +2573,7 @@ DOMAIN-SUFFIX,googlescholar.com
 DOMAIN-SUFFIX,googlesile.com
 DOMAIN-SUFFIX,googlesource.com
 # DOMAIN-SUFFIX,googlesyndication.com  # 与 ./BanProgramAD.list 重复
-# DOMAIN-SUFFIX,googleusercontent.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,googleusercontent.com  # 与 ./Google.list 重复
 # DOMAIN-SUFFIX,googlevideo.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,googleweblight.com
 DOMAIN-SUFFIX,googlezip.net
@@ -4928,7 +4928,7 @@ DOMAIN-SUFFIX,seraph.me
 DOMAIN-SUFFIX,servehttp.com
 DOMAIN-SUFFIX,serveuser.com
 DOMAIN-SUFFIX,serveusers.com
-DOMAIN-SUFFIX,services.googleapis.cn
+# DOMAIN-SUFFIX,services.googleapis.cn  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,sesawe.net
 DOMAIN-SUFFIX,sesawe.org
 DOMAIN-SUFFIX,sethwklein.net

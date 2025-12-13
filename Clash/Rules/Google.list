@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-12-08 14:26:28
+# 生成时间: 2025-12-13 20:56:35
 
 # 内容：Google
 #增加Google ChinaIP、Google FCM 、GoogleEarth 、GoogleCN
@@ -14,13 +14,14 @@ DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,googleapis.cn
-# DOMAIN-SUFFIX,googleapis.com  # 与 ./AI.list 重复
+DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.cn
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 # DOMAIN-SUFFIX,gvt2.com  # 与 ./BanEasyList.list 重复
 DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,googleusercontent.com
 
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
@@ -86,6 +87,8 @@ DOMAIN-SUFFIX,toolbarqueries.google.com
 DOMAIN-SUFFIX,tools.google.com
 DOMAIN-SUFFIX,tools.l.google.com
 DOMAIN-SUFFIX,www-googletagmanager.l.google.com
+# DOMAIN-SUFFIX,xn--ngstr-lra8j.com  # 与 ./ProxyMedia.list 重复
+DOMAIN-SUFFIX,services.googleapis.cn
 
 # 内容：GoogleEarth 谷歌地球
 # 数量：16条
