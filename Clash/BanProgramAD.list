@@ -2,6 +2,7 @@
 # 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
 
 #Custom Rules
+DOMAIN,app-analytics-services.com
 #儿歌点点
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao1.com
 DOMAIN-SUFFIX,tnc3-alisc1.zijieapi.com
