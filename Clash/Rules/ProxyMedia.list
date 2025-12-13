@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-12-13 21:10:41
+# 生成时间: 2025-12-13 21:42:44
 
 # 内容：国外媒体列表
 # 数量：365条
@@ -34,7 +34,6 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 #DOMAIN,app-analytics-services.com
 DOMAIN,www.gstatic.com
 DOMAIN,play.googleapis.com
-
 
 # Telegram
 DOMAIN-SUFFIX,t.me
