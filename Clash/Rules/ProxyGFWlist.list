@@ -2574,7 +2574,7 @@ DOMAIN-SUFFIX,googlesile.com
 DOMAIN-SUFFIX,googlesource.com
 # DOMAIN-SUFFIX,googlesyndication.com  # 与 ./BanProgramAD.list 重复
 # DOMAIN-SUFFIX,googleusercontent.com  # 与 ./Google.list 重复
-# DOMAIN-SUFFIX,googlevideo.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,googlevideo.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,googleweblight.com
 DOMAIN-SUFFIX,googlezip.net
 DOMAIN-SUFFIX,gopetition.com
@@ -4928,7 +4928,7 @@ DOMAIN-SUFFIX,seraph.me
 DOMAIN-SUFFIX,servehttp.com
 DOMAIN-SUFFIX,serveuser.com
 DOMAIN-SUFFIX,serveusers.com
-# DOMAIN-SUFFIX,services.googleapis.cn  # 与 ./Google.list 重复
+DOMAIN-SUFFIX,services.googleapis.cn
 DOMAIN-SUFFIX,sesawe.net
 DOMAIN-SUFFIX,sesawe.org
 DOMAIN-SUFFIX,sethwklein.net
@@ -6355,7 +6355,7 @@ DOMAIN-SUFFIX,wisdompubs.org
 DOMAIN-SUFFIX,wisevid.com
 DOMAIN-SUFFIX,wistia.com
 DOMAIN-SUFFIX,withgoogle.com
-# DOMAIN-SUFFIX,withyoutube.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,withyoutube.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,witnessleeteaching.com
 DOMAIN-SUFFIX,witopia.net
 DOMAIN-SUFFIX,wizcrafts.net
@@ -6493,7 +6493,7 @@ DOMAIN-SUFFIX,xn--9iqy04a7fi01l.com
 DOMAIN-SUFFIX,xn--9pr62r24a.com
 DOMAIN-SUFFIX,xn--czq75pvv1aj5c.org
 DOMAIN-SUFFIX,xn--i2ru8q2qg.com
-# DOMAIN-SUFFIX,xn--ngstr-lra8j.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,xn--ngstr-lra8j.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,xn--noss43i.com
 DOMAIN-SUFFIX,xn--oiq.cc
 DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
@@ -6611,19 +6611,19 @@ DOMAIN-SUFFIX,yousendit.com
 DOMAIN-SUFFIX,youshun12.com
 DOMAIN-SUFFIX,youthnetradio.org
 DOMAIN-SUFFIX,youthwant.com.tw
-# DOMAIN-SUFFIX,youtu.be  # 与 ./ProxyMedia.list 重复
-# DOMAIN-SUFFIX,youtube-nocookie.com  # 与 ./ProxyMedia.list 重复
-# DOMAIN-SUFFIX,youtube.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,youtu.be  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,youtube-nocookie.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,youtube.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,youtubecn.com
-# DOMAIN-SUFFIX,youtubeeducation.com  # 与 ./ProxyMedia.list 重复
-# DOMAIN-SUFFIX,youtubegaming.com  # 与 ./ProxyMedia.list 重复
-# DOMAIN-SUFFIX,youtubekids.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,youtubeeducation.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,youtubegaming.com  # 与 ./Google.list 重复
+# DOMAIN-SUFFIX,youtubekids.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,youversion.com
 DOMAIN-SUFFIX,youwin.com
 DOMAIN-SUFFIX,youxu.info
-# DOMAIN-SUFFIX,yt.be  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,yt.be  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,ytht.net
-# DOMAIN-SUFFIX,ytimg.com  # 与 ./ProxyMedia.list 重复
+# DOMAIN-SUFFIX,ytimg.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,ytn.co.kr
 DOMAIN-SUFFIX,yuanming.net
 DOMAIN-SUFFIX,yuanzhengtang.org
