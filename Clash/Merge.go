@@ -225,44 +225,40 @@ func generateMosdnsRules(inputFiles []string, outputFile string) error {
 func main() {
 	// 输入规则文件,主要是针对广告规则，其余规则屏蔽
 	inputFiles := []string{
-		/*
-			"./BanProgramAD.list",
-			"./BanAD.list",
-			"./BanEasyList.list",
-			"./BanEasyListChina.list",
-			"./BanEasyPrivacy.list",
-			"./MyCN.list",
-			"./ProxyDNS.list",
-			"./AI.list",
-			"./Microsoft.list",
-		*/
+		"./BanProgramAD.list",
+		"./BanAD.list",
+		"./BanEasyList.list",
+		"./BanEasyListChina.list",
+		"./BanEasyPrivacy.list",
+		"./MyCN.list",
+		"./ProxyDNS.list",
+		"./AI.list",
+		"./Microsoft.list",
 		"./ProxyMedia.list",
 		"./Google.list",
-		//"./ProxyGFWlist.list",
-		//"./Apple.list",
-		//"./ChinaDomain.list",
-		//"./BlockiOSUpdate.list",
+		"./ProxyGFWlist.list",
+		"./Apple.list",
+		"./ChinaDomain.list",
+		"./BlockiOSUpdate.list",
 	}
 	// 生成去重后的文件，主要是针对广告规则，其余规则屏蔽
 	deduplicatedFiles := []string{
 
-		/*
-			"./Rules/BanProgramAD.list",
-			"./Rules/BanAD.list",
-			"./Rules/BanEasyList.list",
-			"./Rules/BanEasyListChina.list",
-			"./Rules/BanEasyPrivacy.list",
-			"./Rules/MyCN.list",
-			"./Rules/ProxyDNS.list",
-			"./Rules/AI.list",
-			"./Rules/Microsoft.list",
-		*/
+		"./Rules/BanProgramAD.list",
+		"./Rules/BanAD.list",
+		"./Rules/BanEasyList.list",
+		"./Rules/BanEasyListChina.list",
+		"./Rules/BanEasyPrivacy.list",
+		"./Rules/MyCN.list",
+		"./Rules/ProxyDNS.list",
+		"./Rules/AI.list",
+		"./Rules/Microsoft.list",
 		"./Rules/ProxyMedia.list",
 		"./Rules/Google.list",
-		//"./Rules/ProxyGFWlist.list",
-		//"./Rules/Apple.list",
-		//"./Rules/ChinaDomain.list",
-		//"./Rules/BlockiOSUpdate.list",
+		"./Rules/ProxyGFWlist.list",
+		"./Rules/Apple.list",
+		"./Rules/ChinaDomain.list",
+		"./Rules/BlockiOSUpdate.list",
 	}
 
 	// 规则去重与拆分

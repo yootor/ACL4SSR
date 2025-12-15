@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-12-14 20:31:16
+# 生成时间: 2025-12-15 09:43:56
 
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
 # 生成时间: 2025-12-13 21:42:44
@@ -35,8 +35,7 @@ DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,gstatic.com
 #Google
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
+
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,app-measurement.net
@@ -56,6 +55,19 @@ DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,gtm.oasisfeng.com
 DOMAIN-SUFFIX,recaptcha.net
+
+#Gemini
+DOMAIN,ai.google.dev
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,google
 
 #增加Google ChinaIP、Google FCM 、GoogleEarth 、GoogleCN
 # 内容：GoogleFCM 谷歌推送服务& Google China特殊处理

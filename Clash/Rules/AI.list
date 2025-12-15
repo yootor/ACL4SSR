@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-12-14 20:13:02
+# 生成时间: 2025-12-15 09:43:56
 
 #Cloudflare domain
 DOMAIN-SUFFIX,cloudflare.com
@@ -55,33 +55,6 @@ DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,api.revenuecat.com
 
-#Gemini
-DOMAIN,policies.google.com
-DOMAIN,ai.google.dev
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,notebooklm.google.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com
-DOMAIN,play.google.com
-DOMAIN-SUFFIX,clients6.google.com
-DOMAIN-SUFFIX,geller-pa.googleapis.com
-DOMAIN,lh5.googleusercontent.com
-DOMAIN,www.googleapis.com
-DOMAIN,jnn-pa.googleapis.com
-DOMAIN,notifications-pa.googleapis.com
-# DOMAIN,proactivebackend-pa.googleapis.com  # 与 ./AI.list 重复
-
 #AI平台-国外
 DOMAIN-KEYWORD,anthropic
 DOMAIN,api.githubcopilot.com
@@ -89,7 +62,7 @@ DOMAIN,api.groq.com
 DOMAIN,api.together.xyz
 DOMAIN,console.groq.com
 DOMAIN-SUFFIX,anthropic.com
-# DOMAIN-SUFFIX,featuregates.org  # 与 ./BanEasyPrivacy.list 重复
+DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,meta.ai
