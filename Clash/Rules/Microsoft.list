@@ -83,6 +83,7 @@ DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,wunderlist.com
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
+DOMAIN-SUFFIX,in.appcenter.ms
 # DOMAIN-SUFFIX,copilot.cloud.microsoft  # 与 ./AI.list 重复
 
 # 内容：Github
