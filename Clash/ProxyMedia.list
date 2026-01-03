@@ -2,6 +2,9 @@
 # 数量：365条
 
 #Youtube 合并到google中，google copy保留之前的版本和YouTube，作为存档 20251214
+#maoxiong 影业
+DOMAIN-SUFFIX,maoxiong.cloud
+
 # Telegram
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
