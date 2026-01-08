@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,nwtop.com
 #DOMAIN-SUFFIX,goppx.com
 #Hardware
 DOMAIN-KEYWORD,murata
+DOMAIN-SUFFIX,deepl.com
 
 # Other ACL4SSR start
 DOMAIN-SUFFIX,1password.com
