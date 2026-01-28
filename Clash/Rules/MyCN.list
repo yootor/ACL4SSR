@@ -25,6 +25,10 @@ IP-CIDR,224.0.0.0/4,no-resolve
 #My DOMAIN
 DOMAIN-SUFFIX,jpipi.com
 DOMAIN-SUFFIX,goppx.com
+#NTP
+DOMAIN,time.windows.com
+DOMAIN,cn.pool.ntp.org
+
 #Sub
 DOMAIN-SUFFIX,maoxiongnet.com
 DOMAIN-SUFFIX,spphhnhg.top
@@ -59,4 +63,3 @@ DOMAIN-SUFFIX,p2cdn.com
 DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,thundercdn.com
 DOMAIN-SUFFIX,xunlei.com
-
