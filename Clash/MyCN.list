@@ -24,7 +24,7 @@ DOMAIN-SUFFIX,jpipi.com
 DOMAIN-SUFFIX,goppx.com
 #NTP
 DOMAIN,time.windows.com
-DOMAIN,pool.ntp.org
+DOMAIN,cn.pool.ntp.org
 
 #Sub
 DOMAIN-SUFFIX,maoxiongnet.com
