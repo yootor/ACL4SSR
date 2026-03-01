@@ -24,6 +24,7 @@ DOMAIN-SUFFIX,jpipi.com
 DOMAIN-SUFFIX,goppx.com
 #NTP
 DOMAIN,time.windows.com
+IP-CIDR,20.189.79.72/32,no-resolve
 DOMAIN,cn.pool.ntp.org
 
 #Sub
