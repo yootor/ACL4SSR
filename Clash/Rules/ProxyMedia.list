@@ -29,13 +29,13 @@ DOMAIN,sync.itunes.apple.com
 DOMAIN,librarydaap.itunes.apple.com
 DOMAIN,universal-activity-service.itunes.apple.com
 DOMAIN,cma2.itunes.apple.com
-DOMAIN,fpinit.itunes.apple.com
-DOMAIN,init.itunes.apple.com
+#DOMAIN,fpinit.itunes.apple.com
+#DOMAIN,init.itunes.apple.com
 DOMAIN,pd.itunes.apple.com
 DOMAIN,se2.itunes.apple.com
 DOMAIN,sf-api-token-service.itunes.apple.com
 DOMAIN,upp.itunes.apple.com
-DOMAIN,p11-buy.itunes.apple.com
+#DOMAIN,p11-buy.itunes.apple.com
 DOMAIN-SUFFIX,radio.apple.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,applemusic.com
