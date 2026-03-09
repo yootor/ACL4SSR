@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-03-09 16:48:39
+# 生成时间: 2026-03-09 18:13:18
 
 # 内容：国外媒体列表
 
@@ -22,13 +22,20 @@ DOMAIN,streamingaudio.itunes.apple.com
 DOMAIN,downloaddispatch.itunes.apple.com
 DOMAIN,sp.itunes.apple.com
 DOMAIN,musicstatus.itunes.apple.com
-# DOMAIN,radio.itunes.apple.com  # 与 ./ProxyMedia.list 重复
-# DOMAIN,musicstatus.itunes.apple.com  # 与 ./ProxyMedia.list 重复
 DOMAIN,listen.apple.com
 DOMAIN,itsliveradio.apple.com
 DOMAIN,applemusicconnect.com
 DOMAIN,sync.itunes.apple.com
 DOMAIN,librarydaap.itunes.apple.com
+DOMAIN,universal-activity-service.itunes.apple.com
+DOMAIN,cma2.itunes.apple.com
+DOMAIN,fpinit.itunes.apple.com
+DOMAIN,init.itunes.apple.com
+DOMAIN,pd.itunes.apple.com
+DOMAIN,se2.itunes.apple.com
+DOMAIN,sf-api-token-service.itunes.apple.com
+DOMAIN,upp.itunes.apple.com
+DOMAIN,p11-buy.itunes.apple.com
 DOMAIN-SUFFIX,radio.apple.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,applemusic.com
