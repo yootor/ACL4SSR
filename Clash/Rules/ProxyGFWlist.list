@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-01-08 13:22:44
+# 生成时间: 2026-03-09 16:48:39
 
 #MyList
 DOMAIN-SUFFIX,yootor.com
@@ -1144,7 +1144,7 @@ DOMAIN-SUFFIX,cixiaoya.club
 DOMAIN-SUFFIX,ck101.com
 DOMAIN-SUFFIX,clarionproject.org
 DOMAIN-SUFFIX,classicalguitarblog.net
-# DOMAIN-SUFFIX,claude.ai  # 与 ./AI.list 重复
+# DOMAIN-SUFFIX,claude.ai  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,clb.org.hk
 DOMAIN-SUFFIX,cleansite.biz
 DOMAIN-SUFFIX,cleansite.info
@@ -1399,7 +1399,7 @@ DOMAIN-SUFFIX,deck.new
 DOMAIN-SUFFIX,decodet.co
 DOMAIN-SUFFIX,deepai.org
 DOMAIN-SUFFIX,deepdiscount.com
-# DOMAIN-SUFFIX,deepmind.com  # 与 ./AI.list 重复
+# DOMAIN-SUFFIX,deepmind.com  # 与 ./Google.list 重复
 # DOMAIN-SUFFIX,deezer.com  # 与 ./ProxyMedia.list 重复
 DOMAIN-SUFFIX,definebabe.com
 DOMAIN-SUFFIX,deja.com
@@ -2370,7 +2370,7 @@ DOMAIN-SUFFIX,google.co.vi
 DOMAIN-SUFFIX,google.co.za
 DOMAIN-SUFFIX,google.co.zm
 DOMAIN-SUFFIX,google.co.zw
-DOMAIN-SUFFIX,google.com
+# DOMAIN-SUFFIX,google.com  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,google.com.af
 DOMAIN-SUFFIX,google.com.ag
 DOMAIN-SUFFIX,google.com.ai
@@ -4459,7 +4459,7 @@ DOMAIN-SUFFIX,pixivsketch.net
 DOMAIN-SUFFIX,pixnet.in
 DOMAIN-SUFFIX,pixnet.net
 DOMAIN-SUFFIX,pk.com
-DOMAIN-SUFFIX,pki.goog
+# DOMAIN-SUFFIX,pki.goog  # 与 ./Google.list 重复
 DOMAIN-SUFFIX,pkqjiasu.com
 DOMAIN-SUFFIX,pkuanvil.com
 DOMAIN-SUFFIX,placemix.com

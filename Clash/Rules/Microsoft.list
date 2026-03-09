@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-12-14 20:13:02
+# 生成时间: 2026-03-09 16:48:39
 
 # Microsoft Services
 # optimized from https://gist.github.com/TTTPOB/ce93fb3b04ba2f21880b09427442d831
@@ -83,8 +83,9 @@ DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,wunderlist.com
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN-SUFFIX,in.appcenter.ms
-# DOMAIN-SUFFIX,copilot.cloud.microsoft  # 与 ./AI.list 重复
+DOMAIN-SUFFIX,copilot.microsoft.com
 
 # 内容：Github
 # 数量：6条

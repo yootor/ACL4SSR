@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2025-12-15 09:43:56
+# 生成时间: 2026-03-09 16:48:39
 
 #Cloudflare domain
 DOMAIN-SUFFIX,cloudflare.com
@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,r2.dev
 DOMAIN-SUFFIX,cloudflare-ipfs.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
 
 #Openai ChatGpt
 DOMAIN-SUFFIX,ai.com
@@ -20,7 +21,6 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openai
-DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,algolia.net
@@ -37,9 +37,6 @@ DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,imgix.net
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,copilot.cloud.microsoft
-DOMAIN,copilot-proxy.githubusercontent.com
-DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN,sydney.bing.com
@@ -62,7 +59,7 @@ DOMAIN,api.groq.com
 DOMAIN,api.together.xyz
 DOMAIN,console.groq.com
 DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,featuregates.org
+# DOMAIN-SUFFIX,featuregates.org  # 与 ./BanEasyPrivacy.list 重复
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,meta.ai

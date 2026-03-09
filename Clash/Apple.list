@@ -1,4 +1,4 @@
-# Apple
+# Apple 兜底配置，Apple Music放在Media中了
 # 一般国内Apple肯定正常,不需要开代理
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple-cloudkit.com

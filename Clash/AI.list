@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,r2.dev
 DOMAIN-SUFFIX,cloudflare-ipfs.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
 
 #Openai ChatGpt
 DOMAIN-SUFFIX,ai.com
@@ -17,7 +18,6 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openai
-DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,algolia.net
@@ -34,9 +34,6 @@ DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,imgix.net
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,copilot.cloud.microsoft
-DOMAIN,copilot-proxy.githubusercontent.com
-DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN,sydney.bing.com
