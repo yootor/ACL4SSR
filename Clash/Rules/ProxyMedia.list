@@ -18,6 +18,7 @@ DOMAIN,radio-activity.itunes.apple.com
 DOMAIN,amp-api-edge.music.apple.com
 DOMAIN,sb.music.apple.com
 DOMAIN,known-issues.apple.com
+DOMAIN,audio.itunes.apple.com
 DOMAIN,streamingaudio.itunes.apple.com
 DOMAIN,downloaddispatch.itunes.apple.com
 DOMAIN,sp.itunes.apple.com
@@ -29,19 +30,24 @@ DOMAIN,sync.itunes.apple.com
 DOMAIN,librarydaap.itunes.apple.com
 DOMAIN,universal-activity-service.itunes.apple.com
 DOMAIN,cma2.itunes.apple.com
-#DOMAIN,fpinit.itunes.apple.com
-#DOMAIN,init.itunes.apple.com
 DOMAIN,pd.itunes.apple.com
+DOMAIN,se.itunes.apple.com
 DOMAIN,se2.itunes.apple.com
-DOMAIN,sf-api-token-service.itunes.apple.com
 DOMAIN,upp.itunes.apple.com
-#DOMAIN,p11-buy.itunes.apple.com
+DOMAIN,sf-api-token-service.itunes.apple.com
+DOMAIN,audio-ssl.itunes.apple.com
+DOMAIN,video-ssl.itunes.apple.com
+DOMAIN,aodp-ssl.apple.com
 DOMAIN-SUFFIX,radio.apple.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,blobstore.apple.com
 IP-CIDR,17.0.0.0/8,no-resolve
+#DOMAIN,client-api.itunes.apple.com
+#DOMAIN,fpinit.itunes.apple.com
+#DOMAIN,init.itunes.apple.com
+#DOMAIN,p11-buy.itunes.apple.com
 
 # AppleNews
 #删除Apple的规则，走直连
