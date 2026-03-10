@@ -231,17 +231,17 @@ func main() {
 		"./BanEasyListChina.list",
 		"./BanEasyPrivacy.list",
 		"./MyCN.list",
-		"./ProxyDNS.list",
 		"./AI.list",
-		"./Microsoft.list",
-		"./ProxyMedia.list",
 		"./Google.list",
+		"./ProxyMedia.list",
+		"./Microsoft.list",
 		"./ProxyGFWlist.list",
+		"./ProxyDNS.list",
 		"./Apple.list",
 		"./ChinaDomain.list",
 		"./BlockiOSUpdate.list",
 	}
-	// 生成去重后的文件，主要是针对广告规则，其余规则屏蔽
+	// 生成去重后的文件，主要是针对广告规则，其余规则屏蔽,规则靠上优先级越高
 	deduplicatedFiles := []string{
 
 		"./Rules/BanProgramAD.list",
@@ -250,12 +250,12 @@ func main() {
 		"./Rules/BanEasyListChina.list",
 		"./Rules/BanEasyPrivacy.list",
 		"./Rules/MyCN.list",
-		"./Rules/ProxyDNS.list",
 		"./Rules/AI.list",
-		"./Rules/Microsoft.list",
-		"./Rules/ProxyMedia.list",
 		"./Rules/Google.list",
+		"./Rules/ProxyMedia.list",
+		"./Rules/Microsoft.list",
 		"./Rules/ProxyGFWlist.list",
+		"./Rules/ProxyDNS.list",
 		"./Rules/Apple.list",
 		"./Rules/ChinaDomain.list",
 		"./Rules/BlockiOSUpdate.list",

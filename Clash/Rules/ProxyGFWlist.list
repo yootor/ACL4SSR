@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-03-09 18:13:18
+# 生成时间: 2026-03-10 09:03:25
 
 #MyList
 DOMAIN-SUFFIX,yootor.com
@@ -1160,7 +1160,7 @@ DOMAIN-SUFFIX,clipfish.de
 DOMAIN-SUFFIX,clips4sale.com
 DOMAIN-SUFFIX,cloakpoint.com
 DOMAIN-SUFFIX,cloudcone.com
-# DOMAIN-SUFFIX,cloudflare-dns.com  # 与 ./ProxyDNS.list 重复
+DOMAIN-SUFFIX,cloudflare-dns.com
 # DOMAIN-SUFFIX,cloudflare-ipfs.com  # 与 ./AI.list 重复
 DOMAIN-SUFFIX,cloudflarestatus.com
 DOMAIN-SUFFIX,cloudfront.net
@@ -1472,7 +1472,7 @@ DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dns-dns.com
 DOMAIN-SUFFIX,dns-stuff.com
-# DOMAIN-SUFFIX,dns.google  # 与 ./ProxyDNS.list 重复
+DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,dns04.com
 DOMAIN-SUFFIX,dns05.com
 DOMAIN-SUFFIX,dns1.us
