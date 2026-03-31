@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,deepl.com
 #Apple Music
 DOMAIN-SUFFIX,blobstore.apple.com
 DOMAIN,downloaddispatch.itunes.apple.com
+DOMAIN,amp-api.music.apple.com
 
 # AppleNews
 #删除Apple的规则，走直连
