@@ -6,60 +6,6 @@
 #maoxiong 影业
 DOMAIN-SUFFIX,maoxiong.cloud
 
-#Apple Music
-USER-AGENT,AppleMusic*
-DOMAIN,aod.itunes.apple.com
-DOMAIN,play.itunes.apple.com
-DOMAIN,amp-api.music.apple.com
-DOMAIN,mvod.itunes.apple.com
-DOMAIN,radio.itunes.apple.com
-DOMAIN,radio-activity.itunes.apple.com
-DOMAIN,amp-api-edge.music.apple.com
-DOMAIN,sb.music.apple.com
-DOMAIN,known-issues.apple.com
-DOMAIN,audio.itunes.apple.com
-DOMAIN,streamingaudio.itunes.apple.com
-DOMAIN,downloaddispatch.itunes.apple.com
-DOMAIN,sp.itunes.apple.com
-DOMAIN,musicstatus.itunes.apple.com
-DOMAIN,listen.apple.com
-DOMAIN,itsliveradio.apple.com
-DOMAIN,applemusicconnect.com
-DOMAIN,sync.itunes.apple.com
-DOMAIN,librarydaap.itunes.apple.com
-DOMAIN,universal-activity-service.itunes.apple.com
-DOMAIN,cma2.itunes.apple.com
-DOMAIN,pd.itunes.apple.com
-DOMAIN,se.itunes.apple.com
-DOMAIN,se2.itunes.apple.com
-DOMAIN,upp.itunes.apple.com
-DOMAIN,sf-api-token-service.itunes.apple.com
-DOMAIN,audio-ssl.itunes.apple.com
-DOMAIN,video-ssl.itunes.apple.com
-DOMAIN,aodp-ssl.apple.com
-DOMAIN-SUFFIX,radio.apple.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,applemusic.com
-DOMAIN-SUFFIX,music.apple.com
-DOMAIN-SUFFIX,blobstore.apple.com
-IP-CIDR,17.0.0.0/8,no-resolve
-#DOMAIN,client-api.itunes.apple.com
-#DOMAIN,fpinit.itunes.apple.com
-#DOMAIN,init.itunes.apple.com
-#DOMAIN,p11-buy.itunes.apple.com
-
-# AppleNews
-#删除Apple的规则，走直连
-USER-AGENT,AppleNews*
-USER-AGENT,com.apple.news*
-DOMAIN,gspe1-ssl.ls.apple.com
-
-# AppleTV
-DOMAIN,np-edge.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN-SUFFIX,tv.apple.com
-
-
 # Telegram
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com

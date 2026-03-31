@@ -1,15 +1,6 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
 # 生成时间: 2026-03-10 09:03:25
 
-#MyList
-DOMAIN-SUFFIX,yootor.com
-DOMAIN-SUFFIX,nwtop.com
-#DOMAIN-SUFFIX,jpipi.com
-#DOMAIN-SUFFIX,goppx.com
-#Hardware
-DOMAIN-KEYWORD,murata
-DOMAIN-SUFFIX,deepl.com
-
 # Other ACL4SSR start
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adguard.org
