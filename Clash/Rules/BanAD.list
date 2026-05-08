@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-03-10 09:03:25
+# 生成时间: 2026-05-08 10:22:06
 
 
 # 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
@@ -299,7 +299,7 @@ DOMAIN-SUFFIX,optimix.cn
 DOMAIN-SUFFIX,optimizelyapis.com
 DOMAIN-SUFFIX,overture.com
 DOMAIN-SUFFIX,p0y.cn
-# DOMAIN-SUFFIX,pagechoice.net  # 与 ./BanProgramAD.list 重复
+# DOMAIN-SUFFIX,pagechoice.net  # 与 BanProgramAD.list 重复
 DOMAIN-SUFFIX,pingdom.net
 DOMAIN-SUFFIX,plugrush.com
 DOMAIN-SUFFIX,popin.cc
@@ -488,7 +488,7 @@ DOMAIN-SUFFIX,eyereturn.com
 DOMAIN-SUFFIX,fastapi.net
 DOMAIN-SUFFIX,fastclick.com
 DOMAIN-SUFFIX,fastclick.net
-# DOMAIN-SUFFIX,flurry.com  # 与 ./BanProgramAD.list 重复
+# DOMAIN-SUFFIX,flurry.com  # 与 BanProgramAD.list 重复
 DOMAIN-SUFFIX,gosquared.com
 DOMAIN-SUFFIX,gtags.net
 DOMAIN-SUFFIX,heyzap.com

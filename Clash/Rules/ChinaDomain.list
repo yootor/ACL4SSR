@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-03-10 09:03:25
+# 生成时间: 2026-05-08 10:22:06
 
 # 直连列表
 
@@ -455,7 +455,6 @@ DOMAIN-SUFFIX,hdfans.org
 DOMAIN-SUFFIX,hdhome.org
 DOMAIN-SUFFIX,hdpost.top
 DOMAIN-SUFFIX,hdroute.org
-# DOMAIN-SUFFIX,hdsky.me  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,hdstreet.club
 DOMAIN-SUFFIX,hdtime.org
 DOMAIN-SUFFIX,hdupt.com
@@ -881,12 +880,9 @@ DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,playartifact.com
 DOMAIN-SUFFIX,steam-chat.com
-# DOMAIN-SUFFIX,steamcommunity.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,steamgames.com
-# DOMAIN-SUFFIX,steampowered.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstat.us
-# DOMAIN-SUFFIX,steamstatic.com  # 与 ./ProxyGFWlist.list 重复
 DOMAIN-SUFFIX,underlords.com
 DOMAIN-SUFFIX,valvesoftware.com
 

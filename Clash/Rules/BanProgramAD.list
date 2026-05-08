@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-03-10 09:03:25
+# 生成时间: 2026-05-08 10:22:06
 
 # 包含常用应用的各种去广告规则。
 # 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
@@ -244,7 +244,7 @@ DOMAIN-SUFFIX,adashbc.ut.taobao.com
 DOMAIN-SUFFIX,adash-c.ut.taobao.com
 DOMAIN-SUFFIX,adashxgc.ut.taobao.com
 DOMAIN-SUFFIX,adashx4yt.m.taobao.com
-# DOMAIN-SUFFIX,tunion-api.m.taobao.com  # 与 ./BanProgramAD.list 重复
+# DOMAIN-SUFFIX,tunion-api.m.taobao.com  # 与 BanProgramAD.list 重复
 DOMAIN-SUFFIX,tns.simba.taobao.com
 DOMAIN-SUFFIX,click.mz.simba.taobao.com
 DOMAIN-SUFFIX,click.simba.taobao.com
@@ -1107,7 +1107,7 @@ DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
 DOMAIN,crash2.zhihu.com
 IP-CIDR,118.89.204.198/32,no-resolve
-# IP-CIDR,118.89.204.198/32,no-resolve  # 与 ./BanProgramAD.list 重复
+# IP-CIDR,118.89.204.198/32,no-resolve  # 与 BanProgramAD.list 重复
 # Ads in Video apps 下面都是 ********************
 
 # 6间房
@@ -1418,7 +1418,7 @@ DOMAIN-SUFFIX,game.51yund.com
 DOMAIN-SUFFIX,ganjituiguang.ganji.com
 DOMAIN-SUFFIX,grand.ele.me
 DOMAIN-SUFFIX,DOMAINing.miarroba.info
-# DOMAIN-SUFFIX,iadsdk.apple.com  # 与 ./BanProgramAD.list 重复
+# DOMAIN-SUFFIX,iadsdk.apple.com  # 与 BanProgramAD.list 重复
 DOMAIN-SUFFIX,image.gentags.com
 DOMAIN-SUFFIX,its-dori.tumblr.com
 DOMAIN-SUFFIX,log.outbrain.com

@@ -4,40 +4,47 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"path/filepath"
 	"regexp"
 	"sort"
 	"strings"
 	"time"
+
+	// 引入 Mihomo 内核依赖
+	constant "github.com/metacubex/mihomo/constant/provider"
+	ruleProvider "github.com/metacubex/mihomo/rules/provider"
 )
 
 const maxFileSize = 2048 * 1024 // 2048KB 限制
 
-// 规则去重，并在超过文件大小时进行拆分
-func deduplicateFiles(inputFiles []string, deduplicatedFiles []string) error {
-	ruleSet := make(map[string]string)                                                        // 记录规则及其来源文件
-	domainRegex := regexp.MustCompile(`(?i)(DOMAIN|DOMAIN-SUFFIX|KEYWORD|IP-CIDR),([^"\s]+)`) //匹配Clash规则
+// =====================================================================
+// 1. 规则去重
+// =====================================================================
+func deduplicateFiles(inputFiles []string, outputDir string) error {
+	ruleSet := make(map[string]string)
+	domainRegex := regexp.MustCompile(`(?i)(DOMAIN|DOMAIN-SUFFIX|KEYWORD|IP-CIDR),([^"\s]+)`)
 
-	for index, fileName := range inputFiles {
+	os.MkdirAll(outputDir, 0755)
+
+	for _, fileName := range inputFiles {
 		file, err := os.Open(fileName)
 		if err != nil {
-			return fmt.Errorf("无法打开文件 %s: %v", fileName, err)
+			fmt.Printf("   ⚠️ 无法打开源文件 %s: %v\n", fileName, err)
+			continue
 		}
 		defer file.Close()
 
-		// **确保文件始终在 ./Rules/ 目录**
-		baseName := strings.TrimSuffix(deduplicatedFiles[index], ".list")
-		//fileIndex := 1
-		outputFileName := fmt.Sprintf("%s.list", baseName)
+		pureName := strings.TrimSuffix(filepath.Base(fileName), ".list")
+		basePath := filepath.Join(outputDir, pureName)
+		outputFileName := fmt.Sprintf("%s.list", basePath)
+
 		outFile, err := os.Create(outputFileName)
 		if err != nil {
-			return fmt.Errorf("无法创建去重文件 %s: %v", outputFileName, err)
+			return err
 		}
-		defer outFile.Close()
 
 		writer := bufio.NewWriter(outFile)
 		currentSize := 0
-
-		// **写入文件头部**
 		header := fmt.Sprintf("# 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR\n# 生成时间: %s\n\n",
 			time.Now().Format("2006-01-02 15:04:05"))
 		writer.WriteString(header)
@@ -46,244 +53,257 @@ func deduplicateFiles(inputFiles []string, deduplicatedFiles []string) error {
 
 		scanner := bufio.NewScanner(file)
 		fileIndex := 1
-
 		for scanner.Scan() {
 			line := strings.TrimSpace(scanner.Text())
-
-			// 直接写入空行和注释
 			if line == "" || strings.HasPrefix(line, "#") {
 				writer.WriteString(line + "\n")
 				currentSize += len(line) + 1
 				continue
 			}
 
-			// 解析规则
 			matches := domainRegex.FindStringSubmatch(line)
 			if len(matches) == 3 {
 				_, value := matches[1], matches[2]
 				if originalFile, exists := ruleSet[value]; exists {
-					// **规则重复，添加注释*
-					duplicateNote := fmt.Sprintf("# %s  # 与 %s 重复\n", line, originalFile)
+					duplicateNote := fmt.Sprintf("# %s  # 与 %s 重复\n", line, filepath.Base(originalFile))
 					writer.WriteString(duplicateNote)
 					currentSize += len(duplicateNote)
 				} else {
 					ruleSet[value] = fileName
 					formattedLine := line + "\n"
 					lineSize := len(formattedLine)
-
-					// **文件大小超限，创建新文件**
 					if currentSize+lineSize > maxFileSize {
 						writer.Flush()
 						outFile.Close()
-
 						if fileIndex == 1 {
-							os.Rename(outputFileName, fmt.Sprintf("%s_1.list", baseName)) // 先重命名
+							os.Rename(outputFileName, fmt.Sprintf("%s_1.list", basePath))
 						}
-
 						fileIndex++
-						outputFileName = fmt.Sprintf("%s_%d.list", baseName, fileIndex)
-						outFile, err = os.Create(outputFileName)
-						if err != nil {
-							return fmt.Errorf("无法创建拆分文件 %s: %v", outputFileName, err)
-						}
+						outputFileName = fmt.Sprintf("%s_%d.list", basePath, fileIndex)
+						outFile, _ = os.Create(outputFileName)
 						writer = bufio.NewWriter(outFile)
-
-						// **写入新文件头部**
 						writer.WriteString(header)
 						writer.Flush()
 						currentSize = len(header)
 					}
-
-					// **写入规则**
 					writer.WriteString(formattedLine)
 					currentSize += lineSize
 				}
 			} else {
-				// 非匹配规则的内容仍然写入
 				formattedLine := line + "\n"
 				lineSize := len(formattedLine)
-
-				// **文件大小超限，创建新文件**
 				if currentSize+lineSize > maxFileSize {
 					writer.Flush()
 					outFile.Close()
-
 					if fileIndex == 1 {
-						os.Rename(outputFileName, fmt.Sprintf("%s_1.list", baseName)) // 先重命名文件，避免覆盖
+						os.Rename(outputFileName, fmt.Sprintf("%s_1.list", basePath))
 					}
-
 					fileIndex++
-					outputFileName = fmt.Sprintf("%s_%d.list", baseName, fileIndex)
-					outFile, err = os.Create(outputFileName)
-					if err != nil {
-						return fmt.Errorf("无法创建拆分文件 %s: %v", outputFileName, err)
-					}
+					outputFileName = fmt.Sprintf("%s_%d.list", basePath, fileIndex)
+					outFile, _ = os.Create(outputFileName)
 					writer = bufio.NewWriter(outFile)
-
-					// **写入新文件头部**
 					writer.WriteString(header)
 					writer.Flush()
 					currentSize = len(header)
 				}
-
-				// **写入内容**
 				writer.WriteString(formattedLine)
 				currentSize += lineSize
 			}
 		}
-
 		writer.Flush()
-		fmt.Println("去重后的文件已生成:", outputFileName)
+		outFile.Close()
+		fmt.Println("   ✅ 去重后的规则已生成:", outputFileName)
 
-		// **如果只有一个文件，且是 `_1` 结尾，去掉 `_1`**
 		if fileIndex == 1 {
-			originalName := fmt.Sprintf("%s.list", baseName)
-			if _, err := os.Stat(fmt.Sprintf("%s_1.list", baseName)); err == nil {
-				os.Rename(fmt.Sprintf("%s_1.list", baseName), originalName)
+			originalName := fmt.Sprintf("%s.list", basePath)
+			if _, err := os.Stat(fmt.Sprintf("%s_1.list", basePath)); err == nil {
+				os.Rename(fmt.Sprintf("%s_1.list", basePath), originalName)
 			}
 		}
 	}
-
 	return nil
 }
 
-// 生成 MOSDNS 规则文件
-
+// =====================================================================
+// 2. MOSDNS 规则生成
+// =====================================================================
 func generateMosdnsRules(inputFiles []string, outputFile string) error {
 	var keywordRules, domainRules, fullRules []string
-	domainRegex := regexp.MustCompile(`(?i)(DOMAIN|DOMAIN-SUFFIX|KEYWORD),([^"\s]+)`) // 解析规则
-
+	domainRegex := regexp.MustCompile(`(?i)(DOMAIN|DOMAIN-SUFFIX|KEYWORD),([^"\s]+)`)
 	for _, fileName := range inputFiles {
 		file, err := os.Open(fileName)
 		if err != nil {
-			return fmt.Errorf("无法打开去重后文件 %s: %v", fileName, err)
+			continue
 		}
 		defer file.Close()
-
 		scanner := bufio.NewScanner(file)
 		for scanner.Scan() {
 			line := strings.TrimSpace(scanner.Text())
 			if strings.HasPrefix(line, "#") || line == "" {
-				continue // 跳过注释和空行
+				continue
 			}
-
 			matches := domainRegex.FindStringSubmatch(line)
 			if len(matches) == 3 {
-				ruleType, value := matches[1], matches[2]
-				switch strings.ToUpper(ruleType) {
+				t, v := strings.ToUpper(matches[1]), matches[2]
+				switch t {
 				case "DOMAIN":
-					fullRules = append(fullRules, fmt.Sprintf("full:%s", value))
+					fullRules = append(fullRules, "full:"+v)
 				case "DOMAIN-SUFFIX":
-					domainRules = append(domainRules, fmt.Sprintf("domain:%s", value))
+					domainRules = append(domainRules, "domain:"+v)
 				case "KEYWORD":
-					keywordRules = append(keywordRules, fmt.Sprintf("keyword:%s", value))
+					keywordRules = append(keywordRules, "keyword:"+v)
 				}
 			}
 		}
 	}
-
-	// 排序规则
 	sort.Strings(keywordRules)
 	sort.Strings(domainRules)
 	sort.Strings(fullRules)
-
-	// 创建输出文件
-	outFile, err := os.Create(outputFile)
-	if err != nil {
-		return fmt.Errorf("无法创建 MOSDNS 规则文件: %v", err)
-	}
+	outFile, _ := os.Create(outputFile)
 	defer outFile.Close()
+	w := bufio.NewWriter(outFile)
+	fmt.Fprintf(w, "# MOSDNS 规则生成时间: %s\n\n# 关键字规则\n%s\n\n# 域名规则\n%s\n\n# 全匹配\n%s\n",
+		time.Now().Format("2006-01-02 15:04:05"), strings.Join(keywordRules, "\n"), strings.Join(domainRules, "\n"), strings.Join(fullRules, "\n"))
+	return w.Flush()
+}
 
-	outWriter := bufio.NewWriter(outFile)
+// =====================================================================
+// 3. MRS 编译模块，只支持domain规则，不支持keywords和IP-CIDR (支持多任务、多文件合并)
+// =====================================================================
 
-	// 写入文件头部信息（日期）
-	currentTime := time.Now().Format("2006-01-02 15:04:05")
-	outWriter.WriteString("# MOSDNS 合并的所有去广告规则, 来自https://github.com/ACL4SSR/ACL4SSR\n")
-	outWriter.WriteString(fmt.Sprintf("# MOSDNS 规则文件\n# 生成时间: %s\n\n", currentTime))
+type MrsTask struct {
+	TargetName string   // 目标文件名 (如 Ads.mrs)
+	Sources    []string // 来源 .list 文件路径
+}
 
-	// 写入规则
-	outWriter.WriteString("# 关键字规则\n")
-	for _, rule := range keywordRules {
-		outWriter.WriteString(rule + "\n")
+func compileMrsTasks(tasks []MrsTask, outputDir string) {
+	os.MkdirAll(outputDir, 0755)
+	fmt.Println("\n▶️ 开始执行 MRS 编译任务...")
+
+	for _, task := range tasks {
+		var allPayloads []string
+		payloadSet := make(map[string]bool)
+
+		for _, source := range task.Sources {
+			file, err := os.Open(source)
+			if err != nil {
+				continue
+			}
+
+			domainRegex := regexp.MustCompile(`(?i)^(DOMAIN|DOMAIN-SUFFIX),([^,\s]+)`)
+			scanner := bufio.NewScanner(file)
+			for scanner.Scan() {
+				line := strings.TrimSpace(scanner.Text())
+				if line == "" || strings.HasPrefix(line, "#") {
+					continue
+				}
+				matches := domainRegex.FindStringSubmatch(line)
+				if len(matches) == 3 {
+					t, v := strings.ToUpper(matches[1]), matches[2]
+					p := v
+					if t == "DOMAIN-SUFFIX" {
+						p = "+." + strings.TrimPrefix(v, ".")
+					}
+					if !payloadSet[p] {
+						payloadSet[p] = true
+						allPayloads = append(allPayloads, p)
+					}
+				}
+			}
+			file.Close()
+		}
+
+		if len(allPayloads) > 0 {
+			outPath := filepath.Join(outputDir, task.TargetName)
+			outFile, _ := os.Create(outPath)
+
+			// 捕获可能由于内核版本不一致导致的崩溃
+			err := func() (err error) {
+				defer func() {
+					if r := recover(); r != nil {
+						err = fmt.Errorf("%v", r)
+					}
+				}()
+				return ruleProvider.ConvertToMrs([]byte(strings.Join(allPayloads, "\n")), constant.Domain, constant.TextRule, outFile)
+			}()
+			outFile.Close()
+
+			if err != nil {
+				fmt.Printf("   ❌ [%s] 编译失败: %v\n", task.TargetName, err)
+			} else {
+				fmt.Printf("   ✅ [%s] 编译完成 (包含 %d 条规则)\n", task.TargetName, len(allPayloads))
+			}
+		}
 	}
-
-	outWriter.WriteString("\n# 域名规则\n")
-	for _, rule := range domainRules {
-		outWriter.WriteString(rule + "\n")
-	}
-
-	outWriter.WriteString("\n# 全匹配规则\n")
-	for _, rule := range fullRules {
-		outWriter.WriteString(rule + "\n")
-	}
-
-	outWriter.Flush()
-	fmt.Println("MOSDNS 规则文件已生成:", outputFile)
-	return nil
 }
 
 func main() {
-	// 输入规则文件,主要是针对广告规则，其余规则屏蔽
-	inputFiles := []string{
+	// 🟢 [配置1] 所有需要去重的源文件
+	allInputFiles := []string{
 		"./BanProgramAD.list",
 		"./BanAD.list",
 		"./BanEasyList.list",
 		"./BanEasyListChina.list",
 		"./BanEasyPrivacy.list",
 		"./MyCN.list",
+		"./MyProxy.list",
+		"./ProxyDNS.list",
 		"./AI.list",
 		"./Google.list",
 		"./ProxyMedia.list",
 		"./Microsoft.list",
 		"./ProxyGFWlist.list",
-		"./ProxyDNS.list",
 		"./Apple.list",
 		"./ChinaDomain.list",
 		"./BlockiOSUpdate.list",
 	}
-	// 生成去重后的文件，主要是针对广告规则，其余规则屏蔽,规则靠上优先级越高
-	deduplicatedFiles := []string{
 
-		"./Rules/BanProgramAD.list",
-		"./Rules/BanAD.list",
-		"./Rules/BanEasyList.list",
-		"./Rules/BanEasyListChina.list",
-		"./Rules/BanEasyPrivacy.list",
-		"./Rules/MyCN.list",
-		"./Rules/AI.list",
-		"./Rules/Google.list",
-		"./Rules/ProxyMedia.list",
-		"./Rules/Microsoft.list",
-		"./Rules/ProxyGFWlist.list",
-		"./Rules/ProxyDNS.list",
-		"./Rules/Apple.list",
-		"./Rules/ChinaDomain.list",
-		"./Rules/BlockiOSUpdate.list",
-	}
+	fmt.Println("🚀 开始执行自动化规则构建任务...")
 
-	// 规则去重与拆分
-	err := deduplicateFiles(inputFiles, deduplicatedFiles)
-	if err != nil {
-		fmt.Println("规则去重失败:", err)
-		return
-	}
-	//屏蔽MOSDNS 规则生成
+	// 1. 执行规则去重
+	deduplicateFiles(allInputFiles, "./Rules")
 
-	// 选择去重后的文件进行合并，生成 MOSDNS 规则
-	selectedFiles := []string{
+	// 🟢 选择需要转换为 MOSDNS的规则
+	mosdnsSources := []string{
 		"./Rules/BanProgramAD.list",
 		"./Rules/BanAD.list",
 		"./Rules/BanEasyList.list",
 		"./Rules/BanEasyListChina.list",
 		"./Rules/BanEasyPrivacy.list",
 	}
+	generateMosdnsRules(mosdnsSources, "./Rules/mosdns_rules.txt")
 
-	// 生成 MOSDNS 规则
-	outputFile := "./Rules/mosdns_rules.txt"
-	err = generateMosdnsRules(selectedFiles, outputFile)
-	if err != nil {
-		fmt.Println("生成 MOSDNS 规则失败:", err)
-		return
+	// 🟢 自定义 MRS 任务区
+	mrsTasks := []MrsTask{
+		{
+			// 任务A：合并去广告规则
+			TargetName: "AdBlock.mrs",
+			Sources: []string{
+				"./Rules/BanProgramAD.list",
+				"./Rules/BanAD.list",
+				"./Rules/BanEasyList.list",
+				"./Rules/BanEasyListChina.list",
+				"./Rules/BanEasyPrivacy.list",
+			},
+		},
+		{
+			// 任务B：配置生成MRS的其余规则文件
+			TargetName: "ProxyGFWlist.mrs",
+			Sources: []string{
+				"./Rules/ProxyGFWlist.list",
+			},
+		},
+		/*{
+			// 任务C：如果你想把 Google 也转成 MRS，就加一条
+			TargetName: "Google.mrs",
+			Sources:    []string{
+				"./Rules/Google.list",
+			},
+		},*/
 	}
 
+	// 2. 执行 MRS 编译
+	compileMrsTasks(mrsTasks, "./Mrs")
+
+	fmt.Println("\n✨ 全部任务执行完毕！")
 }

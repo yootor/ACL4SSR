@@ -1,6 +1,4 @@
-# MOSDNS 合并的所有去广告规则, 来自https://github.com/ACL4SSR/ACL4SSR
-# MOSDNS 规则文件
-# 生成时间: 2026-03-10 09:03:25
+# MOSDNS 规则生成时间: 2026-05-08 10:22:06
 
 # 关键字规则
 keyword:admarvel
@@ -87375,7 +87373,7 @@ domain:zzyxhvqjjtgxj.online
 domain:zzzjhkyprpsvl.store
 domain:zzzmjfixezere.site
 
-# 全匹配规则
+# 全匹配
 full:aaid.uyunad.com
 full:aboard.apilocate.amap.com
 full:acdn.adnxs.com

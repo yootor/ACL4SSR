@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-03-10 09:03:25
+# 生成时间: 2026-05-08 10:22:06
 
 #Cloudflare domain
 DOMAIN-SUFFIX,cloudflare.com
@@ -59,7 +59,6 @@ DOMAIN,api.groq.com
 DOMAIN,api.together.xyz
 DOMAIN,console.groq.com
 DOMAIN-SUFFIX,anthropic.com
-# DOMAIN-SUFFIX,featuregates.org  # 与 ./BanEasyPrivacy.list 重复
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,meta.ai

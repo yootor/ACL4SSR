@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-03-10 09:03:25
+# 生成时间: 2026-05-08 10:22:06
 
 # 内容：国外媒体列表
 #Youtube 合并到google中，google copy保留之前的版本和YouTube，作为存档 20251214
@@ -120,7 +120,6 @@ DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,braze.com
 DOMAIN-SUFFIX,cdn.optimizely.com
 DOMAIN-SUFFIX,cdn.registerdisney.go.com
-# DOMAIN-SUFFIX,cws.conviva.com  # 与 ./BanEasyPrivacy.list 重复
 DOMAIN-SUFFIX,d9.flashtalking.com
 DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disney-portal.my.onetrust.com
@@ -146,7 +145,6 @@ DOMAIN-SUFFIX,encoretvb.com
 USER-AGENT,FOX%20NOW*
 DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxdcg.com
-# DOMAIN-SUFFIX,uplynk.com  # 与 ./ProxyMedia.list 重复
 
 # HBO
 USER-AGENT,HBO%20NOW*

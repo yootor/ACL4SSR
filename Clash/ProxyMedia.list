@@ -117,7 +117,6 @@ DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,braze.com
 DOMAIN-SUFFIX,cdn.optimizely.com
 DOMAIN-SUFFIX,cdn.registerdisney.go.com
-# DOMAIN-SUFFIX,cws.conviva.com  # 与 ./BanEasyPrivacy.list 重复
 DOMAIN-SUFFIX,d9.flashtalking.com
 DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disney-portal.my.onetrust.com
@@ -143,7 +142,6 @@ DOMAIN-SUFFIX,encoretvb.com
 USER-AGENT,FOX%20NOW*
 DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxdcg.com
-# DOMAIN-SUFFIX,uplynk.com  # 与 ./ProxyMedia.list 重复
 
 # HBO
 USER-AGENT,HBO%20NOW*

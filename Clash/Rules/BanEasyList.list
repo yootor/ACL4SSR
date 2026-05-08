@@ -1,5 +1,5 @@
 # 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-03-10 09:03:25
+# 生成时间: 2026-05-08 10:22:06
 
 # 广告列表 adblock rules
 # 内容：EasyList列表，只包含ABP中的 EasyList 内容
@@ -1620,7 +1620,7 @@ DOMAIN-SUFFIX,actthrilled.com
 DOMAIN-SUFFIX,acubbeamjtky.xyz
 DOMAIN-SUFFIX,acuerdobedight.life
 DOMAIN-SUFFIX,acufjnlheepma.website
-# DOMAIN-SUFFIX,acuityplatform.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,acuityplatform.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,acumocceemuqj.space
 DOMAIN-SUFFIX,acuteleukemie.info
 DOMAIN-SUFFIX,acuteprone.com
@@ -1632,7 +1632,7 @@ DOMAIN-SUFFIX,ad-api.gl-inet.com
 DOMAIN-SUFFIX,ad-back.net
 DOMAIN-SUFFIX,ad-balancer.net
 DOMAIN-SUFFIX,ad-cheers.com
-# DOMAIN-SUFFIX,ad-delivery.net  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,ad-delivery.net  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,ad-flow.com
 DOMAIN-SUFFIX,ad-m.asia
 DOMAIN-SUFFIX,ad-mapps.com
@@ -1643,7 +1643,7 @@ DOMAIN-SUFFIX,ad-serve.b-cdn.net
 DOMAIN-SUFFIX,ad-server.co.za
 DOMAIN-SUFFIX,ad-serverparc.nl
 DOMAIN-SUFFIX,ad-srv.net
-# DOMAIN-SUFFIX,ad-stir.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,ad-stir.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,ad-vice.biz
 DOMAIN-SUFFIX,ad-vortex.com
 DOMAIN-SUFFIX,ad-wheel.com
@@ -1678,7 +1678,7 @@ DOMAIN-SUFFIX,ad.tpmn.co.kr
 DOMAIN-SUFFIX,ad.tradertimerz.media
 DOMAIN-SUFFIX,ad.video-mech.ru
 DOMAIN-SUFFIX,ad.wsod.com
-# DOMAIN-SUFFIX,ad.xiaomi.com  # 与 ./BanProgramAD.list 重复
+# DOMAIN-SUFFIX,ad.xiaomi.com  # 与 BanProgramAD.list 重复
 DOMAIN-SUFFIX,ad.ymcdn.org
 DOMAIN-SUFFIX,ad01.tmgrup.com.tr
 DOMAIN-SUFFIX,ad2f8c6f8e.com
@@ -1787,7 +1787,7 @@ DOMAIN-SUFFIX,adfeedstrk.com
 DOMAIN-SUFFIX,adfgetlink.net
 DOMAIN-SUFFIX,adfootprints.com
 DOMAIN-SUFFIX,adforcast.com
-# DOMAIN-SUFFIX,adform.net  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,adform.net  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,adfpoint.com
 DOMAIN-SUFFIX,adfrontiers.com
 DOMAIN-SUFFIX,adfusion.com
@@ -1865,7 +1865,7 @@ DOMAIN-SUFFIX,admitincarnateentertainment.com
 DOMAIN-SUFFIX,admixer.net
 DOMAIN-SUFFIX,admjmp.com
 DOMAIN-SUFFIX,admob-cn.com
-# DOMAIN-SUFFIX,admob.com  # 与 ./BanProgramAD.list 重复
+# DOMAIN-SUFFIX,admob.com  # 与 BanProgramAD.list 重复
 DOMAIN-SUFFIX,admobe.com
 DOMAIN-SUFFIX,admonishdecisiveyetnow.com
 DOMAIN-SUFFIX,admonishmentfastest.com
@@ -1906,14 +1906,14 @@ DOMAIN-SUFFIX,adorableold.com
 DOMAIN-SUFFIX,adoreplans.com
 DOMAIN-SUFFIX,adornmadeup.com
 DOMAIN-SUFFIX,adotic.com
-# DOMAIN-SUFFIX,adotmob.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,adotmob.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,adotone.com
 DOMAIN-SUFFIX,adotube.com
 DOMAIN-SUFFIX,adpacks.com
 DOMAIN-SUFFIX,adpass.co.uk
 DOMAIN-SUFFIX,adpatrof.com
 DOMAIN-SUFFIX,adpcebpo.com
-# DOMAIN-SUFFIX,adperium.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,adperium.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,adpicmedia.net
 DOMAIN-SUFFIX,adpinion.com
 DOMAIN-SUFFIX,adpionier.de
@@ -1960,7 +1960,7 @@ DOMAIN-SUFFIX,ads.betfair.com
 DOMAIN-SUFFIX,ads.ipfighter.com
 DOMAIN-SUFFIX,ads.kelkoo.com
 DOMAIN-SUFFIX,ads.lemmatechnologies.com
-# DOMAIN-SUFFIX,ads.linkedin.com  # 与 ./BanProgramAD.list 重复
+# DOMAIN-SUFFIX,ads.linkedin.com  # 与 BanProgramAD.list 重复
 DOMAIN-SUFFIX,ads.samsung.com
 DOMAIN-SUFFIX,ads.saymedia.com
 DOMAIN-SUFFIX,ads.scored.co
@@ -1986,7 +1986,7 @@ DOMAIN-SUFFIX,ads6-adnow.com
 DOMAIN-SUFFIX,ads7-adnow.com
 DOMAIN-SUFFIX,adsafety.net
 DOMAIN-SUFFIX,adsales.snidigital.com
-# DOMAIN-SUFFIX,adsame.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,adsame.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,adsbar.online
 DOMAIN-SUFFIX,adsbetnet.com
 DOMAIN-SUFFIX,adsblockersentinel.info
@@ -1999,7 +1999,7 @@ DOMAIN-SUFFIX,adscampaign.net
 DOMAIN-SUFFIX,adscdn.net
 DOMAIN-SUFFIX,adschill.com
 DOMAIN-SUFFIX,adscienceltd.com
-# DOMAIN-SUFFIX,adsco.re  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,adsco.re  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,adscreendirect.com
 DOMAIN-SUFFIX,adscustsrv.com
 DOMAIN-SUFFIX,adsdatastream.top
@@ -2084,7 +2084,7 @@ DOMAIN-SUFFIX,adt574.com
 DOMAIN-SUFFIX,adt598.com
 DOMAIN-SUFFIX,adtag.cc
 DOMAIN-SUFFIX,adtags.mobi
-# DOMAIN-SUFFIX,adtaily.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,adtaily.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,adtaily.pl
 DOMAIN-SUFFIX,adtelligent.com
 DOMAIN-SUFFIX,adtival.com
@@ -2812,7 +2812,7 @@ DOMAIN-SUFFIX,allure-ng.net
 DOMAIN-SUFFIX,allworkqasidas.cfd
 DOMAIN-SUFFIX,allxgwgogikhd.site
 DOMAIN-SUFFIX,allycurrantliability.com
-# DOMAIN-SUFFIX,allyes.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,allyes.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,allygeographypint.com
 DOMAIN-SUFFIX,almanpycnid.cyou
 DOMAIN-SUFFIX,almasatten.com
@@ -2887,7 +2887,7 @@ DOMAIN-SUFFIX,alzcdizuqhwfw.online
 DOMAIN-SUFFIX,alzlwkkwybyw.top
 DOMAIN-SUFFIX,am.justtube.net
 DOMAIN-SUFFIX,am10.ru
-# DOMAIN-SUFFIX,am15.net  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,am15.net  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,amaabfvuyispa.space
 DOMAIN-SUFFIX,amala-wav.com
 DOMAIN-SUFFIX,amalettdird.cyou
@@ -3241,7 +3241,7 @@ DOMAIN-SUFFIX,apozemzebrule.com
 DOMAIN-SUFFIX,app-momentum.com
 DOMAIN-SUFFIX,app.189tutors.com
 DOMAIN-SUFFIX,app.phimvu.app
-# DOMAIN-SUFFIX,appads.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,appads.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,apparelimposter.com
 DOMAIN-SUFFIX,appaumehak.help
 DOMAIN-SUFFIX,appearedon.com
@@ -3651,7 +3651,7 @@ DOMAIN-SUFFIX,ataxyredleg.qpon
 DOMAIN-SUFFIX,ataykgrzwrplt.site
 DOMAIN-SUFFIX,atblpbhshmcjc.website
 DOMAIN-SUFFIX,atdeerlinga.com
-# DOMAIN-SUFFIX,atdmt.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,atdmt.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,ateamplayera.com
 DOMAIN-SUFFIX,atebatogless.help
 DOMAIN-SUFFIX,atecomprisedispel.com
@@ -4043,7 +4043,7 @@ DOMAIN-SUFFIX,axmmilepqvdyj.world
 DOMAIN-SUFFIX,axnymjrsvnhsb.site
 DOMAIN-SUFFIX,axolotlly.com
 DOMAIN-SUFFIX,axonbesonio.cyou
-# DOMAIN-SUFFIX,axonix.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,axonix.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,axpedsqboflar.space
 DOMAIN-SUFFIX,axqoiulwchkth.space
 DOMAIN-SUFFIX,axquoajbbjwew.net
@@ -4931,7 +4931,7 @@ DOMAIN-SUFFIX,bids.concert.io
 DOMAIN-SUFFIX,bidseeghifoo.net
 DOMAIN-SUFFIX,bidster.net
 DOMAIN-SUFFIX,bidsxchange.com
-# DOMAIN-SUFFIX,bidtheatre.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,bidtheatre.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,bidtimize.com
 DOMAIN-SUFFIX,bidvance.com
 DOMAIN-SUFFIX,bidverdrd.com
@@ -5179,7 +5179,7 @@ DOMAIN-SUFFIX,blinkedlanentablelanentableunavailable.com
 DOMAIN-SUFFIX,blinkjork.com
 DOMAIN-SUFFIX,blinktowel.com
 DOMAIN-SUFFIX,bliqjhstabiqd.space
-# DOMAIN-SUFFIX,blismedia.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,blismedia.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,blissfuldes.com
 DOMAIN-SUFFIX,blisterpompey.com
 DOMAIN-SUFFIX,blistest.xyz
@@ -5864,7 +5864,7 @@ DOMAIN-SUFFIX,btrem.site
 DOMAIN-SUFFIX,btrlvukwtlqyc.site
 DOMAIN-SUFFIX,btrsagtwkntax.website
 DOMAIN-SUFFIX,bttphsqvrunfw.store
-# DOMAIN-SUFFIX,bttrack.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,bttrack.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,btvhdscr.com
 DOMAIN-SUFFIX,btwpgvvevgssm.site
 DOMAIN-SUFFIX,btwqllmeezmjn.online
@@ -6432,7 +6432,7 @@ DOMAIN-SUFFIX,carvelshavage.cfd
 DOMAIN-SUFFIX,carvenbowet.help
 DOMAIN-SUFFIX,carvercranberry.com
 DOMAIN-SUFFIX,carvyre.com
-# DOMAIN-SUFFIX,casalemedia.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,casalemedia.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,casavisancho.shop
 DOMAIN-SUFFIX,casefulautist.shop
 DOMAIN-SUFFIX,casefulbalafo.cyou
@@ -8144,7 +8144,7 @@ DOMAIN-SUFFIX,cpvlyqkpyfsns.store
 DOMAIN-SUFFIX,cpwbapcsltmjh.vip
 DOMAIN-SUFFIX,cpwhmpykifj.com
 DOMAIN-SUFFIX,cpwsmctnwvqeq.store
-# DOMAIN-SUFFIX,cpx24.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,cpx24.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,cpxinteractive.com
 DOMAIN-SUFFIX,cpxkcejzsfcyf.space
 DOMAIN-SUFFIX,cq96gjrmc1mguze6hyw.cfd
@@ -9611,7 +9611,7 @@ DOMAIN-SUFFIX,directnavbt.com
 DOMAIN-SUFFIX,directnessmoralsuspense.com
 DOMAIN-SUFFIX,directorym.com
 DOMAIN-SUFFIX,directrankcl.com
-# DOMAIN-SUFFIX,directrev.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,directrev.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,directsclin.qpon
 DOMAIN-SUFFIX,directtrck.com
 DOMAIN-SUFFIX,direeyesightstray.com
@@ -10074,7 +10074,7 @@ DOMAIN-SUFFIX,double.net
 DOMAIN-SUFFIX,doubleadserve.com
 DOMAIN-SUFFIX,doublecabinet.com
 DOMAIN-SUFFIX,doubleclick-cn.net
-# DOMAIN-SUFFIX,doubleclick.com  # 与 ./BanProgramAD.list 重复
+# DOMAIN-SUFFIX,doubleclick.com  # 与 BanProgramAD.list 重复
 DOMAIN-SUFFIX,doublemax.net
 DOMAIN-SUFFIX,doublepimp.com
 DOMAIN-SUFFIX,doublepimpssl.com
@@ -10969,7 +10969,7 @@ DOMAIN-SUFFIX,effectivedisplayformat.com
 DOMAIN-SUFFIX,effectivedisplayformats.com
 DOMAIN-SUFFIX,effectivegatecpm.com
 DOMAIN-SUFFIX,effectivegatetocontent.com
-# DOMAIN-SUFFIX,effectivemeasure.net  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,effectivemeasure.net  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,effectiveratecpm.com
 DOMAIN-SUFFIX,effectscouncilman.com
 DOMAIN-SUFFIX,effectuallyconceptcontinuous.com
@@ -11564,7 +11564,7 @@ DOMAIN-SUFFIX,eputysolomon.com
 DOMAIN-SUFFIX,epwbtoqakgixx.site
 DOMAIN-SUFFIX,epwmnrpoqjut.xyz
 DOMAIN-SUFFIX,epyykiftqkufp.space
-# DOMAIN-SUFFIX,eqads.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,eqads.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,eqbkokxmxmyyg.space
 DOMAIN-SUFFIX,eqbwpekhukafn.website
 DOMAIN-SUFFIX,eqceidtikngos.space
@@ -11978,7 +11978,7 @@ DOMAIN-SUFFIX,exmainclck.com
 DOMAIN-SUFFIX,exmainclckback.com
 DOMAIN-SUFFIX,exmwfltxyxwmr.website
 DOMAIN-SUFFIX,exnesstrack.com
-# DOMAIN-SUFFIX,exoclick.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,exoclick.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,exodusjailhousetarantula.com
 DOMAIN-SUFFIX,exofrwe.com
 DOMAIN-SUFFIX,exonhexers.click
@@ -12017,7 +12017,7 @@ DOMAIN-SUFFIX,exrcfdbcqiddp.space
 DOMAIN-SUFFIX,exrtbsrv.com
 DOMAIN-SUFFIX,exrzo.love
 DOMAIN-SUFFIX,ext-jscdn.com
-# DOMAIN-SUFFIX,extend.tv  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,extend.tv  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,extendedcontaminaterigorous.com
 DOMAIN-SUFFIX,extendingreversionmotorcycle.com
 DOMAIN-SUFFIX,extension-ad-stopper.com
@@ -12063,7 +12063,7 @@ DOMAIN-SUFFIX,eyelikeoomph.help
 DOMAIN-SUFFIX,eyelineclicks.cfd
 DOMAIN-SUFFIX,eyeofporn.com
 DOMAIN-SUFFIX,eyeota.net
-# DOMAIN-SUFFIX,eyereturn.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,eyereturn.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,eyerootpeeler.cfd
 DOMAIN-SUFFIX,eyesurlyprecaution.com
 DOMAIN-SUFFIX,eyeviewads.com
@@ -12273,10 +12273,10 @@ DOMAIN-SUFFIX,fasfsv-sli.love
 DOMAIN-SUFFIX,fashercartop.cfd
 DOMAIN-SUFFIX,fashionedstrengthen.com
 DOMAIN-SUFFIX,fasooxoaqkudd.site
-# DOMAIN-SUFFIX,fastapi.net  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,fastapi.net  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,fastblow.com
 DOMAIN-SUFFIX,fastcdn.info
-# DOMAIN-SUFFIX,fastclick.net  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,fastclick.net  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,fastdld.com
 DOMAIN-SUFFIX,fastdntrk.com
 DOMAIN-SUFFIX,fasterinexperiencedsled.com
@@ -14636,7 +14636,7 @@ DOMAIN-SUFFIX,goodwillnourishmentcousins.com
 DOMAIN-SUFFIX,googie-anaiytics.com
 DOMAIN-SUFFIX,googleads-cn.com
 DOMAIN-SUFFIX,googleadservices-cn.com
-# DOMAIN-SUFFIX,googleadsserving.cn  # 与 ./BanProgramAD.list 重复
+# DOMAIN-SUFFIX,googleadsserving.cn  # 与 BanProgramAD.list 重复
 DOMAIN-SUFFIX,googleapi.club
 DOMAIN-SUFFIX,googlevads-cn.com
 DOMAIN-SUFFIX,gooloeboonpia.com
@@ -16699,7 +16699,7 @@ DOMAIN-SUFFIX,hyperbanner.net
 DOMAIN-SUFFIX,hyperlinksecure.com
 DOMAIN-SUFFIX,hypermousus.com
 DOMAIN-SUFFIX,hyperoi.com
-# DOMAIN-SUFFIX,hyperpromote.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,hyperpromote.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,hypertrackeraff.com
 DOMAIN-SUFFIX,hypervre.com
 DOMAIN-SUFFIX,hypnodyfretty.qpon
@@ -17664,7 +17664,7 @@ DOMAIN-SUFFIX,ipmohqrvg.xyz
 DOMAIN-SUFFIX,ipoonaipux.net
 DOMAIN-SUFFIX,ippleshiswashisc.org
 DOMAIN-SUFFIX,ippthvqmolxrhs.com
-# DOMAIN-SUFFIX,ipredictive.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,ipredictive.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,iprom.net
 DOMAIN-SUFFIX,ipromcloud.com
 DOMAIN-SUFFIX,ipsaigloumishi.net
@@ -20150,7 +20150,7 @@ DOMAIN-SUFFIX,ldyztceolxrmy.space
 DOMAIN-SUFFIX,ldzvujwptvheu.site
 DOMAIN-SUFFIX,leaacnhutcosv.store
 DOMAIN-SUFFIX,leadadvert.info
-# DOMAIN-SUFFIX,leadbolt.net  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,leadbolt.net  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,leadencrackingtreble.com
 DOMAIN-SUFFIX,leadgainz.com
 DOMAIN-SUFFIX,leadmediapartners.com
@@ -21383,7 +21383,7 @@ DOMAIN-SUFFIX,mads-fe.amazon.com
 DOMAIN-SUFFIX,madsabs.com
 DOMAIN-SUFFIX,madsans.com
 DOMAIN-SUFFIX,madsecs.com
-# DOMAIN-SUFFIX,madserving.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,madserving.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,madskis.com
 DOMAIN-SUFFIX,madslimz.com
 DOMAIN-SUFFIX,madsone.com
@@ -21574,7 +21574,7 @@ DOMAIN-SUFFIX,marinerattest.com
 DOMAIN-SUFFIX,maritaltrousersidle.com
 DOMAIN-SUFFIX,markedoneofth.com
 DOMAIN-SUFFIX,markerleery.com
-# DOMAIN-SUFFIX,marketgid.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,marketgid.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,marketing.888.com
 DOMAIN-SUFFIX,marketjavgg124.fun
 DOMAIN-SUFFIX,marketland.me
@@ -22040,7 +22040,7 @@ DOMAIN-SUFFIX,mgfovsauwpkkp.website
 DOMAIN-SUFFIX,mgfspsadlq.com
 DOMAIN-SUFFIX,mgfutkkdzvwtg.site
 DOMAIN-SUFFIX,mghkpg.com
-# DOMAIN-SUFFIX,mgid.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,mgid.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,mgidrskyzsbjc.store
 DOMAIN-SUFFIX,mgisrlyu.xyz
 DOMAIN-SUFFIX,mgivusiufzagm.space
@@ -22142,7 +22142,7 @@ DOMAIN-SUFFIX,milky-silver.pro
 DOMAIN-SUFFIX,milkygoodness.xyz
 DOMAIN-SUFFIX,milkywaynewspaper.com
 DOMAIN-SUFFIX,milladvocacyunderstandable.com
-# DOMAIN-SUFFIX,millennialmedia.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,millennialmedia.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,millermiss.com
 DOMAIN-SUFFIX,milletappliancejeopardize.com
 DOMAIN-SUFFIX,millierglycols.click
@@ -22426,7 +22426,7 @@ DOMAIN-SUFFIX,mndx1.com
 DOMAIN-SUFFIX,mnetads.com
 DOMAIN-SUFFIX,mneuxhjeuvrk.com
 DOMAIN-SUFFIX,mnevjhg.com
-# DOMAIN-SUFFIX,mng-ads.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,mng-ads.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,mnhjk.com
 DOMAIN-SUFFIX,mnhjkl.com
 DOMAIN-SUFFIX,mniecetqvwjcskq.com
@@ -22629,7 +22629,7 @@ DOMAIN-SUFFIX,mooglegrofa.net
 DOMAIN-SUFFIX,moogloadouzub.net
 DOMAIN-SUFFIX,moogratkzvmwt.online
 DOMAIN-SUFFIX,mooingdisring.qpon
-# DOMAIN-SUFFIX,mookie1.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,mookie1.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,moolexspool.com
 DOMAIN-SUFFIX,moolveericed.com
 DOMAIN-SUFFIX,moonads.net
@@ -22877,7 +22877,7 @@ DOMAIN-SUFFIX,mrzkmrvqtapqc.store
 DOMAIN-SUFFIX,mrzncayrlbjop.website
 DOMAIN-SUFFIX,ms3t.club
 DOMAIN-SUFFIX,msaczvwcjetyq.online
-# DOMAIN-SUFFIX,msads.net  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,msads.net  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,msadsscale.microsoft.com
 DOMAIN-SUFFIX,msairvfkyimyh.online
 DOMAIN-SUFFIX,msaxsvykyvxuk.site
@@ -25781,7 +25781,7 @@ DOMAIN-SUFFIX,overtedp.shop
 DOMAIN-SUFFIX,overthrowslash.com
 DOMAIN-SUFFIX,overtimehauntedcrucial.com
 DOMAIN-SUFFIX,overtrapinchchan.net
-# DOMAIN-SUFFIX,overture.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,overture.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,overturnmarshaltowers.com
 DOMAIN-SUFFIX,overturnspecified.com
 DOMAIN-SUFFIX,ovgpljyqpochn.store
@@ -27262,7 +27262,7 @@ DOMAIN-SUFFIX,poowanoalee.net
 DOMAIN-SUFFIX,pop.dojo.cc
 DOMAIN-SUFFIX,pop5sjhspear.com
 DOMAIN-SUFFIX,popads.media
-# DOMAIN-SUFFIX,popads.net  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,popads.net  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,popadscdn.net
 DOMAIN-SUFFIX,popblockergold.com
 DOMAIN-SUFFIX,popbounty.com
@@ -27770,7 +27770,7 @@ DOMAIN-SUFFIX,promptsgod.com
 DOMAIN-SUFFIX,pronouncedjustificationgruel.com
 DOMAIN-SUFFIX,pronouncedsour.com
 DOMAIN-SUFFIX,propeller-tracking.com
-# DOMAIN-SUFFIX,propellerads.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,propellerads.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,propellerads.tech
 DOMAIN-SUFFIX,propellerclick.com
 DOMAIN-SUFFIX,propertyofnews.com
@@ -28144,7 +28144,7 @@ DOMAIN-SUFFIX,publicretia.com
 DOMAIN-SUFFIX,publisherads.click
 DOMAIN-SUFFIX,publisherscantyusing.com
 DOMAIN-SUFFIX,publpush.com
-# DOMAIN-SUFFIX,pubmatic.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,pubmatic.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,pubmine.com
 DOMAIN-SUFFIX,pubnation.com
 DOMAIN-SUFFIX,pubpowerplatform.io
@@ -30364,7 +30364,7 @@ DOMAIN-SUFFIX,rkomf.com
 DOMAIN-SUFFIX,rkvhqhkztzlxk.website
 DOMAIN-SUFFIX,rl1u0wknm1onstp8395too.xyz
 DOMAIN-SUFFIX,rlccneuysfrum.net
-# DOMAIN-SUFFIX,rlcdn.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,rlcdn.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,rldwideorgan.org
 DOMAIN-SUFFIX,rlffkhoxxwucy.website
 DOMAIN-SUFFIX,rlggasdrisaw.net
@@ -32471,7 +32471,7 @@ DOMAIN-SUFFIX,slxfvrnmuktoo.website
 DOMAIN-SUFFIX,slylloyd.cfd
 DOMAIN-SUFFIX,slynessamoral.qpon
 DOMAIN-SUFFIX,slzfiysdokogx.site
-# DOMAIN-SUFFIX,smaato.net  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,smaato.net  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,smac-ssp.com
 DOMAIN-SUFFIX,smackedtapnet.com
 DOMAIN-SUFFIX,smaclick.com
@@ -32959,7 +32959,7 @@ DOMAIN-SUFFIX,spongecell.com
 DOMAIN-SUFFIX,spongesofateacher.com
 DOMAIN-SUFFIX,sponginarist.cfd
 DOMAIN-SUFFIX,sponsormob.com
-# DOMAIN-SUFFIX,sponsorpay.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,sponsorpay.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,sponsors.vuejs.org
 DOMAIN-SUFFIX,spoofedwhitey.shop
 DOMAIN-SUFFIX,spookstropin.qpon
@@ -33192,7 +33192,7 @@ DOMAIN-SUFFIX,starryphone.pro
 DOMAIN-SUFFIX,starryprotection.com
 DOMAIN-SUFFIX,starsapegnilr.net
 DOMAIN-SUFFIX,starswalker.site
-# DOMAIN-SUFFIX,startappexchange.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,startappexchange.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,startbio.cyou
 DOMAIN-SUFFIX,startletrumpdim.com
 DOMAIN-SUFFIX,startpagea.com
@@ -33292,7 +33292,7 @@ DOMAIN-SUFFIX,sthevoyager.org
 DOMAIN-SUFFIX,stibiumalcosol.cyou
 DOMAIN-SUFFIX,sticalsdebaticalfe.info
 DOMAIN-SUFFIX,stickingallot.com
-# DOMAIN-SUFFIX,stickyadstv.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,stickyadstv.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,stiesboxtop.top
 DOMAIN-SUFFIX,stiff-hate.com
 DOMAIN-SUFFIX,stiff-lake.pro
@@ -33990,7 +33990,7 @@ DOMAIN-SUFFIX,taperlyiuds.com
 DOMAIN-SUFFIX,taperprague.cfd
 DOMAIN-SUFFIX,tapioni.com
 DOMAIN-SUFFIX,tapistleech.cfd
-# DOMAIN-SUFFIX,tapjoyads.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,tapjoyads.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,tappetshindig.rest
 DOMAIN-SUFFIX,tapvigai.property
 DOMAIN-SUFFIX,targeta41.net
@@ -34449,7 +34449,7 @@ DOMAIN-SUFFIX,thoseeducation.com
 DOMAIN-SUFFIX,thoseplace.pro
 DOMAIN-SUFFIX,thoughaugloalt.net
 DOMAIN-SUFFIX,thoughtfulend.pro
-# DOMAIN-SUFFIX,thoughtleadr.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,thoughtleadr.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,thoukouxou.net
 DOMAIN-SUFFIX,thoumtousoosoaw.net
 DOMAIN-SUFFIX,thouprepositionsquall.com
@@ -35024,7 +35024,7 @@ DOMAIN-SUFFIX,trafficdok.com
 DOMAIN-SUFFIX,trafficfactory.biz
 DOMAIN-SUFFIX,traffichunt.com
 DOMAIN-SUFFIX,trafficircles.com
-# DOMAIN-SUFFIX,trafficjunky.net  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,trafficjunky.net  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,trafficlide.com
 DOMAIN-SUFFIX,trafficmediaserver.com
 DOMAIN-SUFFIX,trafficmoose.com
@@ -35136,7 +35136,7 @@ DOMAIN-SUFFIX,trianglesickdemocrat.com
 DOMAIN-SUFFIX,triangularmouse.com
 DOMAIN-SUFFIX,triangularrespond.pro
 DOMAIN-SUFFIX,trianonluxate.click
-# DOMAIN-SUFFIX,tribalfusion.com  # 与 ./BanAD.list 重复
+# DOMAIN-SUFFIX,tribalfusion.com  # 与 BanAD.list 重复
 DOMAIN-SUFFIX,tribracbiaxal.com
 DOMAIN-SUFFIX,tributeparticle.com
 DOMAIN-SUFFIX,tricepslatax.world

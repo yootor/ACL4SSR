@@ -1,3 +1,6 @@
+# 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
+# 生成时间: 2026-05-08 10:22:06
+
 #MyList
 DOMAIN-SUFFIX,yootor.com
 DOMAIN-SUFFIX,nwtop.com
@@ -10,6 +13,7 @@ DOMAIN-SUFFIX,deepl.com
 #Apple Music
 DOMAIN-SUFFIX,blobstore.apple.com
 DOMAIN,downloaddispatch.itunes.apple.com
+DOMAIN,amp-api.music.apple.com
 
 # AppleNews
 #删除Apple的规则，走直连
