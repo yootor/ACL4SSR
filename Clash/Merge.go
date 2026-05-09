@@ -288,9 +288,9 @@ func main() {
 		},
 		{
 			// 任务B：配置生成MRS的其余规则文件
-			TargetName: "ProxyGFWlist.mrs",
+			TargetName: "ProxyGFW.mrs",
 			Sources: []string{
-				"./Rules/ProxyGFWlist.list",
+				"./Rules/ProxyGFW.list",
 			},
 		},
 		/*{
