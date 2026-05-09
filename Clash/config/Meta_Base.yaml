@@ -6,12 +6,14 @@ rule-providers:
   MyCN:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyCN.list"
     interval: 86400
 
   MyProxy:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyProxy.list"
     interval: 86400
 
@@ -26,24 +28,28 @@ rule-providers:
   AI:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/AI.list"
     interval: 86400
 
   Google:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Google.list"
     interval: 86400
 
   Media:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyMedia.list"
     interval: 86400
 
   Microsoft:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Microsoft.list"
     interval: 86400
   
@@ -51,24 +57,28 @@ rule-providers:
   ProxyGFW:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/ProxyGFW.list"
     interval: 86400
   
   ProxyDNS:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyDNS.list"
     interval: 86400
 
   Apple:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Apple.list"
     interval: 86400
     
   ChinaDomain:
     type: http
     behavior: classical
+    format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ChinaDomain.list"
     interval: 86400
 
