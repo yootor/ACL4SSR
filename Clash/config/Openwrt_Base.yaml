@@ -1,0 +1,182 @@
+# HTTP 代理端口
+port: 890
+
+# SOCKS5 代理端口
+socks-port: 891
+
+# Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
+# redir-port: 7892
+
+# 允许局域网的连接（可用来共享代理）
+allow-lan: true
+
+# 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
+mode: Rule
+
+# 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
+# 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
+log-level: info
+
+# Clash 的 RESTful API
+#Web面板
+external-controller: '127.0.0.1:999'
+external-ui-url: https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip
+external-ui: ui
+external-ui-name: zashboard
+
+profile:
+  store-selected: true
+  store-fake-ip: false
+
+#DNS配置
+dns:
+  enable: true
+  prefer-h3: true
+  ipv6: false
+
+  nameserver:
+    - https://223.5.5.5/dns-query
+    - https://120.53.53.53/dns-query
+  proxy-server-nameserver:
+    - https://223.5.5.5/dns-query
+    - https://120.53.53.53/dns-query
+
+#域名探嗅
+sniffer:
+  enable: true
+  parse-pure-ip: true
+  force-dns-mapping: true
+  override-destination: false
+  sniff:
+    HTTP:
+      ports:
+        - 80
+        - 443
+      override-destination: false
+    TLS:
+      ports:
+        - 443
+    QUIC:
+      ports:
+        - 443
+  skip-domain:
+    - +.push.apple.com
+  skip-dst-address:
+    - 91.105.192.0/23
+    - 91.108.4.0/22
+    - 91.108.8.0/21
+    - 91.108.16.0/21
+    - 91.108.56.0/22
+    - 95.161.64.0/20
+    - 149.154.160.0/20
+    - 185.76.151.0/24
+    - 2001:67c:4e8::/48
+    - 2001:b28:f23c::/47
+    - 2001:b28:f23f::/48
+    - 2a0a:f280:203::/48
+  force-domain: []
+
+#告诉转换器把节点和策略组插在这
+proxies: 
+
+proxy-groups:
+
+
+# 1. 规则集定义 (Rule Providers)只有 AdBlock 是 mrs，其余全部是 classical，必须要申明format
+rule-providers:
+  MyCN:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyCN.list"
+    interval: 604800
+
+  MyProxy:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyProxy.list"
+    interval: 604800
+
+  # 广告拦截，使用MOSDNS，这里需要屏蔽掉
+  #AdBlock:
+  #  type: http
+  #  behavior: domain
+  #  format: mrs
+  #  url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/AdBlock.mrs"
+  #  interval: 604800
+
+  AI:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/AI.list"
+    interval: 604800
+
+  Google:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Google.list"
+    interval: 604800
+
+  Media:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyMedia.list"
+    interval: 604800
+
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Microsoft.list"
+    interval: 604800
+  
+  # 黑名单（退回经典 List 格式）
+  ProxyGFW:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/ProxyGFW.list"
+    interval: 604800
+  
+  ProxyDNS:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyDNS.list"
+    interval: 604800
+
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Apple.list"
+    interval: 604800
+    
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ChinaDomain.list"
+    interval: 604800
+
+# ==========================================
+# 2. 路由规则 (Rules)
+# ==========================================
+rules:
+  - RULE-SET,MyCN,🎯 全球直连
+  - RULE-SET,MyProxy,🚀 节点选择
+#  - RULE-SET,AdBlock,🍃 AdBlock
+  - RULE-SET,AI,🎊 GG
+  - RULE-SET,Google,🎊 GG
+  - RULE-SET,Media,📺 Media
+  - RULE-SET,Microsoft,✨ 微软服务
+  - RULE-SET,ProxyGFW,🚀 节点选择
+  - RULE-SET,ProxyDNS,☘️ 🇸🇬 狮城
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐳 漏网之鱼
