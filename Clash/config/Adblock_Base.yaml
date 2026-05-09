@@ -137,9 +137,9 @@ rule-providers:
   # 黑名单（退回经典 List 格式）
   ProxyGFW:
     type: http
-    behavior: classical
-    format: text
-    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/ProxyGFW.list"
+    behavior: domain
+    format: mrs
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/ProxyGFW.mrs"
     interval: 604800
   
   ProxyDNS:
