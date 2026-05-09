@@ -1,0 +1,91 @@
+# ==========================================
+# 1. 规则集定义 (Rule Providers)
+# 只有 AdBlock 是 mrs，其余全部是 classical
+# ==========================================
+rule-providers:
+  MyCN:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyCN.list"
+    interval: 86400
+
+  MyProxy:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyProxy.list"
+    interval: 86400
+
+  # 广告拦截
+  AdBlock:
+    type: http
+    behavior: domain
+    format: mrs
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/AdBlock.mrs"
+    interval: 86400
+
+  AI:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/AI.list"
+    interval: 86400
+
+  Google:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Google.list"
+    interval: 86400
+
+  Media:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyMedia.list"
+    interval: 86400
+
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Microsoft.list"
+    interval: 86400
+  
+  # 黑名单（退回经典 List 格式）
+  ProxyGFW:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/ProxyGFW.list"
+    interval: 86400
+  
+  ProxyDNS:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyDNS.list"
+    interval: 86400
+
+  Apple:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Apple.list"
+    interval: 86400
+    
+  ChinaDomain:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ChinaDomain.list"
+    interval: 86400
+
+# ==========================================
+# 2. 路由规则 (Rules)
+# ==========================================
+rules:
+  - RULE-SET,MyCN,🎯 全球直连
+  - RULE-SET,MyProxy,🚀 节点选择
+  - RULE-SET,AdBlock,🍃 AdBlock
+  - RULE-SET,AI,🎊 GG
+  - RULE-SET,Google,🎊 GG
+  - RULE-SET,Media,📺 Media
+  - RULE-SET,Microsoft,✨ 微软服务
+  - RULE-SET,ProxyGFW,🚀 节点选择
+  - RULE-SET,ProxyDNS,☘️ 🇸🇬 狮城
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐳 漏网之鱼
