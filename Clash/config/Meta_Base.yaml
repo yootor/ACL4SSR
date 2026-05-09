@@ -1,21 +1,64 @@
-# ==========================================
-# 1. 规则集定义 (Rule Providers)
-# 只有 AdBlock 是 mrs，其余全部是 classical
-# ==========================================
+# HTTP 代理端口
+port: 890
+
+# SOCKS5 代理端口
+socks-port: 891
+
+# Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
+# redir-port: 7892
+
+# 允许局域网的连接（可用来共享代理）
+allow-lan: true
+
+# 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
+mode: Rule
+
+# 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
+# 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
+log-level: info
+
+# Clash 的 RESTful API
+external-controller: '127.0.0.1:999'
+external-ui-url: https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip
+external-ui: ui
+external-ui-name: zashboard
+
+profile:
+  store-selected: true
+  store-fake-ip: false
+
+dns:
+  enable: true
+  prefer-h3: true
+  ipv6: false
+  
+  nameserver:
+    - https://223.5.5.5/dns-query
+    - https://120.53.53.53/dns-query
+  proxy-server-nameserver:
+    - https://223.5.5.5/dns-query
+    - https://120.53.53.53/dns-query
+
+#告诉转换器把节点和策略组插在这
+proxies: 
+proxy-groups:
+
+
+# 1. 规则集定义 (Rule Providers)只有 AdBlock 是 mrs，其余全部是 classical
 rule-providers:
   MyCN:
     type: http
     behavior: classical
     format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyCN.list"
-    interval: 86400
+    interval: 604800
 
   MyProxy:
     type: http
     behavior: classical
     format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyProxy.list"
-    interval: 86400
+    interval: 604800
 
   # 广告拦截
   AdBlock:
@@ -23,35 +66,35 @@ rule-providers:
     behavior: domain
     format: mrs
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/AdBlock.mrs"
-    interval: 86400
+    interval: 604800
 
   AI:
     type: http
     behavior: classical
     format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/AI.list"
-    interval: 86400
+    interval: 604800
 
   Google:
     type: http
     behavior: classical
     format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Google.list"
-    interval: 86400
+    interval: 604800
 
   Media:
     type: http
     behavior: classical
     format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyMedia.list"
-    interval: 86400
+    interval: 604800
 
   Microsoft:
     type: http
     behavior: classical
     format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Microsoft.list"
-    interval: 86400
+    interval: 604800
   
   # 黑名单（退回经典 List 格式）
   ProxyGFW:
@@ -59,28 +102,28 @@ rule-providers:
     behavior: classical
     format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/ProxyGFW.list"
-    interval: 86400
+    interval: 604800
   
   ProxyDNS:
     type: http
     behavior: classical
     format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyDNS.list"
-    interval: 86400
+    interval: 604800
 
   Apple:
     type: http
     behavior: classical
     format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Apple.list"
-    interval: 86400
+    interval: 604800
     
   ChinaDomain:
     type: http
     behavior: classical
     format: text
     url: "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ChinaDomain.list"
-    interval: 86400
+    interval: 604800
 
 # ==========================================
 # 2. 路由规则 (Rules)
