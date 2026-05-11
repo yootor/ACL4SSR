@@ -1,5 +1,5 @@
 # 全局去重广告拦截合集
-# 生成时间: 2026-05-11 11:12:41
+# 生成时间: 2026-05-11 11:16:37
 # 包含原始记录: 87748 条
 
 DOMAIN,app-analytics-services.com
@@ -46,7 +46,7 @@ DOMIAN-SUFFIX,bingads.microsoft.com
 DOMIAN-SUFFIX,rads.msn.com
 DOMIAN-SUFFIX,mobileads.msn.com
 # DOMAIN,acdn.adnxs.com  # [全局降维冗余] 被全局 DOMAIN-SUFFIX,adnxs.com 包含
-DKMAIN,mediation.adnxs.com
+# DOMAIN,mediation.adnxs.com  # [全局降维冗余] 被全局 DOMAIN-SUFFIX,adnxs.com 包含
 # DOMAIN,sin3-ib.adnxs.com  # [全局降维冗余] 被全局 DOMAIN-SUFFIX,adnxs.com 包含
 DOMAIN,ad.zijieapi.com
 DOMAIN,applog.zijieapi.com
