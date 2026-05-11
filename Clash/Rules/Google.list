@@ -1,12 +1,12 @@
-# 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-05-08 10:22:06
+#去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
+# 生成时间: 2026-05-11 11:12:41
 
 # YouTubeMusic
 USER-AGENT,*YouTubeMusic*
 USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
-DOMAIN,music.youtube.com
+# DOMAIN,music.youtube.com  # [降维冗余] 已被本文件内 DOMAIN-SUFFIX,youtube.com 包含
 
 # YouTube
 USER-AGENT,*youtube*

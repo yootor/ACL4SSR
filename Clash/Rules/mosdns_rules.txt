@@ -1,4 +1,5 @@
-# MOSDNS 规则生成时间: 2026-05-08 10:22:06
+# MOSDNS 规则生成时间: 2026-05-11 11:12:41
+# 有效规则统计 - Keyword: 35, Domain: 87227, Full: 88, IP-CIDR: 137
 
 # 关键字规则
 keyword:admarvel
@@ -232,7 +233,6 @@ domain:100.pncdn.cn
 domain:10008919.pomelo.fashion
 domain:1002.men
 domain:10079290.fluz.app
-domain:10086.cn.baidu.cdn.yiwk.com
 domain:100kia.xyz
 domain:100peng.com
 domain:1017.cn
@@ -2901,7 +2901,6 @@ domain:a19895.actonservice.com
 domain:a19930.actonservice.com
 domain:a19997.actonservice.com
 domain:a1at.mno.link
-domain:a1click.cpc.sogou.com
 domain:a1hosting.online
 domain:a1webstrategy.com
 domain:a2.consoletarget.com
@@ -6771,7 +6770,6 @@ domain:ad.thepaper.cn
 domain:ad.toutiao.com
 domain:ad.tpmn.co.kr
 domain:ad.tradertimerz.media
-domain:ad.unimhk.com
 domain:ad.video-mech.ru
 domain:ad.walkgame.com
 domain:ad.wanchuweilai.com
@@ -6953,7 +6951,6 @@ domain:addroplet.com
 domain:addthief.com
 domain:addthis.com
 domain:ade.deskstyle.info
-domain:ade.googlesyndication.com
 domain:ade.hirose-fx.co.jp
 domain:ade.jfx.co.jp
 domain:adebis-52667624.wowma.jp
@@ -7422,7 +7419,6 @@ domain:ads.cdn.tvb.com
 domain:ads.csdn.net
 domain:ads.dandelionchocolate.jp
 domain:ads.feedly.com
-domain:ads.genieessp.com
 domain:ads.gmodules.com
 domain:ads.google.com
 domain:ads.house365.com
@@ -7525,6 +7521,7 @@ domain:adshmct.qq.com
 domain:adshmmsg.qq.com
 domain:adshopping.com
 domain:adshownew.it168.com
+domain:adshows.21cn.com
 domain:adsinstant.com
 domain:adsinteractive-794b.kxcdn.com
 domain:adskape.ru
@@ -7541,6 +7538,7 @@ domain:adsmarch.online
 domain:adsmeasurement.com
 domain:adsmediabox.com
 domain:adsmg.fanfox.net
+domain:adsmind.gdtimg.com
 domain:adsmind.tc.qq.com
 domain:adsmogo.com
 domain:adsmogo.org
@@ -7571,13 +7569,13 @@ domain:adsrv.net
 domain:adsrv.wtf
 domain:adsrvr.org
 domain:adss.yahoo.com
+domain:adstats.tencentmusic.com
 domain:adstean.com
 domain:adstextview.qq.com
 domain:adstik.click
 domain:adstk.io
 domain:adstook.com
 domain:adstoppedtotalkto.com
-domain:adstream.123.sogoucdn.com
 domain:adstreampro.com
 domain:adsunflower.com
 domain:adsunion.com
@@ -7595,7 +7593,6 @@ domain:adsxtits.com
 domain:adsxtits.pro
 domain:adsxyz.com
 domain:adsymptotic.com
-domain:adt.xdrig.com
 domain:adt328.com
 domain:adt545.net
 domain:adt567.net
@@ -7855,7 +7852,6 @@ domain:aesus.so-net.ne.jp
 domain:aetvellt.net
 domain:aeuati.wedio.com
 domain:aeucjiicbgosj.site
-domain:aeventlog.beacon.qq.com
 domain:aeviagrieves.cfd
 domain:aewgwu.icu
 domain:aexhyo.pilatos.com
@@ -8999,7 +8995,6 @@ domain:analytics-hub.3plearning.com
 domain:analytics-lgs.corebridgefinancial.com
 domain:analytics-nssl.bradyid.com
 domain:analytics-prd.aws.wehaa.net
-domain:analytics-prod2.glance-internal.inmobi.com
 domain:analytics-production.hapyak.com
 domain:analytics-proxy.springboard.com
 domain:analytics-scripts.cablelabs.com
@@ -9192,7 +9187,6 @@ domain:analytics.geoutletstore.com
 domain:analytics.gestore.com
 domain:analytics.getshogun.com
 domain:analytics.gewaterheater.com
-domain:analytics.glance.inmobi.com
 domain:analytics.global.sky.com
 domain:analytics.gokwik.co
 domain:analytics.gooogol.com
@@ -9939,7 +9933,6 @@ domain:api.autopilothq.com
 domain:api.bitp.it
 domain:api.bluerunningshadow.com
 domain:api.bunzlaucastle.com
-domain:api.cupid.iqiyi.com
 domain:api.cupid.qiyi.com
 domain:api.dancedogwhisper.com
 domain:api.digitalpiloten.org
@@ -11204,7 +11197,6 @@ domain:arsonincreasingmedic.com
 domain:arswabluchan.com
 domain:art.b.inhaabit.com
 domain:art.carte-gr.total.fr
-domain:art.theta.sogoucdn.com
 domain:art2wave.actonservice.com
 domain:artalturbit.com
 domain:artcapturemumble.com
@@ -11482,7 +11474,6 @@ domain:astoapsu.com
 domain:astonishmentfuneral.com
 domain:astoopechee.net
 domain:astral.nicovideo.jp
-domain:astrategy.beacon.qq.com
 domain:astraycubist.qpon
 domain:astrokompas.com
 domain:astrologybacklightsinless.com
@@ -11572,7 +11563,6 @@ domain:athauvutefeka.net
 domain:athaveresultedinncr.org
 domain:atheistuviol.rest
 domain:athena-event-provider.n11.com
-domain:athena.wan.sogou.com
 domain:atheneemiddles.cyou
 domain:atheslkgczrrp.online
 domain:athin.site
@@ -12559,7 +12549,6 @@ domain:baidedeekoasauz.net
 domain:baidu-union-js.xiachufang.com
 domain:baidu-union-pos.xiachufang.com
 domain:baidu.cybcyw.com
-domain:baidu.dsp.tansuotv.com
 domain:baidu.greenxf.cn
 domain:baidu.jz5u.net
 domain:baidu1.cardbaobao.com
@@ -13277,7 +13266,6 @@ domain:berthfrankly.com
 domain:bertramalkide.qpon
 domain:bertsysxmykqm.online
 domain:berush.com
-domain:besc.baidustatic.com
 domain:besetglaucin.shop
 domain:beshaumaidoa.net
 domain:beshearnagnail.click
@@ -13577,7 +13565,6 @@ domain:bidbeneficial.com
 domain:bidberry.net
 domain:bidbrain.app
 domain:bidclickmedia.com
-domain:bidder.criteo.com
 domain:bidder.mediams.mb.softbank.jp
 domain:bidder.newspassid.com
 domain:bidderads.com
@@ -13724,7 +13711,6 @@ domain:bitclub.network
 domain:bitclubnetwork.com
 domain:bitcoin-cashcard.com
 domain:bitdragonapp.monster
-domain:bite.theta.sogoucdn.com
 domain:bitesized-king.com
 domain:bithow.com
 domain:bittenevenreasoning.com
@@ -15465,20 +15451,16 @@ domain:c.bigmir.net
 domain:c.corriere.it
 domain:c.fingerprint.com
 domain:c.gazetevatan.com
-domain:c.gdt.qq.com
 domain:c.gj.qq.com
 domain:c.gq.com
-domain:c.holmesmind.com
 domain:c.imedia.cz
 domain:c.ixi.to
 domain:c.j8jp.com
 domain:c.keltis.com
 domain:c.kkraw.com
 domain:c.kuwo.cn
-domain:c.l.qq.com
 domain:c.live.com
 domain:c.lolamarket.com
-domain:c.mgid.com
 domain:c.mibank.com
 domain:c.mnjkw.cn
 domain:c.musicradio.com
@@ -15830,7 +15812,6 @@ domain:cantaraawingly.com
 domain:canteenelixate.rest
 domain:canterkenmark.qpon
 domain:cantingpropels.click
-domain:canvas.gdt.qq.com
 domain:canyonconsultation.com
 domain:canzosdropman.cyou
 domain:caokvepcdzeha.site
@@ -16210,10 +16191,8 @@ domain:cdn.007moms.com
 domain:cdn.ad.page
 domain:cdn.arcstudiopro.com
 domain:cdn.biff.travel
-domain:cdn.cmop.mgtv.com
 domain:cdn.csyndication.com
 domain:cdn.ftwpcn.com
-domain:cdn.hamwo.cloud
 domain:cdn.haocaa.com
 domain:cdn.house
 domain:cdn.iople.com
@@ -16227,7 +16206,6 @@ domain:cdn.net.dz.jumia.com
 domain:cdn.net.elogia.net
 domain:cdn.optmn.cloud
 domain:cdn.polarbyte.com
-domain:cdn.ravm.tv
 domain:cdn.rgrd.xyz
 domain:cdn.sdtraff.com
 domain:cdn.sphinxtube.com
@@ -17827,7 +17805,6 @@ domain:collaborate.blackboard.com
 domain:collatent.rest
 domain:collect-ap2.attraqt.io
 domain:collect-eu.attraqt.io
-domain:collect-v6.51.la
 domain:collect.adplogger.no
 domain:collect.air1.com
 domain:collect.alipay.com
@@ -18822,7 +18799,6 @@ domain:counter.top.ge
 domain:counter.ukr.net
 domain:counter.webmart.de
 domain:counter.websitevoice.com
-domain:counter.yadro.ru
 domain:counter247.live
 domain:counteractshrubs.com
 domain:counters.freewebs.com
@@ -19904,7 +19880,6 @@ domain:d.delahorro.app
 domain:d.deloitte.fr
 domain:d.dgzj.com
 domain:d.g.mi.com
-domain:d.gdt.qq.com
 domain:d.groc.press
 domain:d.haberler.com
 domain:d.jugnoo.in
@@ -19977,7 +19952,6 @@ domain:d591f0b765.com
 domain:d5fb078bf9.com
 domain:d5r.icu
 domain:d5xogy0qi.com
-domain:d6.mobaders.com
 domain:d603b6ccf0.com
 domain:d6468dab54.com
 domain:d6ek.pandasuite.io
@@ -20457,7 +20431,6 @@ domain:data.giftcards.dev.cjmadobe.com
 domain:data.glamour.ru
 domain:data.go.bartelldrugs.com
 domain:data.goertz.de
-domain:data.gosquared.com
 domain:data.grandpalladium.palladiumhotelgroup.com
 domain:data.guest.princess.com
 domain:data.guide.photobucket.com
@@ -20694,7 +20667,6 @@ domain:data1.sparkasse.at
 domain:data1.virginmobile.ca
 domain:data1.virginplus.ca
 domain:data159.click
-domain:data2.gosquared.com
 domain:data284.click
 domain:data369.click
 domain:data527.click
@@ -22669,7 +22641,6 @@ domain:doljqrkgovqce.website
 domain:dollishreman.com
 domain:dollylarkjeweller.com
 domain:dollyspreadingbeer.com
-domain:dolphin.deliver.ifeng.com
 domain:dolphincdn.xyz
 domain:dolrfm.fotoregistro.com.br
 domain:dolularhenewrev.org
@@ -23300,7 +23271,6 @@ domain:dunsoupholtopta.net
 domain:duntletav.cyou
 domain:duo-zlhbjsld.buzz
 domain:duomeng.cn
-domain:dup.baidustatic.com
 domain:dupablemundil.shop
 domain:duppedbawsunt.life
 domain:duprelogistics.actonservice.com
@@ -24997,7 +24967,6 @@ domain:email-marketo.branch.rocks
 domain:email-messagegears.branch.rocks
 domain:email-moengage.branch.rocks
 domain:email-rapidmail.branch.rocks
-domain:email-sailthru.branch.io
 domain:email-selligent.branch.rocks
 domain:email-sender.branch.rocks
 domain:email-sendgrid.branch.rocks
@@ -26209,7 +26178,6 @@ domain:eventapi.libring.com
 domain:eventbus.intuit.com
 domain:eventcollector.mcf-prod.a.intuit.com
 domain:eventgateway.soundcloud.com
-domain:eventlog.beacon.qq.com
 domain:eventlog.chatlead.com
 domain:eventlog.inspsearchapi.com
 domain:eventlog.jackpot.de
@@ -26957,7 +26925,6 @@ domain:farflung-horror.pro
 domain:farflung-switch.com
 domain:fargwyn.com
 domain:farhandvitular.qpon
-domain:farm-cn.plista.com
 domain:farmeelshop.help
 domain:faroffsilly.com
 domain:farphrasedirect.com
@@ -29838,7 +29805,6 @@ domain:gg.meitu.com
 domain:gg.miinaa.com
 domain:gg.miued.com
 domain:gg.sonhoo.com
-domain:gg.stargame.com
 domain:gg.taoseyy.cn
 domain:gg.uuu9.com
 domain:gg.vevor.com
@@ -32013,7 +31979,6 @@ domain:h353.ncadvertiser.com
 domain:h3d.fun
 domain:h48gqv7oi4fo7z5guxfmigrbuo815.cyou
 domain:h4htfgrei0.com
-domain:h5.analytics.126.net
 domain:h52ek3i.de
 domain:h559.stamfordadvocate.com
 domain:h5log.zongheng.com
@@ -34066,7 +34031,6 @@ domain:i99i.org
 domain:i9i3ko2o70.com
 domain:i9zk5xq49plll2g.cfd
 domain:ia-dmp.com
-domain:ia.51.la
 domain:ia.ekstrabladet.dk
 domain:ia84berzxy7v.de.themoneytizer.com
 domain:iaalxo.vans.ru
@@ -34216,7 +34180,6 @@ domain:icxtalveexksf.space
 domain:icyporno.com
 domain:iczhjrshqzong.site
 domain:id-ward.com
-domain:id.a-mx.com
 domain:id5-sync.com
 domain:idaaypeljhbyrwu.net
 domain:idaeanmangoes.rest
@@ -34500,7 +34463,6 @@ domain:iiqkuzdjjregw.website
 domain:iiqtru.aunworks.jp
 domain:iirgaldxwrzgb.site
 domain:iirpzp.novasol.com
-domain:iis3g.deliver.ifeng.com
 domain:iisatylcrskde.store
 domain:iisclmekykjjr.store
 domain:iisdvomabauto.website
@@ -35270,11 +35232,7 @@ domain:immunocorp.actonservice.com
 domain:immutenobby.qpon
 domain:imoodrikauch.net
 domain:imorajqpyrpdm.site
-domain:imp-adedge.i-mobile.co.jp
 domain:imp.accesstra.de
-domain:imp.ad-plus.cn
-domain:imp.go.sohu.com
-domain:imp.optaim.com
 domain:imp.pixiv.net
 domain:imp.pvnsolutions.com
 domain:imp.xgo.com.cn
@@ -36161,7 +36119,6 @@ domain:info.thermoscientific.com
 domain:info.thesmsgroup.com
 domain:info.thestoryoftexas.com
 domain:info.thomsonlinear.com
-domain:info.thunderhead.com
 domain:info.tidbank.no
 domain:info.tiwoiltools.com
 domain:info.tmlt.org
@@ -36773,7 +36730,6 @@ domain:iornjqfdcrjjy.store
 domain:iorxnqmjh.com
 domain:ios-informationplatform.wps.cn
 domain:ios.asktagapp.com
-domain:ios.bugly.qq.com
 domain:iosfoister.cyou
 domain:iosjscxobtbkk.store
 domain:iot-business.vodafone.com
@@ -36925,7 +36881,6 @@ domain:irltirjzdusup.website
 domain:irmlutzpydekm.website
 domain:irmsolutions.choicepoint.com
 domain:irnmh.fun
-domain:iro.iperceptions.com
 domain:iroaltidsou.net
 domain:ironcladtrouble.com
 domain:ironedjumana.click
@@ -36952,7 +36907,6 @@ domain:irritatepillssurly.com
 domain:irritating-brief.pro
 domain:irritating-face.pro
 domain:irritating-side.com
-domain:irs.iperceptions.com
 domain:irs01.com
 domain:irs01.net
 domain:irs09.com
@@ -38346,7 +38300,6 @@ domain:jriopxabv.com
 domain:jrkihvllezsla.space
 domain:jrkveqlzvpcmd.space
 domain:jrkylxrnktjbo.store
-domain:jrlt.beacon.qq.com
 domain:jrnefbrogdppa.online
 domain:jrnoskvqntwhk.site
 domain:jrolyrlabymrb.top
@@ -41994,18 +41947,15 @@ domain:livelymatter.com
 domain:livenmahomet.help
 domain:liveonce.online
 domain:livep.l.ott.video.qq.com
-domain:livep.l.qq.com
 domain:liverstopped.com
 domain:liveryaggers.rest
 domain:lives.l.ott.video.qq.com
-domain:lives.l.qq.com
 domain:livesexbar.com
 domain:livesmisdid.cyou
 domain:livestats.kaltura.com
 domain:livestats.matrix.it
 domain:livetwo.space
 domain:liveviewer.ez.no
-domain:livew.l.qq.com
 domain:liveyield.com
 domain:livezombymil.com
 domain:livia-jcl.com
@@ -42400,7 +42350,6 @@ domain:log.olark.com
 domain:log.outbrain.com
 domain:log.pinterest.com
 domain:log.pipeline.datarize.io
-domain:log.popin.cc
 domain:log.quora.com
 domain:log.qvb.qcloud.com
 domain:log.rabobank.nl
@@ -42452,7 +42401,6 @@ domain:logging.je-apps.com
 domain:logging.pw.adn.cloud
 domain:loggingapi.spingo.com
 domain:loggychops.paulsmith.site
-domain:logic.cpm.cm.kankan.com
 domain:logicanalytics.io
 domain:logicclarify.qpon
 domain:logicdate.com
@@ -47654,7 +47602,6 @@ domain:mfobenjxxmggr.store
 domain:mfokuvfzcevjp.website
 domain:mformanentsysh.com
 domain:mfoxqarrwiecy.store
-domain:mfp.deliver.ifeng.com
 domain:mfrfteygoacnr.store
 domain:mfrhrmivflxcsxg.com
 domain:mfrmls.actonservice.com
@@ -47762,7 +47709,6 @@ domain:mhyacjinulgvu.store
 domain:mhydndfvgzvwu.site
 domain:mhz-design.actonservice.com
 domain:mi-de-ner-nis3.info
-domain:mi.gdt.qq.com
 domain:mi.grubhub.com
 domain:mi.miliboo.be
 domain:mi.miliboo.ch
@@ -48537,8 +48483,8 @@ domain:monitor-frontend-collector.a.bybit-aws.com
 domain:monitor.agenedia.com
 domain:monitor.channel4.com
 domain:monitor.fraudblocker.com
+domain:monitor.music.qq.com
 domain:monitor.qq.com
-domain:monitor.uu.qq.com
 domain:monitoring.iraiser.eu
 domain:monitorulta.digital
 domain:monkeyarmiesdisturbing.com
@@ -48950,7 +48896,6 @@ domain:msg.sqz.app
 domain:msg.video.qiyi.com
 domain:msg.youku.com
 domain:msg2.video.qiyi.com
-domain:msga.cupid.iqiyi.com
 domain:msgkxtqtodoji.rocks
 domain:msgose.com
 domain:msgpbwbfradny.website
@@ -49050,6 +48995,7 @@ domain:mtowxcwnvhrnr.store
 domain:mtoxtg.tezenis.com
 domain:mtqheoanjynwv.online
 domain:mtr.fluor.com
+domain:mtrace.qq.com
 domain:mtracking.mhequipment.com
 domain:mtrs.cooecfluor.com
 domain:mtrs.fluor.com
@@ -49777,7 +49723,6 @@ domain:nbwsvoludimjl.online
 domain:nbxcijnlqfrbd.website
 domain:nbyggk.jocee.jp
 domain:nbzemeyiknni7o3l7riictvi.rest
-domain:nc.gdt.qq.com
 domain:nc004x.corp.youdao.com
 domain:nc045x.corp.youdao.com
 domain:ncb6i6mbeiig3xq19c.cfd
@@ -50079,7 +50024,6 @@ domain:news.inttra.com
 domain:news.jennydanny.com
 domain:news.jiukang.org
 domain:news.journalrecord.com
-domain:news.l.qq.com
 domain:news.la-z-boy.com
 domain:news.libn.com
 domain:news.lvb.com
@@ -50493,7 +50437,6 @@ domain:nkyzsgitgjdam.space
 domain:nl-go.experian.com
 domain:nl-nl.coloplastcare.com
 domain:nl.aon.com
-domain:nl.notice.iqiyi.com
 domain:nl.rcd.iqiyi.com
 domain:nl071vrnv.com
 domain:nl1d8gzi5.com
@@ -53650,7 +53593,6 @@ domain:ozyxnwnpfdiup.website
 domain:p-log.ykimg.com
 domain:p-usjawrfp.global
 domain:p.7060.la
-domain:p.aty.sohu.com
 domain:p.cab.ua
 domain:p.classroombookings.com
 domain:p.codio.com
@@ -53666,8 +53608,6 @@ domain:p.jmlp.app
 domain:p.junshi881.com
 domain:p.junshifuxin.com
 domain:p.kugou.com
-domain:p.l.ykimg.com
-domain:p.l.youku.com
 domain:p.logbox.io
 domain:p.marqueplace.com
 domain:p.meilentrio.de
@@ -54657,7 +54597,6 @@ domain:peterpangmerit.com
 domain:petkinstruth.qpon
 domain:petrocrawled.cyou
 domain:petrolgraphcredibility.com
-domain:pets.channeladvisor.com
 domain:petsoadepsoa.net
 domain:petulanthamsterunless.com
 domain:peugeotenlock.qpon
@@ -55059,7 +54998,6 @@ domain:pippiersparids.help
 domain:pippinsbedamns.help
 domain:pippio.com
 domain:pipqgicbrxhwl.website
-domain:pips.taboola.com
 domain:pipsol.net
 domain:piq4.inseec.education
 domain:piqjvumgupyuw.com
@@ -56108,7 +56046,6 @@ domain:pqxceqyefrymz.site
 domain:pqybiuubsheqv.online
 domain:pqzplntcvsxvm.store
 domain:pqzyzircitnva.top
-domain:pr-bh.ybp.yahoo.com
 domain:pr.blogflux.com
 domain:pr.cision.co.uk
 domain:pr.cision.com
@@ -57303,7 +57240,6 @@ domain:px.dmp.zaloapp.com
 domain:px.effirst.com
 domain:px.marchex.io
 domain:px.mountain.com
-domain:px.owneriq.net
 domain:px.pandora.com
 domain:px.srvcs.tumblr.com
 domain:px.staticfiles.at
@@ -57428,7 +57364,6 @@ domain:pzxjjwbdvxxbi.store
 domain:pzyoijuqnkyol.site
 domain:pzyqjzxenxjop.website
 domain:pzzedx.icu
-domain:q.i.gdt.qq.com
 domain:q.nasdaq.com
 domain:q.skiplino.com
 domain:q.tubetruck.com
@@ -58546,7 +58481,6 @@ domain:r.guggy.com
 domain:r.intimately.us
 domain:r.jakuli.com
 domain:r.kleertjes.com
-domain:r.l.youku.com
 domain:r.lafamo.com
 domain:r.morons.us
 domain:r.niwepa.com
@@ -58555,7 +58489,6 @@ domain:r.phhhoto.com
 domain:r.powuta.com
 domain:r.presspadnews.com
 domain:r.rover.com
-domain:r.sax.sina.com.cn
 domain:r.skimresources.com
 domain:r.sportsie.com
 domain:r.wz.de
@@ -58910,7 +58843,6 @@ domain:rcbsrm.fivefoxes.co.jp
 domain:rccnyh.airportrentalcars.com
 domain:rcdamcdeqtea.net
 domain:rcdn-web.com
-domain:rce.iperceptions.com
 domain:rcevcm.lyst.co.uk
 domain:rcevwjumlnknn.website
 domain:rcf3occ8.de
@@ -60265,7 +60197,6 @@ domain:rliuumrtkzzpg.space
 domain:rliwiqr.icu
 domain:rlkx.cn
 domain:rlnvbmsxrreot.store
-domain:rlog.popin.cc
 domain:rlogcejfsgtar.site
 domain:rlogs.youdao.com
 domain:rlotcaapstumc.space
@@ -60279,7 +60210,6 @@ domain:rlrsfxkewwgww.site
 domain:rlsnntgffqnli.online
 domain:rludahcaewkfd.online
 domain:rlwttnzdgmirv.site
-domain:rm.gdt.qq.com
 domain:rmajfshtdeoko.space
 domain:rmaprpljhtvue.space
 domain:rmb-trf.net
@@ -60747,15 +60677,10 @@ domain:rspwhikhuvovbf.com
 domain:rsqaxkycjgnaf.website
 domain:rsqiodtrmtavz.space
 domain:rsqtssvyjuzlh.website
-domain:rsra-ph.cdn-fileserver.com
-domain:rsra.cdn-fileserver.com
-domain:rsras-ph.cdn-fileserver.com
-domain:rsras.cdn-fileserver.com
 domain:rss.dtiserv.com
 domain:rssudafbgeotv.store
 domain:rssxgfeukcqdq.website
 domain:rst.pornyhd.com
-domain:rstat.rockmostbet.com
 domain:rstdfyerm.icu
 domain:rstpgmfbcproe.store
 domain:rstrix.com
@@ -62768,7 +62693,6 @@ domain:secure.bike6debt.com
 domain:secure.blue2fund.com
 domain:secure.boat3deer.com
 domain:secure.bolt8snap.com
-domain:secure.bred4tula.com
 domain:secure.brie5jiff.com
 domain:secure.burn5tilt.com
 domain:secure.businessintuition247.com
@@ -64049,7 +63973,6 @@ domain:show-sb.com
 domain:show.decorex.com
 domain:show.kbb.co.uk
 domain:show.kc.taotaosou.com
-domain:show.re.taobao.com
 domain:showcase.inhaabit.com
 domain:showjav11.fun
 domain:showkkkp.top
@@ -68786,7 +68709,6 @@ domain:sqwwhdckyewdnlu.net
 domain:sqykvemny.net
 domain:sqyuxifbrkuez.website
 domain:sr59t7wbx5.claricelin.com
-domain:sra-px.cdn-fileserver.com
 domain:srasomqmogkfpc.net
 domain:sravakaeastre.cfd
 domain:src.freshmarketer.in
@@ -69137,7 +69059,6 @@ domain:ssl-metrics.tim.it
 domain:ssl-omtrdc.dmp-support.jp
 domain:ssl-omtrdc.zexy.net
 domain:ssl-services.com
-domain:ssl-youtube.2cnt.net
 domain:ssl.aafp.org
 domain:ssl.aafpfoundation.org
 domain:ssl.brandlicensing.eu
@@ -69194,7 +69115,6 @@ domain:sslstats.healthydirections.com
 domain:sslstats.postescanada-canadapost.ca
 domain:sslstats.ssl.postescanada-canadapost.ca
 domain:sslstats.worldagentdirect.com
-domain:ssltest2.branch.io
 domain:ssm.codes
 domain:ssmile.dentsplysirona.com
 domain:ssmr.nuro.jp
@@ -69803,7 +69723,6 @@ domain:stat.tiara.daum.net
 domain:stat.tiara.kakao.com
 domain:stat.tiara.tistory.com
 domain:stat.tildacdn.com
-domain:stat.tpns.tencent.com
 domain:stat.tudou.com
 domain:stat.turb.pw
 domain:stat.tvigle.ru
@@ -69824,6 +69743,7 @@ domain:stat.wolterskluwer.pl
 domain:stat.wolterskluwer.pt
 domain:stat.ws.126.net
 domain:stat.xgo.com.cn
+domain:stat.y.qq.com
 domain:stat.youku.com
 domain:stat.zol.com.cn
 domain:statantbuttony.cyou
@@ -69837,7 +69757,6 @@ domain:statesalmon.com
 domain:statespiecehooter.com
 domain:stateunableneither.com
 domain:stathome.org
-domain:static-cn.plista.com
 domain:static-res.qq.com
 domain:static-s.iqiyi.com
 domain:static-srv.com
@@ -71039,7 +70958,6 @@ domain:strangleentice.com
 domain:strangleslogan.com
 domain:strapi.clickjogos.com.br
 domain:strataview.co.in
-domain:strategy.beacon.qq.com
 domain:strategycompanion.actonservice.com
 domain:strawberry.basf.com
 domain:strawberryy14.top
@@ -71293,6 +71211,7 @@ domain:sufferpounceo.com
 domain:suffocatefried.com
 domain:suffocateinnhandling.com
 domain:sugabyte.actonservice.com
+domain:sugar.zhihu.com
 domain:sugarruse.com
 domain:suged.com
 domain:suggestbingo.com
@@ -71853,7 +71772,6 @@ domain:synacast.com
 domain:synapse-da.actonservice.com
 domain:synbiobeta.actonservice.com
 domain:sync-a8.cocolocala.jp
-domain:sync.adap.tv
 domain:sync.gsyndication.com
 domain:sync.rambler.ru
 domain:sync.shinobi.jp
@@ -71978,7 +71896,6 @@ domain:t.a3cloud.net
 domain:t.actemra.com
 domain:t.adclr.jp
 domain:t.adlpo.com
-domain:t.adx.opera.com
 domain:t.afry.com
 domain:t.airasia.com
 domain:t.allmodern.com
@@ -72016,7 +71933,6 @@ domain:t.antalisperu.com
 domain:t.ao.argyleforum.com
 domain:t.ao.consumerfinancereport.com
 domain:t.ao.walletjoy.com
-domain:t.appsflyer.com
 domain:t.appstatesports.com
 domain:t.arcade.show
 domain:t.arizonawildcats.com
@@ -72058,7 +71974,6 @@ domain:t.cathflo.com
 domain:t.cellcept.com
 domain:t.centreinthesquare.com
 domain:t.cfjump.com
-domain:t.channeladvisor.com
 domain:t.charlotte49ers.com
 domain:t.chartwayarena.com
 domain:t.cincinnatiarts.org
@@ -72106,7 +72021,6 @@ domain:t.friars.com
 domain:t.fullres.net
 domain:t.fuzeon.com
 domain:t.gazyva.com
-domain:t.gdt.qq.com
 domain:t.gene.com
 domain:t.genentech-access.com
 domain:t.georgiadogs.com
@@ -72172,7 +72086,6 @@ domain:t.kck.st
 domain:t.krannertcenter.com
 domain:t.kstatesports.com
 domain:t.ksuowls.com
-domain:t.l.qq.com
 domain:t.lastcast.fm
 domain:t.leady.com
 domain:t.leady.cz
@@ -72959,7 +72872,6 @@ domain:tcwouq1gmw.com
 domain:tcx0wyp0nn.com
 domain:tczulp.econea.cz
 domain:td.airdroid.com
-domain:td.doubleclick.net
 domain:td.emails.domain.com.au
 domain:td5xffxsx4.com
 domain:td86hsmlmggym.top
@@ -73152,7 +73064,6 @@ domain:telegraphfamouscucumbers.com
 domain:teleishlocks.qpon
 domain:telem.sre.gopuff.com
 domain:telemetrics.klaviyo.com
-domain:telemetry-eastus.trafficmanager.inmobi.com
 domain:telemetry.adobe.io
 domain:telemetry.algolia.com
 domain:telemetry.api.playstation.com
@@ -73174,7 +73085,6 @@ domain:telemetry.phenixrts.com
 domain:telemetry.proton.me
 domain:telemetry.reembed.com
 domain:telemetry.ruthschris.com
-domain:telemetry.sdk.inmobi.com
 domain:telemetry.smartframe.io
 domain:telemetry.soundcloud.com
 domain:telemetry.stryker.com
@@ -75938,7 +75848,6 @@ domain:track.searchiq.co
 domain:track.shop.atleticodemadrid.com
 domain:track.shop2market.com
 domain:track.simonton.com
-domain:track.sitetag.us
 domain:track.slickinbox.com
 domain:track.social.com
 domain:track.sodapdf.com
@@ -76658,7 +76567,6 @@ domain:tracking.theemeraldconference.com
 domain:tracking.thehut.net
 domain:tracking.thermoinfo.com
 domain:tracking.thiomucase.es
-domain:tracking.thunderhead.com
 domain:tracking.ti.com
 domain:tracking.ti.com.cn
 domain:tracking.tibnor.fi
@@ -76734,7 +76642,6 @@ domain:tracking1.questdiagnostics.com
 domain:tracking1.tena.com
 domain:tracking2.bokf.com
 domain:tracking2.bokfinancial.com
-domain:tracking2.channeladvisor.com
 domain:tracking2.cigna.co.id
 domain:tracking2.cigna.co.uk
 domain:tracking2.cigna.com.tw
@@ -76855,7 +76762,6 @@ domain:trainedwave.pro
 domain:trainerunpleasantrite.com
 domain:training.hager.co.uk
 domain:training.indigobusiness.co.uk
-domain:training.thunderhead.com
 domain:trainspoetry.com
 domain:traiqnien.com
 domain:traitorpretextherein.com
@@ -77775,6 +77681,7 @@ domain:tune.sckmediatv.com
 domain:tunefatigueclarify.com
 domain:tuneupcant.com
 domain:tungateoptics.help
+domain:tunion-api.m.taobao.com
 domain:tunitytostara.org
 domain:tunneljig.shop
 domain:tunnerypiques.click
@@ -78057,7 +77964,6 @@ domain:u.20mn.it
 domain:u.audi-pureprotection.com
 domain:u.fordprotectplans.com
 domain:u.getgoose.com
-domain:u.l.qq.com
 domain:u.landing.ni.com
 domain:u.qxen.com
 domain:u.salony.com
@@ -78191,7 +78097,6 @@ domain:ubilinkbin.com
 domain:ubjzmnbnhtdjj.site
 domain:ublasklnrnifs.site
 domain:ubm.docu.info
-domain:ubmcvideo.baidustatic.com
 domain:ubmdob.connection.com
 domain:ubmups.houseofindya.com
 domain:ubmwua.maisonsetappartements.fr
@@ -79130,7 +79035,6 @@ domain:upskittyan.com
 domain:upsloperoyalet.com
 domain:upsmitevalise.rest
 domain:upstampmoxas.com
-domain:upstats.yadro.ru
 domain:upsups.click
 domain:uptakertrammel.com
 domain:uptaudiphoosu.net
@@ -80020,7 +79924,6 @@ domain:v.adblockultimate.net
 domain:v.angha.me
 domain:v.cameo.com
 domain:v.ctrl.blog
-domain:v.l.youku.com
 domain:v.minu.be
 domain:v.myvoleo.com
 domain:v.oney.es
@@ -80627,7 +80530,6 @@ domain:vid12051hl.com
 domain:vid12060hl.com
 domain:vidcpm.com
 domain:videelsaidugne.net
-domain:video-ad-stats.googlesyndication.com
 domain:video-adblocker.com
 domain:video-ads.a2z.com
 domain:video-intel.pixels.ai
@@ -80638,7 +80540,6 @@ domain:video.funnelbox.com
 domain:video.ureport.push.qq.com
 domain:video.verintsystemsinc.com
 domain:video.vitcord.com
-domain:video.wap.mpush.qq.com
 domain:video231.oss-cn-beijing.aliyuncs.com
 domain:videoadstech.org
 domain:videobaba.xyz
@@ -82171,7 +82072,6 @@ domain:web.winzer.com
 domain:web.x.ilpost.it
 domain:web.yourerc.com
 domain:web0.eu
-domain:web1.51.la
 domain:web2.perkinelmer.com
 domain:web3.perkinelmer.com
 domain:web8.perkinelmer.com
@@ -82238,7 +82138,6 @@ domain:webpixel.smartmeapp.com
 domain:webpushcloud.info
 domain:webpushstat.api.engagelab.cc
 domain:webs.hammacher.com
-domain:websdk.appsflyer.com
 domain:websdkmetrics.blackrock.com
 domain:webseeds.com
 domain:webservices.websitepros.com
@@ -82766,7 +82665,6 @@ domain:wimpidsausujeje.com
 domain:wimxvpcbsfhyz.store
 domain:win-bidding.com
 domain:win-stock.com.cn
-domain:win.gdt.qq.com
 domain:win.staticstuff.net
 domain:winads.cn
 domain:winasdaq.com
@@ -83701,7 +83599,6 @@ domain:www.boat3deer.com
 domain:www.bolt8snap.com
 domain:www.bosctrl32.com
 domain:www.branch.rocks
-domain:www.bred4tula.com
 domain:www.brie5jiff.com
 domain:www.brillen.demarketing.net.brillen.pl
 domain:www.burn5tilt.com
@@ -84479,7 +84376,6 @@ domain:xamniksq.com
 domain:xanalytics.vip
 domain:xaofdyhfyowfw.space
 domain:xapads.com
-domain:xapi.juicyads.com
 domain:xapu7phoge.com
 domain:xaqnbj.cn
 domain:xarfxj.icu
@@ -85443,7 +85339,6 @@ domain:ycjhwnqmlchll.space
 domain:yckkscwnnhsnj.space
 domain:ycmksqoykzgyf.website
 domain:ycmwhsersx.com
-domain:ycn57v1ncx.fnoz8tgk8owfg6mpe.cfd
 domain:ycntdtbqabtnm.online
 domain:ycoecgqypbqtv.space
 domain:ycorwegybrwrx.space
@@ -85973,7 +85868,6 @@ domain:youthfuljacket.pro
 domain:youthfulpoem.pro
 domain:youthlygaveler.com
 domain:youtube.112.2o7.net
-domain:youtube.2cnt.net
 domain:youtube.local
 domain:youxiaoad.com
 domain:yovmdbaeqynr.com
@@ -87374,9 +87268,7 @@ domain:zzzjhkyprpsvl.store
 domain:zzzmjfixezere.site
 
 # 全匹配
-full:aaid.uyunad.com
 full:aboard.apilocate.amap.com
-full:acdn.adnxs.com
 full:ad.21cn.com
 full:ad.k.21cn.com
 full:ad.tencentmusic.com
@@ -87389,10 +87281,7 @@ full:ads-img-qc.xhscdn.com
 full:ads-video-al.xhscdn.com
 full:ads-video-qc.xhscdn.com
 full:ads.95516.com
-full:adshows.21cn.com
 full:adsmind.apdcdn.tc.qq.com
-full:adsmind.gdtimg.com
-full:adstats.tencentmusic.com
 full:advertising.apple.com
 full:afd.baidu.com
 full:afdconf.baidu.com
@@ -87411,7 +87300,6 @@ full:banners.itunes.apple.com
 full:bootpreload.uve.weibo.com
 full:btrace.qq.com
 full:btrace.video.qq.com
-full:cm-10-138.getui.com
 full:cr-status.iqiyi.com
 full:crash2.zhihu.com
 full:data.mistat.xiaomi.com
@@ -87419,10 +87307,8 @@ full:dgstatic.jd.com
 full:dig.bdurl.net
 full:dns.jd.com
 full:duclick.baidu.com
-full:ef-dongfeng.tanx.com
 full:f74f7f7765f8a2f6.ngaa.net.cn
 full:flowplus.meituan.net
-full:h.trace.qq.com
 full:httpdns.baidubce.com
 full:iad.apple.com
 full:iadcontent.apple.com
@@ -87442,43 +87328,26 @@ full:metrics.apple.com
 full:mobads-logs.baidu.com
 full:mobads.baidu.com
 full:mobilead.kuwo.cn
-full:monitor.music.qq.com
 full:mqtt.zhihu.com
-full:msg.umengcloud.com
-full:mtrace.qq.com
 full:nadvideo2.baidu.com
 full:nsclick.baidu.com
 full:optimus-ads.amap.com.w.alikunlun.com
 full:oth.str.mdt.qq.com
-full:p.l.qq.com
 full:pgdt.gtimg.cn
 full:pgdt.gtimg.com
-full:pgdt.ugdtimg.com
 full:qwapi.apple.com
 full:rich.kuwo.cn
-full:rpt.gdt.qq.com
 full:safebrowsing.urlsec.qq.com
-full:sdk-conf.getui.com
-full:sdk.open.talk.getui.net
-full:sdkconfig.ad.xiaomi.com
-full:sec.umeng.com
 full:securemetrics.apple.com
-full:sin3-ib.adnxs.com
 full:splashqqlive.gtimg.com
-full:stat.y.qq.com
-full:sugar.zhihu.com
 full:switch.cup.com.cn
 full:t-ads.xiaohongshu.com
-full:t7z.cupid.iqiyi.com
 full:t7z.cupid.ptqy.gitv.tv
 full:tmead.y.qq.com
 full:tmeadbak.y.qq.com
 full:tmeadcomm.y.qq.com
 full:tracking.intl.miui.com
-full:tunion-api.m.taobao.com
 full:tysdk.95516.com
-full:ulogs.umeng.com
-full:us.l.qq.com
 full:vv.video.qq.com
 full:wa.gtimg.com
 full:webproxy-advp.iad-apple.com
@@ -87487,3 +87356,142 @@ full:wxsmsdy.video.qq.com
 full:wxsnsdy.wxs.qq.com
 full:wxsnsdythumb.wxs.qq.com
 full:ynuf.aliapp.org
+
+# IP-CIDR 规则
+0.0.0.1/32
+101.124.19.122/32
+109.123.233.251/32
+117.177.248.17/32
+117.177.248.41/32
+118.89.204.198/32
+120.240.95.37/32
+122.229.29.89/32
+122.229.8.47/32
+141.98.82.232/32
+154.7.80.158/32
+157.90.183.248/32
+162.252.214.4/32
+167.206.10.148/32
+167.71.252.38/32
+167.99.31.227/32
+172.255.103.118/32
+172.255.6.135/32
+172.255.6.137/32
+172.255.6.139/32
+172.255.6.140/32
+172.255.6.150/32
+172.255.6.152/32
+172.255.6.199/32
+172.255.6.2/32
+172.255.6.217/32
+172.255.6.228/32
+172.255.6.248/32
+172.255.6.252/32
+172.255.6.254/32
+172.255.6.59/32
+185.149.120.173/32
+185.193.38.148/32
+188.42.84.110/32
+188.42.84.137/32
+188.42.84.159/32
+188.42.84.160/32
+188.42.84.162/32
+188.42.84.21/32
+188.42.84.23/32
+194.26.232.61/32
+194.59.220.161/32
+203.195.121.0/32
+203.195.121.1/32
+203.195.121.103/32
+203.195.121.11/32
+203.195.121.119/32
+203.195.121.134/32
+203.195.121.184/32
+203.195.121.195/32
+203.195.121.209/32
+203.195.121.217/32
+203.195.121.219/32
+203.195.121.224/32
+203.195.121.229/32
+203.195.121.24/32
+203.195.121.28/32
+203.195.121.29/32
+203.195.121.34/32
+203.195.121.36/32
+203.195.121.40/32
+203.195.121.46/32
+203.195.121.70/32
+203.195.121.72/32
+203.195.121.73/32
+203.195.121.74/32
+205.209.138.102/32
+212.117.186.252/32
+223.87.176.139/32
+223.87.176.176/32
+223.87.177.180/32
+223.87.177.182/32
+223.87.177.184/32
+223.87.177.43/32
+223.87.177.47/32
+223.87.177.80/32
+223.87.182.101/32
+223.87.182.102/32
+223.87.182.11/32
+223.87.182.52/32
+23.109.121.125/32
+23.109.121.254/32
+23.109.150.208/32
+23.109.150.253/32
+23.109.170.19/32
+23.109.170.212/32
+23.109.170.228/32
+23.109.170.241/32
+23.109.170.255/32
+23.109.170.60/32
+23.109.248.125/32
+23.109.248.129/32
+23.109.248.130/32
+23.109.248.135/32
+23.109.248.139/32
+23.109.248.14/32
+23.109.248.149/32
+23.109.248.174/32
+23.109.248.183/32
+23.109.248.20/32
+23.109.248.229/32
+23.109.248.247/32
+23.109.248.29/32
+23.109.87.123/32
+23.195.91.195/32
+23.231.151.252/32
+23.83.67.164/32
+34.102.137.201/32
+34.215.155.61/32
+35.194.26.233/32
+35.227.234.222/32
+35.232.188.118/32
+35.239.57.233/32
+37.1.209.213/32
+37.1.213.100/32
+44.228.85.26/32
+45.32.105.134/32
+5.61.55.143/32
+51.77.227.100/32
+51.77.227.101/32
+51.77.227.102/32
+51.77.227.103/32
+51.77.227.96/32
+51.77.227.97/32
+51.77.227.98/32
+51.77.227.99/32
+51.89.187.136/32
+51.89.187.137/32
+51.89.187.138/32
+51.89.187.139/32
+51.89.187.140/32
+51.89.187.141/32
+51.89.187.142/32
+51.89.187.143/32
+60.190.139.164/32
+77.162.125.199/32
+88.42.84.136/32

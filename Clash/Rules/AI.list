@@ -1,5 +1,5 @@
-# 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-05-08 10:22:06
+#去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
+# 生成时间: 2026-05-11 11:12:41
 
 #Cloudflare domain
 DOMAIN-SUFFIX,cloudflare.com
@@ -10,7 +10,6 @@ DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,r2.dev
 DOMAIN-SUFFIX,cloudflare-ipfs.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
 
 #Openai ChatGpt
 DOMAIN-SUFFIX,ai.com

@@ -1,5 +1,5 @@
-# 去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-05-08 10:22:06
+#去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
+# 生成时间: 2026-05-11 11:12:41
 
 # Microsoft Services
 # optimized from https://gist.github.com/TTTPOB/ce93fb3b04ba2f21880b09427442d831
@@ -107,14 +107,8 @@ DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,skydrive
 DOMAIN-SUFFIX,livefilestore.com
 DOMAIN-SUFFIX,microsoftpersonalcontent.com
-DOMAIN-SUFFIX,oneclient.sfx.ms
 DOMAIN-SUFFIX,onedrive.com
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,photos.live.com
-DOMAIN-SUFFIX,skydrive.wns.windows.com
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
-DOMAIN-SUFFIX,storage.live.com
-DOMAIN-SUFFIX,storage.msn.com
 #DOMAIN-SUFFIX,aria.microsoft.com
 
 #增加了Github与Onedrive
