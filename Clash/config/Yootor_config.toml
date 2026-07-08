@@ -1,0 +1,149 @@
+# ============================================
+# yootor.toml
+#用户自定义策略组与规则集重构
+# ============================================
+
+# ============================================
+# 规则集 (rule_sets)
+# ============================================
+
+[[rule_sets]]
+group = "🎯 全球直连"
+url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyCN.list"
+type = "rule-set"
+
+[[rule_sets]]
+group = "🚀 节点选择"
+url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyProxy.list"
+type = "rule-set"
+
+[[rule_sets]]
+group = "🍃 AdBlock"
+url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/AdBlock.mrs"
+type = "rule-set"
+
+[[rule_sets]]
+group = "🎊 GG"
+url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/AI.list"
+type = "rule-set"
+
+[[rule_sets]]
+group = "🎊 GG"
+url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Google.list"
+type = "rule-set"
+
+[[rule_sets]]
+group = "📺 Media"
+url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyMedia.list"
+type = "rule-set"
+
+[[rule_sets]]
+group = "✨ 微软服务"
+url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Microsoft.list"
+type = "rule-set"
+
+[[rule_sets]]
+group = "🚀 节点选择"
+url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/ProxyGFW.mrs"
+type = "rule-set"
+
+[[rule_sets]]
+group = "☘️ 🇸🇬 狮城"
+url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyDNS.list"
+type = "rule-set"
+
+[[rule_sets]]
+group = "🍎 苹果服务"
+url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Apple.list"
+type = "rule-set"
+
+[[rule_sets]]
+group = "🎯 全球直连"
+url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ChinaDomain.list"
+type = "rule-set"
+
+# GeoIP CN 兜底
+[[rule_sets]]
+group = "🎯 全球直连"
+type = "geoip"
+value = "CN"
+
+# Final 兜底
+[[rule_sets]]
+group = "🐳 漏网之鱼"
+type = "final"
+
+# ============================================
+# 代理组 (proxy_groups)
+# ============================================
+
+# 主节点选择
+[[proxy_groups]]
+name = "🚀 节点选择"
+type = "select"
+regex = ".*"
+proxies = ["☘️ 🇸🇬 狮城", "🌎 🇺🇸 美国", "DIRECT"]
+
+# AI + Google 合并组
+[[proxy_groups]]
+name = "🎊 GG"
+type = "select"
+regex = "(Singapore|新加坡|SG|狮|🇸🇬|美|US|🇺🇸|台|新北|彰化|Taiwan|🇨🇳|TW)"
+proxies = ["🚀 节点选择", "☘️ 🇸🇬 狮城", "🌎 🇺🇸 美国"]
+
+# 流媒体
+[[proxy_groups]]
+name = "📺 Media"
+type = "select"
+regex = ".*"
+proxies = ["🚀 节点选择", "☘️ 🇸🇬 狮城", "🌎 🇺🇸 美国"]
+
+# 微软服务
+[[proxy_groups]]
+name = "✨ 微软服务"
+type = "select"
+regex = "(Singapore|新加坡|SG|狮|🇸🇬|美|US|🇺🇸|台|新北|彰化|Taiwan|🇨🇳|TW|香港|HK|🇭🇰|Hong Kong|HongKong|hongkong)"
+proxies = ["🚀 节点选择", "☘️ 🇸🇬 狮城", "🌎 🇺🇸 美国", "DIRECT"]
+
+# 苹果服务
+[[proxy_groups]]
+name = "🍎 苹果服务"
+type = "select"
+proxies = ["DIRECT", "🚀 节点选择", "☘️ 🇸🇬 狮城", "🌎 🇺🇸 美国"]
+
+# 全球直连
+[[proxy_groups]]
+name = "🎯 全球直连"
+type = "select"
+proxies = ["DIRECT", "🚀 节点选择"]
+
+# 广告拦截
+[[proxy_groups]]
+name = "🍃 AdBlock"
+type = "select"
+proxies = ["REJECT", "DIRECT"]
+
+# 漏网之鱼
+[[proxy_groups]]
+name = "🐳 漏网之鱼"
+type = "select"
+regex = ".*"
+proxies = ["🚀 节点选择", "DIRECT", "☘️ 🇸🇬 狮城", "🌎 🇺🇸 美国"]
+
+# 新加坡自动测速
+[[proxy_groups]]
+name = "☘️ 🇸🇬 狮城"
+type = "url-test"
+regex = "(新加坡|SG|狮|🇸🇬|Singapore)"
+url = "http://cp.cloudflare.com/"
+interval = 500
+tolerance = 50
+
+# 美国自动测速
+[[proxy_groups]]
+name = "🌎 🇺🇸 美国"
+type = "url-test"
+regex = "(美国|🇺🇸|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
+url = "http://cp.cloudflare.com/"
+interval = 500
+tolerance = 50
