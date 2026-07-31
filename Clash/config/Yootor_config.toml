@@ -135,7 +135,7 @@ proxies = ["🚀 节点选择", "DIRECT", "☘️ 🇸🇬 狮城", "🌎 🇺�
 name = "☘️ 🇸🇬 狮城"
 type = "url-test"
 regex = "(新加坡|SG|狮|🇸🇬|Singapore)"
-url = "http://cp.cloudflare.com/"
+url = "https://cp.cloudflare.com/generate_204"
 interval = 500
 tolerance = 50
 
@@ -144,6 +144,6 @@ tolerance = 50
 name = "🌎 🇺🇸 美国"
 type = "url-test"
 regex = "(美国|🇺🇸|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"
-url = "http://cp.cloudflare.com/"
+url = "https://cp.cloudflare.com/generate_204"
 interval = 500
 tolerance = 50
