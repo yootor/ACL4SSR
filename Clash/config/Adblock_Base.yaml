@@ -167,16 +167,16 @@ rule-providers:
 # 2. 路由规则 (Rules)
 # ==========================================
 rules:
-  - RULE-SET,MyCN,🎯 全球直连
-  - RULE-SET,MyProxy,🚀 节点选择
+  - RULE-SET,MyCN,🎯 Direct
+  - RULE-SET,MyProxy,🚀 Select
   - RULE-SET,AdBlock,🍃 AdBlock
-  - RULE-SET,AI,🎊 GG
-  - RULE-SET,Google,🎊 GG
+  - RULE-SET,AI,🤖 GG
+  - RULE-SET,Google,🤖 GG
   - RULE-SET,Media,📺 Media
-  - RULE-SET,Microsoft,✨ 微软服务
-  - RULE-SET,ProxyGFW,🚀 节点选择
-  - RULE-SET,ProxyDNS,☘️ 🇸🇬 狮城
-  - RULE-SET,Apple,🍎 苹果服务
-  - RULE-SET,ChinaDomain,🎯 全球直连
-  - GEOIP,CN,🎯 全球直连
-  - MATCH,🐳 漏网之鱼
+  - RULE-SET,Microsoft,✨ Microsoft
+  - RULE-SET,ProxyGFW,🚀 Select
+  - RULE-SET,ProxyDNS,🎊 🇭🇰 HongKong
+  - RULE-SET,Apple,🍎 Apple
+  - RULE-SET,ChinaDomain,🎯 Direct
+  - GEOIP,CN,🎯 Direct
+  - MATCH,🐳 Final
