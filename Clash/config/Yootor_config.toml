@@ -9,57 +9,57 @@
 
 [[rule_sets]]
 group = "🎯 Direct"
-url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyCN.list"
+url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyCN.list"
 type = "rule-set"
 
 [[rule_sets]]
 group = "🚀 Select"
-url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyProxy.list"
+url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyProxy.list"
 type = "rule-set"
 
 [[rule_sets]]
 group = "🍃 AdBlock"
-url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/AdBlock.mrs"
+url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/AdBlock.mrs"
 type = "rule-set"
 
 [[rule_sets]]
 group = "🤖 GG"
-url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/AI.list"
+url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/AI.list"
 type = "rule-set"
 
 [[rule_sets]]
 group = "🤖 GG"
-url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Google.list"
+url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Google.list"
 type = "rule-set"
 
 [[rule_sets]]
 group = "📺 Media"
-url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyMedia.list"
+url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyMedia.list"
 type = "rule-set"
 
 [[rule_sets]]
 group = "✨ Microsoft"
-url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Microsoft.list"
+url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Microsoft.list"
 type = "rule-set"
 
 [[rule_sets]]
 group = "🚀 Select"
-url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/ProxyGFW.mrs"
+url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/ProxyGFW.mrs"
 type = "rule-set"
 
 [[rule_sets]]
 group = "🎊 🇭🇰 HongKong"
-url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyDNS.list"
+url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyDNS.list"
 type = "rule-set"
 
 [[rule_sets]]
 group = "🍎 Apple"
-url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Apple.list"
+url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Apple.list"
 type = "rule-set"
 
 [[rule_sets]]
 group = "🎯 Direct"
-url = "https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ChinaDomain.list"
+url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ChinaDomain.list"
 type = "rule-set"
 
 # GeoIP CN 兜底
