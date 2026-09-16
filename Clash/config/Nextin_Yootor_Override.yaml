@@ -117,67 +117,67 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyCN.list
+    url: https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyCN.list
 
   MyProxy:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyProxy.list
+    url: https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyProxy.list
 
   AdBlock:
     type: http
     behavior: domain
     format: mrs
-    url: https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/AdBlock.mrs
+    url: https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/AdBlock.mrs
 
   AI:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/AI.list
+    url: https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/AI.list
 
   Google:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Google.list
+    url: https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Google.list
 
   Media:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyMedia.list
+    url: https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyMedia.list
 
   Microsoft:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Microsoft.list
+    url: https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Microsoft.list
 
   Apple:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Apple.list
+    url: https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/Apple.list
 
   ProxyGFW:
     type: http
     behavior: domain
     format: mrs
-    url: https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/ProxyGFW.mrs
+    url: https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/ProxyGFW.mrs
 
   ProxyDNS:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyDNS.list
+    url: https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ProxyDNS.list
 
   ChinaDomain:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ChinaDomain.list
+    url: https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/ChinaDomain.list
 
 rules:
   - RULE-SET,MyCN,🎯 Direct
