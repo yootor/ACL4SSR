@@ -17,10 +17,10 @@ group = "🚀 Select"
 url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Rules/MyProxy.list"
 type = "rule-set"
 
-#[[rule_sets]]
-#group = "🍃 AdBlock"
-#url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/AdBlock.mrs"
-#type = "rule-set"
+[[rule_sets]]
+group = "🍃 AdBlock"
+url = "https://gh.goppx.com/https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/AdBlock.mrs"
+type = "rule-set"
 
 [[rule_sets]]
 group = "🤖 GG"
@@ -118,10 +118,10 @@ type = "select"
 proxies = ["DIRECT", "🚀 Select"]
 
 # 广告拦截
-#[[proxy_groups]]
-#name = "🍃 AdBlock"
-#type = "select"
-#proxies = ["REJECT", "DIRECT"]
+[[proxy_groups]]
+name = "🍃 AdBlock"
+type = "select"
+proxies = ["REJECT", "DIRECT"]
 
 # 漏网之鱼
 [[proxy_groups]]
