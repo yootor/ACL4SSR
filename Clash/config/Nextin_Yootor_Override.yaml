@@ -167,7 +167,7 @@ rule-providers:
     format: mrs
     url: https://raw.githubusercontent.com/yootor/ACL4SSR/master/Clash/Mrs/ProxyGFW.mrs
 
- ProxyDNS:
+  ProxyDNS:
     type: http
     behavior: classical
     format: text
