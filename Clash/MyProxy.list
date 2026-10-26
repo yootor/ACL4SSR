@@ -1,10 +1,10 @@
 #MyList
 DOMAIN-SUFFIX,yootor.com
-DOMAIN-SUFFIX,nwtop.com
-#DOMAIN-SUFFIX,jpipi.com
-#DOMAIN-SUFFIX,goppx.com
+#DOMAIN-SUFFIX,nwtop.com
+
 #Hardware
 DOMAIN-KEYWORD,murata
+DOMAIN-SUFFIX,tdk.com
 DOMAIN-SUFFIX,deepl.com
 
 #Apple Music
