@@ -20,6 +20,7 @@ IP-CIDR,224.0.0.0/4,no-resolve
 # IP-CIDR6,fd00::/8,no-resolve
 
 #My DOMAIN
+#DOMAIN-SUFFIX,yootor.com
 DOMAIN-SUFFIX,jpipi.com
 DOMAIN-SUFFIX,nwtop.com
 
@@ -27,10 +28,6 @@ DOMAIN-SUFFIX,nwtop.com
 DOMAIN,time.windows.com
 IP-CIDR,20.189.79.72/32,no-resolve
 DOMAIN,cn.pool.ntp.org
-
-#Sub
-DOMAIN-SUFFIX,maoxiongnet.com
-DOMAIN-SUFFIX,spphhnhg.top
 
 #Tecent IP SG
 IP-CIDR,43.156.0.0/18,no-resolve

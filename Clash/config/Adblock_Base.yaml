@@ -33,16 +33,18 @@ dns:
   enable: true
   prefer-h3: true
   ipv6: false
+  respect-rules: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter-mode: whitelist
-  fake-ip-filter:
+  fake-ip-filter: []
   #  - '*.lan'
   # fake-ip-ttl: 1
 
   #default-nameserver 仅用于解析DOH服务的域名
   default-nameserver:
-    - 223.5.5.5
+    - tls://223.5.5.5
+    - tls://120.53.53.53
 
   #nameserver 默认的DNS服务器，用来解析所有
   nameserver:
@@ -55,8 +57,8 @@ dns:
     - https://120.53.53.53/dns-query
   
   #direct-nameserver 直链出口的DNS服务器
-  #direct-nameserver:
-  #  - system
+  direct-nameserver: []
+  
 
 #域名探嗅
 sniffer:
