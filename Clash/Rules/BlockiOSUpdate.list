@@ -1,8 +1,0 @@
-#去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-11-23 12:35:14
-
-# Block iOS Update
-DOMAIN-SUFFIX,mesu.apple.com
-DOMAIN-SUFFIX,gdmf.apple.com
-DOMAIN-SUFFIX,updates-http.cdn-apple.com
-#DOMAIN-SUFFIX,xp.apple.com

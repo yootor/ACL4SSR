@@ -98,8 +98,6 @@ DOMAIN-SUFFIX,github.blog
 #19条
 PROCESS-NAME,OneDrive
 PROCESS-NAME,OneDriveUpdater
-USER-AGENT,OneDrive*
-USER-AGENT,OneDriveiOSApp*
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,skydrive
 DOMAIN-SUFFIX,livefilestore.com

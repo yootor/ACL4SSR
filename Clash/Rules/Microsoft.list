@@ -1,5 +1,5 @@
 #去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-11-23 12:44:33
+# 生成时间: 2026-11-23 14:03:06
 
 # Microsoft Services
 # optimized from https://gist.github.com/TTTPOB/ce93fb3b04ba2f21880b09427442d831
@@ -101,8 +101,6 @@ DOMAIN-SUFFIX,github.blog
 #19条
 PROCESS-NAME,OneDrive
 PROCESS-NAME,OneDriveUpdater
-USER-AGENT,OneDrive*
-USER-AGENT,OneDriveiOSApp*
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,skydrive
 DOMAIN-SUFFIX,livefilestore.com

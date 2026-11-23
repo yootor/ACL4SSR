@@ -1,5 +1,5 @@
 #去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-11-23 12:44:33
+# 生成时间: 2026-11-23 14:03:06
 
 # 直连列表
 #ChinaMedia&Game合并到China
@@ -803,8 +803,6 @@ DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN-SUFFIX,bilibili.tv
 
 # Iqiyi 爱奇艺
-# USER-AGENT,QYPlayer*
-# USER-AGENT,iQIYI*
 # DOMAIN,intel-cache.m.iqiyi.com  # [降维冗余] 已被本文件内 DOMAIN-SUFFIX,iqiyi.com 包含
 # DOMAIN,intel-cache.video.iqiyi.com  # [降维冗余] 已被本文件内 DOMAIN-SUFFIX,iqiyi.com 包含
 # DOMAIN,intl-rcd.iqiyi.com  # [降维冗余] 已被本文件内 DOMAIN-SUFFIX,iqiyi.com 包含
@@ -823,10 +821,6 @@ IP-CIDR,223.119.62.225/28,no-resolve
 
 # Letv 乐视
 # DOMAIN-SUFFIX,api.mob.app.letv.com  # [层级冗余] 已被本文件内 DOMAIN-SUFFIX,letv.com 包含
-
-# MOO
-# USER-AGENT,MOO*
-# USER-AGENT,TencentMidasConnect*
 
 # TencentVideo 腾讯视频
 # DOMAIN-SUFFIX,v.smtcdns.com  # [层级冗余] 已被本文件内 DOMAIN-SUFFIX,smtcdns.com 包含

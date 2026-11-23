@@ -13,8 +13,6 @@ DOMAIN,amp-api.music.apple.com
 
 # AppleNews
 #删除Apple的规则，走直连
-USER-AGENT,AppleNews*
-USER-AGENT,com.apple.news*
 DOMAIN,gspe1-ssl.ls.apple.com
 
 # AppleTV
@@ -29,8 +27,6 @@ DOMAIN-SUFFIX,tv.apple.com
 #DOMAIN,audio-ssl.itunes.apple.com
 #DOMAIN,audio.itunes.apple.com
 #DOMAIN,amp-api.music.apple.com
-
-#USER-AGENT,AppleMusic*
 #DOMAIN,amp-api-edge.music.apple.com
 #DOMAIN,client-api.itunes.apple.com
 #DOMAIN,aod.itunes.apple.com
