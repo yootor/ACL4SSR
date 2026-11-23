@@ -5,6 +5,5 @@ target/
 !**/src/test/**
 
 #排除Go mod
-go.mod
-go.sum
-
+#Clash/go.sum
+#Clash/go.mod
