@@ -1,7 +1,8 @@
 #去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-05-11 11:16:37
+# 生成时间: 2026-11-23 12:44:33
 
 # 直连列表
+#ChinaMedia&Game合并到China
 
 # MyList
 DOMAIN-SUFFIX,13th.tech
@@ -537,9 +538,6 @@ DOMAIN-SUFFIX,bootcss.com
 DOMAIN-SUFFIX,jiasule.com
 DOMAIN-SUFFIX,staticfile.org
 DOMAIN-SUFFIX,upaiyun.com
-
-# China DNS
-# DSN 放到Download下
 
 # AccelerateDirectSites
 DOMAIN-SUFFIX,10010.com

@@ -1,5 +1,5 @@
 #去重后的规则, 来源: https://github.com/ACL4SSR/ACL4SSR
-# 生成时间: 2026-05-11 11:16:37
+# 生成时间: 2026-11-23 12:44:33
 
 # 内容：国外媒体列表
 #Youtube 合并到google中，google copy保留之前的版本和YouTube，作为存档 20251214
@@ -19,6 +19,27 @@ IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
+
+# 内容：Twitter
+DOMAIN-KEYWORD,twitter
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twimg.org
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,chronosphere.io
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+
+# --- Instagram ---
+DOMAIN-SUFFIX,igsonar.com
 
 # ABC
 DOMAIN-SUFFIX,edgedatg.com

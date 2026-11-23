@@ -1,4 +1,5 @@
 # ACL4SSR标志 如没有，代表不是用ACL4SSR规则
+#LocalAreaNetwork.list合并MyCN
 
 # 本地/局域网地址
 # DOMAIN-SUFFIX,ip6-localhost
